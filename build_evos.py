@@ -168,7 +168,6 @@ LEGACY_NAME_ALIASES = {
     "Exeggutora": "exeggutor-alola",
     "Flabébé": "flabebe",
     "Fezandipti": "fezandipiti",
-    "Floettee": "floette",
     "Florges": "florges",
     "Galatiam": "gallade-mega",
     "Galopidesm": "gallade-mega",
@@ -945,12 +944,14 @@ def _load_merged_aliases() -> dict:
     merged: dict = {}
     
     # Merge discovered aliases
-    for k, v in DISCOVERED_ALIASES.items():
-        merged[k.lower()] = v.lower()
-
     for k, v in LEGACY_NAME_ALIASES.items():
         key = _normalize_core(k)
         merged[key] = v
+        
+    # DISCOVERED_ALIASES take priority over legacy
+    for k, v in DISCOVERED_ALIASES.items():
+        merged[k.lower()] = v.lower()
+
     if os.path.isfile(ALIASES_FILE):
         with open(ALIASES_FILE, "r", encoding="utf-8") as f:
             file_aliases = json.load(f)
@@ -1068,23 +1069,36 @@ def has_forward_vanilla_evolution(name: str) -> bool:
 # BST LOOKUP
 # =========================
 
-@lru_cache(maxsize=None)
-def _fetch_bst_for_slug(n: str):
-    """HTTP lookup only (cached per normalized slug)."""
-    last_err = None
-    for attempt in range(5):
+@lru_cache(maxsize=2000)
+def get_pokemon_data(name: str):
+    """Returns (bst, evolution_level, types) or (None, None, None)"""
+    slug = normalize_name(name)
+    url = f"{POKEAPI}/pokemon/{slug}"
+    
+    for attempt in range(3):
         try:
-            r = requests.get(f"{POKEAPI}/pokemon/{n}", timeout=45)
-            if r.ok:
-                return sum(s["base_stat"] for s in r.json()["stats"])
-            if r.status_code in (429, 502, 503, 504):
-                time.sleep(1.5 * (attempt + 1))
-                continue
-            raise ValueError(f"BST lookup failed HTTP {r.status_code}")
-        except requests.RequestException as e:
-            last_err = e
-            time.sleep(0.6 * (attempt + 1))
-    raise ValueError(f"BST lookup failed after retries for slug {n}") from last_err
+            r = requests.get(url, timeout=10)
+            if r.status_code == 200:
+                data = r.json()
+                bst = sum(s["base_stat"] for s in data["stats"])
+                
+                # Fetch species for evolution level
+                species_url = data["species"]["url"]
+                sr = requests.get(species_url, timeout=10)
+                evolution_level = None
+                if sr.status_code == 200:
+                    sdata = sr.json()
+                    # Use BST-based level rule
+                    evolution_level = round(bst / 10)
+
+                types = [t["type"]["name"].capitalize() for t in data["types"]]
+                return bst, evolution_level, types
+            elif r.status_code == 404:
+                return None, None, None
+        except:
+            time.sleep(0.5)
+
+    return None, None, None
 
 
 def get_bst(name: str):
@@ -1095,7 +1109,9 @@ def get_bst(name: str):
 
     n = normalize_name(name)
     try:
-        bst = _fetch_bst_for_slug(n)
+        bst, _, _ = get_pokemon_data(n)
+        if bst is None:
+            raise ValueError("BST not found")
         STATS["lookup_successes"] += 1
         return bst
     except Exception as e:
@@ -1143,16 +1159,19 @@ def build_random_bst_evo_table():
         # ---------- PROCESS EVOS ----------
         processed = []
 
-        for evo in evos:
+        for e in evos:
+            evo_name = e["name"]
             try:
-                evo_bst = get_bst(evo["name"])
-                evo_entry = {
-                    "evolution": evo["name"],
-                    "bst": evo_bst,
-                    "evolution_level": evo_bst // 10,
-                    "probability": evo["count"] / TOTAL_RUNS
-                }
-                processed.append(evo_entry)
+               bst, evo_lvl, types = get_pokemon_data(evo_name)
+            
+               if bst is not None:
+                   processed.append({
+                       "evolution": evo_name,
+                       "bst": bst,
+                       "types": types,
+                       "evolution_level": evo_lvl,
+                       "probability": e["count"] / TOTAL_RUNS
+                   })
             except Exception as e:
                 # SKIP failed evolutions instead of keeping null placeholders
                 if starter not in STATS["failed_evolutions"]:
