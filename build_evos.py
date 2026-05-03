@@ -65,6 +65,7 @@ FORCED_STARTERS = {
     "Pikachuc": 430,
     "Eeveep": 435,
     "Qwilfish": 440,
+    "Linoone": 420,
 }
 
 # =========================
