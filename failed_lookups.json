@@ -1,0 +1,3704 @@
+{
+  "failed_starters": [
+    {
+      "name": "Basculinw1",
+      "reason": "BST lookup failed for Basculinw1 (normalized: basculinw1)"
+    },
+    {
+      "name": "Basculinw2",
+      "reason": "BST lookup failed for Basculinw2 (normalized: basculinw2)"
+    },
+    {
+      "name": "Bergmite1",
+      "reason": "BST lookup failed for Bergmite1 (normalized: bergmite1)"
+    },
+    {
+      "name": "Bergmite2",
+      "reason": "BST lookup failed for Bergmite2 (normalized: bergmite2)"
+    },
+    {
+      "name": "Burmy1",
+      "reason": "BST lookup failed for Burmy1 (normalized: burmy1)"
+    },
+    {
+      "name": "Burmy2",
+      "reason": "BST lookup failed for Burmy2 (normalized: burmy2)"
+    },
+    {
+      "name": "Burmys1",
+      "reason": "BST lookup failed for Burmys1 (normalized: burmys1)"
+    },
+    {
+      "name": "Burmys2",
+      "reason": "BST lookup failed for Burmys2 (normalized: burmys2)"
+    },
+    {
+      "name": "Burmyt1",
+      "reason": "BST lookup failed for Burmyt1 (normalized: burmyt1)"
+    },
+    {
+      "name": "Burmyt2",
+      "reason": "BST lookup failed for Burmyt2 (normalized: burmyt2)"
+    },
+    {
+      "name": "Castformf",
+      "reason": "BST lookup failed for Castformf (normalized: castformf)"
+    },
+    {
+      "name": "Castformi",
+      "reason": "BST lookup failed for Castformi (normalized: castformi)"
+    },
+    {
+      "name": "Castformw",
+      "reason": "BST lookup failed for Castformw (normalized: castformw)"
+    },
+    {
+      "name": "Corvsquire",
+      "reason": "BST lookup failed for Corvsquire (normalized: corvsquire)"
+    },
+    {
+      "name": "Cosmoem1",
+      "reason": "BST lookup failed for Cosmoem1 (normalized: cosmoem1)"
+    },
+    {
+      "name": "Cosmoem2",
+      "reason": "BST lookup failed for Cosmoem2 (normalized: cosmoem2)"
+    },
+    {
+      "name": "Dartrix1",
+      "reason": "BST lookup failed for Dartrix1 (normalized: dartrix1)"
+    },
+    {
+      "name": "Dartrix2",
+      "reason": "BST lookup failed for Dartrix2 (normalized: dartrix2)"
+    },
+    {
+      "name": "Darumakag",
+      "reason": "BST lookup failed for Darumakag (normalized: darumakag)"
+    },
+    {
+      "name": "Dewott1",
+      "reason": "BST lookup failed for Dewott1 (normalized: dewott1)"
+    },
+    {
+      "name": "Dewott2",
+      "reason": "BST lookup failed for Dewott2 (normalized: dewott2)"
+    },
+    {
+      "name": "Espurr1",
+      "reason": "BST lookup failed for Espurr1 (normalized: espurr1)"
+    },
+    {
+      "name": "Espurr2",
+      "reason": "BST lookup failed for Espurr2 (normalized: espurr2)"
+    },
+    {
+      "name": "Farfetchdg",
+      "reason": "BST lookup failed for Farfetchdg (normalized: farfetchdg)"
+    },
+    {
+      "name": "Farfetch\u2019d",
+      "reason": "BST lookup failed for Farfetch\u2019d (normalized: farfetch\u2019d)"
+    },
+    {
+      "name": "Flechinder",
+      "reason": "BST lookup failed for Flechinder (normalized: flechinder)"
+    },
+    {
+      "name": "Frillish",
+      "reason": "BST lookup failed for Frillish (normalized: frillish)"
+    },
+    {
+      "name": "Goomy1",
+      "reason": "BST lookup failed for Goomy1 (normalized: goomy1)"
+    },
+    {
+      "name": "Goomy2",
+      "reason": "BST lookup failed for Goomy2 (normalized: goomy2)"
+    },
+    {
+      "name": "Kirlia1",
+      "reason": "BST lookup failed for Kirlia1 (normalized: kirlia1)"
+    },
+    {
+      "name": "Kirlia2",
+      "reason": "BST lookup failed for Kirlia2 (normalized: kirlia2)"
+    },
+    {
+      "name": "Koffing1",
+      "reason": "BST lookup failed for Koffing1 (normalized: koffing1)"
+    },
+    {
+      "name": "Koffing2",
+      "reason": "BST lookup failed for Koffing2 (normalized: koffing2)"
+    },
+    {
+      "name": "Lechonk1",
+      "reason": "BST lookup failed for Lechonk1 (normalized: lechonk1)"
+    },
+    {
+      "name": "Lechonk2",
+      "reason": "BST lookup failed for Lechonk2 (normalized: lechonk2)"
+    },
+    {
+      "name": "Meowtha",
+      "reason": "BST lookup failed for Meowtha (normalized: meowtha)"
+    },
+    {
+      "name": "Mime Jr.1",
+      "reason": "BST lookup failed for Mime Jr.1 (normalized: mime-jr1)"
+    },
+    {
+      "name": "Mime Jr.2",
+      "reason": "BST lookup failed for Mime Jr.2 (normalized: mime-jr2)"
+    },
+    {
+      "name": "Minior",
+      "reason": "BST lookup failed for Minior (normalized: minior)"
+    },
+    {
+      "name": "Morpeko",
+      "reason": "BST lookup failed for Morpeko (normalized: morpeko)"
+    },
+    {
+      "name": "Nincada1",
+      "reason": "BST lookup failed for Nincada1 (normalized: nincada1)"
+    },
+    {
+      "name": "Nincada2",
+      "reason": "BST lookup failed for Nincada2 (normalized: nincada2)"
+    },
+    {
+      "name": "Pichus",
+      "reason": "BST lookup failed for Pichus (normalized: pichus)"
+    },
+    {
+      "name": "Polchgeist",
+      "reason": "BST lookup failed for Polchgeist (normalized: polchgeist)"
+    },
+    {
+      "name": "Pumpkaboo",
+      "reason": "BST lookup failed for Pumpkaboo (normalized: pumpkaboo)"
+    },
+    {
+      "name": "Pumpkaboox",
+      "reason": "BST lookup failed for Pumpkaboox (normalized: pumpkaboo-xlarge)"
+    },
+    {
+      "name": "Quilava1",
+      "reason": "BST lookup failed for Quilava1 (normalized: quilava1)"
+    },
+    {
+      "name": "Quilava2",
+      "reason": "BST lookup failed for Quilava2 (normalized: quilava2)"
+    },
+    {
+      "name": "Rockruff1",
+      "reason": "BST lookup failed for Rockruff1 (normalized: rockruff1)"
+    },
+    {
+      "name": "Rockruff2",
+      "reason": "BST lookup failed for Rockruff2 (normalized: rockruff2)"
+    },
+    {
+      "name": "Rockruff3",
+      "reason": "BST lookup failed for Rockruff3 (normalized: rockruff3)"
+    },
+    {
+      "name": "Slowpoke1",
+      "reason": "BST lookup failed for Slowpoke1 (normalized: slowpoke1)"
+    },
+    {
+      "name": "Slowpoke2",
+      "reason": "BST lookup failed for Slowpoke2 (normalized: slowpoke2)"
+    },
+    {
+      "name": "Snorunt1",
+      "reason": "BST lookup failed for Snorunt1 (normalized: snorunt1)"
+    },
+    {
+      "name": "Snorunt2",
+      "reason": "BST lookup failed for Snorunt2 (normalized: snorunt2)"
+    },
+    {
+      "name": "Squawkbily",
+      "reason": "BST lookup failed for Squawkbily (normalized: squawkabilly)"
+    },
+    {
+      "name": "Toxel1",
+      "reason": "BST lookup failed for Toxel1 (normalized: toxel1)"
+    },
+    {
+      "name": "Toxel2",
+      "reason": "BST lookup failed for Toxel2 (normalized: toxel2)"
+    },
+    {
+      "name": "Tyrogue1",
+      "reason": "BST lookup failed for Tyrogue1 (normalized: tyrogue1)"
+    },
+    {
+      "name": "Tyrogue2",
+      "reason": "BST lookup failed for Tyrogue2 (normalized: tyrogue2)"
+    },
+    {
+      "name": "Tyrogue3",
+      "reason": "BST lookup failed for Tyrogue3 (normalized: tyrogue3)"
+    },
+    {
+      "name": "Wooperp",
+      "reason": "BST lookup failed for Wooperp (normalized: wooperp)"
+    },
+    {
+      "name": "Wurmple1",
+      "reason": "BST lookup failed for Wurmple1 (normalized: wurmple1)"
+    },
+    {
+      "name": "Wurmple2",
+      "reason": "BST lookup failed for Wurmple2 (normalized: wurmple2)"
+    }
+  ],
+  "failed_evolutions_by_starter": {
+    "Arbok": [
+      {
+        "evolution": "Toxtricitl",
+        "reason": "BST lookup failed for Toxtricitl (normalized: toxtricity-lowkey)"
+      },
+      {
+        "evolution": "Toxtricity",
+        "reason": "BST lookup failed for Toxtricity (normalized: toxtricity)"
+      }
+    ],
+    "Ariados": [
+      {
+        "evolution": "Toxtricitl",
+        "reason": "BST lookup failed for Toxtricitl (normalized: toxtricity-lowkey)"
+      },
+      {
+        "evolution": "Toxtricity",
+        "reason": "BST lookup failed for Toxtricity (normalized: toxtricity)"
+      }
+    ],
+    "Audino": [
+      {
+        "evolution": "Dudunsprce",
+        "reason": "BST lookup failed for Dudunsprce (normalized: dudunsparce)"
+      },
+      {
+        "evolution": "Ursalunab",
+        "reason": "BST lookup failed for Ursalunab (normalized: ursalunab)"
+      },
+      {
+        "evolution": "Pyroar",
+        "reason": "BST lookup failed for Pyroar (normalized: pyroar)"
+      },
+      {
+        "evolution": "Meloetta",
+        "reason": "BST lookup failed for Meloetta (normalized: meloetta)"
+      },
+      {
+        "evolution": "Terapagost",
+        "reason": "BST lookup failed for Terapagost (normalized: terapagost)"
+      },
+      {
+        "evolution": "Meloettap",
+        "reason": "BST lookup failed for Meloettap (normalized: meloettap)"
+      },
+      {
+        "evolution": "Maushold",
+        "reason": "BST lookup failed for Maushold (normalized: maushold)"
+      },
+      {
+        "evolution": "Oinkologne",
+        "reason": "BST lookup failed for Oinkologne (normalized: oinkologne)"
+      },
+      {
+        "evolution": "Oinkolognf",
+        "reason": "BST lookup failed for Oinkolognf (normalized: oinkolognf)"
+      },
+      {
+        "evolution": "Indeedeef",
+        "reason": "BST lookup failed for Indeedeef (normalized: indeedeef)"
+      },
+      {
+        "evolution": "Indeedee",
+        "reason": "BST lookup failed for Indeedee (normalized: indeedee)"
+      }
+    ],
+    "Azumarill": [
+      {
+        "evolution": "Screamtail",
+        "reason": "BST lookup failed for Screamtail (normalized: screamtail)"
+      },
+      {
+        "evolution": "Fluttrmane",
+        "reason": "BST lookup failed for Fluttrmane (normalized: fluttrmane)"
+      },
+      {
+        "evolution": "Ogerponw",
+        "reason": "BST lookup failed for Ogerponw (normalized: ogerponw)"
+      },
+      {
+        "evolution": "Baraskewda",
+        "reason": "BST lookup failed for Baraskewda (normalized: baraskewda)"
+      },
+      {
+        "evolution": "Tatsugiri",
+        "reason": "BST lookup failed for Tatsugiri (normalized: tatsugiri)"
+      },
+      {
+        "evolution": "Basclegion",
+        "reason": "BST lookup failed for Basclegion (normalized: basclegion)"
+      },
+      {
+        "evolution": "Basclegiof",
+        "reason": "BST lookup failed for Basclegiof (normalized: basclegiof)"
+      },
+      {
+        "evolution": "Mimikyu",
+        "reason": "BST lookup failed for Mimikyu (normalized: mimikyu)"
+      },
+      {
+        "evolution": "Rotomw",
+        "reason": "BST lookup failed for Rotomw (normalized: rotomw)"
+      },
+      {
+        "evolution": "Jellicent",
+        "reason": "BST lookup failed for Jellicent (normalized: jellicent)"
+      },
+      {
+        "evolution": "Taurospw",
+        "reason": "BST lookup failed for Taurospw (normalized: taurospw)"
+      }
+    ],
+    "Beautifly": [
+      {
+        "evolution": "Corvknight",
+        "reason": "BST lookup failed for Corvknight (normalized: corvknight)"
+      },
+      {
+        "evolution": "Oricoriog",
+        "reason": "BST lookup failed for Oricoriog (normalized: oricoriog)"
+      },
+      {
+        "evolution": "Oricorio",
+        "reason": "BST lookup failed for Oricorio (normalized: oricorio)"
+      },
+      {
+        "evolution": "Oricorioe",
+        "reason": "BST lookup failed for Oricorioe (normalized: oricorioe)"
+      },
+      {
+        "evolution": "Miniorc",
+        "reason": "BST lookup failed for Miniorc (normalized: minior-core)"
+      },
+      {
+        "evolution": "Oricoriop",
+        "reason": "BST lookup failed for Oricoriop (normalized: oricoriop)"
+      },
+      {
+        "evolution": "Rotomfa",
+        "reason": "BST lookup failed for Rotomfa (normalized: rotomfa)"
+      },
+      {
+        "evolution": "Kilowattrl",
+        "reason": "BST lookup failed for Kilowattrl (normalized: kilowattrl)"
+      },
+      {
+        "evolution": "Minior",
+        "reason": "BST lookup failed for Minior (normalized: minior)"
+      }
+    ],
+    "Beedrill": [
+      {
+        "evolution": "Toxtricity",
+        "reason": "BST lookup failed for Toxtricity (normalized: toxtricity)"
+      },
+      {
+        "evolution": "Toxtricitl",
+        "reason": "BST lookup failed for Toxtricitl (normalized: toxtricity-lowkey)"
+      }
+    ],
+    "Bibarel": [
+      {
+        "evolution": "Basculin",
+        "reason": "BST lookup failed for Basculin (normalized: basculin)"
+      },
+      {
+        "evolution": "Baraskewda",
+        "reason": "BST lookup failed for Baraskewda (normalized: baraskewda)"
+      },
+      {
+        "evolution": "Tatsugiri",
+        "reason": "BST lookup failed for Tatsugiri (normalized: tatsugiri)"
+      },
+      {
+        "evolution": "Ogerponw",
+        "reason": "BST lookup failed for Ogerponw (normalized: ogerponw)"
+      },
+      {
+        "evolution": "Basclegiof",
+        "reason": "BST lookup failed for Basclegiof (normalized: basclegiof)"
+      },
+      {
+        "evolution": "Maushold",
+        "reason": "BST lookup failed for Maushold (normalized: maushold)"
+      },
+      {
+        "evolution": "Dudunsprce",
+        "reason": "BST lookup failed for Dudunsprce (normalized: dudunsparce)"
+      },
+      {
+        "evolution": "Oinkologne",
+        "reason": "BST lookup failed for Oinkologne (normalized: oinkologne)"
+      },
+      {
+        "evolution": "Oinkolognf",
+        "reason": "BST lookup failed for Oinkolognf (normalized: oinkolognf)"
+      },
+      {
+        "evolution": "Basclegion",
+        "reason": "BST lookup failed for Basclegion (normalized: basclegion)"
+      },
+      {
+        "evolution": "Ursalunab",
+        "reason": "BST lookup failed for Ursalunab (normalized: ursalunab)"
+      },
+      {
+        "evolution": "Taurospw",
+        "reason": "BST lookup failed for Taurospw (normalized: taurospw)"
+      },
+      {
+        "evolution": "Jellicent",
+        "reason": "BST lookup failed for Jellicent (normalized: jellicent)"
+      },
+      {
+        "evolution": "Pyroar",
+        "reason": "BST lookup failed for Pyroar (normalized: pyroar)"
+      },
+      {
+        "evolution": "Indeedeef",
+        "reason": "BST lookup failed for Indeedeef (normalized: indeedeef)"
+      },
+      {
+        "evolution": "Rotomw",
+        "reason": "BST lookup failed for Rotomw (normalized: rotomw)"
+      },
+      {
+        "evolution": "Indeedee",
+        "reason": "BST lookup failed for Indeedee (normalized: indeedee)"
+      }
+    ],
+    "Butterfree": [
+      {
+        "evolution": "Oricorio",
+        "reason": "BST lookup failed for Oricorio (normalized: oricorio)"
+      },
+      {
+        "evolution": "Corvknight",
+        "reason": "BST lookup failed for Corvknight (normalized: corvknight)"
+      },
+      {
+        "evolution": "Miniorc",
+        "reason": "BST lookup failed for Miniorc (normalized: minior-core)"
+      },
+      {
+        "evolution": "Oricoriog",
+        "reason": "BST lookup failed for Oricoriog (normalized: oricoriog)"
+      },
+      {
+        "evolution": "Oricorioe",
+        "reason": "BST lookup failed for Oricorioe (normalized: oricorioe)"
+      },
+      {
+        "evolution": "Oricoriop",
+        "reason": "BST lookup failed for Oricoriop (normalized: oricoriop)"
+      },
+      {
+        "evolution": "Rotomfa",
+        "reason": "BST lookup failed for Rotomfa (normalized: rotomfa)"
+      },
+      {
+        "evolution": "Kilowattrl",
+        "reason": "BST lookup failed for Kilowattrl (normalized: kilowattrl)"
+      },
+      {
+        "evolution": "Minior",
+        "reason": "BST lookup failed for Minior (normalized: minior)"
+      }
+    ],
+    "Castform": [
+      {
+        "evolution": "Maushold",
+        "reason": "BST lookup failed for Maushold (normalized: maushold)"
+      },
+      {
+        "evolution": "Oinkologne",
+        "reason": "BST lookup failed for Oinkologne (normalized: oinkologne)"
+      },
+      {
+        "evolution": "Dudunsprce",
+        "reason": "BST lookup failed for Dudunsprce (normalized: dudunsparce)"
+      },
+      {
+        "evolution": "Oinkolognf",
+        "reason": "BST lookup failed for Oinkolognf (normalized: oinkolognf)"
+      },
+      {
+        "evolution": "Ursalunab",
+        "reason": "BST lookup failed for Ursalunab (normalized: ursalunab)"
+      },
+      {
+        "evolution": "Indeedeef",
+        "reason": "BST lookup failed for Indeedeef (normalized: indeedeef)"
+      },
+      {
+        "evolution": "Pyroar",
+        "reason": "BST lookup failed for Pyroar (normalized: pyroar)"
+      },
+      {
+        "evolution": "Indeedee",
+        "reason": "BST lookup failed for Indeedee (normalized: indeedee)"
+      },
+      {
+        "evolution": "Terapagost",
+        "reason": "BST lookup failed for Terapagost (normalized: terapagost)"
+      },
+      {
+        "evolution": "Meloettap",
+        "reason": "BST lookup failed for Meloettap (normalized: meloettap)"
+      },
+      {
+        "evolution": "Meloetta",
+        "reason": "BST lookup failed for Meloetta (normalized: meloetta)"
+      },
+      {
+        "evolution": "Squawkbily",
+        "reason": "BST lookup failed for Squawkbily (normalized: squawkabilly)"
+      },
+      {
+        "evolution": "Eeveep",
+        "reason": "BST lookup failed for Eeveep (normalized: eeveep)"
+      }
+    ],
+    "Chatot": [
+      {
+        "evolution": "Oricorio",
+        "reason": "BST lookup failed for Oricorio (normalized: oricorio)"
+      },
+      {
+        "evolution": "Corvknight",
+        "reason": "BST lookup failed for Corvknight (normalized: corvknight)"
+      },
+      {
+        "evolution": "Oricorioe",
+        "reason": "BST lookup failed for Oricorioe (normalized: oricorioe)"
+      },
+      {
+        "evolution": "Maushold",
+        "reason": "BST lookup failed for Maushold (normalized: maushold)"
+      },
+      {
+        "evolution": "Oinkolognf",
+        "reason": "BST lookup failed for Oinkolognf (normalized: oinkolognf)"
+      },
+      {
+        "evolution": "Oinkologne",
+        "reason": "BST lookup failed for Oinkologne (normalized: oinkologne)"
+      },
+      {
+        "evolution": "Miniorc",
+        "reason": "BST lookup failed for Miniorc (normalized: minior-core)"
+      },
+      {
+        "evolution": "Oricoriop",
+        "reason": "BST lookup failed for Oricoriop (normalized: oricoriop)"
+      },
+      {
+        "evolution": "Oricoriog",
+        "reason": "BST lookup failed for Oricoriog (normalized: oricoriog)"
+      },
+      {
+        "evolution": "Dudunsprce",
+        "reason": "BST lookup failed for Dudunsprce (normalized: dudunsparce)"
+      },
+      {
+        "evolution": "Ursalunab",
+        "reason": "BST lookup failed for Ursalunab (normalized: ursalunab)"
+      },
+      {
+        "evolution": "Rotomfa",
+        "reason": "BST lookup failed for Rotomfa (normalized: rotomfa)"
+      },
+      {
+        "evolution": "Kilowattrl",
+        "reason": "BST lookup failed for Kilowattrl (normalized: kilowattrl)"
+      },
+      {
+        "evolution": "Indeedeef",
+        "reason": "BST lookup failed for Indeedeef (normalized: indeedeef)"
+      },
+      {
+        "evolution": "Pyroar",
+        "reason": "BST lookup failed for Pyroar (normalized: pyroar)"
+      },
+      {
+        "evolution": "Indeedee",
+        "reason": "BST lookup failed for Indeedee (normalized: indeedee)"
+      },
+      {
+        "evolution": "Minior",
+        "reason": "BST lookup failed for Minior (normalized: minior)"
+      }
+    ],
+    "Cherrim": [
+      {
+        "evolution": "Shaymin",
+        "reason": "BST lookup failed for Shaymin (normalized: shaymin)"
+      },
+      {
+        "evolution": "Brutebonet",
+        "reason": "BST lookup failed for Brutebonet (normalized: brutebonet)"
+      },
+      {
+        "evolution": "Ogerponr",
+        "reason": "BST lookup failed for Ogerponr (normalized: ogerpon-water-mask)"
+      },
+      {
+        "evolution": "Ogerponf",
+        "reason": "BST lookup failed for Ogerponf (normalized: ogerponf)"
+      },
+      {
+        "evolution": "Ogerponw",
+        "reason": "BST lookup failed for Ogerponw (normalized: ogerponw)"
+      },
+      {
+        "evolution": "Meowscrada",
+        "reason": "BST lookup failed for Meowscrada (normalized: meowscrada)"
+      },
+      {
+        "evolution": "Rotomm",
+        "reason": "BST lookup failed for Rotomm (normalized: rotomm)"
+      }
+    ],
+    "Clodsire": [
+      {
+        "evolution": "Palossand",
+        "reason": "BST lookup failed for Palossand (normalized: pallossand)"
+      },
+      {
+        "evolution": "Ursalunab",
+        "reason": "BST lookup failed for Ursalunab (normalized: ursalunab)"
+      },
+      {
+        "evolution": "Toxtricity",
+        "reason": "BST lookup failed for Toxtricity (normalized: toxtricity)"
+      },
+      {
+        "evolution": "Toxtricitl",
+        "reason": "BST lookup failed for Toxtricitl (normalized: toxtricity-lowkey)"
+      },
+      {
+        "evolution": "Zygarde",
+        "reason": "BST lookup failed for Zygarde (normalized: zygarde)"
+      }
+    ],
+    "Corsolag": [
+      {
+        "evolution": "Poltegeist",
+        "reason": "BST lookup failed for Poltegeist (normalized: poltegeist)"
+      },
+      {
+        "evolution": "Aegislashb",
+        "reason": "BST lookup failed for Aegislashb (normalized: aegislashb)"
+      },
+      {
+        "evolution": "Palossand",
+        "reason": "BST lookup failed for Palossand (normalized: pallossand)"
+      },
+      {
+        "evolution": "Aegislash",
+        "reason": "BST lookup failed for Aegislash (normalized: aegislash)"
+      },
+      {
+        "evolution": "Oricoriog",
+        "reason": "BST lookup failed for Oricoriog (normalized: oricoriog)"
+      },
+      {
+        "evolution": "Mimikyu",
+        "reason": "BST lookup failed for Mimikyu (normalized: mimikyu)"
+      },
+      {
+        "evolution": "Basclegion",
+        "reason": "BST lookup failed for Basclegion (normalized: basclegion)"
+      },
+      {
+        "evolution": "Bramblgast",
+        "reason": "BST lookup failed for Bramblgast (normalized: bramblgast)"
+      },
+      {
+        "evolution": "Gourgeist",
+        "reason": "BST lookup failed for Gourgeist (normalized: gourgeist)"
+      },
+      {
+        "evolution": "Gourgeistl",
+        "reason": "BST lookup failed for Gourgeistl (normalized: gourgeistl)"
+      },
+      {
+        "evolution": "Gourgeistx",
+        "reason": "BST lookup failed for Gourgeistx (normalized: gourgeistx)"
+      },
+      {
+        "evolution": "Basclegiof",
+        "reason": "BST lookup failed for Basclegiof (normalized: basclegiof)"
+      },
+      {
+        "evolution": "Gourgeists",
+        "reason": "BST lookup failed for Gourgeists (normalized: gourgeists)"
+      },
+      {
+        "evolution": "Jellicent",
+        "reason": "BST lookup failed for Jellicent (normalized: jellicent)"
+      },
+      {
+        "evolution": "Fluttrmane",
+        "reason": "BST lookup failed for Fluttrmane (normalized: fluttrmane)"
+      },
+      {
+        "evolution": "Blacphalon",
+        "reason": "BST lookup failed for Blacphalon (normalized: blacphalon)"
+      }
+    ],
+    "Dedenne": [
+      {
+        "evolution": "Fluttrmane",
+        "reason": "BST lookup failed for Fluttrmane (normalized: fluttrmane)"
+      },
+      {
+        "evolution": "Screamtail",
+        "reason": "BST lookup failed for Screamtail (normalized: screamtail)"
+      },
+      {
+        "evolution": "Toxtricity",
+        "reason": "BST lookup failed for Toxtricity (normalized: toxtricity)"
+      },
+      {
+        "evolution": "Rotomh",
+        "reason": "BST lookup failed for Rotomh (normalized: rotomh)"
+      },
+      {
+        "evolution": "Rotomfr",
+        "reason": "BST lookup failed for Rotomfr (normalized: rotomfr)"
+      },
+      {
+        "evolution": "Raichua",
+        "reason": "BST lookup failed for Raichua (normalized: raichua)"
+      },
+      {
+        "evolution": "Kilowattrl",
+        "reason": "BST lookup failed for Kilowattrl (normalized: kilowattrl)"
+      },
+      {
+        "evolution": "Rotomfa",
+        "reason": "BST lookup failed for Rotomfa (normalized: rotomfa)"
+      },
+      {
+        "evolution": "Toxtricitl",
+        "reason": "BST lookup failed for Toxtricitl (normalized: toxtricity-lowkey)"
+      },
+      {
+        "evolution": "Rotomw",
+        "reason": "BST lookup failed for Rotomw (normalized: rotomw)"
+      },
+      {
+        "evolution": "Rotomm",
+        "reason": "BST lookup failed for Rotomm (normalized: rotomm)"
+      }
+    ],
+    "Delcatty": [
+      {
+        "evolution": "Maushold",
+        "reason": "BST lookup failed for Maushold (normalized: maushold)"
+      },
+      {
+        "evolution": "Oinkologne",
+        "reason": "BST lookup failed for Oinkologne (normalized: oinkologne)"
+      },
+      {
+        "evolution": "Oinkolognf",
+        "reason": "BST lookup failed for Oinkolognf (normalized: oinkolognf)"
+      },
+      {
+        "evolution": "Dudunsprce",
+        "reason": "BST lookup failed for Dudunsprce (normalized: dudunsparce)"
+      },
+      {
+        "evolution": "Indeedeef",
+        "reason": "BST lookup failed for Indeedeef (normalized: indeedeef)"
+      },
+      {
+        "evolution": "Indeedee",
+        "reason": "BST lookup failed for Indeedee (normalized: indeedee)"
+      },
+      {
+        "evolution": "Pyroar",
+        "reason": "BST lookup failed for Pyroar (normalized: pyroar)"
+      },
+      {
+        "evolution": "Eeveep",
+        "reason": "BST lookup failed for Eeveep (normalized: eeveep)"
+      },
+      {
+        "evolution": "Meloetta",
+        "reason": "BST lookup failed for Meloetta (normalized: meloetta)"
+      },
+      {
+        "evolution": "Terapagost",
+        "reason": "BST lookup failed for Terapagost (normalized: terapagost)"
+      },
+      {
+        "evolution": "Meloettap",
+        "reason": "BST lookup failed for Meloettap (normalized: meloettap)"
+      },
+      {
+        "evolution": "Ursalunab",
+        "reason": "BST lookup failed for Ursalunab (normalized: ursalunab)"
+      },
+      {
+        "evolution": "Squawkbily",
+        "reason": "BST lookup failed for Squawkbily (normalized: squawkabilly)"
+      }
+    ],
+    "Delibird": [
+      {
+        "evolution": "Castformi",
+        "reason": "BST lookup failed for Castformi (normalized: castformi)"
+      },
+      {
+        "evolution": "Eiscuen",
+        "reason": "BST lookup failed for Eiscuen (normalized: eiscue)"
+      },
+      {
+        "evolution": "Eiscue",
+        "reason": "BST lookup failed for Eiscue (normalized: eiscue)"
+      },
+      {
+        "evolution": "Minior",
+        "reason": "BST lookup failed for Minior (normalized: minior)"
+      },
+      {
+        "evolution": "Squawkbily",
+        "reason": "BST lookup failed for Squawkbily (normalized: squawkabilly)"
+      }
+    ],
+    "Diggersby": [
+      {
+        "evolution": "Oinkologne",
+        "reason": "BST lookup failed for Oinkologne (normalized: oinkologne)"
+      },
+      {
+        "evolution": "Palossand",
+        "reason": "BST lookup failed for Palossand (normalized: pallossand)"
+      },
+      {
+        "evolution": "Dudunsprce",
+        "reason": "BST lookup failed for Dudunsprce (normalized: dudunsparce)"
+      },
+      {
+        "evolution": "Ursalunab",
+        "reason": "BST lookup failed for Ursalunab (normalized: ursalunab)"
+      },
+      {
+        "evolution": "Oinkolognf",
+        "reason": "BST lookup failed for Oinkolognf (normalized: oinkolognf)"
+      },
+      {
+        "evolution": "Indeedeef",
+        "reason": "BST lookup failed for Indeedeef (normalized: indeedeef)"
+      },
+      {
+        "evolution": "Indeedee",
+        "reason": "BST lookup failed for Indeedee (normalized: indeedee)"
+      },
+      {
+        "evolution": "Pyroar",
+        "reason": "BST lookup failed for Pyroar (normalized: pyroar)"
+      },
+      {
+        "evolution": "Zygarde",
+        "reason": "BST lookup failed for Zygarde (normalized: zygarde)"
+      },
+      {
+        "evolution": "Meloetta",
+        "reason": "BST lookup failed for Meloetta (normalized: meloetta)"
+      }
+    ],
+    "Ditto": [
+      {
+        "evolution": "Farfetch\u2019d",
+        "reason": "BST lookup failed for Farfetch\u2019d (normalized: farfetch\u2019d)"
+      },
+      {
+        "evolution": "Squawkbily",
+        "reason": "BST lookup failed for Squawkbily (normalized: squawkabilly)"
+      }
+    ],
+    "Dugtrio": [
+      {
+        "evolution": "Palossand",
+        "reason": "BST lookup failed for Palossand (normalized: pallossand)"
+      },
+      {
+        "evolution": "Ursalunab",
+        "reason": "BST lookup failed for Ursalunab (normalized: ursalunab)"
+      },
+      {
+        "evolution": "Zygarde",
+        "reason": "BST lookup failed for Zygarde (normalized: zygarde)"
+      }
+    ],
+    "Dugtrioa": [
+      {
+        "evolution": "Aegislashb",
+        "reason": "BST lookup failed for Aegislashb (normalized: aegislashb)"
+      },
+      {
+        "evolution": "Aegislash",
+        "reason": "BST lookup failed for Aegislash (normalized: aegislash)"
+      },
+      {
+        "evolution": "Corvknight",
+        "reason": "BST lookup failed for Corvknight (normalized: corvknight)"
+      },
+      {
+        "evolution": "Palossand",
+        "reason": "BST lookup failed for Palossand (normalized: pallossand)"
+      },
+      {
+        "evolution": "Ursalunab",
+        "reason": "BST lookup failed for Ursalunab (normalized: ursalunab)"
+      }
+    ],
+    "Dustox": [
+      {
+        "evolution": "Toxtricitl",
+        "reason": "BST lookup failed for Toxtricitl (normalized: toxtricity-lowkey)"
+      },
+      {
+        "evolution": "Toxtricity",
+        "reason": "BST lookup failed for Toxtricity (normalized: toxtricity)"
+      }
+    ],
+    "Eeveep": [
+      {
+        "evolution": "Oinkolognf",
+        "reason": "BST lookup failed for Oinkolognf (normalized: oinkolognf)"
+      },
+      {
+        "evolution": "Dudunsprce",
+        "reason": "BST lookup failed for Dudunsprce (normalized: dudunsparce)"
+      },
+      {
+        "evolution": "Oinkologne",
+        "reason": "BST lookup failed for Oinkologne (normalized: oinkologne)"
+      },
+      {
+        "evolution": "Ursalunab",
+        "reason": "BST lookup failed for Ursalunab (normalized: ursalunab)"
+      },
+      {
+        "evolution": "Pyroar",
+        "reason": "BST lookup failed for Pyroar (normalized: pyroar)"
+      },
+      {
+        "evolution": "Meloettap",
+        "reason": "BST lookup failed for Meloettap (normalized: meloettap)"
+      },
+      {
+        "evolution": "Terapagost",
+        "reason": "BST lookup failed for Terapagost (normalized: terapagost)"
+      },
+      {
+        "evolution": "Meloetta",
+        "reason": "BST lookup failed for Meloetta (normalized: meloetta)"
+      },
+      {
+        "evolution": "Indeedeef",
+        "reason": "BST lookup failed for Indeedeef (normalized: indeedeef)"
+      },
+      {
+        "evolution": "Indeedee",
+        "reason": "BST lookup failed for Indeedee (normalized: indeedee)"
+      }
+    ],
+    "Emolga": [
+      {
+        "evolution": "Oricorio",
+        "reason": "BST lookup failed for Oricorio (normalized: oricorio)"
+      },
+      {
+        "evolution": "Corvknight",
+        "reason": "BST lookup failed for Corvknight (normalized: corvknight)"
+      },
+      {
+        "evolution": "Oricoriog",
+        "reason": "BST lookup failed for Oricoriog (normalized: oricoriog)"
+      },
+      {
+        "evolution": "Oricoriop",
+        "reason": "BST lookup failed for Oricoriop (normalized: oricoriop)"
+      },
+      {
+        "evolution": "Kilowattrl",
+        "reason": "BST lookup failed for Kilowattrl (normalized: kilowattrl)"
+      },
+      {
+        "evolution": "Oricorioe",
+        "reason": "BST lookup failed for Oricorioe (normalized: oricorioe)"
+      },
+      {
+        "evolution": "Miniorc",
+        "reason": "BST lookup failed for Miniorc (normalized: minior-core)"
+      },
+      {
+        "evolution": "Toxtricity",
+        "reason": "BST lookup failed for Toxtricity (normalized: toxtricity)"
+      },
+      {
+        "evolution": "Rotomfr",
+        "reason": "BST lookup failed for Rotomfr (normalized: rotomfr)"
+      },
+      {
+        "evolution": "Rotomfa",
+        "reason": "BST lookup failed for Rotomfa (normalized: rotomfa)"
+      },
+      {
+        "evolution": "Raichua",
+        "reason": "BST lookup failed for Raichua (normalized: raichua)"
+      },
+      {
+        "evolution": "Rotomm",
+        "reason": "BST lookup failed for Rotomm (normalized: rotomm)"
+      },
+      {
+        "evolution": "Rotomh",
+        "reason": "BST lookup failed for Rotomh (normalized: rotomh)"
+      },
+      {
+        "evolution": "Toxtricitl",
+        "reason": "BST lookup failed for Toxtricitl (normalized: toxtricity-lowkey)"
+      },
+      {
+        "evolution": "Rotomw",
+        "reason": "BST lookup failed for Rotomw (normalized: rotomw)"
+      }
+    ],
+    "Fearow": [
+      {
+        "evolution": "Oinkologne",
+        "reason": "BST lookup failed for Oinkologne (normalized: oinkologne)"
+      },
+      {
+        "evolution": "Oinkolognf",
+        "reason": "BST lookup failed for Oinkolognf (normalized: oinkolognf)"
+      },
+      {
+        "evolution": "Corvknight",
+        "reason": "BST lookup failed for Corvknight (normalized: corvknight)"
+      },
+      {
+        "evolution": "Ursalunab",
+        "reason": "BST lookup failed for Ursalunab (normalized: ursalunab)"
+      },
+      {
+        "evolution": "Dudunsprce",
+        "reason": "BST lookup failed for Dudunsprce (normalized: dudunsparce)"
+      },
+      {
+        "evolution": "Miniorc",
+        "reason": "BST lookup failed for Miniorc (normalized: minior-core)"
+      },
+      {
+        "evolution": "Kilowattrl",
+        "reason": "BST lookup failed for Kilowattrl (normalized: kilowattrl)"
+      },
+      {
+        "evolution": "Rotomfa",
+        "reason": "BST lookup failed for Rotomfa (normalized: rotomfa)"
+      },
+      {
+        "evolution": "Pyroar",
+        "reason": "BST lookup failed for Pyroar (normalized: pyroar)"
+      }
+    ],
+    "Furret": [
+      {
+        "evolution": "Maushold",
+        "reason": "BST lookup failed for Maushold (normalized: maushold)"
+      },
+      {
+        "evolution": "Oinkologne",
+        "reason": "BST lookup failed for Oinkologne (normalized: oinkologne)"
+      },
+      {
+        "evolution": "Oinkolognf",
+        "reason": "BST lookup failed for Oinkolognf (normalized: oinkolognf)"
+      },
+      {
+        "evolution": "Dudunsprce",
+        "reason": "BST lookup failed for Dudunsprce (normalized: dudunsparce)"
+      },
+      {
+        "evolution": "Ursalunab",
+        "reason": "BST lookup failed for Ursalunab (normalized: ursalunab)"
+      },
+      {
+        "evolution": "Pyroar",
+        "reason": "BST lookup failed for Pyroar (normalized: pyroar)"
+      },
+      {
+        "evolution": "Indeedee",
+        "reason": "BST lookup failed for Indeedee (normalized: indeedee)"
+      },
+      {
+        "evolution": "Indeedeef",
+        "reason": "BST lookup failed for Indeedeef (normalized: indeedeef)"
+      },
+      {
+        "evolution": "Meloettap",
+        "reason": "BST lookup failed for Meloettap (normalized: meloettap)"
+      },
+      {
+        "evolution": "Terapagost",
+        "reason": "BST lookup failed for Terapagost (normalized: terapagost)"
+      },
+      {
+        "evolution": "Eeveep",
+        "reason": "BST lookup failed for Eeveep (normalized: eeveep)"
+      },
+      {
+        "evolution": "Squawkbily",
+        "reason": "BST lookup failed for Squawkbily (normalized: squawkabilly)"
+      }
+    ],
+    "Granbull": [
+      {
+        "evolution": "Screamtail",
+        "reason": "BST lookup failed for Screamtail (normalized: screamtail)"
+      },
+      {
+        "evolution": "Fluttrmane",
+        "reason": "BST lookup failed for Fluttrmane (normalized: fluttrmane)"
+      }
+    ],
+    "Gravelera": [
+      {
+        "evolution": "Lycanroc",
+        "reason": "BST lookup failed for Lycanroc (normalized: lycanroc)"
+      },
+      {
+        "evolution": "Lycanrocd",
+        "reason": "BST lookup failed for Lycanrocd (normalized: lycanrocd)"
+      },
+      {
+        "evolution": "Stonjorner",
+        "reason": "BST lookup failed for Stonjorner (normalized: stonjorner)"
+      },
+      {
+        "evolution": "Lycanrocm",
+        "reason": "BST lookup failed for Lycanrocm (normalized: lycanrocm)"
+      },
+      {
+        "evolution": "Oricorioe",
+        "reason": "BST lookup failed for Oricorioe (normalized: oricorioe)"
+      },
+      {
+        "evolution": "Avaluggh",
+        "reason": "BST lookup failed for Avaluggh (normalized: avaluggh)"
+      },
+      {
+        "evolution": "Miniorc",
+        "reason": "BST lookup failed for Miniorc (normalized: minior-core)"
+      },
+      {
+        "evolution": "Rotomfa",
+        "reason": "BST lookup failed for Rotomfa (normalized: rotomfa)"
+      },
+      {
+        "evolution": "Rotomm",
+        "reason": "BST lookup failed for Rotomm (normalized: rotomm)"
+      },
+      {
+        "evolution": "Kilowattrl",
+        "reason": "BST lookup failed for Kilowattrl (normalized: kilowattrl)"
+      },
+      {
+        "evolution": "Rotomh",
+        "reason": "BST lookup failed for Rotomh (normalized: rotomh)"
+      },
+      {
+        "evolution": "Rotomfr",
+        "reason": "BST lookup failed for Rotomfr (normalized: rotomfr)"
+      },
+      {
+        "evolution": "Toxtricitl",
+        "reason": "BST lookup failed for Toxtricitl (normalized: toxtricity-lowkey)"
+      },
+      {
+        "evolution": "Raichua",
+        "reason": "BST lookup failed for Raichua (normalized: raichua)"
+      },
+      {
+        "evolution": "Toxtricity",
+        "reason": "BST lookup failed for Toxtricity (normalized: toxtricity)"
+      },
+      {
+        "evolution": "Rotomw",
+        "reason": "BST lookup failed for Rotomw (normalized: rotomw)"
+      }
+    ],
+    "Grimera": [
+      {
+        "evolution": "Meowscrada",
+        "reason": "BST lookup failed for Meowscrada (normalized: meowscrada)"
+      },
+      {
+        "evolution": "Toxtricitl",
+        "reason": "BST lookup failed for Toxtricitl (normalized: toxtricity-lowkey)"
+      },
+      {
+        "evolution": "Toxtricity",
+        "reason": "BST lookup failed for Toxtricity (normalized: toxtricity)"
+      }
+    ],
+    "Growlitheh": [
+      {
+        "evolution": "Gouginfire",
+        "reason": "BST lookup failed for Gouginfire (normalized: gouginfire)"
+      },
+      {
+        "evolution": "Blacphalon",
+        "reason": "BST lookup failed for Blacphalon (normalized: blacphalon)"
+      },
+      {
+        "evolution": "Ogerponf",
+        "reason": "BST lookup failed for Ogerponf (normalized: ogerponf)"
+      },
+      {
+        "evolution": "Ogerponr",
+        "reason": "BST lookup failed for Ogerponr (normalized: ogerpon-water-mask)"
+      },
+      {
+        "evolution": "Miniorc",
+        "reason": "BST lookup failed for Miniorc (normalized: minior-core)"
+      },
+      {
+        "evolution": "Avaluggh",
+        "reason": "BST lookup failed for Avaluggh (normalized: avaluggh)"
+      },
+      {
+        "evolution": "Darmanitzg",
+        "reason": "BST lookup failed for Darmanitzg (normalized: darmanitzg)"
+      },
+      {
+        "evolution": "Rotomh",
+        "reason": "BST lookup failed for Rotomh (normalized: rotomh)"
+      },
+      {
+        "evolution": "Pyroar",
+        "reason": "BST lookup failed for Pyroar (normalized: pyroar)"
+      }
+    ],
+    "Gumshoos": [
+      {
+        "evolution": "Maushold",
+        "reason": "BST lookup failed for Maushold (normalized: maushold)"
+      },
+      {
+        "evolution": "Dudunsprce",
+        "reason": "BST lookup failed for Dudunsprce (normalized: dudunsparce)"
+      },
+      {
+        "evolution": "Oinkolognf",
+        "reason": "BST lookup failed for Oinkolognf (normalized: oinkolognf)"
+      },
+      {
+        "evolution": "Oinkologne",
+        "reason": "BST lookup failed for Oinkologne (normalized: oinkologne)"
+      },
+      {
+        "evolution": "Ursalunab",
+        "reason": "BST lookup failed for Ursalunab (normalized: ursalunab)"
+      },
+      {
+        "evolution": "Indeedee",
+        "reason": "BST lookup failed for Indeedee (normalized: indeedee)"
+      },
+      {
+        "evolution": "Indeedeef",
+        "reason": "BST lookup failed for Indeedeef (normalized: indeedeef)"
+      },
+      {
+        "evolution": "Pyroar",
+        "reason": "BST lookup failed for Pyroar (normalized: pyroar)"
+      },
+      {
+        "evolution": "Meloetta",
+        "reason": "BST lookup failed for Meloetta (normalized: meloetta)"
+      },
+      {
+        "evolution": "Meloettap",
+        "reason": "BST lookup failed for Meloettap (normalized: meloettap)"
+      },
+      {
+        "evolution": "Eeveep",
+        "reason": "BST lookup failed for Eeveep (normalized: eeveep)"
+      },
+      {
+        "evolution": "Terapagost",
+        "reason": "BST lookup failed for Terapagost (normalized: terapagost)"
+      }
+    ],
+    "Kecleon": [
+      {
+        "evolution": "Oinkolognf",
+        "reason": "BST lookup failed for Oinkolognf (normalized: oinkolognf)"
+      },
+      {
+        "evolution": "Oinkologne",
+        "reason": "BST lookup failed for Oinkologne (normalized: oinkologne)"
+      },
+      {
+        "evolution": "Dudunsprce",
+        "reason": "BST lookup failed for Dudunsprce (normalized: dudunsparce)"
+      },
+      {
+        "evolution": "Ursalunab",
+        "reason": "BST lookup failed for Ursalunab (normalized: ursalunab)"
+      },
+      {
+        "evolution": "Pyroar",
+        "reason": "BST lookup failed for Pyroar (normalized: pyroar)"
+      },
+      {
+        "evolution": "Terapagost",
+        "reason": "BST lookup failed for Terapagost (normalized: terapagost)"
+      },
+      {
+        "evolution": "Meloettap",
+        "reason": "BST lookup failed for Meloettap (normalized: meloettap)"
+      },
+      {
+        "evolution": "Meloetta",
+        "reason": "BST lookup failed for Meloetta (normalized: meloetta)"
+      },
+      {
+        "evolution": "Maushold",
+        "reason": "BST lookup failed for Maushold (normalized: maushold)"
+      },
+      {
+        "evolution": "Eeveep",
+        "reason": "BST lookup failed for Eeveep (normalized: eeveep)"
+      },
+      {
+        "evolution": "Indeedeef",
+        "reason": "BST lookup failed for Indeedeef (normalized: indeedeef)"
+      },
+      {
+        "evolution": "Indeedee",
+        "reason": "BST lookup failed for Indeedee (normalized: indeedee)"
+      }
+    ],
+    "Klawf": [
+      {
+        "evolution": "Ogerponr",
+        "reason": "BST lookup failed for Ogerponr (normalized: ogerpon-water-mask)"
+      },
+      {
+        "evolution": "Avaluggh",
+        "reason": "BST lookup failed for Avaluggh (normalized: avaluggh)"
+      },
+      {
+        "evolution": "Miniorc",
+        "reason": "BST lookup failed for Miniorc (normalized: minior-core)"
+      }
+    ],
+    "Kricketune": [
+      {
+        "evolution": "Wormadam",
+        "reason": "BST lookup failed for Wormadam (normalized: wormadam)"
+      }
+    ],
+    "Ledian": [
+      {
+        "evolution": "Oricorio",
+        "reason": "BST lookup failed for Oricorio (normalized: oricorio)"
+      },
+      {
+        "evolution": "Corvknight",
+        "reason": "BST lookup failed for Corvknight (normalized: corvknight)"
+      },
+      {
+        "evolution": "Oricoriop",
+        "reason": "BST lookup failed for Oricoriop (normalized: oricoriop)"
+      },
+      {
+        "evolution": "Oricorioe",
+        "reason": "BST lookup failed for Oricorioe (normalized: oricorioe)"
+      },
+      {
+        "evolution": "Oricoriog",
+        "reason": "BST lookup failed for Oricoriog (normalized: oricoriog)"
+      },
+      {
+        "evolution": "Miniorc",
+        "reason": "BST lookup failed for Miniorc (normalized: minior-core)"
+      },
+      {
+        "evolution": "Rotomfa",
+        "reason": "BST lookup failed for Rotomfa (normalized: rotomfa)"
+      },
+      {
+        "evolution": "Kilowattrl",
+        "reason": "BST lookup failed for Kilowattrl (normalized: kilowattrl)"
+      },
+      {
+        "evolution": "Minior",
+        "reason": "BST lookup failed for Minior (normalized: minior)"
+      },
+      {
+        "evolution": "Squawkbily",
+        "reason": "BST lookup failed for Squawkbily (normalized: squawkabilly)"
+      }
+    ],
+    "Liepard": [
+      {
+        "evolution": "Brutebonet",
+        "reason": "BST lookup failed for Brutebonet (normalized: brutebonet)"
+      },
+      {
+        "evolution": "Meowscrada",
+        "reason": "BST lookup failed for Meowscrada (normalized: meowscrada)"
+      }
+    ],
+    "Linooneg": [
+      {
+        "evolution": "Brutebonet",
+        "reason": "BST lookup failed for Brutebonet (normalized: brutebonet)"
+      },
+      {
+        "evolution": "Meowscrada",
+        "reason": "BST lookup failed for Meowscrada (normalized: meowscrada)"
+      },
+      {
+        "evolution": "Maushold",
+        "reason": "BST lookup failed for Maushold (normalized: maushold)"
+      },
+      {
+        "evolution": "Oinkologne",
+        "reason": "BST lookup failed for Oinkologne (normalized: oinkologne)"
+      },
+      {
+        "evolution": "Ursalunab",
+        "reason": "BST lookup failed for Ursalunab (normalized: ursalunab)"
+      },
+      {
+        "evolution": "Dudunsprce",
+        "reason": "BST lookup failed for Dudunsprce (normalized: dudunsparce)"
+      },
+      {
+        "evolution": "Indeedeef",
+        "reason": "BST lookup failed for Indeedeef (normalized: indeedeef)"
+      },
+      {
+        "evolution": "Oinkolognf",
+        "reason": "BST lookup failed for Oinkolognf (normalized: oinkolognf)"
+      },
+      {
+        "evolution": "Indeedee",
+        "reason": "BST lookup failed for Indeedee (normalized: indeedee)"
+      },
+      {
+        "evolution": "Pyroar",
+        "reason": "BST lookup failed for Pyroar (normalized: pyroar)"
+      }
+    ],
+    "Lokix": [
+      {
+        "evolution": "Brutebonet",
+        "reason": "BST lookup failed for Brutebonet (normalized: brutebonet)"
+      },
+      {
+        "evolution": "Meowscrada",
+        "reason": "BST lookup failed for Meowscrada (normalized: meowscrada)"
+      }
+    ],
+    "Luvdisc": [
+      {
+        "evolution": "Palafin",
+        "reason": "BST lookup failed for Palafin (normalized: palafin)"
+      },
+      {
+        "evolution": "Castformw",
+        "reason": "BST lookup failed for Castformw (normalized: castformw)"
+      },
+      {
+        "evolution": "Basculin",
+        "reason": "BST lookup failed for Basculin (normalized: basculin)"
+      }
+    ],
+    "Magcargo": [
+      {
+        "evolution": "Darmanitan",
+        "reason": "BST lookup failed for Darmanitan (normalized: darmanitan)"
+      },
+      {
+        "evolution": "Blacphalon",
+        "reason": "BST lookup failed for Blacphalon (normalized: blacphalon)"
+      },
+      {
+        "evolution": "Lycanroc",
+        "reason": "BST lookup failed for Lycanroc (normalized: lycanroc)"
+      },
+      {
+        "evolution": "Lycanrocd",
+        "reason": "BST lookup failed for Lycanrocd (normalized: lycanrocd)"
+      },
+      {
+        "evolution": "Ogerponr",
+        "reason": "BST lookup failed for Ogerponr (normalized: ogerpon-water-mask)"
+      },
+      {
+        "evolution": "Lycanrocm",
+        "reason": "BST lookup failed for Lycanrocm (normalized: lycanrocm)"
+      },
+      {
+        "evolution": "Darmanitzg",
+        "reason": "BST lookup failed for Darmanitzg (normalized: darmanitzg)"
+      },
+      {
+        "evolution": "Ogerponf",
+        "reason": "BST lookup failed for Ogerponf (normalized: ogerponf)"
+      },
+      {
+        "evolution": "Taurospf",
+        "reason": "BST lookup failed for Taurospf (normalized: taurospf)"
+      },
+      {
+        "evolution": "Avaluggh",
+        "reason": "BST lookup failed for Avaluggh (normalized: avaluggh)"
+      },
+      {
+        "evolution": "Miniorc",
+        "reason": "BST lookup failed for Miniorc (normalized: minior-core)"
+      },
+      {
+        "evolution": "Rotomh",
+        "reason": "BST lookup failed for Rotomh (normalized: rotomh)"
+      },
+      {
+        "evolution": "Pyroar",
+        "reason": "BST lookup failed for Pyroar (normalized: pyroar)"
+      }
+    ],
+    "Marowak": [
+      {
+        "evolution": "Palossand",
+        "reason": "BST lookup failed for Palossand (normalized: pallossand)"
+      },
+      {
+        "evolution": "Ursalunab",
+        "reason": "BST lookup failed for Ursalunab (normalized: ursalunab)"
+      },
+      {
+        "evolution": "Zygarde",
+        "reason": "BST lookup failed for Zygarde (normalized: zygarde)"
+      }
+    ],
+    "Marowaka": [
+      {
+        "evolution": "Fluttrmane",
+        "reason": "BST lookup failed for Fluttrmane (normalized: fluttrmane)"
+      },
+      {
+        "evolution": "Darmanitan",
+        "reason": "BST lookup failed for Darmanitan (normalized: darmanitan)"
+      },
+      {
+        "evolution": "Poltegeist",
+        "reason": "BST lookup failed for Poltegeist (normalized: poltegeist)"
+      },
+      {
+        "evolution": "Blacphalon",
+        "reason": "BST lookup failed for Blacphalon (normalized: blacphalon)"
+      },
+      {
+        "evolution": "Aegislashb",
+        "reason": "BST lookup failed for Aegislashb (normalized: aegislashb)"
+      },
+      {
+        "evolution": "Darmanitzg",
+        "reason": "BST lookup failed for Darmanitzg (normalized: darmanitzg)"
+      },
+      {
+        "evolution": "Oricorio",
+        "reason": "BST lookup failed for Oricorio (normalized: oricorio)"
+      },
+      {
+        "evolution": "Aegislash",
+        "reason": "BST lookup failed for Aegislash (normalized: aegislash)"
+      },
+      {
+        "evolution": "Ogerponf",
+        "reason": "BST lookup failed for Ogerponf (normalized: ogerponf)"
+      },
+      {
+        "evolution": "Oricoriog",
+        "reason": "BST lookup failed for Oricoriog (normalized: oricoriog)"
+      },
+      {
+        "evolution": "Mimikyu",
+        "reason": "BST lookup failed for Mimikyu (normalized: mimikyu)"
+      },
+      {
+        "evolution": "Taurospf",
+        "reason": "BST lookup failed for Taurospf (normalized: taurospf)"
+      },
+      {
+        "evolution": "Palossand",
+        "reason": "BST lookup failed for Palossand (normalized: pallossand)"
+      },
+      {
+        "evolution": "Gourgeist",
+        "reason": "BST lookup failed for Gourgeist (normalized: gourgeist)"
+      },
+      {
+        "evolution": "Bramblgast",
+        "reason": "BST lookup failed for Bramblgast (normalized: bramblgast)"
+      },
+      {
+        "evolution": "Gourgeistl",
+        "reason": "BST lookup failed for Gourgeistl (normalized: gourgeistl)"
+      },
+      {
+        "evolution": "Jellicent",
+        "reason": "BST lookup failed for Jellicent (normalized: jellicent)"
+      },
+      {
+        "evolution": "Basclegiof",
+        "reason": "BST lookup failed for Basclegiof (normalized: basclegiof)"
+      },
+      {
+        "evolution": "Gourgeists",
+        "reason": "BST lookup failed for Gourgeists (normalized: gourgeists)"
+      },
+      {
+        "evolution": "Gourgeistx",
+        "reason": "BST lookup failed for Gourgeistx (normalized: gourgeistx)"
+      },
+      {
+        "evolution": "Basclegion",
+        "reason": "BST lookup failed for Basclegion (normalized: basclegion)"
+      },
+      {
+        "evolution": "Rotomh",
+        "reason": "BST lookup failed for Rotomh (normalized: rotomh)"
+      },
+      {
+        "evolution": "Pyroar",
+        "reason": "BST lookup failed for Pyroar (normalized: pyroar)"
+      }
+    ],
+    "Mawile": [
+      {
+        "evolution": "Aegislash",
+        "reason": "BST lookup failed for Aegislash (normalized: aegislash)"
+      },
+      {
+        "evolution": "Corvknight",
+        "reason": "BST lookup failed for Corvknight (normalized: corvknight)"
+      },
+      {
+        "evolution": "Mimikyu",
+        "reason": "BST lookup failed for Mimikyu (normalized: mimikyu)"
+      },
+      {
+        "evolution": "Aegislashb",
+        "reason": "BST lookup failed for Aegislashb (normalized: aegislashb)"
+      }
+    ],
+    "Medicham": [
+      {
+        "evolution": "Sirfetch\u2019d",
+        "reason": "BST lookup failed for Sirfetch\u2019d (normalized: sirfetch\u2019d)"
+      },
+      {
+        "evolution": "Taurosp",
+        "reason": "BST lookup failed for Taurosp (normalized: tauros-paldean)"
+      },
+      {
+        "evolution": "Crabminble",
+        "reason": "BST lookup failed for Crabminble (normalized: crabminble)"
+      },
+      {
+        "evolution": "Oricoriop",
+        "reason": "BST lookup failed for Oricoriop (normalized: oricoriop)"
+      },
+      {
+        "evolution": "Taurospf",
+        "reason": "BST lookup failed for Taurospf (normalized: taurospf)"
+      },
+      {
+        "evolution": "Raichua",
+        "reason": "BST lookup failed for Raichua (normalized: raichua)"
+      },
+      {
+        "evolution": "Indeedeef",
+        "reason": "BST lookup failed for Indeedeef (normalized: indeedeef)"
+      },
+      {
+        "evolution": "Indeedee",
+        "reason": "BST lookup failed for Indeedee (normalized: indeedee)"
+      },
+      {
+        "evolution": "Taurospw",
+        "reason": "BST lookup failed for Taurospw (normalized: taurospw)"
+      }
+    ],
+    "Meowthg": [
+      {
+        "evolution": "Corvknight",
+        "reason": "BST lookup failed for Corvknight (normalized: corvknight)"
+      },
+      {
+        "evolution": "Aegislashb",
+        "reason": "BST lookup failed for Aegislashb (normalized: aegislashb)"
+      },
+      {
+        "evolution": "Aegislash",
+        "reason": "BST lookup failed for Aegislash (normalized: aegislash)"
+      }
+    ],
+    "Mightyena": [
+      {
+        "evolution": "Brutebonet",
+        "reason": "BST lookup failed for Brutebonet (normalized: brutebonet)"
+      },
+      {
+        "evolution": "Meowscrada",
+        "reason": "BST lookup failed for Meowscrada (normalized: meowscrada)"
+      }
+    ],
+    "Minun": [
+      {
+        "evolution": "Oricorioe",
+        "reason": "BST lookup failed for Oricorioe (normalized: oricorioe)"
+      },
+      {
+        "evolution": "Rotomfr",
+        "reason": "BST lookup failed for Rotomfr (normalized: rotomfr)"
+      },
+      {
+        "evolution": "Raichua",
+        "reason": "BST lookup failed for Raichua (normalized: raichua)"
+      },
+      {
+        "evolution": "Rotomfa",
+        "reason": "BST lookup failed for Rotomfa (normalized: rotomfa)"
+      },
+      {
+        "evolution": "Kilowattrl",
+        "reason": "BST lookup failed for Kilowattrl (normalized: kilowattrl)"
+      },
+      {
+        "evolution": "Rotomh",
+        "reason": "BST lookup failed for Rotomh (normalized: rotomh)"
+      },
+      {
+        "evolution": "Toxtricity",
+        "reason": "BST lookup failed for Toxtricity (normalized: toxtricity)"
+      },
+      {
+        "evolution": "Rotomm",
+        "reason": "BST lookup failed for Rotomm (normalized: rotomm)"
+      },
+      {
+        "evolution": "Toxtricitl",
+        "reason": "BST lookup failed for Toxtricitl (normalized: toxtricity-lowkey)"
+      },
+      {
+        "evolution": "Rotomw",
+        "reason": "BST lookup failed for Rotomw (normalized: rotomw)"
+      },
+      {
+        "evolution": "Pikachup",
+        "reason": "BST lookup failed for Pikachup (normalized: pikachu-partner)"
+      }
+    ],
+    "Morpekoh": [
+      {
+        "evolution": "Brutebonet",
+        "reason": "BST lookup failed for Brutebonet (normalized: brutebonet)"
+      },
+      {
+        "evolution": "Meowscrada",
+        "reason": "BST lookup failed for Meowscrada (normalized: meowscrada)"
+      },
+      {
+        "evolution": "Rotomfa",
+        "reason": "BST lookup failed for Rotomfa (normalized: rotomfa)"
+      },
+      {
+        "evolution": "Kilowattrl",
+        "reason": "BST lookup failed for Kilowattrl (normalized: kilowattrl)"
+      },
+      {
+        "evolution": "Rotomh",
+        "reason": "BST lookup failed for Rotomh (normalized: rotomh)"
+      },
+      {
+        "evolution": "Raichua",
+        "reason": "BST lookup failed for Raichua (normalized: raichua)"
+      },
+      {
+        "evolution": "Rotomfr",
+        "reason": "BST lookup failed for Rotomfr (normalized: rotomfr)"
+      },
+      {
+        "evolution": "Toxtricitl",
+        "reason": "BST lookup failed for Toxtricitl (normalized: toxtricity-lowkey)"
+      },
+      {
+        "evolution": "Toxtricity",
+        "reason": "BST lookup failed for Toxtricity (normalized: toxtricity)"
+      },
+      {
+        "evolution": "Rotomm",
+        "reason": "BST lookup failed for Rotomm (normalized: rotomm)"
+      },
+      {
+        "evolution": "Rotomw",
+        "reason": "BST lookup failed for Rotomw (normalized: rotomw)"
+      }
+    ],
+    "Mothim": [
+      {
+        "evolution": "Oricorio",
+        "reason": "BST lookup failed for Oricorio (normalized: oricorio)"
+      },
+      {
+        "evolution": "Oricoriop",
+        "reason": "BST lookup failed for Oricoriop (normalized: oricoriop)"
+      },
+      {
+        "evolution": "Corvknight",
+        "reason": "BST lookup failed for Corvknight (normalized: corvknight)"
+      },
+      {
+        "evolution": "Oricoriog",
+        "reason": "BST lookup failed for Oricoriog (normalized: oricoriog)"
+      },
+      {
+        "evolution": "Oricorioe",
+        "reason": "BST lookup failed for Oricorioe (normalized: oricorioe)"
+      },
+      {
+        "evolution": "Miniorc",
+        "reason": "BST lookup failed for Miniorc (normalized: minior-core)"
+      },
+      {
+        "evolution": "Kilowattrl",
+        "reason": "BST lookup failed for Kilowattrl (normalized: kilowattrl)"
+      },
+      {
+        "evolution": "Rotomfa",
+        "reason": "BST lookup failed for Rotomfa (normalized: rotomfa)"
+      }
+    ],
+    "Pachirisu": [
+      {
+        "evolution": "Oricorioe",
+        "reason": "BST lookup failed for Oricorioe (normalized: oricorioe)"
+      },
+      {
+        "evolution": "Rotomfr",
+        "reason": "BST lookup failed for Rotomfr (normalized: rotomfr)"
+      },
+      {
+        "evolution": "Raichua",
+        "reason": "BST lookup failed for Raichua (normalized: raichua)"
+      },
+      {
+        "evolution": "Rotomfa",
+        "reason": "BST lookup failed for Rotomfa (normalized: rotomfa)"
+      },
+      {
+        "evolution": "Rotomh",
+        "reason": "BST lookup failed for Rotomh (normalized: rotomh)"
+      },
+      {
+        "evolution": "Kilowattrl",
+        "reason": "BST lookup failed for Kilowattrl (normalized: kilowattrl)"
+      },
+      {
+        "evolution": "Toxtricitl",
+        "reason": "BST lookup failed for Toxtricitl (normalized: toxtricity-lowkey)"
+      },
+      {
+        "evolution": "Toxtricity",
+        "reason": "BST lookup failed for Toxtricity (normalized: toxtricity)"
+      },
+      {
+        "evolution": "Rotomm",
+        "reason": "BST lookup failed for Rotomm (normalized: rotomm)"
+      },
+      {
+        "evolution": "Rotomw",
+        "reason": "BST lookup failed for Rotomw (normalized: rotomw)"
+      },
+      {
+        "evolution": "Pikachup",
+        "reason": "BST lookup failed for Pikachup (normalized: pikachu-partner)"
+      },
+      {
+        "evolution": "Morpeko",
+        "reason": "BST lookup failed for Morpeko (normalized: morpeko)"
+      }
+    ],
+    "Parasect": [
+      {
+        "evolution": "Ogerponr",
+        "reason": "BST lookup failed for Ogerponr (normalized: ogerpon-water-mask)"
+      },
+      {
+        "evolution": "Ogerponf",
+        "reason": "BST lookup failed for Ogerponf (normalized: ogerponf)"
+      },
+      {
+        "evolution": "Ogerponw",
+        "reason": "BST lookup failed for Ogerponw (normalized: ogerponw)"
+      },
+      {
+        "evolution": "Meowscrada",
+        "reason": "BST lookup failed for Meowscrada (normalized: meowscrada)"
+      },
+      {
+        "evolution": "Gourgeistl",
+        "reason": "BST lookup failed for Gourgeistl (normalized: gourgeistl)"
+      },
+      {
+        "evolution": "Gourgeists",
+        "reason": "BST lookup failed for Gourgeists (normalized: gourgeists)"
+      },
+      {
+        "evolution": "Gourgeist",
+        "reason": "BST lookup failed for Gourgeist (normalized: gourgeist)"
+      },
+      {
+        "evolution": "Bramblgast",
+        "reason": "BST lookup failed for Bramblgast (normalized: bramblgast)"
+      },
+      {
+        "evolution": "Gourgeistx",
+        "reason": "BST lookup failed for Gourgeistx (normalized: gourgeistx)"
+      },
+      {
+        "evolution": "Rotomm",
+        "reason": "BST lookup failed for Rotomm (normalized: rotomm)"
+      }
+    ],
+    "Pelipper": [
+      {
+        "evolution": "Ogerponw",
+        "reason": "BST lookup failed for Ogerponw (normalized: ogerponw)"
+      },
+      {
+        "evolution": "Basclegiof",
+        "reason": "BST lookup failed for Basclegiof (normalized: basclegiof)"
+      },
+      {
+        "evolution": "Baraskewda",
+        "reason": "BST lookup failed for Baraskewda (normalized: baraskewda)"
+      },
+      {
+        "evolution": "Corvknight",
+        "reason": "BST lookup failed for Corvknight (normalized: corvknight)"
+      },
+      {
+        "evolution": "Basclegion",
+        "reason": "BST lookup failed for Basclegion (normalized: basclegion)"
+      },
+      {
+        "evolution": "Miniorc",
+        "reason": "BST lookup failed for Miniorc (normalized: minior-core)"
+      },
+      {
+        "evolution": "Rotomfa",
+        "reason": "BST lookup failed for Rotomfa (normalized: rotomfa)"
+      },
+      {
+        "evolution": "Kilowattrl",
+        "reason": "BST lookup failed for Kilowattrl (normalized: kilowattrl)"
+      },
+      {
+        "evolution": "Taurospw",
+        "reason": "BST lookup failed for Taurospw (normalized: taurospw)"
+      },
+      {
+        "evolution": "Rotomw",
+        "reason": "BST lookup failed for Rotomw (normalized: rotomw)"
+      }
+    ],
+    "Perrserker": [
+      {
+        "evolution": "Aegislash",
+        "reason": "BST lookup failed for Aegislash (normalized: aegislash)"
+      },
+      {
+        "evolution": "Corvknight",
+        "reason": "BST lookup failed for Corvknight (normalized: corvknight)"
+      },
+      {
+        "evolution": "Aegislashb",
+        "reason": "BST lookup failed for Aegislashb (normalized: aegislashb)"
+      }
+    ],
+    "Persian": [
+      {
+        "evolution": "Dudunsprce",
+        "reason": "BST lookup failed for Dudunsprce (normalized: dudunsparce)"
+      },
+      {
+        "evolution": "Oinkologne",
+        "reason": "BST lookup failed for Oinkologne (normalized: oinkologne)"
+      },
+      {
+        "evolution": "Oinkolognf",
+        "reason": "BST lookup failed for Oinkolognf (normalized: oinkolognf)"
+      },
+      {
+        "evolution": "Ursalunab",
+        "reason": "BST lookup failed for Ursalunab (normalized: ursalunab)"
+      },
+      {
+        "evolution": "Pyroar",
+        "reason": "BST lookup failed for Pyroar (normalized: pyroar)"
+      },
+      {
+        "evolution": "Terapagost",
+        "reason": "BST lookup failed for Terapagost (normalized: terapagost)"
+      },
+      {
+        "evolution": "Meloettap",
+        "reason": "BST lookup failed for Meloettap (normalized: meloettap)"
+      },
+      {
+        "evolution": "Meloetta",
+        "reason": "BST lookup failed for Meloetta (normalized: meloetta)"
+      },
+      {
+        "evolution": "Maushold",
+        "reason": "BST lookup failed for Maushold (normalized: maushold)"
+      },
+      {
+        "evolution": "Eeveep",
+        "reason": "BST lookup failed for Eeveep (normalized: eeveep)"
+      },
+      {
+        "evolution": "Indeedeef",
+        "reason": "BST lookup failed for Indeedeef (normalized: indeedeef)"
+      }
+    ],
+    "Persiana": [
+      {
+        "evolution": "Brutebonet",
+        "reason": "BST lookup failed for Brutebonet (normalized: brutebonet)"
+      },
+      {
+        "evolution": "Meowscrada",
+        "reason": "BST lookup failed for Meowscrada (normalized: meowscrada)"
+      }
+    ],
+    "Pikachuc": [
+      {
+        "evolution": "Pikachup",
+        "reason": "BST lookup failed for Pikachup (normalized: pikachu-partner)"
+      },
+      {
+        "evolution": "Morpeko",
+        "reason": "BST lookup failed for Morpeko (normalized: morpeko)"
+      }
+    ],
+    "Pikachup": [
+      {
+        "evolution": "Rotomfa",
+        "reason": "BST lookup failed for Rotomfa (normalized: rotomfa)"
+      },
+      {
+        "evolution": "Rotomfr",
+        "reason": "BST lookup failed for Rotomfr (normalized: rotomfr)"
+      },
+      {
+        "evolution": "Rotomm",
+        "reason": "BST lookup failed for Rotomm (normalized: rotomm)"
+      },
+      {
+        "evolution": "Rotomh",
+        "reason": "BST lookup failed for Rotomh (normalized: rotomh)"
+      },
+      {
+        "evolution": "Kilowattrl",
+        "reason": "BST lookup failed for Kilowattrl (normalized: kilowattrl)"
+      },
+      {
+        "evolution": "Raichua",
+        "reason": "BST lookup failed for Raichua (normalized: raichua)"
+      },
+      {
+        "evolution": "Rotomw",
+        "reason": "BST lookup failed for Rotomw (normalized: rotomw)"
+      },
+      {
+        "evolution": "Toxtricity",
+        "reason": "BST lookup failed for Toxtricity (normalized: toxtricity)"
+      },
+      {
+        "evolution": "Toxtricitl",
+        "reason": "BST lookup failed for Toxtricitl (normalized: toxtricity-lowkey)"
+      }
+    ],
+    "Pincurchin": [
+      {
+        "evolution": "Rotomfr",
+        "reason": "BST lookup failed for Rotomfr (normalized: rotomfr)"
+      },
+      {
+        "evolution": "Rotomm",
+        "reason": "BST lookup failed for Rotomm (normalized: rotomm)"
+      },
+      {
+        "evolution": "Raichua",
+        "reason": "BST lookup failed for Raichua (normalized: raichua)"
+      },
+      {
+        "evolution": "Kilowattrl",
+        "reason": "BST lookup failed for Kilowattrl (normalized: kilowattrl)"
+      },
+      {
+        "evolution": "Rotomh",
+        "reason": "BST lookup failed for Rotomh (normalized: rotomh)"
+      },
+      {
+        "evolution": "Rotomfa",
+        "reason": "BST lookup failed for Rotomfa (normalized: rotomfa)"
+      },
+      {
+        "evolution": "Toxtricity",
+        "reason": "BST lookup failed for Toxtricity (normalized: toxtricity)"
+      },
+      {
+        "evolution": "Toxtricitl",
+        "reason": "BST lookup failed for Toxtricitl (normalized: toxtricity-lowkey)"
+      },
+      {
+        "evolution": "Rotomw",
+        "reason": "BST lookup failed for Rotomw (normalized: rotomw)"
+      }
+    ],
+    "Plusle": [
+      {
+        "evolution": "Oricorioe",
+        "reason": "BST lookup failed for Oricorioe (normalized: oricorioe)"
+      },
+      {
+        "evolution": "Rotomfa",
+        "reason": "BST lookup failed for Rotomfa (normalized: rotomfa)"
+      },
+      {
+        "evolution": "Raichua",
+        "reason": "BST lookup failed for Raichua (normalized: raichua)"
+      },
+      {
+        "evolution": "Kilowattrl",
+        "reason": "BST lookup failed for Kilowattrl (normalized: kilowattrl)"
+      },
+      {
+        "evolution": "Rotomfr",
+        "reason": "BST lookup failed for Rotomfr (normalized: rotomfr)"
+      },
+      {
+        "evolution": "Rotomh",
+        "reason": "BST lookup failed for Rotomh (normalized: rotomh)"
+      },
+      {
+        "evolution": "Toxtricity",
+        "reason": "BST lookup failed for Toxtricity (normalized: toxtricity)"
+      },
+      {
+        "evolution": "Toxtricitl",
+        "reason": "BST lookup failed for Toxtricitl (normalized: toxtricity-lowkey)"
+      },
+      {
+        "evolution": "Rotomm",
+        "reason": "BST lookup failed for Rotomm (normalized: rotomm)"
+      },
+      {
+        "evolution": "Rotomw",
+        "reason": "BST lookup failed for Rotomw (normalized: rotomw)"
+      },
+      {
+        "evolution": "Pikachup",
+        "reason": "BST lookup failed for Pikachup (normalized: pikachu-partner)"
+      },
+      {
+        "evolution": "Morpeko",
+        "reason": "BST lookup failed for Morpeko (normalized: morpeko)"
+      }
+    ],
+    "Ponytag": [
+      {
+        "evolution": "Oricoriop",
+        "reason": "BST lookup failed for Oricoriop (normalized: oricoriop)"
+      },
+      {
+        "evolution": "Raichua",
+        "reason": "BST lookup failed for Raichua (normalized: raichua)"
+      },
+      {
+        "evolution": "Indeedee",
+        "reason": "BST lookup failed for Indeedee (normalized: indeedee)"
+      },
+      {
+        "evolution": "Indeedeef",
+        "reason": "BST lookup failed for Indeedeef (normalized: indeedeef)"
+      },
+      {
+        "evolution": "Screamtail",
+        "reason": "BST lookup failed for Screamtail (normalized: screamtail)"
+      }
+    ],
+    "Pumpkabool": [
+      {
+        "evolution": "Poltegeist",
+        "reason": "BST lookup failed for Poltegeist (normalized: poltegeist)"
+      },
+      {
+        "evolution": "Aegislash",
+        "reason": "BST lookup failed for Aegislash (normalized: aegislash)"
+      },
+      {
+        "evolution": "Meowscrada",
+        "reason": "BST lookup failed for Meowscrada (normalized: meowscrada)"
+      },
+      {
+        "evolution": "Aegislashb",
+        "reason": "BST lookup failed for Aegislashb (normalized: aegislashb)"
+      },
+      {
+        "evolution": "Mimikyu",
+        "reason": "BST lookup failed for Mimikyu (normalized: mimikyu)"
+      },
+      {
+        "evolution": "Gourgeist",
+        "reason": "BST lookup failed for Gourgeist (normalized: gourgeist)"
+      },
+      {
+        "evolution": "Palossand",
+        "reason": "BST lookup failed for Palossand (normalized: pallossand)"
+      },
+      {
+        "evolution": "Basclegion",
+        "reason": "BST lookup failed for Basclegion (normalized: basclegion)"
+      },
+      {
+        "evolution": "Bramblgast",
+        "reason": "BST lookup failed for Bramblgast (normalized: bramblgast)"
+      },
+      {
+        "evolution": "Basclegiof",
+        "reason": "BST lookup failed for Basclegiof (normalized: basclegiof)"
+      },
+      {
+        "evolution": "Oricoriog",
+        "reason": "BST lookup failed for Oricoriog (normalized: oricoriog)"
+      },
+      {
+        "evolution": "Gourgeists",
+        "reason": "BST lookup failed for Gourgeists (normalized: gourgeists)"
+      },
+      {
+        "evolution": "Gourgeistx",
+        "reason": "BST lookup failed for Gourgeistx (normalized: gourgeistx)"
+      },
+      {
+        "evolution": "Jellicent",
+        "reason": "BST lookup failed for Jellicent (normalized: jellicent)"
+      },
+      {
+        "evolution": "Rotomm",
+        "reason": "BST lookup failed for Rotomm (normalized: rotomm)"
+      }
+    ],
+    "Pumpkaboos": [
+      {
+        "evolution": "Poltegeist",
+        "reason": "BST lookup failed for Poltegeist (normalized: poltegeist)"
+      },
+      {
+        "evolution": "Meowscrada",
+        "reason": "BST lookup failed for Meowscrada (normalized: meowscrada)"
+      },
+      {
+        "evolution": "Aegislash",
+        "reason": "BST lookup failed for Aegislash (normalized: aegislash)"
+      },
+      {
+        "evolution": "Oricoriog",
+        "reason": "BST lookup failed for Oricoriog (normalized: oricoriog)"
+      },
+      {
+        "evolution": "Aegislashb",
+        "reason": "BST lookup failed for Aegislashb (normalized: aegislashb)"
+      },
+      {
+        "evolution": "Mimikyu",
+        "reason": "BST lookup failed for Mimikyu (normalized: mimikyu)"
+      },
+      {
+        "evolution": "Basclegion",
+        "reason": "BST lookup failed for Basclegion (normalized: basclegion)"
+      },
+      {
+        "evolution": "Basclegiof",
+        "reason": "BST lookup failed for Basclegiof (normalized: basclegiof)"
+      },
+      {
+        "evolution": "Gourgeistl",
+        "reason": "BST lookup failed for Gourgeistl (normalized: gourgeistl)"
+      },
+      {
+        "evolution": "Bramblgast",
+        "reason": "BST lookup failed for Bramblgast (normalized: bramblgast)"
+      },
+      {
+        "evolution": "Palossand",
+        "reason": "BST lookup failed for Palossand (normalized: pallossand)"
+      },
+      {
+        "evolution": "Rotomm",
+        "reason": "BST lookup failed for Rotomm (normalized: rotomm)"
+      },
+      {
+        "evolution": "Jellicent",
+        "reason": "BST lookup failed for Jellicent (normalized: jellicent)"
+      },
+      {
+        "evolution": "Gourgeistx",
+        "reason": "BST lookup failed for Gourgeistx (normalized: gourgeistx)"
+      },
+      {
+        "evolution": "Gourgeist",
+        "reason": "BST lookup failed for Gourgeist (normalized: gourgeist)"
+      }
+    ],
+    "Pyukumuku": [
+      {
+        "evolution": "Tatsugiri",
+        "reason": "BST lookup failed for Tatsugiri (normalized: tatsugiri)"
+      },
+      {
+        "evolution": "Basculin",
+        "reason": "BST lookup failed for Basculin (normalized: basculin)"
+      },
+      {
+        "evolution": "Ogerponw",
+        "reason": "BST lookup failed for Ogerponw (normalized: ogerponw)"
+      },
+      {
+        "evolution": "Basclegion",
+        "reason": "BST lookup failed for Basclegion (normalized: basclegion)"
+      },
+      {
+        "evolution": "Baraskewda",
+        "reason": "BST lookup failed for Baraskewda (normalized: baraskewda)"
+      },
+      {
+        "evolution": "Basclegiof",
+        "reason": "BST lookup failed for Basclegiof (normalized: basclegiof)"
+      },
+      {
+        "evolution": "Taurospw",
+        "reason": "BST lookup failed for Taurospw (normalized: taurospw)"
+      },
+      {
+        "evolution": "Jellicent",
+        "reason": "BST lookup failed for Jellicent (normalized: jellicent)"
+      },
+      {
+        "evolution": "Rotomw",
+        "reason": "BST lookup failed for Rotomw (normalized: rotomw)"
+      },
+      {
+        "evolution": "Palafin",
+        "reason": "BST lookup failed for Palafin (normalized: palafin)"
+      }
+    ],
+    "Quagsire": [
+      {
+        "evolution": "Ogerponw",
+        "reason": "BST lookup failed for Ogerponw (normalized: ogerponw)"
+      },
+      {
+        "evolution": "Palossand",
+        "reason": "BST lookup failed for Palossand (normalized: pallossand)"
+      },
+      {
+        "evolution": "Baraskewda",
+        "reason": "BST lookup failed for Baraskewda (normalized: baraskewda)"
+      },
+      {
+        "evolution": "Ursalunab",
+        "reason": "BST lookup failed for Ursalunab (normalized: ursalunab)"
+      },
+      {
+        "evolution": "Basclegion",
+        "reason": "BST lookup failed for Basclegion (normalized: basclegion)"
+      },
+      {
+        "evolution": "Basclegiof",
+        "reason": "BST lookup failed for Basclegiof (normalized: basclegiof)"
+      },
+      {
+        "evolution": "Jellicent",
+        "reason": "BST lookup failed for Jellicent (normalized: jellicent)"
+      },
+      {
+        "evolution": "Rotomw",
+        "reason": "BST lookup failed for Rotomw (normalized: rotomw)"
+      },
+      {
+        "evolution": "Taurospw",
+        "reason": "BST lookup failed for Taurospw (normalized: taurospw)"
+      }
+    ],
+    "Qwilfishh": [
+      {
+        "evolution": "Meowscrada",
+        "reason": "BST lookup failed for Meowscrada (normalized: meowscrada)"
+      },
+      {
+        "evolution": "Toxtricitl",
+        "reason": "BST lookup failed for Toxtricitl (normalized: toxtricity-lowkey)"
+      },
+      {
+        "evolution": "Toxtricity",
+        "reason": "BST lookup failed for Toxtricity (normalized: toxtricity)"
+      }
+    ],
+    "Raticate": [
+      {
+        "evolution": "Oinkolognf",
+        "reason": "BST lookup failed for Oinkolognf (normalized: oinkolognf)"
+      },
+      {
+        "evolution": "Maushold",
+        "reason": "BST lookup failed for Maushold (normalized: maushold)"
+      },
+      {
+        "evolution": "Oinkologne",
+        "reason": "BST lookup failed for Oinkologne (normalized: oinkologne)"
+      },
+      {
+        "evolution": "Ursalunab",
+        "reason": "BST lookup failed for Ursalunab (normalized: ursalunab)"
+      },
+      {
+        "evolution": "Dudunsprce",
+        "reason": "BST lookup failed for Dudunsprce (normalized: dudunsparce)"
+      },
+      {
+        "evolution": "Indeedee",
+        "reason": "BST lookup failed for Indeedee (normalized: indeedee)"
+      },
+      {
+        "evolution": "Pyroar",
+        "reason": "BST lookup failed for Pyroar (normalized: pyroar)"
+      },
+      {
+        "evolution": "Indeedeef",
+        "reason": "BST lookup failed for Indeedeef (normalized: indeedeef)"
+      },
+      {
+        "evolution": "Meloettap",
+        "reason": "BST lookup failed for Meloettap (normalized: meloettap)"
+      },
+      {
+        "evolution": "Meloetta",
+        "reason": "BST lookup failed for Meloetta (normalized: meloetta)"
+      },
+      {
+        "evolution": "Terapagost",
+        "reason": "BST lookup failed for Terapagost (normalized: terapagost)"
+      },
+      {
+        "evolution": "Eeveep",
+        "reason": "BST lookup failed for Eeveep (normalized: eeveep)"
+      }
+    ],
+    "Raticatea": [
+      {
+        "evolution": "Maushold",
+        "reason": "BST lookup failed for Maushold (normalized: maushold)"
+      },
+      {
+        "evolution": "Meowscrada",
+        "reason": "BST lookup failed for Meowscrada (normalized: meowscrada)"
+      },
+      {
+        "evolution": "Oinkologne",
+        "reason": "BST lookup failed for Oinkologne (normalized: oinkologne)"
+      },
+      {
+        "evolution": "Dudunsprce",
+        "reason": "BST lookup failed for Dudunsprce (normalized: dudunsparce)"
+      },
+      {
+        "evolution": "Ursalunab",
+        "reason": "BST lookup failed for Ursalunab (normalized: ursalunab)"
+      },
+      {
+        "evolution": "Oinkolognf",
+        "reason": "BST lookup failed for Oinkolognf (normalized: oinkolognf)"
+      },
+      {
+        "evolution": "Indeedeef",
+        "reason": "BST lookup failed for Indeedeef (normalized: indeedeef)"
+      },
+      {
+        "evolution": "Pyroar",
+        "reason": "BST lookup failed for Pyroar (normalized: pyroar)"
+      },
+      {
+        "evolution": "Indeedee",
+        "reason": "BST lookup failed for Indeedee (normalized: indeedee)"
+      }
+    ],
+    "Rattataa": [
+      {
+        "evolution": "Morpeko",
+        "reason": "BST lookup failed for Morpeko (normalized: morpeko)"
+      },
+      {
+        "evolution": "Eeveep",
+        "reason": "BST lookup failed for Eeveep (normalized: eeveep)"
+      },
+      {
+        "evolution": "Farfetch\u2019d",
+        "reason": "BST lookup failed for Farfetch\u2019d (normalized: farfetch\u2019d)"
+      },
+      {
+        "evolution": "Squawkbily",
+        "reason": "BST lookup failed for Squawkbily (normalized: squawkabilly)"
+      }
+    ],
+    "Rotom": [
+      {
+        "evolution": "Ragingbolt",
+        "reason": "BST lookup failed for Ragingbolt (normalized: ragingbolt)"
+      },
+      {
+        "evolution": "Fluttrmane",
+        "reason": "BST lookup failed for Fluttrmane (normalized: fluttrmane)"
+      },
+      {
+        "evolution": "Poltegeist",
+        "reason": "BST lookup failed for Poltegeist (normalized: poltegeist)"
+      },
+      {
+        "evolution": "Blacphalon",
+        "reason": "BST lookup failed for Blacphalon (normalized: blacphalon)"
+      },
+      {
+        "evolution": "Aegislash",
+        "reason": "BST lookup failed for Aegislash (normalized: aegislash)"
+      },
+      {
+        "evolution": "Aegislashb",
+        "reason": "BST lookup failed for Aegislashb (normalized: aegislashb)"
+      },
+      {
+        "evolution": "Kilowattrl",
+        "reason": "BST lookup failed for Kilowattrl (normalized: kilowattrl)"
+      },
+      {
+        "evolution": "Gourgeists",
+        "reason": "BST lookup failed for Gourgeists (normalized: gourgeists)"
+      },
+      {
+        "evolution": "Basclegiof",
+        "reason": "BST lookup failed for Basclegiof (normalized: basclegiof)"
+      },
+      {
+        "evolution": "Basclegion",
+        "reason": "BST lookup failed for Basclegion (normalized: basclegion)"
+      },
+      {
+        "evolution": "Gourgeistl",
+        "reason": "BST lookup failed for Gourgeistl (normalized: gourgeistl)"
+      },
+      {
+        "evolution": "Rotomh",
+        "reason": "BST lookup failed for Rotomh (normalized: rotomh)"
+      },
+      {
+        "evolution": "Rotomfr",
+        "reason": "BST lookup failed for Rotomfr (normalized: rotomfr)"
+      },
+      {
+        "evolution": "Gourgeist",
+        "reason": "BST lookup failed for Gourgeist (normalized: gourgeist)"
+      },
+      {
+        "evolution": "Toxtricitl",
+        "reason": "BST lookup failed for Toxtricitl (normalized: toxtricity-lowkey)"
+      },
+      {
+        "evolution": "Gourgeistx",
+        "reason": "BST lookup failed for Gourgeistx (normalized: gourgeistx)"
+      },
+      {
+        "evolution": "Rotomm",
+        "reason": "BST lookup failed for Rotomm (normalized: rotomm)"
+      },
+      {
+        "evolution": "Rotomfa",
+        "reason": "BST lookup failed for Rotomfa (normalized: rotomfa)"
+      },
+      {
+        "evolution": "Toxtricity",
+        "reason": "BST lookup failed for Toxtricity (normalized: toxtricity)"
+      },
+      {
+        "evolution": "Rotomw",
+        "reason": "BST lookup failed for Rotomw (normalized: rotomw)"
+      }
+    ],
+    "Sableye": [
+      {
+        "evolution": "Poltegeist",
+        "reason": "BST lookup failed for Poltegeist (normalized: poltegeist)"
+      },
+      {
+        "evolution": "Morpeko",
+        "reason": "BST lookup failed for Morpeko (normalized: morpeko)"
+      },
+      {
+        "evolution": "Aegislashb",
+        "reason": "BST lookup failed for Aegislashb (normalized: aegislashb)"
+      },
+      {
+        "evolution": "Mimikyu",
+        "reason": "BST lookup failed for Mimikyu (normalized: mimikyu)"
+      },
+      {
+        "evolution": "Gourgeists",
+        "reason": "BST lookup failed for Gourgeists (normalized: gourgeists)"
+      },
+      {
+        "evolution": "Aegislash",
+        "reason": "BST lookup failed for Aegislash (normalized: aegislash)"
+      },
+      {
+        "evolution": "Jellicent",
+        "reason": "BST lookup failed for Jellicent (normalized: jellicent)"
+      },
+      {
+        "evolution": "Bramblgast",
+        "reason": "BST lookup failed for Bramblgast (normalized: bramblgast)"
+      },
+      {
+        "evolution": "Oricoriog",
+        "reason": "BST lookup failed for Oricoriog (normalized: oricoriog)"
+      },
+      {
+        "evolution": "Gourgeistx",
+        "reason": "BST lookup failed for Gourgeistx (normalized: gourgeistx)"
+      },
+      {
+        "evolution": "Palossand",
+        "reason": "BST lookup failed for Palossand (normalized: pallossand)"
+      },
+      {
+        "evolution": "Gourgeist",
+        "reason": "BST lookup failed for Gourgeist (normalized: gourgeist)"
+      },
+      {
+        "evolution": "Gourgeistl",
+        "reason": "BST lookup failed for Gourgeistl (normalized: gourgeistl)"
+      }
+    ],
+    "Sandshrewa": [
+      {
+        "evolution": "Castformi",
+        "reason": "BST lookup failed for Castformi (normalized: castformi)"
+      },
+      {
+        "evolution": "Darmanitag",
+        "reason": "BST lookup failed for Darmanitag (normalized: darmanitan-galar)"
+      },
+      {
+        "evolution": "Eiscue",
+        "reason": "BST lookup failed for Eiscue (normalized: eiscue)"
+      },
+      {
+        "evolution": "Eiscuen",
+        "reason": "BST lookup failed for Eiscuen (normalized: eiscue)"
+      },
+      {
+        "evolution": "Corvknight",
+        "reason": "BST lookup failed for Corvknight (normalized: corvknight)"
+      },
+      {
+        "evolution": "Crabminble",
+        "reason": "BST lookup failed for Crabminble (normalized: crabminble)"
+      },
+      {
+        "evolution": "Avaluggh",
+        "reason": "BST lookup failed for Avaluggh (normalized: avaluggh)"
+      }
+    ],
+    "Sandslash": [
+      {
+        "evolution": "Zygarde",
+        "reason": "BST lookup failed for Zygarde (normalized: zygarde)"
+      },
+      {
+        "evolution": "Ursalunab",
+        "reason": "BST lookup failed for Ursalunab (normalized: ursalunab)"
+      }
+    ],
+    "Sandslasha": [
+      {
+        "evolution": "Darmanitzg",
+        "reason": "BST lookup failed for Darmanitzg (normalized: darmanitzg)"
+      },
+      {
+        "evolution": "Aegislash",
+        "reason": "BST lookup failed for Aegislash (normalized: aegislash)"
+      },
+      {
+        "evolution": "Aegislashb",
+        "reason": "BST lookup failed for Aegislashb (normalized: aegislashb)"
+      },
+      {
+        "evolution": "Corvknight",
+        "reason": "BST lookup failed for Corvknight (normalized: corvknight)"
+      },
+      {
+        "evolution": "Avaluggh",
+        "reason": "BST lookup failed for Avaluggh (normalized: avaluggh)"
+      },
+      {
+        "evolution": "Rotomfr",
+        "reason": "BST lookup failed for Rotomfr (normalized: rotomfr)"
+      }
+    ],
+    "Seaking": [
+      {
+        "evolution": "Ogerponw",
+        "reason": "BST lookup failed for Ogerponw (normalized: ogerponw)"
+      },
+      {
+        "evolution": "Basclegiof",
+        "reason": "BST lookup failed for Basclegiof (normalized: basclegiof)"
+      },
+      {
+        "evolution": "Basclegion",
+        "reason": "BST lookup failed for Basclegion (normalized: basclegion)"
+      },
+      {
+        "evolution": "Rotomw",
+        "reason": "BST lookup failed for Rotomw (normalized: rotomw)"
+      }
+    ],
+    "Shiinotic": [
+      {
+        "evolution": "Ogerponf",
+        "reason": "BST lookup failed for Ogerponf (normalized: ogerponf)"
+      },
+      {
+        "evolution": "Ogerponr",
+        "reason": "BST lookup failed for Ogerponr (normalized: ogerpon-water-mask)"
+      },
+      {
+        "evolution": "Meowscrada",
+        "reason": "BST lookup failed for Meowscrada (normalized: meowscrada)"
+      },
+      {
+        "evolution": "Ogerponw",
+        "reason": "BST lookup failed for Ogerponw (normalized: ogerponw)"
+      },
+      {
+        "evolution": "Mimikyu",
+        "reason": "BST lookup failed for Mimikyu (normalized: mimikyu)"
+      },
+      {
+        "evolution": "Gourgeist",
+        "reason": "BST lookup failed for Gourgeist (normalized: gourgeist)"
+      },
+      {
+        "evolution": "Gourgeists",
+        "reason": "BST lookup failed for Gourgeists (normalized: gourgeists)"
+      },
+      {
+        "evolution": "Gourgeistl",
+        "reason": "BST lookup failed for Gourgeistl (normalized: gourgeistl)"
+      },
+      {
+        "evolution": "Gourgeistx",
+        "reason": "BST lookup failed for Gourgeistx (normalized: gourgeistx)"
+      },
+      {
+        "evolution": "Bramblgast",
+        "reason": "BST lookup failed for Bramblgast (normalized: bramblgast)"
+      },
+      {
+        "evolution": "Rotomm",
+        "reason": "BST lookup failed for Rotomm (normalized: rotomm)"
+      }
+    ],
+    "Slowpokeg": [
+      {
+        "evolution": "Oricoriop",
+        "reason": "BST lookup failed for Oricoriop (normalized: oricoriop)"
+      },
+      {
+        "evolution": "Raichua",
+        "reason": "BST lookup failed for Raichua (normalized: raichua)"
+      },
+      {
+        "evolution": "Indeedee",
+        "reason": "BST lookup failed for Indeedee (normalized: indeedee)"
+      },
+      {
+        "evolution": "Indeedeef",
+        "reason": "BST lookup failed for Indeedeef (normalized: indeedeef)"
+      }
+    ],
+    "Smeargle": [
+      {
+        "evolution": "Farfetch\u2019d",
+        "reason": "BST lookup failed for Farfetch\u2019d (normalized: farfetch\u2019d)"
+      }
+    ],
+    "Sneaselh": [
+      {
+        "evolution": "Sirfetch\u2019d",
+        "reason": "BST lookup failed for Sirfetch\u2019d (normalized: sirfetch\u2019d)"
+      },
+      {
+        "evolution": "Taurosp",
+        "reason": "BST lookup failed for Taurosp (normalized: tauros-paldean)"
+      },
+      {
+        "evolution": "Crabminble",
+        "reason": "BST lookup failed for Crabminble (normalized: crabminble)"
+      },
+      {
+        "evolution": "Taurospf",
+        "reason": "BST lookup failed for Taurospf (normalized: taurospf)"
+      },
+      {
+        "evolution": "Taurospw",
+        "reason": "BST lookup failed for Taurospw (normalized: taurospw)"
+      },
+      {
+        "evolution": "Toxtricity",
+        "reason": "BST lookup failed for Toxtricity (normalized: toxtricity)"
+      },
+      {
+        "evolution": "Toxtricitl",
+        "reason": "BST lookup failed for Toxtricitl (normalized: toxtricity-lowkey)"
+      }
+    ],
+    "Spinda": [
+      {
+        "evolution": "Squawkbily",
+        "reason": "BST lookup failed for Squawkbily (normalized: squawkabilly)"
+      },
+      {
+        "evolution": "Eeveep",
+        "reason": "BST lookup failed for Eeveep (normalized: eeveep)"
+      },
+      {
+        "evolution": "Maushold",
+        "reason": "BST lookup failed for Maushold (normalized: maushold)"
+      },
+      {
+        "evolution": "Oinkolognf",
+        "reason": "BST lookup failed for Oinkolognf (normalized: oinkolognf)"
+      },
+      {
+        "evolution": "Oinkologne",
+        "reason": "BST lookup failed for Oinkologne (normalized: oinkologne)"
+      },
+      {
+        "evolution": "Indeedee",
+        "reason": "BST lookup failed for Indeedee (normalized: indeedee)"
+      },
+      {
+        "evolution": "Indeedeef",
+        "reason": "BST lookup failed for Indeedeef (normalized: indeedeef)"
+      }
+    ],
+    "Sudowoodo": [
+      {
+        "evolution": "Lycanrocd",
+        "reason": "BST lookup failed for Lycanrocd (normalized: lycanrocd)"
+      },
+      {
+        "evolution": "Stonjorner",
+        "reason": "BST lookup failed for Stonjorner (normalized: stonjorner)"
+      },
+      {
+        "evolution": "Lycanrocm",
+        "reason": "BST lookup failed for Lycanrocm (normalized: lycanrocm)"
+      },
+      {
+        "evolution": "Lycanroc",
+        "reason": "BST lookup failed for Lycanroc (normalized: lycanroc)"
+      },
+      {
+        "evolution": "Ogerponr",
+        "reason": "BST lookup failed for Ogerponr (normalized: ogerpon-water-mask)"
+      },
+      {
+        "evolution": "Avaluggh",
+        "reason": "BST lookup failed for Avaluggh (normalized: avaluggh)"
+      },
+      {
+        "evolution": "Miniorc",
+        "reason": "BST lookup failed for Miniorc (normalized: minior-core)"
+      },
+      {
+        "evolution": "Minior",
+        "reason": "BST lookup failed for Minior (normalized: minior)"
+      }
+    ],
+    "Sunflora": [
+      {
+        "evolution": "Brutebonet",
+        "reason": "BST lookup failed for Brutebonet (normalized: brutebonet)"
+      },
+      {
+        "evolution": "Ogerponr",
+        "reason": "BST lookup failed for Ogerponr (normalized: ogerpon-water-mask)"
+      },
+      {
+        "evolution": "Ogerponw",
+        "reason": "BST lookup failed for Ogerponw (normalized: ogerponw)"
+      },
+      {
+        "evolution": "Ogerponf",
+        "reason": "BST lookup failed for Ogerponf (normalized: ogerponf)"
+      },
+      {
+        "evolution": "Bramblgast",
+        "reason": "BST lookup failed for Bramblgast (normalized: bramblgast)"
+      },
+      {
+        "evolution": "Meowscrada",
+        "reason": "BST lookup failed for Meowscrada (normalized: meowscrada)"
+      },
+      {
+        "evolution": "Gourgeistl",
+        "reason": "BST lookup failed for Gourgeistl (normalized: gourgeistl)"
+      },
+      {
+        "evolution": "Gourgeistx",
+        "reason": "BST lookup failed for Gourgeistx (normalized: gourgeistx)"
+      },
+      {
+        "evolution": "Gourgeists",
+        "reason": "BST lookup failed for Gourgeists (normalized: gourgeists)"
+      },
+      {
+        "evolution": "Gourgeist",
+        "reason": "BST lookup failed for Gourgeist (normalized: gourgeist)"
+      },
+      {
+        "evolution": "Rotomm",
+        "reason": "BST lookup failed for Rotomm (normalized: rotomm)"
+      }
+    ],
+    "Swoobat": [
+      {
+        "evolution": "Screamtail",
+        "reason": "BST lookup failed for Screamtail (normalized: screamtail)"
+      },
+      {
+        "evolution": "Oricorio",
+        "reason": "BST lookup failed for Oricorio (normalized: oricorio)"
+      },
+      {
+        "evolution": "Oricorioe",
+        "reason": "BST lookup failed for Oricorioe (normalized: oricorioe)"
+      },
+      {
+        "evolution": "Oricoriog",
+        "reason": "BST lookup failed for Oricoriog (normalized: oricoriog)"
+      },
+      {
+        "evolution": "Raichua",
+        "reason": "BST lookup failed for Raichua (normalized: raichua)"
+      },
+      {
+        "evolution": "Corvknight",
+        "reason": "BST lookup failed for Corvknight (normalized: corvknight)"
+      },
+      {
+        "evolution": "Miniorc",
+        "reason": "BST lookup failed for Miniorc (normalized: minior-core)"
+      },
+      {
+        "evolution": "Oricoriop",
+        "reason": "BST lookup failed for Oricoriop (normalized: oricoriop)"
+      },
+      {
+        "evolution": "Rotomfa",
+        "reason": "BST lookup failed for Rotomfa (normalized: rotomfa)"
+      },
+      {
+        "evolution": "Kilowattrl",
+        "reason": "BST lookup failed for Kilowattrl (normalized: kilowattrl)"
+      },
+      {
+        "evolution": "Indeedee",
+        "reason": "BST lookup failed for Indeedee (normalized: indeedee)"
+      },
+      {
+        "evolution": "Indeedeef",
+        "reason": "BST lookup failed for Indeedeef (normalized: indeedeef)"
+      }
+    ],
+    "Terapagos": [
+      {
+        "evolution": "Terapagost",
+        "reason": "BST lookup failed for Terapagost (normalized: terapagost)"
+      },
+      {
+        "evolution": "Meloettap",
+        "reason": "BST lookup failed for Meloettap (normalized: meloettap)"
+      },
+      {
+        "evolution": "Meloetta",
+        "reason": "BST lookup failed for Meloetta (normalized: meloetta)"
+      },
+      {
+        "evolution": "Ursalunab",
+        "reason": "BST lookup failed for Ursalunab (normalized: ursalunab)"
+      },
+      {
+        "evolution": "Dudunsprce",
+        "reason": "BST lookup failed for Dudunsprce (normalized: dudunsparce)"
+      },
+      {
+        "evolution": "Pyroar",
+        "reason": "BST lookup failed for Pyroar (normalized: pyroar)"
+      },
+      {
+        "evolution": "Oinkologne",
+        "reason": "BST lookup failed for Oinkologne (normalized: oinkologne)"
+      },
+      {
+        "evolution": "Maushold",
+        "reason": "BST lookup failed for Maushold (normalized: maushold)"
+      }
+    ],
+    "Togedemaru": [
+      {
+        "evolution": "Corvknight",
+        "reason": "BST lookup failed for Corvknight (normalized: corvknight)"
+      },
+      {
+        "evolution": "Aegislash",
+        "reason": "BST lookup failed for Aegislash (normalized: aegislash)"
+      },
+      {
+        "evolution": "Aegislashb",
+        "reason": "BST lookup failed for Aegislashb (normalized: aegislashb)"
+      },
+      {
+        "evolution": "Rotomfr",
+        "reason": "BST lookup failed for Rotomfr (normalized: rotomfr)"
+      },
+      {
+        "evolution": "Raichua",
+        "reason": "BST lookup failed for Raichua (normalized: raichua)"
+      },
+      {
+        "evolution": "Kilowattrl",
+        "reason": "BST lookup failed for Kilowattrl (normalized: kilowattrl)"
+      },
+      {
+        "evolution": "Rotomm",
+        "reason": "BST lookup failed for Rotomm (normalized: rotomm)"
+      },
+      {
+        "evolution": "Toxtricitl",
+        "reason": "BST lookup failed for Toxtricitl (normalized: toxtricity-lowkey)"
+      },
+      {
+        "evolution": "Rotomfa",
+        "reason": "BST lookup failed for Rotomfa (normalized: rotomfa)"
+      },
+      {
+        "evolution": "Rotomw",
+        "reason": "BST lookup failed for Rotomw (normalized: rotomw)"
+      },
+      {
+        "evolution": "Rotomh",
+        "reason": "BST lookup failed for Rotomh (normalized: rotomh)"
+      },
+      {
+        "evolution": "Toxtricity",
+        "reason": "BST lookup failed for Toxtricity (normalized: toxtricity)"
+      }
+    ],
+    "Unown": [
+      {
+        "evolution": "Oricoriop",
+        "reason": "BST lookup failed for Oricoriop (normalized: oricoriop)"
+      },
+      {
+        "evolution": "Indeedeef",
+        "reason": "BST lookup failed for Indeedeef (normalized: indeedeef)"
+      },
+      {
+        "evolution": "Indeedee",
+        "reason": "BST lookup failed for Indeedee (normalized: indeedee)"
+      }
+    ],
+    "Venomoth": [
+      {
+        "evolution": "Toxtricitl",
+        "reason": "BST lookup failed for Toxtricitl (normalized: toxtricity-lowkey)"
+      },
+      {
+        "evolution": "Toxtricity",
+        "reason": "BST lookup failed for Toxtricity (normalized: toxtricity)"
+      }
+    ],
+    "Vivillon": [
+      {
+        "evolution": "Oricorio",
+        "reason": "BST lookup failed for Oricorio (normalized: oricorio)"
+      },
+      {
+        "evolution": "Corvknight",
+        "reason": "BST lookup failed for Corvknight (normalized: corvknight)"
+      },
+      {
+        "evolution": "Oricoriog",
+        "reason": "BST lookup failed for Oricoriog (normalized: oricoriog)"
+      },
+      {
+        "evolution": "Oricorioe",
+        "reason": "BST lookup failed for Oricorioe (normalized: oricorioe)"
+      },
+      {
+        "evolution": "Rotomfa",
+        "reason": "BST lookup failed for Rotomfa (normalized: rotomfa)"
+      },
+      {
+        "evolution": "Oricoriop",
+        "reason": "BST lookup failed for Oricoriop (normalized: oricoriop)"
+      },
+      {
+        "evolution": "Miniorc",
+        "reason": "BST lookup failed for Miniorc (normalized: minior-core)"
+      },
+      {
+        "evolution": "Kilowattrl",
+        "reason": "BST lookup failed for Kilowattrl (normalized: kilowattrl)"
+      },
+      {
+        "evolution": "Minior",
+        "reason": "BST lookup failed for Minior (normalized: minior)"
+      }
+    ],
+    "Voltorbh": [
+      {
+        "evolution": "Bramblgast",
+        "reason": "BST lookup failed for Bramblgast (normalized: bramblgast)"
+      },
+      {
+        "evolution": "Meowscrada",
+        "reason": "BST lookup failed for Meowscrada (normalized: meowscrada)"
+      },
+      {
+        "evolution": "Gourgeistx",
+        "reason": "BST lookup failed for Gourgeistx (normalized: gourgeistx)"
+      },
+      {
+        "evolution": "Gourgeistl",
+        "reason": "BST lookup failed for Gourgeistl (normalized: gourgeistl)"
+      },
+      {
+        "evolution": "Gourgeist",
+        "reason": "BST lookup failed for Gourgeist (normalized: gourgeist)"
+      },
+      {
+        "evolution": "Rotomfr",
+        "reason": "BST lookup failed for Rotomfr (normalized: rotomfr)"
+      },
+      {
+        "evolution": "Rotomfa",
+        "reason": "BST lookup failed for Rotomfa (normalized: rotomfa)"
+      },
+      {
+        "evolution": "Oricorioe",
+        "reason": "BST lookup failed for Oricorioe (normalized: oricorioe)"
+      },
+      {
+        "evolution": "Gourgeists",
+        "reason": "BST lookup failed for Gourgeists (normalized: gourgeists)"
+      },
+      {
+        "evolution": "Rotomw",
+        "reason": "BST lookup failed for Rotomw (normalized: rotomw)"
+      },
+      {
+        "evolution": "Rotomh",
+        "reason": "BST lookup failed for Rotomh (normalized: rotomh)"
+      },
+      {
+        "evolution": "Toxtricitl",
+        "reason": "BST lookup failed for Toxtricitl (normalized: toxtricity-lowkey)"
+      },
+      {
+        "evolution": "Rotomm",
+        "reason": "BST lookup failed for Rotomm (normalized: rotomm)"
+      },
+      {
+        "evolution": "Toxtricity",
+        "reason": "BST lookup failed for Toxtricity (normalized: toxtricity)"
+      },
+      {
+        "evolution": "Raichua",
+        "reason": "BST lookup failed for Raichua (normalized: raichua)"
+      },
+      {
+        "evolution": "Kilowattrl",
+        "reason": "BST lookup failed for Kilowattrl (normalized: kilowattrl)"
+      }
+    ],
+    "Vulpixa": [
+      {
+        "evolution": "Darmanitag",
+        "reason": "BST lookup failed for Darmanitag (normalized: darmanitan-galar)"
+      },
+      {
+        "evolution": "Eiscuen",
+        "reason": "BST lookup failed for Eiscuen (normalized: eiscue)"
+      },
+      {
+        "evolution": "Eiscue",
+        "reason": "BST lookup failed for Eiscue (normalized: eiscue)"
+      },
+      {
+        "evolution": "Darmanitzg",
+        "reason": "BST lookup failed for Darmanitzg (normalized: darmanitzg)"
+      },
+      {
+        "evolution": "Crabminble",
+        "reason": "BST lookup failed for Crabminble (normalized: crabminble)"
+      },
+      {
+        "evolution": "Avaluggh",
+        "reason": "BST lookup failed for Avaluggh (normalized: avaluggh)"
+      },
+      {
+        "evolution": "Rotomfr",
+        "reason": "BST lookup failed for Rotomfr (normalized: rotomfr)"
+      }
+    ],
+    "Watchog": [
+      {
+        "evolution": "Maushold",
+        "reason": "BST lookup failed for Maushold (normalized: maushold)"
+      },
+      {
+        "evolution": "Oinkologne",
+        "reason": "BST lookup failed for Oinkologne (normalized: oinkologne)"
+      },
+      {
+        "evolution": "Dudunsprce",
+        "reason": "BST lookup failed for Dudunsprce (normalized: dudunsparce)"
+      },
+      {
+        "evolution": "Oinkolognf",
+        "reason": "BST lookup failed for Oinkolognf (normalized: oinkolognf)"
+      },
+      {
+        "evolution": "Ursalunab",
+        "reason": "BST lookup failed for Ursalunab (normalized: ursalunab)"
+      },
+      {
+        "evolution": "Indeedeef",
+        "reason": "BST lookup failed for Indeedeef (normalized: indeedeef)"
+      },
+      {
+        "evolution": "Pyroar",
+        "reason": "BST lookup failed for Pyroar (normalized: pyroar)"
+      },
+      {
+        "evolution": "Indeedee",
+        "reason": "BST lookup failed for Indeedee (normalized: indeedee)"
+      },
+      {
+        "evolution": "Terapagost",
+        "reason": "BST lookup failed for Terapagost (normalized: terapagost)"
+      },
+      {
+        "evolution": "Meloetta",
+        "reason": "BST lookup failed for Meloetta (normalized: meloetta)"
+      },
+      {
+        "evolution": "Eeveep",
+        "reason": "BST lookup failed for Eeveep (normalized: eeveep)"
+      },
+      {
+        "evolution": "Squawkbily",
+        "reason": "BST lookup failed for Squawkbily (normalized: squawkabilly)"
+      },
+      {
+        "evolution": "Meloettap",
+        "reason": "BST lookup failed for Meloettap (normalized: meloettap)"
+      }
+    ],
+    "Wigglytuff": [
+      {
+        "evolution": "Screamtail",
+        "reason": "BST lookup failed for Screamtail (normalized: screamtail)"
+      },
+      {
+        "evolution": "Fluttrmane",
+        "reason": "BST lookup failed for Fluttrmane (normalized: fluttrmane)"
+      },
+      {
+        "evolution": "Oinkolognf",
+        "reason": "BST lookup failed for Oinkolognf (normalized: oinkolognf)"
+      },
+      {
+        "evolution": "Oinkologne",
+        "reason": "BST lookup failed for Oinkologne (normalized: oinkologne)"
+      },
+      {
+        "evolution": "Ursalunab",
+        "reason": "BST lookup failed for Ursalunab (normalized: ursalunab)"
+      },
+      {
+        "evolution": "Dudunsprce",
+        "reason": "BST lookup failed for Dudunsprce (normalized: dudunsparce)"
+      },
+      {
+        "evolution": "Pyroar",
+        "reason": "BST lookup failed for Pyroar (normalized: pyroar)"
+      }
+    ],
+    "Wobbuffet": [
+      {
+        "evolution": "Oricoriop",
+        "reason": "BST lookup failed for Oricoriop (normalized: oricoriop)"
+      },
+      {
+        "evolution": "Raichua",
+        "reason": "BST lookup failed for Raichua (normalized: raichua)"
+      },
+      {
+        "evolution": "Indeedee",
+        "reason": "BST lookup failed for Indeedee (normalized: indeedee)"
+      },
+      {
+        "evolution": "Indeedeef",
+        "reason": "BST lookup failed for Indeedeef (normalized: indeedeef)"
+      }
+    ],
+    "Wormadam": [
+      {
+        "evolution": "Brutebonet",
+        "reason": "BST lookup failed for Brutebonet (normalized: brutebonet)"
+      },
+      {
+        "evolution": "Ogerponr",
+        "reason": "BST lookup failed for Ogerponr (normalized: ogerpon-water-mask)"
+      },
+      {
+        "evolution": "Ogerponf",
+        "reason": "BST lookup failed for Ogerponf (normalized: ogerponf)"
+      },
+      {
+        "evolution": "Ogerponw",
+        "reason": "BST lookup failed for Ogerponw (normalized: ogerponw)"
+      },
+      {
+        "evolution": "Meowscrada",
+        "reason": "BST lookup failed for Meowscrada (normalized: meowscrada)"
+      },
+      {
+        "evolution": "Bramblgast",
+        "reason": "BST lookup failed for Bramblgast (normalized: bramblgast)"
+      },
+      {
+        "evolution": "Gourgeist",
+        "reason": "BST lookup failed for Gourgeist (normalized: gourgeist)"
+      },
+      {
+        "evolution": "Gourgeistl",
+        "reason": "BST lookup failed for Gourgeistl (normalized: gourgeistl)"
+      },
+      {
+        "evolution": "Gourgeists",
+        "reason": "BST lookup failed for Gourgeists (normalized: gourgeists)"
+      },
+      {
+        "evolution": "Gourgeistx",
+        "reason": "BST lookup failed for Gourgeistx (normalized: gourgeistx)"
+      },
+      {
+        "evolution": "Rotomm",
+        "reason": "BST lookup failed for Rotomm (normalized: rotomm)"
+      }
+    ],
+    "Wormadams": [
+      {
+        "evolution": "Palossand",
+        "reason": "BST lookup failed for Palossand (normalized: pallossand)"
+      },
+      {
+        "evolution": "Ursalunab",
+        "reason": "BST lookup failed for Ursalunab (normalized: ursalunab)"
+      }
+    ],
+    "Wormadamt": [
+      {
+        "evolution": "Aegislash",
+        "reason": "BST lookup failed for Aegislash (normalized: aegislash)"
+      },
+      {
+        "evolution": "Aegislashb",
+        "reason": "BST lookup failed for Aegislashb (normalized: aegislashb)"
+      },
+      {
+        "evolution": "Corvknight",
+        "reason": "BST lookup failed for Corvknight (normalized: corvknight)"
+      }
+    ],
+    "Wugtrio": [
+      {
+        "evolution": "Tatsugiri",
+        "reason": "BST lookup failed for Tatsugiri (normalized: tatsugiri)"
+      },
+      {
+        "evolution": "Baraskewda",
+        "reason": "BST lookup failed for Baraskewda (normalized: baraskewda)"
+      },
+      {
+        "evolution": "Ogerponw",
+        "reason": "BST lookup failed for Ogerponw (normalized: ogerponw)"
+      },
+      {
+        "evolution": "Basclegion",
+        "reason": "BST lookup failed for Basclegion (normalized: basclegion)"
+      },
+      {
+        "evolution": "Basclegiof",
+        "reason": "BST lookup failed for Basclegiof (normalized: basclegiof)"
+      },
+      {
+        "evolution": "Jellicent",
+        "reason": "BST lookup failed for Jellicent (normalized: jellicent)"
+      },
+      {
+        "evolution": "Taurospw",
+        "reason": "BST lookup failed for Taurospw (normalized: taurospw)"
+      },
+      {
+        "evolution": "Rotomw",
+        "reason": "BST lookup failed for Rotomw (normalized: rotomw)"
+      },
+      {
+        "evolution": "Basculin",
+        "reason": "BST lookup failed for Basculin (normalized: basculin)"
+      },
+      {
+        "evolution": "Palafin",
+        "reason": "BST lookup failed for Palafin (normalized: palafin)"
+      }
+    ],
+    "Yamaskg": [
+      {
+        "evolution": "Poltegeist",
+        "reason": "BST lookup failed for Poltegeist (normalized: poltegeist)"
+      },
+      {
+        "evolution": "Mimikyu",
+        "reason": "BST lookup failed for Mimikyu (normalized: mimikyu)"
+      },
+      {
+        "evolution": "Aegislashb",
+        "reason": "BST lookup failed for Aegislashb (normalized: aegislashb)"
+      },
+      {
+        "evolution": "Oricoriog",
+        "reason": "BST lookup failed for Oricoriog (normalized: oricoriog)"
+      },
+      {
+        "evolution": "Aegislash",
+        "reason": "BST lookup failed for Aegislash (normalized: aegislash)"
+      },
+      {
+        "evolution": "Gourgeist",
+        "reason": "BST lookup failed for Gourgeist (normalized: gourgeist)"
+      },
+      {
+        "evolution": "Gourgeists",
+        "reason": "BST lookup failed for Gourgeists (normalized: gourgeists)"
+      },
+      {
+        "evolution": "Basclegiof",
+        "reason": "BST lookup failed for Basclegiof (normalized: basclegiof)"
+      },
+      {
+        "evolution": "Gourgeistl",
+        "reason": "BST lookup failed for Gourgeistl (normalized: gourgeistl)"
+      },
+      {
+        "evolution": "Bramblgast",
+        "reason": "BST lookup failed for Bramblgast (normalized: bramblgast)"
+      },
+      {
+        "evolution": "Basclegion",
+        "reason": "BST lookup failed for Basclegion (normalized: basclegion)"
+      },
+      {
+        "evolution": "Palossand",
+        "reason": "BST lookup failed for Palossand (normalized: pallossand)"
+      },
+      {
+        "evolution": "Gourgeistx",
+        "reason": "BST lookup failed for Gourgeistx (normalized: gourgeistx)"
+      },
+      {
+        "evolution": "Jellicent",
+        "reason": "BST lookup failed for Jellicent (normalized: jellicent)"
+      }
+    ],
+    "Zigzagoong": [
+      {
+        "evolution": "Morpeko",
+        "reason": "BST lookup failed for Morpeko (normalized: morpeko)"
+      },
+      {
+        "evolution": "Eeveep",
+        "reason": "BST lookup failed for Eeveep (normalized: eeveep)"
+      },
+      {
+        "evolution": "Squawkbily",
+        "reason": "BST lookup failed for Squawkbily (normalized: squawkabilly)"
+      }
+    ],
+    "Zoruah": [
+      {
+        "evolution": "Poltegeist",
+        "reason": "BST lookup failed for Poltegeist (normalized: poltegeist)"
+      },
+      {
+        "evolution": "Aegislash",
+        "reason": "BST lookup failed for Aegislash (normalized: aegislash)"
+      },
+      {
+        "evolution": "Aegislashb",
+        "reason": "BST lookup failed for Aegislashb (normalized: aegislashb)"
+      },
+      {
+        "evolution": "Oinkologne",
+        "reason": "BST lookup failed for Oinkologne (normalized: oinkologne)"
+      },
+      {
+        "evolution": "Bramblgast",
+        "reason": "BST lookup failed for Bramblgast (normalized: bramblgast)"
+      },
+      {
+        "evolution": "Maushold",
+        "reason": "BST lookup failed for Maushold (normalized: maushold)"
+      },
+      {
+        "evolution": "Palossand",
+        "reason": "BST lookup failed for Palossand (normalized: pallossand)"
+      },
+      {
+        "evolution": "Gourgeist",
+        "reason": "BST lookup failed for Gourgeist (normalized: gourgeist)"
+      },
+      {
+        "evolution": "Oricoriog",
+        "reason": "BST lookup failed for Oricoriog (normalized: oricoriog)"
+      },
+      {
+        "evolution": "Dudunsprce",
+        "reason": "BST lookup failed for Dudunsprce (normalized: dudunsparce)"
+      },
+      {
+        "evolution": "Mimikyu",
+        "reason": "BST lookup failed for Mimikyu (normalized: mimikyu)"
+      },
+      {
+        "evolution": "Gourgeists",
+        "reason": "BST lookup failed for Gourgeists (normalized: gourgeists)"
+      },
+      {
+        "evolution": "Gourgeistx",
+        "reason": "BST lookup failed for Gourgeistx (normalized: gourgeistx)"
+      },
+      {
+        "evolution": "Basclegion",
+        "reason": "BST lookup failed for Basclegion (normalized: basclegion)"
+      },
+      {
+        "evolution": "Oinkolognf",
+        "reason": "BST lookup failed for Oinkolognf (normalized: oinkolognf)"
+      },
+      {
+        "evolution": "Ursalunab",
+        "reason": "BST lookup failed for Ursalunab (normalized: ursalunab)"
+      },
+      {
+        "evolution": "Gourgeistl",
+        "reason": "BST lookup failed for Gourgeistl (normalized: gourgeistl)"
+      },
+      {
+        "evolution": "Basclegiof",
+        "reason": "BST lookup failed for Basclegiof (normalized: basclegiof)"
+      },
+      {
+        "evolution": "Indeedee",
+        "reason": "BST lookup failed for Indeedee (normalized: indeedee)"
+      },
+      {
+        "evolution": "Indeedeef",
+        "reason": "BST lookup failed for Indeedeef (normalized: indeedeef)"
+      },
+      {
+        "evolution": "Jellicent",
+        "reason": "BST lookup failed for Jellicent (normalized: jellicent)"
+      },
+      {
+        "evolution": "Pyroar",
+        "reason": "BST lookup failed for Pyroar (normalized: pyroar)"
+      }
+    ]
+  },
+  "total_failed_starters": 64,
+  "total_failed_evolution_forms": 811
+}
