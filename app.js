@@ -1,6 +1,7 @@
 let DATA = {};
 let selectedPokemon = null;
 let selectedLevel = null;
+let chart = null;
 
 fetch("random_bst_evolutions.json")
   .then(r => r.json())
@@ -12,6 +13,50 @@ const levelsDiv = document.getElementById("levels");
 const resultsDiv = document.getElementById("results");
 const currentLevelInput = document.getElementById("currentLevel");
 const top5List = document.getElementById("top5List");
+const ctx = document.getElementById('evoChart').getContext('2d');
+
+function initChart() {
+  chart = new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: [],
+      datasets: [{
+        label: 'Evolution Frequency',
+        data: [],
+        borderColor: '#38bdf8',
+        backgroundColor: 'rgba(56, 189, 248, 0.1)',
+        fill: true,
+        tension: 0.4,
+        pointRadius: 2,
+        pointBackgroundColor: '#38bdf8'
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: true,
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          callbacks: {
+            label: (ctx) => `Probability: ${ctx.raw.toFixed(2)}%`
+          }
+        }
+      },
+      scales: {
+        x: {
+          display: true,
+          title: { display: true, text: 'Level', color: '#9ca3af', font: { size: 10 } },
+          grid: { color: '#1f2937' },
+          ticks: { color: '#9ca3af', font: { size: 9 } }
+        },
+        y: {
+          display: false,
+          beginAtZero: true
+        }
+      }
+    }
+  });
+}
 
 input.addEventListener("input", () => {
   const q = input.value.toLowerCase();
@@ -54,6 +99,7 @@ function getValidEvos() {
 
 function render() {
   if (!selectedPokemon) return;
+  if (!chart) initChart();
 
   const lvl = parseInt(currentLevelInput.value) || 1;
   const valid = getValidEvos();
@@ -73,7 +119,6 @@ function render() {
     if (l === selectedLevel) pill.classList.add("active");
 
     pill.onclick = () => {
-      // TOGGLE behavior
       selectedLevel = (selectedLevel === l) ? null : l;
       render();
     };
@@ -88,7 +133,6 @@ function render() {
     ? valid.filter(e => e.evolution_level === selectedLevel)
     : valid;
 
-  // SORT BY REWEIGHTED % DESC
   filtered = [...filtered].sort((a, b) => b.probability - a.probability);
 
   for (const evo of filtered) {
@@ -112,6 +156,7 @@ function render() {
   }
 
   renderTop5(valid, totalProb);
+  updateChart(valid, totalProb);
 }
 
 function renderTop5(valid, totalProb) {
@@ -139,4 +184,19 @@ function renderTop5(valid, totalProb) {
 
     top5List.appendChild(row);
   }
+}
+
+function updateChart(valid, totalProb) {
+  // Aggregate probabilities by level
+  const distribution = {};
+  valid.forEach(e => {
+    distribution[e.evolution_level] = (distribution[e.evolution_level] || 0) + (e.probability / totalProb);
+  });
+
+  const levels = Object.keys(distribution).map(Number).sort((a, b) => a - b);
+  const data = levels.map(l => distribution[l] * 100);
+
+  chart.data.labels = levels;
+  chart.data.datasets[0].data = data;
+  chart.update();
 }
