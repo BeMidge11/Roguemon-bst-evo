@@ -4,6 +4,7 @@ import re
 import json
 import requests
 import time
+import unicodedata
 from functools import lru_cache
 import os
 
@@ -14,10 +15,13 @@ os.environ.pop("SSLKEYLOGFILE", None)
 # CONFIG
 # =========================
 
-EVO_FILE = "revo12000.txt"
-OUTPUT_FILE = "random_bst_evolutions.json"
-OVERRIDE_FILE = "bst_overrides.json"
-FAILED_LOOKUPS_FILE = "failed_lookups.json"
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+EVO_FILE = os.path.join(SCRIPT_DIR, "revo12000.txt")
+OUTPUT_FILE = os.path.join(SCRIPT_DIR, "random_bst_evolutions.json")
+OVERRIDE_FILE = os.path.join(SCRIPT_DIR, "bst_overrides.json")
+FAILED_LOOKUPS_FILE = os.path.join(SCRIPT_DIR, "failed_lookups.json")
+ALIASES_FILE = os.path.join(SCRIPT_DIR, "name_aliases.json")
+COVERAGE_THRESHOLD = float(os.environ.get("BST_EVO_COVERAGE_THRESHOLD", "0.99"))
 
 TOTAL_RUNS = 12000
 BST_LIMIT = 450
@@ -31,6 +35,8 @@ STATS = {
     "starters_seen": 0,
     "starters_kept": 0,
     "bst_lookups": 0,
+    "lookup_attempts": 0,
+    "lookup_successes": 0,
     "failed_starters": [],
     "failed_evolutions": {},
 }
@@ -64,7 +70,7 @@ FORCED_STARTERS = {
 # NAME ALIASES (COMPREHENSIVE)
 # =========================
 
-NAME_ALIASES = {
+LEGACY_NAME_ALIASES = {
     # Regional Forms & Megas
     "Kangaskham": "kangaskhan-mega",
     "Lopunnym": "lopunny-mega",
@@ -76,8 +82,8 @@ NAME_ALIASES = {
     "Braviaryh": "braviary-hisui",
     "Electrodeh": "electrode-hisui",
     "Dudunsprce": "dudunsparce",
-    "Squawkbily": "squawkabilly",
-    "Miniorc": "minior-core",
+    "Squawkbily": "squawkabilly-blue-plumage",
+    "Miniorc": "minior-red-meteor",
     "Golema": "golem-alola",
     "Meowsticf": "meowstic",
     "Abomasnowm": "abomasnow-mega",
@@ -329,8 +335,8 @@ NAME_ALIASES = {
     "Miltank": "miltank",
     "Mime Jr.": "mime-jr",
     "Minccino": "minccino",
-    "Minior": "minior",
-    "Miniorc": "minior-core",
+    "Minior": "minior-red-meteor",
+    "Miniorc": "minior-red-meteor",
     "Minun": "minun",
     "Misdreavus": "misdreavus",
     "Mismagius": "mismagius",
@@ -341,7 +347,7 @@ NAME_ALIASES = {
     "Morellull": "morelull",
     "Morelull": "morelull",
     "Morgrem": "morgrem",
-    "Morpeko": "morpeko",
+    "Morpeko": "morpeko-full-belly",
     "Morpekoh": "morpeko-hangry",
     "Mothim": "mothim",
     "Mr. Mime": "mr-mime",
@@ -463,14 +469,14 @@ NAME_ALIASES = {
     "Prinplup": "prinplup",
     "Probopass": "probopass",
     "Psyduck": "psyduck",
-    "Pumpkaboo": "pumpkaboo",
+    "Pumpkaboo": "pumpkaboo-average",
     "Pumpkabool": "pumpkaboo-large",
     "Pumpkaboos": "pumpkaboo-small",
-    "Pumpkaboox": "pumpkaboo-xlarge",
+    "Pumpkaboox": "pumpkaboo-super",
     "Pupitar": "pupitar",
     "Purrloin": "purrloin",
     "Purugly": "purugly",
-    "Pyroar": "pyroar",
+    "Pyroar": "pyroar-male",
     "Pyukumuku": "pyukumuku",
     "Quagsire": "quagsire",
     "Quaquaval": "quaquaval",
@@ -715,7 +721,7 @@ NAME_ALIASES = {
     "Toxapex": "toxapex",
     "Toxel": "toxel",
     "Toxicroak": "toxicroak",
-    "Toxtricity": "toxtricity",
+    "Toxtricity": "toxtricity-amped",
     "Toxtricitl": "toxtricity-lowkey",
     "Tranquill": "tranquill",
     "Trapinch": "trapinch",
@@ -828,24 +834,126 @@ NAME_ALIASES = {
     "Zoruah": "zorua-hisui",
     "Zubat": "zubat",
     "Zweilous": "zweilous",
-    "Zygarde": "zygarde",
+    "Zygarde": "zygarde-50",
     "Zygarde10": "zygarde-10",
+    # Typos / revo-specific spellings / multi-form API slugs
+    "Flechinder": "fletchinder",
+    "Polchgeist": "polteageist",
+    "Pichus": "pichu",
+    "Corvsquire": "corvisquire",
+    "Corvknight": "corviknight",
+    "Baraskewda": "barraskewda",
+    "Fluttrmane": "flutter-mane",
+    "Basclegion": "basculegion-male",
+    "Basclegiof": "basculegion-female",
+    "Taurospw": "tauros-paldea-aqua-breed",
+    "Ogerponw": "ogerpon-wellspring-mask",
+    "Rotomw": "rotom-wash",
+    "Rotomfa": "rotom-fan",
+    "Oricoriog": "oricorio-pom-pom",
+    "Oricorioe": "oricorio-pom-pom",
+    "Oricoriop": "oricorio-pau",
+    "Terapagost": "terapagos-stellar",
+    "Ursalunab": "ursaluna-bloodmoon",
+    "Meloettap": "meloetta-pirouette",
+    "Oinkolognf": "oinkologne-female",
+    "Indeedeef": "indeedee-female",
+    "Indeedeem": "indeedee-male",
+    "Frillish": "frillish-male",
+    "Jellicent": "jellicent-male",
+    "Mimikyu": "mimikyu-disguised",
+    "Maushold": "maushold-family-of-four",
+    "Oinkologne": "oinkologne-male",
+    "Meloetta": "meloetta-aria",
+    "Screamtail": "scream-tail",
+    "Tatsugiri": "tatsugiri-curly",
+    "Oricorio": "oricorio-baile",
+    "Burmys": "burmy-sandy",
+    "Burmyt": "burmy-trash",
 }
 
 # =========================
-# NAME NORMALIZATION
+# NAME NORMALIZATION (handover pipeline + merged aliases)
 # =========================
 
-def normalize_name(name: str) -> str:
-    if name in NAME_ALIASES:
-        return NAME_ALIASES[name]
+CASTFORM_CORE_ALIASES = {
+    "castformf": "castform-sunny",
+    "castformw": "castform-rainy",
+    "castformi": "castform-snowy",
+}
 
-    n = name.lower().strip()
-    n = n.replace("'", "").replace("'", "")
-    n = n.replace(".", "").replace(":", "")
-    n = n.replace(" ", "-")
-    n = re.sub(r"-+", "-", n)
-    return n
+# Excludes "m" (megas) and "a" (end of many species names, e.g. kirlia) — use explicit aliases for -alola.
+FORM_MAP = {
+    "p": "-paldea",
+    "f": "-female",
+    "w": "-water",
+    "g": "-galar",
+    "h": "-hisui",
+}
+
+# PokeAPI often requires an explicit variety slug when no generic /pokemon/{name} exists.
+DEFAULT_FORM_SLUG = {
+    "minior": "minior-red-meteor",
+    "morpeko": "morpeko-full-belly",
+    "pumpkaboo": "pumpkaboo-average",
+    "frillish": "frillish-male",
+    "jellicent": "jellicent-male",
+    "toxtricity": "toxtricity-amped",
+    "indeedee": "indeedee-male",
+    "squawkabilly": "squawkabilly-blue-plumage",
+    "mimikyu": "mimikyu-disguised",
+    "maushold": "maushold-family-of-four",
+    "oinkologne": "oinkologne-male",
+    "meloetta": "meloetta-aria",
+    "pyroar": "pyroar-male",
+    "tatsugiri": "tatsugiri-curly",
+    "basculegion": "basculegion-male",
+    "oricorio": "oricorio-baile",
+    "zygarde": "zygarde-50",
+}
+
+
+def _normalize_core(name: str) -> str:
+    x = unicodedata.normalize("NFKD", name)
+    x = x.lower().strip()
+    x = re.sub(r"\d+$", "", x)
+    x = x.replace(".", "").replace("'", "").replace("\u2019", "")
+    x = x.replace(":", "")
+    x = x.replace("♀", "-f").replace("♂", "-m")
+    x = x.strip()
+    if x in CASTFORM_CORE_ALIASES:
+        return CASTFORM_CORE_ALIASES[x]
+    if x and x[-1] in FORM_MAP:
+        x = x[:-1] + FORM_MAP[x[-1]]
+    return x
+
+
+def _load_merged_aliases() -> dict:
+    """JSON `name_aliases.json` overrides the shipped LEGACY table for the same normalized key."""
+    merged: dict = {}
+    for k, v in LEGACY_NAME_ALIASES.items():
+        key = _normalize_core(k)
+        merged[key] = v
+    if os.path.isfile(ALIASES_FILE):
+        with open(ALIASES_FILE, "r", encoding="utf-8") as f:
+            file_aliases = json.load(f)
+        for k, v in file_aliases.items():
+            key = _normalize_core(k)
+            merged[key] = v
+    return merged
+
+
+ALIASES = _load_merged_aliases()
+
+
+def normalize_name(name: str) -> str:
+    x = _normalize_core(name)
+    x = ALIASES.get(x, x)
+    x = x.replace(" ", "-")
+    x = re.sub(r"-+", "-", x)
+    x = x.strip("-")
+    x = DEFAULT_FORM_SLUG.get(x, x)
+    return x
 
 # =========================
 # PARSE EVO FILE
@@ -878,7 +986,7 @@ def parse_evo_file(path):
 # =========================
 
 def build_vanilla_forward_evolvers():
-    print("Building vanilla forward evolution set...")
+    print("Building vanilla forward evolution set...", flush=True)
     forward = set()
 
     r = requests.get(f"{POKEAPI}/evolution-chain?limit=600")
@@ -896,30 +1004,59 @@ def build_vanilla_forward_evolvers():
 
         walk(chain)
 
-    print(f"Vanilla forward evolvers found: {len(forward)}")
+    print(f"Vanilla forward evolvers found: {len(forward)}", flush=True)
     return forward
 
-VANILLA_FORWARD_EVOLVERS = build_vanilla_forward_evolvers()
+
+_VANILLA_FORWARD_EVOLVERS = None
+
+
+def _get_vanilla_forward_evolvers():
+    global _VANILLA_FORWARD_EVOLVERS
+    if _VANILLA_FORWARD_EVOLVERS is None:
+        _VANILLA_FORWARD_EVOLVERS = build_vanilla_forward_evolvers()
+    return _VANILLA_FORWARD_EVOLVERS
+
 
 def has_forward_vanilla_evolution(name: str) -> bool:
-    return normalize_name(name) in VANILLA_FORWARD_EVOLVERS
+    return normalize_name(name) in _get_vanilla_forward_evolvers()
 
 # =========================
 # BST LOOKUP
 # =========================
 
 @lru_cache(maxsize=None)
+def _fetch_bst_for_slug(n: str):
+    """HTTP lookup only (cached per normalized slug)."""
+    last_err = None
+    for attempt in range(5):
+        try:
+            r = requests.get(f"{POKEAPI}/pokemon/{n}", timeout=45)
+            if r.ok:
+                return sum(s["base_stat"] for s in r.json()["stats"])
+            if r.status_code in (429, 502, 503, 504):
+                time.sleep(1.5 * (attempt + 1))
+                continue
+            raise ValueError(f"BST lookup failed HTTP {r.status_code}")
+        except requests.RequestException as e:
+            last_err = e
+            time.sleep(0.6 * (attempt + 1))
+    raise ValueError(f"BST lookup failed after retries for slug {n}") from last_err
+
+
 def get_bst(name: str):
     STATS["bst_lookups"] += 1
+    STATS["lookup_attempts"] += 1
     if STATS["bst_lookups"] % 50 == 0:
-        print(f"[BST] {STATS['bst_lookups']} lookups")
+        print(f"[BST] {STATS['bst_lookups']} lookups", flush=True)
 
     n = normalize_name(name)
-    r = requests.get(f"{POKEAPI}/pokemon/{n}")
-    if not r.ok:
-        raise ValueError(f"BST lookup failed for {name} (normalized: {n})")
-
-    return sum(s["base_stat"] for s in r.json()["stats"])
+    try:
+        bst = _fetch_bst_for_slug(n)
+        STATS["lookup_successes"] += 1
+        return bst
+    except Exception as e:
+        raise ValueError(f"BST lookup failed for {name} (normalized: {n})") from e
 
 # =========================
 # MAIN BUILD LOGIC
@@ -1004,8 +1141,32 @@ def build_random_bst_evo_table():
     print(f"Starters kept: {STATS['starters_kept']}")
     print(f"BST lookups:   {STATS['bst_lookups']}")
     print(f"Failed starters: {len(STATS['failed_starters'])}")
+    failed_evo_forms = sum(len(v) for v in STATS["failed_evolutions"].values())
+    print(f"Failed evolution forms: {failed_evo_forms}")
+    print(f"Total failures: {len(STATS['failed_starters']) + failed_evo_forms}")
+    if STATS["lookup_attempts"] > 0:
+        coverage = STATS["lookup_successes"] / STATS["lookup_attempts"]
+    else:
+        coverage = 1.0
+    print(f"Coverage: {coverage:.2%}")
     print(f"Time:          {int(time.time() - start_time)}s")
     print("===================\n")
+
+    revo_names = set(evo_data.keys())
+    output_names = set(result.keys())
+    missing = revo_names - output_names
+    if missing:
+        print("Starters in revo but not in output (includes filtered by BST limit / vanilla evo):")
+        for m in sorted(missing)[:50]:
+            print(f"  {m}")
+        if len(missing) > 50:
+            print(f"  ... and {len(missing) - 50} more")
+        print(f"Total missing from output: {len(missing)}\n")
+
+    if coverage < COVERAGE_THRESHOLD:
+        raise RuntimeError(
+            f"Coverage {coverage:.2%} below required {COVERAGE_THRESHOLD:.2%}"
+        )
 
     return result
 
@@ -1014,7 +1175,7 @@ def build_random_bst_evo_table():
 # =========================
 
 if __name__ == "__main__":
-    print("Building BST-based random evolution table...")
+    print("Building BST-based random evolution table...", flush=True)
     data = build_random_bst_evo_table()
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
