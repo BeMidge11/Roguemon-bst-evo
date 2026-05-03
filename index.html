@@ -63,10 +63,19 @@
 
     .app {
       display: grid;
-      grid-template-columns: 1fr 350px;
-      gap: 1.5rem;
-      max-width: 1300px;
+      grid-template-columns: 550px 1fr;
+      gap: 2rem;
+      max-width: 1600px;
       margin: auto;
+      align-items: start;
+    }
+
+    .stats-panel {
+      position: sticky;
+      top: 1rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
     }
 
     .panel {
@@ -157,12 +166,14 @@
 
     .evo-card {
       background: var(--card);
+      border: 1px solid var(--border);
+      padding: 0.6rem 1rem;
       border-radius: 10px;
-      padding: 0.6rem 0.75rem;
       display: grid;
-      grid-template-columns: 1fr 60px 1fr;
+      grid-template-columns: 1.5fr 40px 1fr;
       align-items: center;
-      gap: 0.75rem;
+      gap: 1.5rem;
+      transition: all 0.2s;
     }
 
     .evo-name {
@@ -193,45 +204,13 @@
       margin-left: 0.4rem;
     }
 
-    /* === TOP 5 PANEL === */
-
-    .top5 h2 {
-      margin: 0 0 0.75rem;
-      font-size: 1.1rem;
-      color: var(--accent);
-    }
-
-    .top5-list {
-      display: grid;
-      gap: 0.5rem;
-    }
-
-    .top5-item {
-      background: var(--card);
-      border-radius: 10px;
-      padding: 0.5rem 0.75rem;
-      display: grid;
-      grid-template-columns: 1fr 70px;
-      align-items: center;
-    }
-
-    .top5-name {
-      font-weight: 600;
-    }
-
-    .top5-percent {
-      text-align: right;
-      font-variant-numeric: tabular-nums;
-      color: var(--accent-2);
-    }
-
     /* === CHART STYLING === */
     .chart-container {
-      margin-top: 1.5rem;
       background: var(--card);
       border-radius: 12px;
-      padding: 1rem;
+      padding: 1.5rem;
       border: 1px solid var(--border);
+      min-height: 400px;
     }
   </style>
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -266,14 +245,14 @@
     </div>
 
     <!-- SIDE PANEL -->
-    <div class="panel stats-panel">
-      <div class="chart-container" style="margin-top: 0;">
-        <h2 style="font-size: 0.9rem; margin-bottom: 0.8rem; opacity: 0.8;">Evolution Level Distribution</h2>
+    <div class="stats-panel">
+      <div class="chart-container">
+        <h2 style="font-size: 1rem; margin-bottom: 1rem; opacity: 0.9;">Evolution Level Distribution</h2>
         <canvas id="evoChart"></canvas>
       </div>
 
       <div class="chart-container">
-        <h2 style="font-size: 0.9rem; margin-bottom: 0.8rem; opacity: 0.8;">Type Combination Chances</h2>
+        <h2 style="font-size: 1rem; margin-bottom: 1rem; opacity: 0.9;">Type Combination Chances</h2>
         <canvas id="typeChart"></canvas>
       </div>
     </div>
