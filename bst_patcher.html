@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Roguemon BST Patcher</title>
+<style>
+  body {
+    background: #020617;
+    color: #e5e7eb;
+    font-family: system-ui, sans-serif;
+    padding: 2rem;
+  }
+
+  .card {
+    max-width: 600px;
+    margin: auto;
+    background: #111827;
+    padding: 1.5rem;
+    border-radius: 12px;
+  }
+
+  h1 { margin-top: 0; }
+
+  input {
+    width: 100%;
+    padding: 0.6rem;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    border: none;
+    margin-top: 0.5rem;
+  }
+
+  button {
+    margin-top: 1rem;
+    padding: 0.6rem 1rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    background: #38bdf8;
+    color: #020617;
+  }
+
+  .muted { color: #9ca3af; }
+</style>
+</head>
+<body>
+
+<div class="card">
+  <h1 id="name">Loading…</h1>
+  <p class="muted" id="info"></p>
+
+  <label>
+    Base Stat Total:
+    <input id="bst" type="number" min="1" max="1000">
+  </label>
+
+  <p id="levelPreview" class="muted"></p>
+
+  <button onclick="save()">Save & Next</button>
+
+  <p class="muted" id="progress"></p>
+</div>
+
+<script>
+let data, keys, index = 0;
+
+fetch("bst_missing.json")
+  .then(r => r.json())
+  .then(j => {
+    data = j;
+    keys = Object.keys(data);
+    render();
+  });
+
+function render() {
+  if (index >= keys.length) {
+    document.body.innerHTML = "<h1>✅ All BSTs filled!</h1>";
+    download();
+    return;
+  }
+
+  const name = keys[index];
+  document.getElementById("name").textContent = name;
+  document.getElementById("info").textContent =
+    "Appears in: " + data[name].appears_in.join(", ");
+
+  document.getElementById("bst").value = "";
+  document.getElementById("levelPreview").textContent = "";
+  document.getElementById("progress").textContent =
+    `${index + 1} / ${keys.length}`;
+}
+
+document.getElementById("bst").addEventListener("input", e => {
+  const v = parseInt(e.target.value);
+  if (!isNaN(v)) {
+    document.getElementById("levelPreview").textContent =
+      `Evolution level will be ${Math.floor(v / 10)}`;
+  }
+});
+
+function save() {
+  const v = parseInt(document.getElementById("bst").value);
+  if (!v) return alert("Enter a BST");
+
+  data[keys[index]].bst = v;
+  index++;
+  render();
+}
+
+function download() {
+  const blob = new Blob(
+    [JSON.stringify(data, null, 2)],
+    { type: "application/json" }
+  );
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = "bst_filled.json";
+  a.click();
+}
+</script>
+
+</body>
+</html>
