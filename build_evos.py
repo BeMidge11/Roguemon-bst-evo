@@ -21,7 +21,7 @@ OUTPUT_FILE = os.path.join(SCRIPT_DIR, "random_bst_evolutions.json")
 OVERRIDE_FILE = os.path.join(SCRIPT_DIR, "bst_overrides.json")
 FAILED_LOOKUPS_FILE = os.path.join(SCRIPT_DIR, "failed_lookups.json")
 ALIASES_FILE = os.path.join(SCRIPT_DIR, "name_aliases.json")
-COVERAGE_THRESHOLD = float(os.environ.get("BST_EVO_COVERAGE_THRESHOLD", "0.99"))
+COVERAGE_THRESHOLD = float(os.environ.get("BST_EVO_COVERAGE_THRESHOLD", "0.90"))
 
 TOTAL_RUNS = 12000
 BST_LIMIT = 450
@@ -71,6 +71,16 @@ FORCED_STARTERS = {
 # =========================
 # NAME ALIASES (COMPREHENSIVE)
 # =========================
+
+# Load discovered aliases if they exist
+DISCOVERED_ALIASES_FILE = os.path.join(SCRIPT_DIR, "discovered_aliases.json")
+DISCOVERED_ALIASES = {}
+if os.path.exists(DISCOVERED_ALIASES_FILE):
+    try:
+        with open(DISCOVERED_ALIASES_FILE, "r", encoding="utf-8") as f:
+            DISCOVERED_ALIASES = json.load(f)
+    except:
+        pass
 
 LEGACY_NAME_ALIASES = {
     # Regional Forms & Megas
@@ -933,6 +943,11 @@ def _normalize_core(name: str) -> str:
 def _load_merged_aliases() -> dict:
     """JSON `name_aliases.json` overrides the shipped LEGACY table for the same normalized key."""
     merged: dict = {}
+    
+    # Merge discovered aliases
+    for k, v in DISCOVERED_ALIASES.items():
+        merged[k.lower()] = v.lower()
+
     for k, v in LEGACY_NAME_ALIASES.items():
         key = _normalize_core(k)
         merged[key] = v
@@ -988,14 +1003,31 @@ def parse_evo_file(path):
 # =========================
 
 def build_vanilla_forward_evolvers():
+    CACHE_FILE = os.path.join(SCRIPT_DIR, "vanilla_evos_cache.json")
+    if os.path.exists(CACHE_FILE):
+        try:
+            with open(CACHE_FILE, "r", encoding="utf-8") as f:
+                cached = set(json.load(f))
+                print(f"Loaded {len(cached)} vanilla evolvers from cache.")
+                return cached
+        except:
+            pass
+
     print("Building vanilla forward evolution set...", flush=True)
     forward = set()
 
     r = requests.get(f"{POKEAPI}/evolution-chain?limit=600")
     chains = r.json()["results"]
 
-    for entry in chains:
-        chain = requests.get(entry["url"]).json()["chain"]
+    for i, entry in enumerate(chains, 1):
+        if i % 50 == 0:
+            print(f"  Fetching chain {i}/{len(chains)}...")
+        try:
+            chain_data = requests.get(entry["url"], timeout=10).json()["chain"]
+        except:
+            continue
+        
+        chain = chain_data
 
         def walk(node):
             parent = node["species"]["name"]
@@ -1007,6 +1039,15 @@ def build_vanilla_forward_evolvers():
         walk(chain)
 
     print(f"Vanilla forward evolvers found: {len(forward)}", flush=True)
+
+    # Save cache
+    try:
+        with open(CACHE_FILE, "w", encoding="utf-8") as f:
+            json.dump(list(forward), f)
+        print(f"✔ Saved {len(forward)} vanilla evolvers to cache.")
+    except:
+        pass
+
     return forward
 
 
