@@ -68890,5 +68890,882 @@
         "probability": 0.010083333333333333
       }
     ]
+  },
+  "Farfetch\u2019d": {
+    "base_bst": 377,
+    "rule": "bst/10",
+    "forced": false,
+    "evolutions": [
+      {
+        "evolution": "Vivillon",
+        "bst": 411,
+        "types": [
+          "Bug",
+          "Flying"
+        ],
+        "evolution_level": 41,
+        "probability": 8.333333333333333e-05
+      },
+      {
+        "evolution": "Raticate",
+        "bst": 413,
+        "types": [
+          "Normal"
+        ],
+        "evolution_level": 41,
+        "probability": 8.333333333333333e-05
+      },
+      {
+        "evolution": "Gligar",
+        "bst": 430,
+        "types": [
+          "Ground",
+          "Flying"
+        ],
+        "evolution_level": 43,
+        "probability": 0.015583333333333333
+      },
+      {
+        "evolution": "Eeveep",
+        "bst": 435,
+        "types": [
+          "Normal"
+        ],
+        "evolution_level": 44,
+        "probability": 0.014666666666666666
+      },
+      {
+        "evolution": "Wigglytuff",
+        "bst": 435,
+        "types": [
+          "Normal",
+          "Fairy"
+        ],
+        "evolution_level": 44,
+        "probability": 0.012166666666666666
+      },
+      {
+        "evolution": "Minior",
+        "bst": 440,
+        "types": [
+          "Rock",
+          "Flying"
+        ],
+        "evolution_level": 44,
+        "probability": 0.016916666666666667
+      },
+      {
+        "evolution": "Persian",
+        "bst": 440,
+        "types": [
+          "Normal"
+        ],
+        "evolution_level": 44,
+        "probability": 0.015833333333333335
+      },
+      {
+        "evolution": "Vigoroth",
+        "bst": 440,
+        "types": [
+          "Normal"
+        ],
+        "evolution_level": 44,
+        "probability": 0.015666666666666666
+      },
+      {
+        "evolution": "Kecleon",
+        "bst": 440,
+        "types": [
+          "Normal"
+        ],
+        "evolution_level": 44,
+        "probability": 0.015583333333333333
+      },
+      {
+        "evolution": "Miniorc",
+        "bst": 440,
+        "types": [
+          "Rock",
+          "Flying"
+        ],
+        "evolution_level": 44,
+        "probability": 0.01175
+      },
+      {
+        "evolution": "Pelipper",
+        "bst": 440,
+        "types": [
+          "Water",
+          "Flying"
+        ],
+        "evolution_level": 44,
+        "probability": 0.0095
+      },
+      {
+        "evolution": "Fearow",
+        "bst": 442,
+        "types": [
+          "Normal",
+          "Flying"
+        ],
+        "evolution_level": 44,
+        "probability": 0.012083333333333333
+      },
+      {
+        "evolution": "Audino",
+        "bst": 445,
+        "types": [
+          "Normal"
+        ],
+        "evolution_level": 44,
+        "probability": 0.016083333333333335
+      },
+      {
+        "evolution": "Terapagos",
+        "bst": 450,
+        "types": [
+          "Normal"
+        ],
+        "evolution_level": 45,
+        "probability": 0.014333333333333333
+      },
+      {
+        "evolution": "Chansey",
+        "bst": 450,
+        "types": [
+          "Normal"
+        ],
+        "evolution_level": 45,
+        "probability": 0.013916666666666667
+      },
+      {
+        "evolution": "Purugly",
+        "bst": 452,
+        "types": [
+          "Normal"
+        ],
+        "evolution_level": 45,
+        "probability": 0.014833333333333334
+      },
+      {
+        "evolution": "Noctowl",
+        "bst": 452,
+        "types": [
+          "Normal",
+          "Flying"
+        ],
+        "evolution_level": 45,
+        "probability": 0.0115
+      },
+      {
+        "evolution": "Masquerain",
+        "bst": 454,
+        "types": [
+          "Bug",
+          "Flying"
+        ],
+        "evolution_level": 45,
+        "probability": 0.0105
+      },
+      {
+        "evolution": "Golbat",
+        "bst": 455,
+        "types": [
+          "Poison",
+          "Flying"
+        ],
+        "evolution_level": 46,
+        "probability": 0.012833333333333334
+      },
+      {
+        "evolution": "Swellow",
+        "bst": 455,
+        "types": [
+          "Normal",
+          "Flying"
+        ],
+        "evolution_level": 46,
+        "probability": 0.01125
+      },
+      {
+        "evolution": "Girafarig",
+        "bst": 455,
+        "types": [
+          "Normal",
+          "Psychic"
+        ],
+        "evolution_level": 46,
+        "probability": 0.01025
+      },
+      {
+        "evolution": "Ninjask",
+        "bst": 456,
+        "types": [
+          "Bug",
+          "Flying"
+        ],
+        "evolution_level": 46,
+        "probability": 0.009416666666666667
+      },
+      {
+        "evolution": "Zangoose",
+        "bst": 458,
+        "types": [
+          "Normal"
+        ],
+        "evolution_level": 46,
+        "probability": 0.0145
+      },
+      {
+        "evolution": "Greedent",
+        "bst": 460,
+        "types": [
+          "Normal"
+        ],
+        "evolution_level": 46,
+        "probability": 0.016083333333333335
+      },
+      {
+        "evolution": "Tropius",
+        "bst": 460,
+        "types": [
+          "Grass",
+          "Flying"
+        ],
+        "evolution_level": 46,
+        "probability": 0.012
+      },
+      {
+        "evolution": "Jumpluff",
+        "bst": 460,
+        "types": [
+          "Grass",
+          "Flying"
+        ],
+        "evolution_level": 46,
+        "probability": 0.010833333333333334
+      },
+      {
+        "evolution": "Stantler",
+        "bst": 465,
+        "types": [
+          "Normal"
+        ],
+        "evolution_level": 46,
+        "probability": 0.014416666666666666
+      },
+      {
+        "evolution": "Skarmory",
+        "bst": 465,
+        "types": [
+          "Steel",
+          "Flying"
+        ],
+        "evolution_level": 46,
+        "probability": 0.013333333333333334
+      },
+      {
+        "evolution": "Cinccino",
+        "bst": 470,
+        "types": [
+          "Normal"
+        ],
+        "evolution_level": 47,
+        "probability": 0.0135
+      },
+      {
+        "evolution": "Maushold",
+        "bst": 470,
+        "types": [
+          "Normal"
+        ],
+        "evolution_level": 47,
+        "probability": 0.013333333333333334
+      },
+      {
+        "evolution": "Xatu",
+        "bst": 470,
+        "types": [
+          "Psychic",
+          "Flying"
+        ],
+        "evolution_level": 47,
+        "probability": 0.010416666666666666
+      },
+      {
+        "evolution": "Dodrio",
+        "bst": 470,
+        "types": [
+          "Normal",
+          "Flying"
+        ],
+        "evolution_level": 47,
+        "probability": 0.008083333333333333
+      },
+      {
+        "evolution": "Furfrou",
+        "bst": 472,
+        "types": [
+          "Normal"
+        ],
+        "evolution_level": 47,
+        "probability": 0.012916666666666667
+      },
+      {
+        "evolution": "Swanna",
+        "bst": 473,
+        "types": [
+          "Water",
+          "Flying"
+        ],
+        "evolution_level": 47,
+        "probability": 0.011
+      },
+      {
+        "evolution": "Vespiquen",
+        "bst": 474,
+        "types": [
+          "Bug",
+          "Flying"
+        ],
+        "evolution_level": 47,
+        "probability": 0.009833333333333333
+      },
+      {
+        "evolution": "Cramorant",
+        "bst": 475,
+        "types": [
+          "Flying",
+          "Water"
+        ],
+        "evolution_level": 48,
+        "probability": 0.010333333333333333
+      },
+      {
+        "evolution": "Indeedeef",
+        "bst": 475,
+        "types": [
+          "Psychic",
+          "Normal"
+        ],
+        "evolution_level": 48,
+        "probability": 0.009416666666666667
+      },
+      {
+        "evolution": "Sawsbuck",
+        "bst": 475,
+        "types": [
+          "Normal",
+          "Grass"
+        ],
+        "evolution_level": 48,
+        "probability": 0.008666666666666666
+      },
+      {
+        "evolution": "Indeedee",
+        "bst": 475,
+        "types": [
+          "Psychic",
+          "Normal"
+        ],
+        "evolution_level": 48,
+        "probability": 0.007083333333333333
+      },
+      {
+        "evolution": "Oricorio",
+        "bst": 476,
+        "types": [
+          "Fire",
+          "Flying"
+        ],
+        "evolution_level": 48,
+        "probability": 0.01275
+      },
+      {
+        "evolution": "Oricoriop",
+        "bst": 476,
+        "types": [
+          "Electric",
+          "Flying"
+        ],
+        "evolution_level": 48,
+        "probability": 0.011916666666666667
+      },
+      {
+        "evolution": "Pidgeot",
+        "bst": 479,
+        "types": [
+          "Normal",
+          "Flying"
+        ],
+        "evolution_level": 48,
+        "probability": 0.008666666666666666
+      },
+      {
+        "evolution": "Lopunny",
+        "bst": 480,
+        "types": [
+          "Normal"
+        ],
+        "evolution_level": 48,
+        "probability": 0.011333333333333334
+      },
+      {
+        "evolution": "Komala",
+        "bst": 480,
+        "types": [
+          "Normal"
+        ],
+        "evolution_level": 48,
+        "probability": 0.010833333333333334
+      },
+      {
+        "evolution": "Heliolisk",
+        "bst": 481,
+        "types": [
+          "Electric",
+          "Normal"
+        ],
+        "evolution_level": 48,
+        "probability": 0.0065
+      },
+      {
+        "evolution": "Ambipom",
+        "bst": 482,
+        "types": [
+          "Normal"
+        ],
+        "evolution_level": 48,
+        "probability": 0.010833333333333334
+      },
+      {
+        "evolution": "Bombirdier",
+        "bst": 485,
+        "types": [
+          "Flying",
+          "Dark"
+        ],
+        "evolution_level": 48,
+        "probability": 0.0125
+      },
+      {
+        "evolution": "Drampa",
+        "bst": 485,
+        "types": [
+          "Normal",
+          "Dragon"
+        ],
+        "evolution_level": 48,
+        "probability": 0.009916666666666667
+      },
+      {
+        "evolution": "Mantine",
+        "bst": 485,
+        "types": [
+          "Water",
+          "Flying"
+        ],
+        "evolution_level": 48,
+        "probability": 0.008916666666666666
+      },
+      {
+        "evolution": "Toucannon",
+        "bst": 485,
+        "types": [
+          "Normal",
+          "Flying"
+        ],
+        "evolution_level": 48,
+        "probability": 0.008833333333333334
+      },
+      {
+        "evolution": "Staraptor",
+        "bst": 485,
+        "types": [
+          "Normal",
+          "Flying"
+        ],
+        "evolution_level": 48,
+        "probability": 0.008833333333333334
+      },
+      {
+        "evolution": "Grafaiai",
+        "bst": 485,
+        "types": [
+          "Poison",
+          "Normal"
+        ],
+        "evolution_level": 48,
+        "probability": 0.007
+      },
+      {
+        "evolution": "Unfezant",
+        "bst": 488,
+        "types": [
+          "Normal",
+          "Flying"
+        ],
+        "evolution_level": 49,
+        "probability": 0.007666666666666666
+      },
+      {
+        "evolution": "Oinkolognf",
+        "bst": 489,
+        "types": [
+          "Normal"
+        ],
+        "evolution_level": 49,
+        "probability": 0.011583333333333333
+      },
+      {
+        "evolution": "Oinkologne",
+        "bst": 489,
+        "types": [
+          "Normal"
+        ],
+        "evolution_level": 49,
+        "probability": 0.01
+      },
+      {
+        "evolution": "Altaria",
+        "bst": 490,
+        "types": [
+          "Dragon",
+          "Flying"
+        ],
+        "evolution_level": 49,
+        "probability": 0.01525
+      },
+      {
+        "evolution": "Bouffalant",
+        "bst": 490,
+        "types": [
+          "Normal"
+        ],
+        "evolution_level": 49,
+        "probability": 0.011083333333333334
+      },
+      {
+        "evolution": "Dubwool",
+        "bst": 490,
+        "types": [
+          "Normal"
+        ],
+        "evolution_level": 49,
+        "probability": 0.011
+      },
+      {
+        "evolution": "Exploud",
+        "bst": 490,
+        "types": [
+          "Normal"
+        ],
+        "evolution_level": 49,
+        "probability": 0.01075
+      },
+      {
+        "evolution": "Miltank",
+        "bst": 490,
+        "types": [
+          "Normal"
+        ],
+        "evolution_level": 49,
+        "probability": 0.01025
+      },
+      {
+        "evolution": "Sigilyph",
+        "bst": 490,
+        "types": [
+          "Psychic",
+          "Flying"
+        ],
+        "evolution_level": 49,
+        "probability": 0.010166666666666666
+      },
+      {
+        "evolution": "Kilowattrl",
+        "bst": 490,
+        "types": [
+          "Electric",
+          "Flying"
+        ],
+        "evolution_level": 49,
+        "probability": 0.0095
+      },
+      {
+        "evolution": "Kangaskhan",
+        "bst": 490,
+        "types": [
+          "Normal"
+        ],
+        "evolution_level": 49,
+        "probability": 0.009333333333333334
+      },
+      {
+        "evolution": "Tauros",
+        "bst": 490,
+        "types": [
+          "Normal"
+        ],
+        "evolution_level": 49,
+        "probability": 0.00875
+      },
+      {
+        "evolution": "Oranguru",
+        "bst": 490,
+        "types": [
+          "Normal",
+          "Psychic"
+        ],
+        "evolution_level": 49,
+        "probability": 0.0069166666666666664
+      },
+      {
+        "evolution": "Corvknight",
+        "bst": 495,
+        "types": [
+          "Flying",
+          "Steel"
+        ],
+        "evolution_level": 50,
+        "probability": 0.012666666666666666
+      },
+      {
+        "evolution": "Drifblim",
+        "bst": 498,
+        "types": [
+          "Ghost",
+          "Flying"
+        ],
+        "evolution_level": 50,
+        "probability": 0.011166666666666667
+      },
+      {
+        "evolution": "Talonflame",
+        "bst": 499,
+        "types": [
+          "Fire",
+          "Flying"
+        ],
+        "evolution_level": 50,
+        "probability": 0.011916666666666667
+      },
+      {
+        "evolution": "Stoutland",
+        "bst": 500,
+        "types": [
+          "Normal"
+        ],
+        "evolution_level": 50,
+        "probability": 0.01175
+      },
+      {
+        "evolution": "Hawlucha",
+        "bst": 500,
+        "types": [
+          "Fighting",
+          "Flying"
+        ],
+        "evolution_level": 50,
+        "probability": 0.010583333333333333
+      },
+      {
+        "evolution": "Flamigo",
+        "bst": 500,
+        "types": [
+          "Flying",
+          "Fighting"
+        ],
+        "evolution_level": 50,
+        "probability": 0.0105
+      },
+      {
+        "evolution": "Ursaring",
+        "bst": 500,
+        "types": [
+          "Normal"
+        ],
+        "evolution_level": 50,
+        "probability": 0.0095
+      },
+      {
+        "evolution": "Bewear",
+        "bst": 500,
+        "types": [
+          "Normal",
+          "Fighting"
+        ],
+        "evolution_level": 50,
+        "probability": 0.007666666666666666
+      },
+      {
+        "evolution": "Scyther",
+        "bst": 500,
+        "types": [
+          "Bug",
+          "Flying"
+        ],
+        "evolution_level": 50,
+        "probability": 0.00725
+      },
+      {
+        "evolution": "Cyclizar",
+        "bst": 501,
+        "types": [
+          "Dragon",
+          "Normal"
+        ],
+        "evolution_level": 50,
+        "probability": 0.008916666666666666
+      },
+      {
+        "evolution": "Honchkrow",
+        "bst": 505,
+        "types": [
+          "Dark",
+          "Flying"
+        ],
+        "evolution_level": 50,
+        "probability": 0.010583333333333333
+      },
+      {
+        "evolution": "Pyroar",
+        "bst": 507,
+        "types": [
+          "Fire",
+          "Normal"
+        ],
+        "evolution_level": 51,
+        "probability": 0.008416666666666666
+      },
+      {
+        "evolution": "Mandibuzz",
+        "bst": 510,
+        "types": [
+          "Dark",
+          "Flying"
+        ],
+        "evolution_level": 51,
+        "probability": 0.011916666666666667
+      },
+      {
+        "evolution": "Gliscor",
+        "bst": 510,
+        "types": [
+          "Ground",
+          "Flying"
+        ],
+        "evolution_level": 51,
+        "probability": 0.011416666666666667
+      },
+      {
+        "evolution": "Braviaryh",
+        "bst": 510,
+        "types": [
+          "Psychic",
+          "Flying"
+        ],
+        "evolution_level": 51,
+        "probability": 0.010583333333333333
+      },
+      {
+        "evolution": "Zoroarkh",
+        "bst": 510,
+        "types": [
+          "Normal",
+          "Ghost"
+        ],
+        "evolution_level": 51,
+        "probability": 0.008083333333333333
+      },
+      {
+        "evolution": "Braviary",
+        "bst": 510,
+        "types": [
+          "Normal",
+          "Flying"
+        ],
+        "evolution_level": 51,
+        "probability": 0.007083333333333333
+      },
+      {
+        "evolution": "Arboliva",
+        "bst": 510,
+        "types": [
+          "Grass",
+          "Normal"
+        ],
+        "evolution_level": 51,
+        "probability": 0.0065
+      },
+      {
+        "evolution": "Aerodactyl",
+        "bst": 515,
+        "types": [
+          "Rock",
+          "Flying"
+        ],
+        "evolution_level": 52,
+        "probability": 0.010583333333333333
+      },
+      {
+        "evolution": "Porygon2",
+        "bst": 515,
+        "types": [
+          "Normal"
+        ],
+        "evolution_level": 52,
+        "probability": 0.010416666666666666
+      },
+      {
+        "evolution": "Lickilicky",
+        "bst": 515,
+        "types": [
+          "Normal"
+        ],
+        "evolution_level": 52,
+        "probability": 0.009
+      },
+      {
+        "evolution": "Yanmega",
+        "bst": 515,
+        "types": [
+          "Bug",
+          "Flying"
+        ],
+        "evolution_level": 52,
+        "probability": 0.008833333333333334
+      },
+      {
+        "evolution": "Rotomfa",
+        "bst": 520,
+        "types": [
+          "Electric",
+          "Flying"
+        ],
+        "evolution_level": 52,
+        "probability": 0.010166666666666666
+      },
+      {
+        "evolution": "Obstagoon",
+        "bst": 520,
+        "types": [
+          "Dark",
+          "Normal"
+        ],
+        "evolution_level": 52,
+        "probability": 0.009916666666666667
+      },
+      {
+        "evolution": "Farigiraf",
+        "bst": 520,
+        "types": [
+          "Normal",
+          "Psychic"
+        ],
+        "evolution_level": 52,
+        "probability": 0.008666666666666666
+      }
+    ]
   }
 }
