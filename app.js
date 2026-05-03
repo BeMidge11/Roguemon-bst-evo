@@ -1,7 +1,8 @@
 let DATA = {};
 let selectedPokemon = null;
 let selectedLevel = null;
-let chart = null;
+let evoChart = null;
+let typeChart = null;
 
 fetch("random_bst_evolutions.json")
   .then(r => r.json())
@@ -12,11 +13,11 @@ const suggestionsBox = document.getElementById("suggestions");
 const levelsDiv = document.getElementById("levels");
 const resultsDiv = document.getElementById("results");
 const currentLevelInput = document.getElementById("currentLevel");
-const top5List = document.getElementById("top5List");
-const ctx = document.getElementById('evoChart').getContext('2d');
+const evoCtx = document.getElementById('evoChart').getContext('2d');
+const typeCtx = document.getElementById('typeChart').getContext('2d');
 
-function initChart() {
-  chart = new Chart(ctx, {
+function initCharts() {
+  evoChart = new Chart(evoCtx, {
     type: 'line',
     data: {
       labels: [],
@@ -52,6 +53,45 @@ function initChart() {
         y: {
           display: false,
           beginAtZero: true
+        }
+      }
+    }
+  });
+
+  typeChart = new Chart(typeCtx, {
+    type: 'bar',
+    data: {
+      labels: [],
+      datasets: [{
+        data: [],
+        backgroundColor: '#f472b6',
+        borderRadius: 4
+      }]
+    },
+    options: {
+      indexAxis: 'y',
+      responsive: true,
+      maintainAspectRatio: true,
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          callbacks: {
+            label: (ctx) => `Probability: ${ctx.raw.toFixed(2)}%`
+          }
+        }
+      },
+      scales: {
+        x: {
+          display: true,
+          title: { display: true, text: 'Probability (%)', color: '#9ca3af', font: { size: 10 } },
+          grid: { color: '#1f2937' },
+          ticks: { color: '#9ca3af', font: { size: 9 } },
+          beginAtZero: true,
+          max: 100
+        },
+        y: {
+          grid: { display: false },
+          ticks: { color: '#e5e7eb', font: { size: 10 } }
         }
       }
     }
@@ -99,7 +139,7 @@ function getValidEvos() {
 
 function render() {
   if (!selectedPokemon) return;
-  if (!chart) initChart();
+  if (!evoChart) initCharts();
 
   const lvl = parseInt(currentLevelInput.value) || 1;
   const valid = getValidEvos();
@@ -137,12 +177,18 @@ function render() {
 
   for (const evo of filtered) {
     const p = evo.probability / totalProb;
+    const typeString = (evo.types || []).join(" / ");
 
     const card = document.createElement("div");
     card.className = "evo-card";
 
     card.innerHTML = `
-      <div class="evo-name">${evo.evolution}</div>
+      <div class="evo-name">
+        ${evo.evolution}
+        <div style="font-size: 0.75rem; opacity: 0.7; font-weight: normal; margin-top: 2px;">
+          ${typeString}
+        </div>
+      </div>
       <div class="evo-level">${evo.evolution_level}</div>
       <div>
         <div class="bar">
@@ -155,48 +201,35 @@ function render() {
     resultsDiv.appendChild(card);
   }
 
-  renderTop5(valid, totalProb);
-  updateChart(valid, totalProb);
+  updateCharts(valid, totalProb);
 }
 
-function renderTop5(valid, totalProb) {
-  top5List.innerHTML = "";
-
-  const top = [...valid]
-    .sort((a, b) => b.probability - a.probability)
-    .slice(0, 5);
-
-  for (const evo of top) {
-    const row = document.createElement("div");
-    row.className = "top5-item";
-
-    row.innerHTML = `
-      <div class="top5-name">
-        ${evo.evolution}
-        <span style="color: var(--muted); font-size: 0.85rem;">
-          (Lv. ${evo.evolution_level})
-        </span>
-      </div>
-      <div class="top5-percent">
-        ${((evo.probability / totalProb) * 100).toFixed(2)}%
-      </div>
-    `;
-
-    top5List.appendChild(row);
-  }
-}
-
-function updateChart(valid, totalProb) {
-  // Aggregate probabilities by level
-  const distribution = {};
+function updateCharts(valid, totalProb) {
+  // 1. LEVEL DISTRIBUTION
+  const levelDist = {};
   valid.forEach(e => {
-    distribution[e.evolution_level] = (distribution[e.evolution_level] || 0) + (e.probability / totalProb);
+    levelDist[e.evolution_level] = (levelDist[e.evolution_level] || 0) + (e.probability / totalProb);
   });
 
-  const levels = Object.keys(distribution).map(Number).sort((a, b) => a - b);
-  const data = levels.map(l => distribution[l] * 100);
+  const levels = Object.keys(levelDist).map(Number).sort((a, b) => a - b);
+  const levelData = levels.map(l => levelDist[l] * 100);
 
-  chart.data.labels = levels;
-  chart.data.datasets[0].data = data;
-  chart.update();
+  evoChart.data.labels = levels;
+  evoChart.data.datasets[0].data = levelData;
+  evoChart.update();
+
+  // 2. TYPE DISTRIBUTION
+  const typeDist = {};
+  valid.forEach(e => {
+    const typeCombo = (e.types || ["Unknown"]).join("/");
+    typeDist[typeCombo] = (typeDist[typeCombo] || 0) + (e.probability / totalProb);
+  });
+
+  const sortedTypes = Object.entries(typeDist)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 10); // Show top 10 combos
+
+  typeChart.data.labels = sortedTypes.map(t => t[0]);
+  typeChart.data.datasets[0].data = sortedTypes.map(t => t[1] * 100);
+  typeChart.update();
 }
