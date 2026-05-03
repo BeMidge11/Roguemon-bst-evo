@@ -180,14 +180,14 @@
       },
       {
         "evolution": "Muka",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 500,
+        "evolution_level": 50,
         "probability": 0.030833333333333334
       },
       {
         "evolution": "Toxtricitl",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 502,
+        "evolution_level": 50,
         "probability": 0.02775
       },
       {
@@ -198,20 +198,20 @@
       },
       {
         "evolution": "Slowbrog",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 490,
+        "evolution_level": 49,
         "probability": 8.333333333333333e-05
       },
       {
         "evolution": "Qwilfishh",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 440,
+        "evolution_level": 44,
         "probability": 8.333333333333333e-05
       },
       {
         "evolution": "Slowkingg",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 490,
+        "evolution_level": 49,
         "probability": 8.333333333333333e-05
       }
     ]
@@ -637,38 +637,38 @@
       },
       {
         "evolution": "Weezingg",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 490,
+        "evolution_level": 49,
         "probability": 0.015916666666666666
       },
       {
         "evolution": "Muka",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 500,
+        "evolution_level": 50,
         "probability": 0.01575
       },
       {
         "evolution": "Slowbrog",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 490,
+        "evolution_level": 49,
         "probability": 0.015666666666666666
       },
       {
         "evolution": "Centskorch",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 525,
+        "evolution_level": 52,
         "probability": 0.0145
       },
       {
         "evolution": "Slowkingg",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 490,
+        "evolution_level": 49,
         "probability": 0.0125
       },
       {
         "evolution": "Toxtricitl",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 502,
+        "evolution_level": 50,
         "probability": 0.012416666666666666
       },
       {
@@ -691,20 +691,20 @@
       },
       {
         "evolution": "Qwilfishh",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 440,
+        "evolution_level": 44,
         "probability": 0.00016666666666666666
       },
       {
         "evolution": "Sneaselh",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 430,
+        "evolution_level": 43,
         "probability": 0.00016666666666666666
       },
       {
         "evolution": "Pinsirm",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 600,
+        "evolution_level": 60,
         "probability": 8.333333333333333e-05
       }
     ]
@@ -1004,20 +1004,20 @@
       },
       {
         "evolution": "Lopunnym",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 580,
+        "evolution_level": 58,
         "probability": 0.057666666666666665
       },
       {
         "evolution": "Pidgeotm",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 579,
+        "evolution_level": 57,
         "probability": 0.05708333333333333
       },
       {
         "evolution": "Audinom",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 545,
+        "evolution_level": 54,
         "probability": 0.04125
       },
       {
@@ -1034,8 +1034,8 @@
       },
       {
         "evolution": "Zoroarkh",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 510,
+        "evolution_level": 51,
         "probability": 0.029583333333333333
       },
       {
@@ -1575,14 +1575,14 @@
       },
       {
         "evolution": "Mawilem",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 480,
+        "evolution_level": 48,
         "probability": 0.012
       },
       {
         "evolution": "Sharpedom",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 560,
+        "evolution_level": 56,
         "probability": 0.011333333333333334
       },
       {
@@ -1629,20 +1629,20 @@
       },
       {
         "evolution": "Audinom",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 545,
+        "evolution_level": 54,
         "probability": 0.009
       },
       {
         "evolution": "Weezingg",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 490,
+        "evolution_level": 49,
         "probability": 0.008916666666666666
       },
       {
         "evolution": "Samurotth",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 528,
+        "evolution_level": 52,
         "probability": 0.00875
       },
       {
@@ -1653,8 +1653,8 @@
       },
       {
         "evolution": "Rapidashg",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 500,
+        "evolution_level": 50,
         "probability": 0.0075
       },
       {
@@ -2146,8 +2146,8 @@
       },
       {
         "evolution": "Braviaryh",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 510,
+        "evolution_level": 51,
         "probability": 0.017333333333333333
       },
       {
@@ -2176,8 +2176,8 @@
       },
       {
         "evolution": "Centskorch",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 525,
+        "evolution_level": 52,
         "probability": 0.01325
       },
       {
@@ -2657,32 +2657,32 @@
       },
       {
         "evolution": "Muka",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 500,
+        "evolution_level": 50,
         "probability": 0.014833333333333334
       },
       {
         "evolution": "Weezingg",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 490,
+        "evolution_level": 49,
         "probability": 0.014333333333333333
       },
       {
         "evolution": "Slowkingg",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 490,
+        "evolution_level": 49,
         "probability": 0.013833333333333333
       },
       {
         "evolution": "Centskorch",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 525,
+        "evolution_level": 52,
         "probability": 0.013083333333333334
       },
       {
         "evolution": "Slowbrog",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 490,
+        "evolution_level": 49,
         "probability": 0.013
       },
       {
@@ -2693,8 +2693,8 @@
       },
       {
         "evolution": "Toxtricitl",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 502,
+        "evolution_level": 50,
         "probability": 0.011333333333333334
       },
       {
@@ -2705,14 +2705,14 @@
       },
       {
         "evolution": "Sneaselh",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 430,
+        "evolution_level": 43,
         "probability": 0.0003333333333333333
       },
       {
         "evolution": "Qwilfishh",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 440,
+        "evolution_level": 44,
         "probability": 0.00025
       },
       {
@@ -3384,8 +3384,8 @@
       },
       {
         "evolution": "Sharpedom",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 560,
+        "evolution_level": 56,
         "probability": 0.00925
       },
       {
@@ -3408,14 +3408,14 @@
       },
       {
         "evolution": "Audinom",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 545,
+        "evolution_level": 54,
         "probability": 0.00825
       },
       {
         "evolution": "Samurotth",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 528,
+        "evolution_level": 52,
         "probability": 0.008083333333333333
       },
       {
@@ -3456,8 +3456,8 @@
       },
       {
         "evolution": "Zoroarkh",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 510,
+        "evolution_level": 51,
         "probability": 0.005666666666666667
       }
     ]
@@ -3931,8 +3931,8 @@
       },
       {
         "evolution": "Braviaryh",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 510,
+        "evolution_level": 51,
         "probability": 0.01633333333333333
       },
       {
@@ -3955,8 +3955,8 @@
       },
       {
         "evolution": "Centskorch",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 525,
+        "evolution_level": 52,
         "probability": 0.012916666666666667
       },
       {
@@ -3967,8 +3967,8 @@
       },
       {
         "evolution": "Pidgeotm",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 579,
+        "evolution_level": 57,
         "probability": 8.333333333333333e-05
       },
       {
@@ -3979,14 +3979,14 @@
       },
       {
         "evolution": "Moltresg",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 580,
+        "evolution_level": 58,
         "probability": 8.333333333333333e-05
       },
       {
         "evolution": "Articunog",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 580,
+        "evolution_level": 58,
         "probability": 8.333333333333333e-05
       },
       {
@@ -4009,8 +4009,8 @@
       },
       {
         "evolution": "Zapdosg",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 580,
+        "evolution_level": 58,
         "probability": 8.333333333333333e-05
       }
     ]
@@ -4382,8 +4382,8 @@
       },
       {
         "evolution": "Audinom",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 545,
+        "evolution_level": 54,
         "probability": 0.022416666666666668
       },
       {
@@ -4400,8 +4400,8 @@
       },
       {
         "evolution": "Zoroarkh",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 510,
+        "evolution_level": 51,
         "probability": 0.016666666666666666
       },
       {
@@ -4418,14 +4418,14 @@
       },
       {
         "evolution": "Pidgeotm",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 579,
+        "evolution_level": 57,
         "probability": 0.00175
       },
       {
         "evolution": "Lopunnym",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 580,
+        "evolution_level": 58,
         "probability": 0.00125
       },
       {
@@ -4460,8 +4460,8 @@
       },
       {
         "evolution": "Linooneg",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 420,
+        "evolution_level": 42,
         "probability": 8.333333333333333e-05
       }
     ]
@@ -4917,14 +4917,14 @@
       },
       {
         "evolution": "Audinom",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 545,
+        "evolution_level": 54,
         "probability": 0.012666666666666666
       },
       {
         "evolution": "Braviaryh",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 510,
+        "evolution_level": 51,
         "probability": 0.012583333333333334
       },
       {
@@ -4977,8 +4977,8 @@
       },
       {
         "evolution": "Zoroarkh",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 510,
+        "evolution_level": 51,
         "probability": 0.008916666666666666
       },
       {
@@ -4995,8 +4995,8 @@
       },
       {
         "evolution": "Tornadus",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 580,
+        "evolution_level": 58,
         "probability": 0.00025
       },
       {
@@ -5007,20 +5007,20 @@
       },
       {
         "evolution": "Moltresg",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 580,
+        "evolution_level": 58,
         "probability": 0.00016666666666666666
       },
       {
         "evolution": "Thundurus",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 580,
+        "evolution_level": 58,
         "probability": 0.00016666666666666666
       },
       {
         "evolution": "Lopunnym",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 580,
+        "evolution_level": 58,
         "probability": 8.333333333333333e-05
       },
       {
@@ -5031,8 +5031,8 @@
       },
       {
         "evolution": "Zapdosg",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 580,
+        "evolution_level": 58,
         "probability": 8.333333333333333e-05
       }
     ]
@@ -5236,8 +5236,8 @@
       },
       {
         "evolution": "Abomasnowm",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 594,
+        "evolution_level": 59,
         "probability": 0.03625
       },
       {
@@ -5272,8 +5272,8 @@
       },
       {
         "evolution": "Decidueyeh",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 530,
+        "evolution_level": 53,
         "probability": 0.019833333333333335
       },
       {
@@ -5651,8 +5651,8 @@
       },
       {
         "evolution": "Cameruptm",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 560,
+        "evolution_level": 56,
         "probability": 0.017916666666666668
       },
       {
@@ -5663,8 +5663,8 @@
       },
       {
         "evolution": "Weezingg",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 490,
+        "evolution_level": 49,
         "probability": 0.014833333333333334
       },
       {
@@ -5675,14 +5675,14 @@
       },
       {
         "evolution": "Slowkingg",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 490,
+        "evolution_level": 49,
         "probability": 0.013
       },
       {
         "evolution": "Slowbrog",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 490,
+        "evolution_level": 49,
         "probability": 0.012666666666666666
       },
       {
@@ -5693,14 +5693,14 @@
       },
       {
         "evolution": "Muka",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 500,
+        "evolution_level": 50,
         "probability": 0.012
       },
       {
         "evolution": "Toxtricitl",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 502,
+        "evolution_level": 50,
         "probability": 0.009333333333333334
       },
       {
@@ -5711,8 +5711,8 @@
       },
       {
         "evolution": "Zygarde",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 778,
+        "evolution_level": 77,
         "probability": 8.333333333333333e-05
       }
     ]
@@ -5970,8 +5970,8 @@
       },
       {
         "evolution": "Manectricm",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 575,
+        "evolution_level": 57,
         "probability": 0.023583333333333335
       },
       {
@@ -5982,8 +5982,8 @@
       },
       {
         "evolution": "Enamorus",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 580,
+        "evolution_level": 58,
         "probability": 0.022166666666666668
       },
       {
@@ -6000,8 +6000,8 @@
       },
       {
         "evolution": "Thundurus",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 580,
+        "evolution_level": 58,
         "probability": 0.020916666666666667
       },
       {
@@ -6036,20 +6036,20 @@
       },
       {
         "evolution": "Mawilem",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 480,
+        "evolution_level": 48,
         "probability": 0.0145
       },
       {
         "evolution": "Audinom",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 545,
+        "evolution_level": 54,
         "probability": 0.012
       },
       {
         "evolution": "Rapidashg",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 500,
+        "evolution_level": 50,
         "probability": 0.012
       },
       {
@@ -6090,8 +6090,8 @@
       },
       {
         "evolution": "Weezingg",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 490,
+        "evolution_level": 49,
         "probability": 0.009666666666666667
       },
       {
@@ -6102,8 +6102,8 @@
       },
       {
         "evolution": "Toxtricitl",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 502,
+        "evolution_level": 50,
         "probability": 0.008583333333333333
       },
       {
@@ -6120,8 +6120,8 @@
       },
       {
         "evolution": "Electrodeh",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 490,
+        "evolution_level": 49,
         "probability": 0.007083333333333333
       }
     ]
@@ -6523,8 +6523,8 @@
       },
       {
         "evolution": "Audinom",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 545,
+        "evolution_level": 54,
         "probability": 0.0185
       },
       {
@@ -6535,8 +6535,8 @@
       },
       {
         "evolution": "Zoroarkh",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 510,
+        "evolution_level": 51,
         "probability": 0.013583333333333333
       },
       {
@@ -6583,8 +6583,8 @@
       },
       {
         "evolution": "Linooneg",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 420,
+        "evolution_level": 42,
         "probability": 0.00016666666666666666
       },
       {
@@ -6595,8 +6595,8 @@
       },
       {
         "evolution": "Pidgeotm",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 579,
+        "evolution_level": 57,
         "probability": 0.00016666666666666666
       },
       {
@@ -6866,8 +6866,8 @@
       },
       {
         "evolution": "Mr. Mimeg",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 460,
+        "evolution_level": 46,
         "probability": 0.021333333333333333
       }
     ]
@@ -7287,8 +7287,8 @@
       },
       {
         "evolution": "Cameruptm",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 560,
+        "evolution_level": 56,
         "probability": 0.0165
       },
       {
@@ -7299,14 +7299,14 @@
       },
       {
         "evolution": "Stunfiskg",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 471,
+        "evolution_level": 47,
         "probability": 0.014833333333333334
       },
       {
         "evolution": "Audinom",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 545,
+        "evolution_level": 54,
         "probability": 0.013916666666666667
       },
       {
@@ -7347,14 +7347,14 @@
       },
       {
         "evolution": "Zoroarkh",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 510,
+        "evolution_level": 51,
         "probability": 0.008916666666666666
       },
       {
         "evolution": "Zygarde",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 778,
+        "evolution_level": 77,
         "probability": 8.333333333333333e-05
       },
       {
@@ -7534,8 +7534,8 @@
       },
       {
         "evolution": "Linooneg",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 420,
+        "evolution_level": 42,
         "probability": 0.029416666666666667
       },
       {
@@ -7763,8 +7763,8 @@
       },
       {
         "evolution": "Cameruptm",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 560,
+        "evolution_level": 56,
         "probability": 0.034916666666666665
       },
       {
@@ -7787,20 +7787,20 @@
       },
       {
         "evolution": "Landorus",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 600,
+        "evolution_level": 60,
         "probability": 0.0006666666666666666
       },
       {
         "evolution": "Zygarde",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 778,
+        "evolution_level": 77,
         "probability": 0.00025
       },
       {
         "evolution": "Stunfiskg",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 471,
+        "evolution_level": 47,
         "probability": 8.333333333333333e-05
       }
     ]
@@ -8238,44 +8238,44 @@
       },
       {
         "evolution": "Qwilfishh",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 440,
+        "evolution_level": 44,
         "probability": 0.022416666666666668
       },
       {
         "evolution": "Weezingg",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 490,
+        "evolution_level": 49,
         "probability": 0.01725
       },
       {
         "evolution": "Muka",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 500,
+        "evolution_level": 50,
         "probability": 0.01633333333333333
       },
       {
         "evolution": "Slowkingg",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 490,
+        "evolution_level": 49,
         "probability": 0.015416666666666667
       },
       {
         "evolution": "Centskorch",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 525,
+        "evolution_level": 52,
         "probability": 0.014333333333333333
       },
       {
         "evolution": "Toxtricitl",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 502,
+        "evolution_level": 50,
         "probability": 0.013833333333333333
       },
       {
         "evolution": "Slowbrog",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 490,
+        "evolution_level": 49,
         "probability": 0.0125
       },
       {
@@ -8292,8 +8292,8 @@
       },
       {
         "evolution": "Sneaselh",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 430,
+        "evolution_level": 43,
         "probability": 0.0005833333333333334
       },
       {
@@ -8605,14 +8605,14 @@
       },
       {
         "evolution": "Lopunnym",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 580,
+        "evolution_level": 58,
         "probability": 0.03983333333333333
       },
       {
         "evolution": "Pidgeotm",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 579,
+        "evolution_level": 57,
         "probability": 0.03966666666666667
       },
       {
@@ -8635,8 +8635,8 @@
       },
       {
         "evolution": "Audinom",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 545,
+        "evolution_level": 54,
         "probability": 0.026416666666666668
       },
       {
@@ -8647,8 +8647,8 @@
       },
       {
         "evolution": "Zoroarkh",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 510,
+        "evolution_level": 51,
         "probability": 0.018083333333333333
       },
       {
@@ -9020,38 +9020,38 @@
       },
       {
         "evolution": "Enamorus",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 580,
+        "evolution_level": 58,
         "probability": 0.020166666666666666
       },
       {
         "evolution": "Zapdosg",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 580,
+        "evolution_level": 58,
         "probability": 0.020083333333333335
       },
       {
         "evolution": "Moltresg",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 580,
+        "evolution_level": 58,
         "probability": 0.019666666666666666
       },
       {
         "evolution": "Articunog",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 580,
+        "evolution_level": 58,
         "probability": 0.0195
       },
       {
         "evolution": "Manectricm",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 575,
+        "evolution_level": 57,
         "probability": 0.018666666666666668
       },
       {
         "evolution": "Tornadus",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 580,
+        "evolution_level": 58,
         "probability": 0.018416666666666668
       },
       {
@@ -9074,8 +9074,8 @@
       },
       {
         "evolution": "Thundurus",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 580,
+        "evolution_level": 58,
         "probability": 0.016
       },
       {
@@ -9086,8 +9086,8 @@
       },
       {
         "evolution": "Pidgeotm",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 579,
+        "evolution_level": 57,
         "probability": 0.012666666666666666
       },
       {
@@ -9110,8 +9110,8 @@
       },
       {
         "evolution": "Braviaryh",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 510,
+        "evolution_level": 51,
         "probability": 0.010083333333333333
       },
       {
@@ -9176,14 +9176,14 @@
       },
       {
         "evolution": "Toxtricitl",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 502,
+        "evolution_level": 50,
         "probability": 0.007
       },
       {
         "evolution": "Electrodeh",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 490,
+        "evolution_level": 49,
         "probability": 0.006833333333333334
       },
       {
@@ -9495,14 +9495,14 @@
       },
       {
         "evolution": "Moltresg",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 580,
+        "evolution_level": 58,
         "probability": 0.02625
       },
       {
         "evolution": "Tornadus",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 580,
+        "evolution_level": 58,
         "probability": 0.024833333333333332
       },
       {
@@ -9513,14 +9513,14 @@
       },
       {
         "evolution": "Zapdosg",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 580,
+        "evolution_level": 58,
         "probability": 0.024
       },
       {
         "evolution": "Articunog",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 580,
+        "evolution_level": 58,
         "probability": 0.023583333333333335
       },
       {
@@ -9531,14 +9531,14 @@
       },
       {
         "evolution": "Enamorus",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 580,
+        "evolution_level": 58,
         "probability": 0.02225
       },
       {
         "evolution": "Thundurus",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 580,
+        "evolution_level": 58,
         "probability": 0.022166666666666668
       },
       {
@@ -9555,14 +9555,14 @@
       },
       {
         "evolution": "Pidgeotm",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 579,
+        "evolution_level": 57,
         "probability": 0.0165
       },
       {
         "evolution": "Lopunnym",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 580,
+        "evolution_level": 58,
         "probability": 0.01425
       },
       {
@@ -9585,8 +9585,8 @@
       },
       {
         "evolution": "Audinom",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 545,
+        "evolution_level": 54,
         "probability": 0.01225
       },
       {
@@ -9603,8 +9603,8 @@
       },
       {
         "evolution": "Braviaryh",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 510,
+        "evolution_level": 51,
         "probability": 0.010833333333333334
       },
       {
@@ -9627,8 +9627,8 @@
       },
       {
         "evolution": "Zoroarkh",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 510,
+        "evolution_level": 51,
         "probability": 0.007833333333333333
       }
     ]
@@ -9994,8 +9994,8 @@
       },
       {
         "evolution": "Audinom",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 545,
+        "evolution_level": 54,
         "probability": 0.02666666666666667
       },
       {
@@ -10030,8 +10030,8 @@
       },
       {
         "evolution": "Zoroarkh",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 510,
+        "evolution_level": 51,
         "probability": 0.01425
       },
       {
@@ -10048,14 +10048,14 @@
       },
       {
         "evolution": "Lopunnym",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 580,
+        "evolution_level": 58,
         "probability": 0.0015
       },
       {
         "evolution": "Pidgeotm",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 579,
+        "evolution_level": 57,
         "probability": 0.0005833333333333334
       },
       {
@@ -10211,8 +10211,8 @@
       },
       {
         "evolution": "Enamorus",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 580,
+        "evolution_level": 58,
         "probability": 0.043
       },
       {
@@ -10223,8 +10223,8 @@
       },
       {
         "evolution": "Altariam",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 590,
+        "evolution_level": 59,
         "probability": 0.03816666666666667
       },
       {
@@ -10241,14 +10241,14 @@
       },
       {
         "evolution": "Audinom",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 545,
+        "evolution_level": 54,
         "probability": 0.024166666666666666
       },
       {
         "evolution": "Rapidashg",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 500,
+        "evolution_level": 50,
         "probability": 0.02325
       }
     ]
@@ -10608,8 +10608,8 @@
       },
       {
         "evolution": "Audinom",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 545,
+        "evolution_level": 54,
         "probability": 0.024833333333333332
       },
       {
@@ -10644,8 +10644,8 @@
       },
       {
         "evolution": "Zoroarkh",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 510,
+        "evolution_level": 51,
         "probability": 0.015333333333333332
       },
       {
@@ -10656,8 +10656,8 @@
       },
       {
         "evolution": "Lopunnym",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 580,
+        "evolution_level": 58,
         "probability": 0.0026666666666666666
       },
       {
@@ -10668,8 +10668,8 @@
       },
       {
         "evolution": "Pidgeotm",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 579,
+        "evolution_level": 57,
         "probability": 0.001
       },
       {
@@ -10692,8 +10692,8 @@
       },
       {
         "evolution": "Linooneg",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 420,
+        "evolution_level": 42,
         "probability": 0.00025
       },
       {
@@ -10903,26 +10903,26 @@
       },
       {
         "evolution": "Centskorch",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 525,
+        "evolution_level": 52,
         "probability": 0.0365
       },
       {
         "evolution": "Pinsirm",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 600,
+        "evolution_level": 60,
         "probability": 0.011416666666666667
       },
       {
         "evolution": "Heracrossm",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 600,
+        "evolution_level": 60,
         "probability": 0.0105
       },
       {
         "evolution": "Scizorm",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 600,
+        "evolution_level": 60,
         "probability": 0.007166666666666667
       }
     ]
@@ -11216,14 +11216,14 @@
       },
       {
         "evolution": "Lopunnym",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 580,
+        "evolution_level": 58,
         "probability": 0.042916666666666665
       },
       {
         "evolution": "Pidgeotm",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 579,
+        "evolution_level": 57,
         "probability": 0.04133333333333333
       },
       {
@@ -11234,8 +11234,8 @@
       },
       {
         "evolution": "Audinom",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 545,
+        "evolution_level": 54,
         "probability": 0.029083333333333333
       },
       {
@@ -11258,8 +11258,8 @@
       },
       {
         "evolution": "Zoroarkh",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 510,
+        "evolution_level": 51,
         "probability": 0.02
       },
       {
@@ -11505,8 +11505,8 @@
       },
       {
         "evolution": "Arcanineh",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 555,
+        "evolution_level": 55,
         "probability": 0.030666666666666665
       },
       {
@@ -11517,8 +11517,8 @@
       },
       {
         "evolution": "Avaluggh",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 514,
+        "evolution_level": 51,
         "probability": 0.023666666666666666
       },
       {
@@ -11806,8 +11806,8 @@
       },
       {
         "evolution": "Centskorch",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 525,
+        "evolution_level": 52,
         "probability": 0.03216666666666667
       },
       {
@@ -12293,8 +12293,8 @@
       },
       {
         "evolution": "Braviaryh",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 510,
+        "evolution_level": 51,
         "probability": 0.01633333333333333
       },
       {
@@ -12311,8 +12311,8 @@
       },
       {
         "evolution": "Centskorch",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 525,
+        "evolution_level": 52,
         "probability": 0.012416666666666666
       },
       {
@@ -12335,8 +12335,8 @@
       },
       {
         "evolution": "Thundurus",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 580,
+        "evolution_level": 58,
         "probability": 0.00016666666666666666
       },
       {
@@ -12353,14 +12353,14 @@
       },
       {
         "evolution": "Tornadus",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 580,
+        "evolution_level": 58,
         "probability": 8.333333333333333e-05
       },
       {
         "evolution": "Zapdosg",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 580,
+        "evolution_level": 58,
         "probability": 8.333333333333333e-05
       },
       {
@@ -12528,20 +12528,20 @@
       },
       {
         "evolution": "Houndoomm",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 600,
+        "evolution_level": 60,
         "probability": 0.0445
       },
       {
         "evolution": "Absolm",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 565,
+        "evolution_level": 56,
         "probability": 0.03791666666666667
       },
       {
         "evolution": "Moltresg",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 580,
+        "evolution_level": 58,
         "probability": 0.034916666666666665
       },
       {
@@ -12570,8 +12570,8 @@
       },
       {
         "evolution": "Sharpedom",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 560,
+        "evolution_level": 56,
         "probability": 0.023833333333333335
       },
       {
@@ -12582,14 +12582,14 @@
       },
       {
         "evolution": "Samurotth",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 528,
+        "evolution_level": 52,
         "probability": 0.020916666666666667
       },
       {
         "evolution": "Muka",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 500,
+        "evolution_level": 50,
         "probability": 0.017166666666666667
       }
     ]
@@ -12865,38 +12865,38 @@
       },
       {
         "evolution": "Pinsirm",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 600,
+        "evolution_level": 60,
         "probability": 0.028916666666666667
       },
       {
         "evolution": "Scizorm",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 600,
+        "evolution_level": 60,
         "probability": 0.027666666666666666
       },
       {
         "evolution": "Houndoomm",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 600,
+        "evolution_level": 60,
         "probability": 0.027083333333333334
       },
       {
         "evolution": "Heracrossm",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 600,
+        "evolution_level": 60,
         "probability": 0.025583333333333333
       },
       {
         "evolution": "Moltresg",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 580,
+        "evolution_level": 58,
         "probability": 0.02225
       },
       {
         "evolution": "Absolm",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 565,
+        "evolution_level": 56,
         "probability": 0.02225
       },
       {
@@ -12937,26 +12937,26 @@
       },
       {
         "evolution": "Sharpedom",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 560,
+        "evolution_level": 56,
         "probability": 0.013583333333333333
       },
       {
         "evolution": "Muka",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 500,
+        "evolution_level": 50,
         "probability": 0.012583333333333334
       },
       {
         "evolution": "Samurotth",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 528,
+        "evolution_level": 52,
         "probability": 0.01175
       },
       {
         "evolution": "Centskorch",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 525,
+        "evolution_level": 52,
         "probability": 0.01125
       }
     ]
@@ -13647,14 +13647,14 @@
       },
       {
         "evolution": "Cameruptm",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 560,
+        "evolution_level": 56,
         "probability": 0.012
       },
       {
         "evolution": "Arcanineh",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 555,
+        "evolution_level": 55,
         "probability": 0.011916666666666667
       },
       {
@@ -13677,8 +13677,8 @@
       },
       {
         "evolution": "Avaluggh",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 514,
+        "evolution_level": 51,
         "probability": 0.0105
       },
       {
@@ -13695,8 +13695,8 @@
       },
       {
         "evolution": "Centskorch",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 525,
+        "evolution_level": 52,
         "probability": 0.008083333333333333
       }
     ]
@@ -13906,8 +13906,8 @@
       },
       {
         "evolution": "Cameruptm",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 560,
+        "evolution_level": 56,
         "probability": 0.03158333333333333
       },
       {
@@ -13924,14 +13924,14 @@
       },
       {
         "evolution": "Landorus",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 600,
+        "evolution_level": 60,
         "probability": 0.0010833333333333333
       },
       {
         "evolution": "Zygarde",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 778,
+        "evolution_level": 77,
         "probability": 0.0006666666666666666
       },
       {
@@ -14195,14 +14195,14 @@
       },
       {
         "evolution": "Sliggooh",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 452,
+        "evolution_level": 45,
         "probability": 0.019666666666666666
       },
       {
         "evolution": "Mawilem",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 480,
+        "evolution_level": 48,
         "probability": 0.018666666666666668
       },
       {
@@ -14231,14 +14231,14 @@
       },
       {
         "evolution": "Stunfiskg",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 471,
+        "evolution_level": 47,
         "probability": 0.017
       },
       {
         "evolution": "Rapidashg",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 500,
+        "evolution_level": 50,
         "probability": 0.0165
       },
       {
@@ -14249,8 +14249,8 @@
       },
       {
         "evolution": "Weezingg",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 490,
+        "evolution_level": 49,
         "probability": 0.01525
       }
     ]
@@ -14658,8 +14658,8 @@
       },
       {
         "evolution": "Meowstic",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 566,
+        "evolution_level": 56,
         "probability": 0.014916666666666667
       },
       {
@@ -14682,20 +14682,20 @@
       },
       {
         "evolution": "Mr. Mimeg",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 460,
+        "evolution_level": 46,
         "probability": 0.0115
       },
       {
         "evolution": "Medichamm",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 510,
+        "evolution_level": 51,
         "probability": 0.011
       },
       {
         "evolution": "Decidueyeh",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 530,
+        "evolution_level": 53,
         "probability": 0.010916666666666667
       },
       {
@@ -14724,20 +14724,20 @@
       },
       {
         "evolution": "Braviaryh",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 510,
+        "evolution_level": 51,
         "probability": 0.010083333333333333
       },
       {
         "evolution": "Lilliganth",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 480,
+        "evolution_level": 48,
         "probability": 0.0095
       },
       {
         "evolution": "Rapidashg",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 500,
+        "evolution_level": 50,
         "probability": 0.009416666666666667
       },
       {
@@ -14748,14 +14748,14 @@
       },
       {
         "evolution": "Slowkingg",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 490,
+        "evolution_level": 49,
         "probability": 0.008833333333333334
       },
       {
         "evolution": "Slowbrog",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 490,
+        "evolution_level": 49,
         "probability": 0.008333333333333333
       },
       {
@@ -14881,8 +14881,8 @@
       },
       {
         "evolution": "Sliggooh",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 452,
+        "evolution_level": 45,
         "probability": 0.0025833333333333333
       },
       {
@@ -15086,8 +15086,8 @@
       },
       {
         "evolution": "Absolm",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 565,
+        "evolution_level": 56,
         "probability": 0.042083333333333334
       },
       {
@@ -15110,8 +15110,8 @@
       },
       {
         "evolution": "Sharpedom",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 560,
+        "evolution_level": 56,
         "probability": 0.024916666666666667
       },
       {
@@ -15122,20 +15122,20 @@
       },
       {
         "evolution": "Sableyem",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 480,
+        "evolution_level": 48,
         "probability": 0.023333333333333334
       },
       {
         "evolution": "Samurotth",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 528,
+        "evolution_level": 52,
         "probability": 0.021
       },
       {
         "evolution": "Muka",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 500,
+        "evolution_level": 50,
         "probability": 0.017833333333333333
       },
       {
@@ -15399,8 +15399,8 @@
       },
       {
         "evolution": "Toxtricitl",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 502,
+        "evolution_level": 50,
         "probability": 0.021166666666666667
       },
       {
@@ -15411,8 +15411,8 @@
       },
       {
         "evolution": "Electrodeh",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 490,
+        "evolution_level": 49,
         "probability": 0.018833333333333334
       },
       {
@@ -15423,14 +15423,14 @@
       },
       {
         "evolution": "Manectricm",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 575,
+        "evolution_level": 57,
         "probability": 0.0005833333333333334
       },
       {
         "evolution": "Thundurus",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 580,
+        "evolution_level": 58,
         "probability": 0.0005
       },
       {
@@ -15808,8 +15808,8 @@
       },
       {
         "evolution": "Braviaryh",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 510,
+        "evolution_level": 51,
         "probability": 0.0165
       },
       {
@@ -15856,14 +15856,14 @@
       },
       {
         "evolution": "Centskorch",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 525,
+        "evolution_level": 52,
         "probability": 0.01225
       },
       {
         "evolution": "Enamorus",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 580,
+        "evolution_level": 58,
         "probability": 0.00016666666666666666
       },
       {
@@ -15874,20 +15874,20 @@
       },
       {
         "evolution": "Heracrossm",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 600,
+        "evolution_level": 60,
         "probability": 8.333333333333333e-05
       },
       {
         "evolution": "Tornadus",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 580,
+        "evolution_level": 58,
         "probability": 8.333333333333333e-05
       },
       {
         "evolution": "Zapdosg",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 580,
+        "evolution_level": 58,
         "probability": 8.333333333333333e-05
       }
     ]
@@ -16133,8 +16133,8 @@
       },
       {
         "evolution": "Toxtricitl",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 502,
+        "evolution_level": 50,
         "probability": 0.0225
       },
       {
@@ -16157,8 +16157,8 @@
       },
       {
         "evolution": "Electrodeh",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 490,
+        "evolution_level": 49,
         "probability": 0.017583333333333333
       },
       {
@@ -16169,14 +16169,14 @@
       },
       {
         "evolution": "Manectricm",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 575,
+        "evolution_level": 57,
         "probability": 0.0005833333333333334
       },
       {
         "evolution": "Thundurus",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 580,
+        "evolution_level": 58,
         "probability": 0.0004166666666666667
       },
       {
@@ -16650,8 +16650,8 @@
       },
       {
         "evolution": "Decidueyeh",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 530,
+        "evolution_level": 53,
         "probability": 0.0155
       },
       {
@@ -16704,8 +16704,8 @@
       },
       {
         "evolution": "Centskorch",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 525,
+        "evolution_level": 52,
         "probability": 0.009583333333333333
       },
       {
@@ -16722,8 +16722,8 @@
       },
       {
         "evolution": "Lilliganth",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 480,
+        "evolution_level": 48,
         "probability": 0.009333333333333334
       },
       {
@@ -16734,8 +16734,8 @@
       },
       {
         "evolution": "Electrodeh",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 490,
+        "evolution_level": 49,
         "probability": 0.0085
       },
       {
@@ -17137,14 +17137,14 @@
       },
       {
         "evolution": "Tornadus",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 580,
+        "evolution_level": 58,
         "probability": 0.019833333333333335
       },
       {
         "evolution": "Moltresg",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 580,
+        "evolution_level": 58,
         "probability": 0.019166666666666665
       },
       {
@@ -17155,8 +17155,8 @@
       },
       {
         "evolution": "Zapdosg",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 580,
+        "evolution_level": 58,
         "probability": 0.01775
       },
       {
@@ -17167,14 +17167,14 @@
       },
       {
         "evolution": "Thundurus",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 580,
+        "evolution_level": 58,
         "probability": 0.017333333333333333
       },
       {
         "evolution": "Enamorus",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 580,
+        "evolution_level": 58,
         "probability": 0.017
       },
       {
@@ -17185,8 +17185,8 @@
       },
       {
         "evolution": "Articunog",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 580,
+        "evolution_level": 58,
         "probability": 0.01575
       },
       {
@@ -17203,8 +17203,8 @@
       },
       {
         "evolution": "Pidgeotm",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 579,
+        "evolution_level": 57,
         "probability": 0.013333333333333334
       },
       {
@@ -17221,14 +17221,14 @@
       },
       {
         "evolution": "Sharpedom",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 560,
+        "evolution_level": 56,
         "probability": 0.011
       },
       {
         "evolution": "Braviaryh",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 510,
+        "evolution_level": 51,
         "probability": 0.01075
       },
       {
@@ -17275,8 +17275,8 @@
       },
       {
         "evolution": "Samurotth",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 528,
+        "evolution_level": 52,
         "probability": 0.008166666666666666
       },
       {
@@ -17781,14 +17781,14 @@
       },
       {
         "evolution": "Lopunnym",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 580,
+        "evolution_level": 58,
         "probability": 0.04558333333333333
       },
       {
         "evolution": "Pidgeotm",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 579,
+        "evolution_level": 57,
         "probability": 0.044083333333333335
       },
       {
@@ -17811,8 +17811,8 @@
       },
       {
         "evolution": "Audinom",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 545,
+        "evolution_level": 54,
         "probability": 0.026833333333333334
       },
       {
@@ -17823,8 +17823,8 @@
       },
       {
         "evolution": "Zoroarkh",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 510,
+        "evolution_level": 51,
         "probability": 0.019416666666666665
       },
       {
@@ -18113,8 +18113,8 @@
       },
       {
         "evolution": "Manectricm",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 575,
+        "evolution_level": 57,
         "probability": 0.0425
       },
       {
@@ -18125,8 +18125,8 @@
       },
       {
         "evolution": "Thundurus",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 580,
+        "evolution_level": 58,
         "probability": 0.036333333333333336
       },
       {
@@ -18191,14 +18191,14 @@
       },
       {
         "evolution": "Toxtricitl",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 502,
+        "evolution_level": 50,
         "probability": 0.01575
       },
       {
         "evolution": "Electrodeh",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 490,
+        "evolution_level": 49,
         "probability": 0.014083333333333333
       }
     ]
@@ -18348,8 +18348,8 @@
       },
       {
         "evolution": "Manectricm",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 575,
+        "evolution_level": 57,
         "probability": 0.04066666666666666
       },
       {
@@ -18360,8 +18360,8 @@
       },
       {
         "evolution": "Thundurus",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 580,
+        "evolution_level": 58,
         "probability": 0.035333333333333335
       },
       {
@@ -18420,14 +18420,14 @@
       },
       {
         "evolution": "Toxtricitl",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 502,
+        "evolution_level": 50,
         "probability": 0.016083333333333335
       },
       {
         "evolution": "Electrodeh",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 490,
+        "evolution_level": 49,
         "probability": 0.016
       },
       {
@@ -18685,8 +18685,8 @@
       },
       {
         "evolution": "Toxtricitl",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 502,
+        "evolution_level": 50,
         "probability": 0.021583333333333333
       },
       {
@@ -18703,8 +18703,8 @@
       },
       {
         "evolution": "Electrodeh",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 490,
+        "evolution_level": 49,
         "probability": 0.01875
       },
       {
@@ -18715,8 +18715,8 @@
       },
       {
         "evolution": "Manectricm",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 575,
+        "evolution_level": 57,
         "probability": 0.0006666666666666666
       },
       {
@@ -18733,8 +18733,8 @@
       },
       {
         "evolution": "Thundurus",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 580,
+        "evolution_level": 58,
         "probability": 0.0005
       },
       {
@@ -19190,8 +19190,8 @@
       },
       {
         "evolution": "Sharpedom",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 560,
+        "evolution_level": 56,
         "probability": 0.016
       },
       {
@@ -19220,8 +19220,8 @@
       },
       {
         "evolution": "Samurotth",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 528,
+        "evolution_level": 52,
         "probability": 0.01275
       },
       {
@@ -19731,8 +19731,8 @@
       },
       {
         "evolution": "Sharpedom",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 560,
+        "evolution_level": 56,
         "probability": 0.013333333333333334
       },
       {
@@ -19749,14 +19749,14 @@
       },
       {
         "evolution": "Cameruptm",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 560,
+        "evolution_level": 56,
         "probability": 0.011333333333333334
       },
       {
         "evolution": "Samurotth",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 528,
+        "evolution_level": 52,
         "probability": 0.010083333333333333
       },
       {
@@ -20164,8 +20164,8 @@
       },
       {
         "evolution": "Audinom",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 545,
+        "evolution_level": 54,
         "probability": 0.025166666666666667
       },
       {
@@ -20206,8 +20206,8 @@
       },
       {
         "evolution": "Zoroarkh",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 510,
+        "evolution_level": 51,
         "probability": 0.014833333333333334
       },
       {
@@ -20218,14 +20218,14 @@
       },
       {
         "evolution": "Pidgeotm",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 579,
+        "evolution_level": 57,
         "probability": 0.0019166666666666666
       },
       {
         "evolution": "Lopunnym",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 580,
+        "evolution_level": 58,
         "probability": 0.0011666666666666668
       },
       {
@@ -20254,8 +20254,8 @@
       },
       {
         "evolution": "Linooneg",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 420,
+        "evolution_level": 42,
         "probability": 0.00016666666666666666
       },
       {
@@ -20501,8 +20501,8 @@
       },
       {
         "evolution": "Banettem",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 555,
+        "evolution_level": 55,
         "probability": 0.023
       },
       {
@@ -20513,8 +20513,8 @@
       },
       {
         "evolution": "Manectricm",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 575,
+        "evolution_level": 57,
         "probability": 0.02225
       },
       {
@@ -20531,8 +20531,8 @@
       },
       {
         "evolution": "Thundurus",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 580,
+        "evolution_level": 58,
         "probability": 0.02033333333333333
       },
       {
@@ -20627,14 +20627,14 @@
       },
       {
         "evolution": "Toxtricitl",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 502,
+        "evolution_level": 50,
         "probability": 0.010166666666666666
       },
       {
         "evolution": "Electrodeh",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 490,
+        "evolution_level": 49,
         "probability": 0.009916666666666667
       },
       {
@@ -20669,8 +20669,8 @@
       },
       {
         "evolution": "Zoroarkh",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 510,
+        "evolution_level": 51,
         "probability": 0.0085
       }
     ]
@@ -21000,14 +21000,14 @@
       },
       {
         "evolution": "Qwilfishh",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 440,
+        "evolution_level": 44,
         "probability": 0.015833333333333335
       },
       {
         "evolution": "Sableyem",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 480,
+        "evolution_level": 48,
         "probability": 0.01425
       },
       {
@@ -21036,8 +21036,8 @@
       },
       {
         "evolution": "Muka",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 500,
+        "evolution_level": 50,
         "probability": 0.0125
       },
       {
@@ -21060,8 +21060,8 @@
       },
       {
         "evolution": "Samurotth",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 528,
+        "evolution_level": 52,
         "probability": 0.010583333333333333
       },
       {
@@ -21078,8 +21078,8 @@
       },
       {
         "evolution": "Zoroarkh",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 510,
+        "evolution_level": 51,
         "probability": 0.009666666666666667
       }
     ]
@@ -21235,14 +21235,14 @@
       },
       {
         "evolution": "Landorus",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 600,
+        "evolution_level": 60,
         "probability": 0.059333333333333335
       },
       {
         "evolution": "Zygarde",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 778,
+        "evolution_level": 77,
         "probability": 0.04958333333333333
       },
       {
@@ -21259,8 +21259,8 @@
       },
       {
         "evolution": "Cameruptm",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 560,
+        "evolution_level": 56,
         "probability": 0.03141666666666667
       },
       {
@@ -21536,8 +21536,8 @@
       },
       {
         "evolution": "Sharpedom",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 560,
+        "evolution_level": 56,
         "probability": 0.02075
       },
       {
@@ -21566,8 +21566,8 @@
       },
       {
         "evolution": "Samurotth",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 528,
+        "evolution_level": 52,
         "probability": 0.01425
       },
       {
@@ -21999,8 +21999,8 @@
       },
       {
         "evolution": "Decidueyeh",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 530,
+        "evolution_level": 53,
         "probability": 0.012416666666666666
       },
       {
@@ -22011,14 +22011,14 @@
       },
       {
         "evolution": "Mawilem",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 480,
+        "evolution_level": 48,
         "probability": 0.010833333333333334
       },
       {
         "evolution": "Rapidashg",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 500,
+        "evolution_level": 50,
         "probability": 0.01075
       },
       {
@@ -22077,20 +22077,20 @@
       },
       {
         "evolution": "Weezingg",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 490,
+        "evolution_level": 49,
         "probability": 0.009416666666666667
       },
       {
         "evolution": "Audinom",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 545,
+        "evolution_level": 54,
         "probability": 0.009333333333333334
       },
       {
         "evolution": "Lilliganth",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 480,
+        "evolution_level": 48,
         "probability": 0.009333333333333334
       },
       {
@@ -22101,8 +22101,8 @@
       },
       {
         "evolution": "Electrodeh",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 490,
+        "evolution_level": 49,
         "probability": 0.0075
       },
       {
@@ -22228,8 +22228,8 @@
       },
       {
         "evolution": "Zoruah",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 330,
+        "evolution_level": 33,
         "probability": 0.05975
       }
     ]
@@ -22463,8 +22463,8 @@
       },
       {
         "evolution": "Centskorch",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 525,
+        "evolution_level": 52,
         "probability": 0.035333333333333335
       },
       {
@@ -22475,20 +22475,20 @@
       },
       {
         "evolution": "Pinsirm",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 600,
+        "evolution_level": 60,
         "probability": 0.005916666666666666
       },
       {
         "evolution": "Heracrossm",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 600,
+        "evolution_level": 60,
         "probability": 0.005333333333333333
       },
       {
         "evolution": "Scizorm",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 600,
+        "evolution_level": 60,
         "probability": 0.0045
       },
       {
@@ -22824,8 +22824,8 @@
       },
       {
         "evolution": "Linooneg",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 420,
+        "evolution_level": 42,
         "probability": 0.019916666666666666
       },
       {
@@ -23101,8 +23101,8 @@
       },
       {
         "evolution": "Arcanineh",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 555,
+        "evolution_level": 55,
         "probability": 0.03258333333333333
       },
       {
@@ -23113,8 +23113,8 @@
       },
       {
         "evolution": "Avaluggh",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 514,
+        "evolution_level": 51,
         "probability": 0.026083333333333333
       },
       {
@@ -23432,8 +23432,8 @@
       },
       {
         "evolution": "Decidueyeh",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 530,
+        "evolution_level": 53,
         "probability": 0.01725
       },
       {
@@ -23456,8 +23456,8 @@
       },
       {
         "evolution": "Lilliganth",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 480,
+        "evolution_level": 48,
         "probability": 0.014583333333333334
       },
       {
@@ -23486,8 +23486,8 @@
       },
       {
         "evolution": "Electrodeh",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 490,
+        "evolution_level": 49,
         "probability": 0.012333333333333333
       },
       {
@@ -23889,20 +23889,20 @@
       },
       {
         "evolution": "Medichamm",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 510,
+        "evolution_level": 51,
         "probability": 0.01325
       },
       {
         "evolution": "Rapidashg",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 500,
+        "evolution_level": 50,
         "probability": 0.013
       },
       {
         "evolution": "Braviaryh",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 510,
+        "evolution_level": 51,
         "probability": 0.01225
       },
       {
@@ -23943,8 +23943,8 @@
       },
       {
         "evolution": "Slowkingg",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 490,
+        "evolution_level": 49,
         "probability": 0.010083333333333333
       },
       {
@@ -23955,8 +23955,8 @@
       },
       {
         "evolution": "Slowbrog",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 490,
+        "evolution_level": 49,
         "probability": 0.00975
       },
       {
@@ -24244,20 +24244,20 @@
       },
       {
         "evolution": "Lopunnym",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 580,
+        "evolution_level": 58,
         "probability": 0.04608333333333333
       },
       {
         "evolution": "Pidgeotm",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 579,
+        "evolution_level": 57,
         "probability": 0.04566666666666667
       },
       {
         "evolution": "Audinom",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 545,
+        "evolution_level": 54,
         "probability": 0.03133333333333333
       },
       {
@@ -24274,8 +24274,8 @@
       },
       {
         "evolution": "Zoroarkh",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 510,
+        "evolution_level": 51,
         "probability": 0.022166666666666668
       },
       {
@@ -24587,8 +24587,8 @@
       },
       {
         "evolution": "Manectricm",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 575,
+        "evolution_level": 57,
         "probability": 0.02275
       },
       {
@@ -24605,8 +24605,8 @@
       },
       {
         "evolution": "Thundurus",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 580,
+        "evolution_level": 58,
         "probability": 0.02033333333333333
       },
       {
@@ -24659,8 +24659,8 @@
       },
       {
         "evolution": "Electrodeh",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 490,
+        "evolution_level": 49,
         "probability": 0.009666666666666667
       },
       {
@@ -24671,8 +24671,8 @@
       },
       {
         "evolution": "Toxtricitl",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 502,
+        "evolution_level": 50,
         "probability": 0.009583333333333333
       },
       {
@@ -24888,8 +24888,8 @@
       },
       {
         "evolution": "Meowstic",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 566,
+        "evolution_level": 56,
         "probability": 0.05925
       },
       {
@@ -24900,14 +24900,14 @@
       },
       {
         "evolution": "Ponytag",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 410,
+        "evolution_level": 41,
         "probability": 0.052
       },
       {
         "evolution": "Mr. Mimeg",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 460,
+        "evolution_level": 46,
         "probability": 0.03641666666666667
       },
       {
@@ -24930,26 +24930,26 @@
       },
       {
         "evolution": "Rapidashg",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 500,
+        "evolution_level": 50,
         "probability": 0.0003333333333333333
       },
       {
         "evolution": "Slowbrog",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 490,
+        "evolution_level": 49,
         "probability": 0.00025
       },
       {
         "evolution": "Slowkingg",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 490,
+        "evolution_level": 49,
         "probability": 0.00016666666666666666
       },
       {
         "evolution": "Braviaryh",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 510,
+        "evolution_level": 51,
         "probability": 8.333333333333333e-05
       }
     ]
@@ -25201,20 +25201,20 @@
       },
       {
         "evolution": "Pinsirm",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 600,
+        "evolution_level": 60,
         "probability": 0.044
       },
       {
         "evolution": "Scizorm",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 600,
+        "evolution_level": 60,
         "probability": 0.03766666666666667
       },
       {
         "evolution": "Heracrossm",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 600,
+        "evolution_level": 60,
         "probability": 0.0375
       },
       {
@@ -25231,20 +25231,20 @@
       },
       {
         "evolution": "Centskorch",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 525,
+        "evolution_level": 52,
         "probability": 0.015583333333333333
       },
       {
         "evolution": "Muka",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 500,
+        "evolution_level": 50,
         "probability": 0.015333333333333332
       },
       {
         "evolution": "Toxtricitl",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 502,
+        "evolution_level": 50,
         "probability": 0.014916666666666667
       },
       {
@@ -25652,8 +25652,8 @@
       },
       {
         "evolution": "Braviaryh",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 510,
+        "evolution_level": 51,
         "probability": 0.017416666666666667
       },
       {
@@ -25676,8 +25676,8 @@
       },
       {
         "evolution": "Centskorch",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 525,
+        "evolution_level": 52,
         "probability": 0.015083333333333334
       },
       {
@@ -25694,8 +25694,8 @@
       },
       {
         "evolution": "Zapdosg",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 580,
+        "evolution_level": 58,
         "probability": 0.0006666666666666666
       },
       {
@@ -25706,26 +25706,26 @@
       },
       {
         "evolution": "Enamorus",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 580,
+        "evolution_level": 58,
         "probability": 0.0004166666666666667
       },
       {
         "evolution": "Thundurus",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 580,
+        "evolution_level": 58,
         "probability": 0.0004166666666666667
       },
       {
         "evolution": "Tornadus",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 580,
+        "evolution_level": 58,
         "probability": 0.0004166666666666667
       },
       {
         "evolution": "Moltresg",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 580,
+        "evolution_level": 58,
         "probability": 0.0003333333333333333
       },
       {
@@ -25742,8 +25742,8 @@
       },
       {
         "evolution": "Articunog",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 580,
+        "evolution_level": 58,
         "probability": 0.00016666666666666666
       },
       {
@@ -25965,26 +25965,26 @@
       },
       {
         "evolution": "Centskorch",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 525,
+        "evolution_level": 52,
         "probability": 0.036083333333333335
       },
       {
         "evolution": "Pinsirm",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 600,
+        "evolution_level": 60,
         "probability": 0.00925
       },
       {
         "evolution": "Heracrossm",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 600,
+        "evolution_level": 60,
         "probability": 0.008
       },
       {
         "evolution": "Scizorm",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 600,
+        "evolution_level": 60,
         "probability": 0.007166666666666667
       }
     ]
@@ -26344,8 +26344,8 @@
       },
       {
         "evolution": "Audinom",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 545,
+        "evolution_level": 54,
         "probability": 0.022166666666666668
       },
       {
@@ -26356,8 +26356,8 @@
       },
       {
         "evolution": "Zoroarkh",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 510,
+        "evolution_level": 51,
         "probability": 0.0175
       },
       {
@@ -26380,14 +26380,14 @@
       },
       {
         "evolution": "Pidgeotm",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 579,
+        "evolution_level": 57,
         "probability": 0.0015
       },
       {
         "evolution": "Lopunnym",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 580,
+        "evolution_level": 58,
         "probability": 0.0013333333333333333
       },
       {
@@ -26422,8 +26422,8 @@
       },
       {
         "evolution": "Linooneg",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 420,
+        "evolution_level": 42,
         "probability": 0.00016666666666666666
       }
     ]
@@ -26735,8 +26735,8 @@
       },
       {
         "evolution": "Enamorus",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 580,
+        "evolution_level": 58,
         "probability": 0.027166666666666665
       },
       {
@@ -26753,14 +26753,14 @@
       },
       {
         "evolution": "Pidgeotm",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 579,
+        "evolution_level": 57,
         "probability": 0.0185
       },
       {
         "evolution": "Lopunnym",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 580,
+        "evolution_level": 58,
         "probability": 0.018166666666666668
       },
       {
@@ -26771,8 +26771,8 @@
       },
       {
         "evolution": "Rapidashg",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 500,
+        "evolution_level": 50,
         "probability": 0.0145
       },
       {
@@ -26789,14 +26789,14 @@
       },
       {
         "evolution": "Audinom",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 545,
+        "evolution_level": 54,
         "probability": 0.012666666666666666
       },
       {
         "evolution": "Weezingg",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 490,
+        "evolution_level": 49,
         "probability": 0.012083333333333333
       },
       {
@@ -26813,8 +26813,8 @@
       },
       {
         "evolution": "Zoroarkh",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 510,
+        "evolution_level": 51,
         "probability": 0.01075
       }
     ]
@@ -27139,8 +27139,8 @@
       },
       {
         "evolution": "Meowstic",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 566,
+        "evolution_level": 56,
         "probability": 0.027583333333333335
       },
       {
@@ -27157,26 +27157,26 @@
       },
       {
         "evolution": "Mr. Mimeg",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 460,
+        "evolution_level": 46,
         "probability": 0.01975
       },
       {
         "evolution": "Medichamm",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 510,
+        "evolution_level": 51,
         "probability": 0.019666666666666666
       },
       {
         "evolution": "Braviaryh",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 510,
+        "evolution_level": 51,
         "probability": 0.0185
       },
       {
         "evolution": "Rapidashg",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 500,
+        "evolution_level": 50,
         "probability": 0.01725
       },
       {
@@ -27187,8 +27187,8 @@
       },
       {
         "evolution": "Slowbrog",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 490,
+        "evolution_level": 49,
         "probability": 0.01525
       },
       {
@@ -27199,8 +27199,8 @@
       },
       {
         "evolution": "Slowkingg",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 490,
+        "evolution_level": 49,
         "probability": 0.012333333333333333
       },
       {
@@ -27662,8 +27662,8 @@
       },
       {
         "evolution": "Decidueyeh",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 530,
+        "evolution_level": 53,
         "probability": 0.012166666666666666
       },
       {
@@ -27692,8 +27692,8 @@
       },
       {
         "evolution": "Lilliganth",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 480,
+        "evolution_level": 48,
         "probability": 0.010416666666666666
       },
       {
@@ -27716,8 +27716,8 @@
       },
       {
         "evolution": "Centskorch",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 525,
+        "evolution_level": 52,
         "probability": 0.00925
       },
       {
@@ -27728,8 +27728,8 @@
       },
       {
         "evolution": "Electrodeh",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 490,
+        "evolution_level": 49,
         "probability": 0.00775
       }
     ]
@@ -28077,8 +28077,8 @@
       },
       {
         "evolution": "Cameruptm",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 560,
+        "evolution_level": 56,
         "probability": 0.018833333333333334
       },
       {
@@ -28095,14 +28095,14 @@
       },
       {
         "evolution": "Centskorch",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 525,
+        "evolution_level": 52,
         "probability": 0.014166666666666666
       },
       {
         "evolution": "Pinsirm",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 600,
+        "evolution_level": 60,
         "probability": 0.00016666666666666666
       },
       {
@@ -28113,14 +28113,14 @@
       },
       {
         "evolution": "Scizorm",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 600,
+        "evolution_level": 60,
         "probability": 8.333333333333333e-05
       },
       {
         "evolution": "Heracrossm",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 600,
+        "evolution_level": 60,
         "probability": 8.333333333333333e-05
       }
     ]
@@ -28426,8 +28426,8 @@
       },
       {
         "evolution": "Mawilem",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 480,
+        "evolution_level": 48,
         "probability": 0.021083333333333332
       },
       {
@@ -28450,8 +28450,8 @@
       },
       {
         "evolution": "Centskorch",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 525,
+        "evolution_level": 52,
         "probability": 0.013166666666666667
       },
       {
@@ -28823,8 +28823,8 @@
       },
       {
         "evolution": "Sharpedom",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 560,
+        "evolution_level": 56,
         "probability": 0.020916666666666667
       },
       {
@@ -28853,8 +28853,8 @@
       },
       {
         "evolution": "Samurotth",
-        "bst": null,
-        "evolution_level": null,
+        "bst": 528,
+        "evolution_level": 52,
         "probability": 0.0145
       },
       {
@@ -29301,6 +29301,343 @@
         "bst": 490,
         "evolution_level": 49,
         "probability": 0.00858509019778309
+      }
+    ]
+  },
+  "Linoone": {
+    "base_bst": 420,
+    "rule": "bst/10",
+    "forced": true,
+    "evolutions": [
+      {
+        "evolution": "Silvally",
+        "bst": 570,
+        "evolution_level": 57,
+        "probability": 0.039502332814930013
+      },
+      {
+        "evolution": "Type: Null",
+        "bst": 534,
+        "evolution_level": 53,
+        "probability": 0.03390357698289269
+      },
+      {
+        "evolution": "Snorlax",
+        "bst": 540,
+        "evolution_level": 54,
+        "probability": 0.03276308968377398
+      },
+      {
+        "evolution": "Blissey",
+        "bst": 540,
+        "evolution_level": 54,
+        "probability": 0.03265940902021773
+      },
+      {
+        "evolution": "Komala",
+        "bst": 480,
+        "evolution_level": 48,
+        "probability": 0.032244686365992745
+      },
+      {
+        "evolution": "Cinccino",
+        "bst": 470,
+        "evolution_level": 47,
+        "probability": 0.0321410057024365
+      },
+      {
+        "evolution": "Porygon-Z",
+        "bst": 535,
+        "evolution_level": 53,
+        "probability": 0.03162260238465526
+      },
+      {
+        "evolution": "Furfrou",
+        "bst": 472,
+        "evolution_level": 47,
+        "probability": 0.030793157076205287
+      },
+      {
+        "evolution": "Tauros",
+        "bst": 490,
+        "evolution_level": 49,
+        "probability": 0.0303784344219803
+      },
+      {
+        "evolution": "Bouffalant",
+        "bst": 490,
+        "evolution_level": 49,
+        "probability": 0.02965266977708657
+      },
+      {
+        "evolution": "Lopunny",
+        "bst": 480,
+        "evolution_level": 48,
+        "probability": 0.029548989113530325
+      },
+      {
+        "evolution": "Miltank",
+        "bst": 490,
+        "evolution_level": 49,
+        "probability": 0.02913426645930534
+      },
+      {
+        "evolution": "Stoutland",
+        "bst": 500,
+        "evolution_level": 50,
+        "probability": 0.028615863141524107
+      },
+      {
+        "evolution": "Kangaskhan",
+        "bst": 490,
+        "evolution_level": 49,
+        "probability": 0.028408501814411614
+      },
+      {
+        "evolution": "Exploud",
+        "bst": 490,
+        "evolution_level": 49,
+        "probability": 0.028304821150855364
+      },
+      {
+        "evolution": "Ambipom",
+        "bst": 482,
+        "evolution_level": 48,
+        "probability": 0.027060653188180406
+      },
+      {
+        "evolution": "Lickilicky",
+        "bst": 515,
+        "evolution_level": 51,
+        "probability": 0.02654224987039917
+      },
+      {
+        "evolution": "Dubwool",
+        "bst": 490,
+        "evolution_level": 49,
+        "probability": 0.026127527216174184
+      },
+      {
+        "evolution": "Ursaring",
+        "bst": 500,
+        "evolution_level": 50,
+        "probability": 0.025712804561949198
+      },
+      {
+        "evolution": "Staraptor",
+        "bst": 485,
+        "evolution_level": 48,
+        "probability": 0.02498703991705547
+      },
+      {
+        "evolution": "Porygon2",
+        "bst": 515,
+        "evolution_level": 51,
+        "probability": 0.02498703991705547
+      },
+      {
+        "evolution": "Drampa",
+        "bst": 485,
+        "evolution_level": 48,
+        "probability": 0.024261275272161743
+      },
+      {
+        "evolution": "Toucannon",
+        "bst": 485,
+        "evolution_level": 48,
+        "probability": 0.02280974598237429
+      },
+      {
+        "evolution": "Cyclizar",
+        "bst": 501,
+        "evolution_level": 50,
+        "probability": 0.022187662001036806
+      },
+      {
+        "evolution": "Wyrdeer",
+        "bst": 525,
+        "evolution_level": 52,
+        "probability": 0.022187662001036806
+      },
+      {
+        "evolution": "Dodrio",
+        "bst": 470,
+        "evolution_level": 47,
+        "probability": 0.02208398133748056
+      },
+      {
+        "evolution": "Ursaluna",
+        "bst": 550,
+        "evolution_level": 55,
+        "probability": 0.021980300673924313
+      },
+      {
+        "evolution": "Pidgeot",
+        "bst": 479,
+        "evolution_level": 47,
+        "probability": 0.02177293934681182
+      },
+      {
+        "evolution": "Farigiraf",
+        "bst": 520,
+        "evolution_level": 52,
+        "probability": 0.020736132711249352
+      },
+      {
+        "evolution": "Braviary",
+        "bst": 510,
+        "evolution_level": 51,
+        "probability": 0.020736132711249352
+      },
+      {
+        "evolution": "Bewear",
+        "bst": 500,
+        "evolution_level": 50,
+        "probability": 0.020632452047693105
+      },
+      {
+        "evolution": "Obstagoon",
+        "bst": 520,
+        "evolution_level": 52,
+        "probability": 0.020114048729911873
+      },
+      {
+        "evolution": "Unfezant",
+        "bst": 488,
+        "evolution_level": 48,
+        "probability": 0.01980300673924313
+      },
+      {
+        "evolution": "Grafaiai",
+        "bst": 485,
+        "evolution_level": 48,
+        "probability": 0.019284603421461897
+      },
+      {
+        "evolution": "Heliolisk",
+        "bst": 481,
+        "evolution_level": 48,
+        "probability": 0.018351477449455676
+      },
+      {
+        "evolution": "Oranguru",
+        "bst": 490,
+        "evolution_level": 49,
+        "probability": 0.01793675479523069
+      },
+      {
+        "evolution": "Pyroar",
+        "bst": 507,
+        "evolution_level": 50,
+        "probability": 0.01658890616899948
+      },
+      {
+        "evolution": "Sawsbuck",
+        "bst": 475,
+        "evolution_level": 47,
+        "probability": 0.016174183514774496
+      },
+      {
+        "evolution": "Arboliva",
+        "bst": 510,
+        "evolution_level": 51,
+        "probability": 0.015759460860549506
+      },
+      {
+        "evolution": "Audino",
+        "bst": 445,
+        "evolution_level": 44,
+        "probability": 0.0018662519440124418
+      },
+      {
+        "evolution": "Greedent",
+        "bst": 460,
+        "evolution_level": 46,
+        "probability": 0.0015552099533437014
+      },
+      {
+        "evolution": "Stantler",
+        "bst": 465,
+        "evolution_level": 46,
+        "probability": 0.0014515292897874547
+      },
+      {
+        "evolution": "Terapagos",
+        "bst": 450,
+        "evolution_level": 45,
+        "probability": 0.0010368066355624676
+      },
+      {
+        "evolution": "Chansey",
+        "bst": 450,
+        "evolution_level": 45,
+        "probability": 0.0009331259720062209
+      },
+      {
+        "evolution": "Zangoose",
+        "bst": 458,
+        "evolution_level": 45,
+        "probability": 0.0009331259720062209
+      },
+      {
+        "evolution": "Purugly",
+        "bst": 452,
+        "evolution_level": 45,
+        "probability": 0.0008294453084499741
+      },
+      {
+        "evolution": "Fearow",
+        "bst": 442,
+        "evolution_level": 44,
+        "probability": 0.0007257646448937273
+      },
+      {
+        "evolution": "Girafarig",
+        "bst": 455,
+        "evolution_level": 45,
+        "probability": 0.0006220839813374805
+      },
+      {
+        "evolution": "Noctowl",
+        "bst": 452,
+        "evolution_level": 45,
+        "probability": 0.00041472265422498703
+      },
+      {
+        "evolution": "Castform",
+        "bst": 420,
+        "evolution_level": 42,
+        "probability": 0.00031104199066874026
+      },
+      {
+        "evolution": "Diggersby",
+        "bst": 423,
+        "evolution_level": 42,
+        "probability": 0.00020736132711249351
+      },
+      {
+        "evolution": "Vigoroth",
+        "bst": 440,
+        "evolution_level": 44,
+        "probability": 0.00020736132711249351
+      },
+      {
+        "evolution": "Swellow",
+        "bst": 455,
+        "evolution_level": 45,
+        "probability": 0.00020736132711249351
+      },
+      {
+        "evolution": "Gumshoos",
+        "bst": 418,
+        "evolution_level": 41,
+        "probability": 0.00010368066355624676
+      },
+      {
+        "evolution": "Persian",
+        "bst": 440,
+        "evolution_level": 44,
+        "probability": 0.00010368066355624676
       }
     ]
   }
