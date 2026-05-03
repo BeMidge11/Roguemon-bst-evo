@@ -1,256 +1,286 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8" />
-<title>Roguemon BST/10 Evo Calculator</title>
-  
+  <meta charset="UTF-8" />
+  <title>Roguemon BST/10 Evo Calculator</title>
 
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 
-<style>
-:root {
-  --bg: #020617;
-  --panel: #020617;
-  --card: #0f172a;
-  --accent: #38bdf8;
-  --accent-2: #22c55e;
-  --text: #e5e7eb;
-  --muted: #9ca3af;
-  --border: #1f2937;
-}
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
-* {
-  box-sizing: border-box;
-  font-family: Inter, system-ui, sans-serif;
-}
+  <style>
+    :root {
+      --bg: #020617;
+      --panel: #020617;
+      --card: #0f172a;
+      --accent: #38bdf8;
+      --accent-2: #22c55e;
+      --text: #e5e7eb;
+      --muted: #9ca3af;
+      --border: #1f2937;
+    }
 
-body {
-  margin: 0;
-  padding: 2rem;
-  background: linear-gradient(180deg, #020617, #020617);
-  color: var(--text);
-}
+    * {
+      box-sizing: border-box;
+      font-family: Inter, system-ui, sans-serif;
+    }
 
-h1 {
-  margin-bottom: 1rem;
-  font-size: 2rem;
-  text-align: center;
-}
+    body {
+      margin: 0;
+      padding: 2rem;
+      background: linear-gradient(180deg, #020617, #020617);
+      color: var(--text);
+    }
 
-/* === NEW: CREDIT LINE UNDER TITLE === */
-.credit {
-  text-align: center;
-  font-size: 0.9rem;
-  color: var(--muted);
-  margin-top: -0.5rem;
-  margin-bottom: 1.5rem;
-  letter-spacing: 0.03em;
-}
+    h1 {
+      margin-bottom: 1rem;
+      font-size: 2rem;
+      text-align: center;
+    }
 
-.app {
-  display: grid;
-  grid-template-columns: 1fr 320px;
-  gap: 1.5rem;
-  max-width: 1200px;
-  margin: auto;
-}
+    /* === NEW: CREDIT LINE UNDER TITLE === */
+    .credit {
+      text-align: center;
+      font-size: 0.9rem;
+      color: var(--muted);
+      margin-top: -0.5rem;
+      margin-bottom: 1.5rem;
+      letter-spacing: 0.03em;
+    }
 
-.panel {
-  background: var(--panel);
-  border-radius: 14px;
-  padding: 1.5rem;
-  border: 1px solid var(--border);
-}
+    .credit a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 600;
+      transition: opacity 0.2s;
+    }
 
-.controls {
-  display: grid;
-  gap: 1rem;
-  margin-bottom: 1.25rem;
-}
+    .credit a:hover {
+      opacity: 0.8;
+      text-decoration: underline;
+    }
 
-label {
-  font-size: 0.9rem;
-  color: var(--muted);
-}
+    .app {
+      display: grid;
+      grid-template-columns: 1fr 320px;
+      gap: 1.5rem;
+      max-width: 1200px;
+      margin: auto;
+    }
 
-input {
-  width: 100%;
-  background: var(--card);
-  color: var(--text);
-  border: 1px solid var(--border);
-  border-radius: 10px;
-  padding: 0.6rem;
-  font-size: 1rem;
-}
+    .panel {
+      background: var(--panel);
+      border-radius: 14px;
+      padding: 1.5rem;
+      border: 1px solid var(--border);
+    }
 
-.suggestions {
-  position: relative;
-}
+    .controls {
+      display: grid;
+      gap: 1rem;
+      margin-bottom: 1.25rem;
+    }
 
-.suggestion-box {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  right: 0;
-  background: var(--card);
-  border: 1px solid var(--border);
-  border-radius: 10px;
-  max-height: 220px;
-  overflow-y: auto;
-  z-index: 10;
-}
+    label {
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
 
-.suggestion {
-  padding: 0.5rem 0.75rem;
-  cursor: pointer;
-}
+    input {
+      width: 100%;
+      background: var(--card);
+      color: var(--text);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 0.6rem;
+      font-size: 1rem;
+    }
 
-.suggestion:hover {
-  background: #1e293b;
-}
+    .suggestions {
+      position: relative;
+    }
 
-.levels {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.4rem;
-  margin-bottom: 1rem;
-}
+    .suggestion-box {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      max-height: 220px;
+      overflow-y: auto;
+      z-index: 10;
+    }
 
-.level-pill {
-  padding: 0.35rem 0.6rem;
-  border-radius: 999px;
-  border: 1px solid var(--border);
-  background: var(--card);
-  cursor: pointer;
-  font-size: 0.85rem;
-}
+    .suggestion {
+      padding: 0.5rem 0.75rem;
+      cursor: pointer;
+    }
 
-.level-pill.active {
-  background: var(--accent);
-  color: black;
-  font-weight: 600;
-}
+    .suggestion:hover {
+      background: #1e293b;
+    }
 
-.level-pill.disabled {
-  opacity: 0.35;
-  pointer-events: none;
-}
+    .levels {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+      margin-bottom: 1rem;
+    }
 
-.results {
-  display: grid;
-  gap: 0.6rem;
-}
+    .level-pill {
+      padding: 0.35rem 0.6rem;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: var(--card);
+      cursor: pointer;
+      font-size: 0.85rem;
+    }
 
-.evo-card {
-  background: var(--card);
-  border-radius: 10px;
-  padding: 0.6rem 0.75rem;
-  display: grid;
-  grid-template-columns: 1fr 60px 1fr;
-  align-items: center;
-  gap: 0.75rem;
-}
+    .level-pill.active {
+      background: var(--accent);
+      color: black;
+      font-weight: 600;
+    }
 
-.evo-name {
-  font-weight: 600;
-}
+    .level-pill.disabled {
+      opacity: 0.35;
+      pointer-events: none;
+    }
 
-.evo-level {
-  text-align: center;
-  color: var(--accent);
-  font-weight: 600;
-}
+    .results {
+      display: grid;
+      gap: 0.6rem;
+    }
 
-.bar {
-  height: 10px;
-  background: #1f2937;
-  border-radius: 999px;
-  overflow: hidden;
-}
+    .evo-card {
+      background: var(--card);
+      border-radius: 10px;
+      padding: 0.6rem 0.75rem;
+      display: grid;
+      grid-template-columns: 1fr 60px 1fr;
+      align-items: center;
+      gap: 0.75rem;
+    }
 
-.bar-fill {
-  height: 100%;
-  background: linear-gradient(90deg, var(--accent), var(--accent-2));
-}
+    .evo-name {
+      font-weight: 600;
+    }
 
-.percent {
-  font-size: 0.8rem;
-  color: var(--muted);
-  margin-left: 0.4rem;
-}
+    .evo-level {
+      text-align: center;
+      color: var(--accent);
+      font-weight: 600;
+    }
 
-/* === TOP 5 PANEL === */
+    .bar {
+      height: 10px;
+      background: #1f2937;
+      border-radius: 999px;
+      overflow: hidden;
+    }
 
-.top5 h2 {
-  margin: 0 0 0.75rem;
-  font-size: 1.1rem;
-  color: var(--accent);
-}
+    .bar-fill {
+      height: 100%;
+      background: linear-gradient(90deg, var(--accent), var(--accent-2));
+    }
 
-.top5-list {
-  display: grid;
-  gap: 0.5rem;
-}
+    .percent {
+      font-size: 0.8rem;
+      color: var(--muted);
+      margin-left: 0.4rem;
+    }
 
-.top5-item {
-  background: var(--card);
-  border-radius: 10px;
-  padding: 0.5rem 0.75rem;
-  display: grid;
-  grid-template-columns: 1fr 70px;
-  align-items: center;
-}
+    /* === TOP 5 PANEL === */
 
-.top5-name {
-  font-weight: 600;
-}
+    .top5 h2 {
+      margin: 0 0 0.75rem;
+      font-size: 1.1rem;
+      color: var(--accent);
+    }
 
-.top5-percent {
-  text-align: right;
-  font-variant-numeric: tabular-nums;
-  color: var(--accent-2);
-}
-</style>
+    .top5-list {
+      display: grid;
+      gap: 0.5rem;
+    }
+
+    .top5-item {
+      background: var(--card);
+      border-radius: 10px;
+      padding: 0.5rem 0.75rem;
+      display: grid;
+      grid-template-columns: 1fr 70px;
+      align-items: center;
+    }
+
+    .top5-name {
+      font-weight: 600;
+    }
+
+    .top5-percent {
+      text-align: right;
+      font-variant-numeric: tabular-nums;
+      color: var(--accent-2);
+    }
+
+    /* === CHART STYLING === */
+    .chart-container {
+      margin-top: 1.5rem;
+      background: var(--card);
+      border-radius: 12px;
+      padding: 1rem;
+      border: 1px solid var(--border);
+    }
+  </style>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 
 <body>
 
-<h1>Roguemon BST/10 Evo Calculator</h1>
-<div class="credit">Created by BeMidgeGaming</div>
+  <h1>Roguemon BST/10 Evo Calculator</h1>
+      <div class="credit">Created by <a href="https://www.twitch.tv/bemidgegaming" target="_blank">BeMidgeGaming</a></div>
 
-<div class="app">
+  <div class="app">
 
-  <!-- MAIN PANEL -->
-  <div class="panel">
-    <div class="controls">
-      <div class="suggestions">
-        <label>Pokémon</label>
-        <input id="pokemonInput" placeholder="Start typing a Pokémon..." autocomplete="off">
-        <div id="suggestions" class="suggestion-box" hidden></div>
+    <!-- MAIN PANEL -->
+    <div class="panel">
+      <div class="controls">
+        <div class="suggestions">
+          <label>Pokémon</label>
+          <input id="pokemonInput" placeholder="Start typing a Pokémon..." autocomplete="off">
+          <div id="suggestions" class="suggestion-box" hidden></div>
+        </div>
+
+        <label>
+          Current Level
+          <input id="currentLevel" type="number" min="1" max="100" value="1">
+        </label>
       </div>
 
-      <label>
-        Current Level
-        <input id="currentLevel" type="number" min="1" max="100" value="1">
-      </label>
+      <div id="levels" class="levels"></div>
+      <div id="results" class="results">
+        Select a Pokémon to see evolution outcomes.
+      </div>
     </div>
 
-    <div id="levels" class="levels"></div>
-    <div id="results" class="results">
-      Select a Pokémon to see evolution outcomes.
+    <!-- SIDE PANEL -->
+    <div class="panel top5">
+      <h2>Top 5 Most Likely Evolutions</h2>
+      <div id="top5List" class="top5-list">
+        Select a Pokémon
+      </div>
+
+      <div class="chart-container">
+        <h2 style="font-size: 0.9rem; margin-bottom: 0.5rem; opacity: 0.8;">Evolution Level Curve</h2>
+        <canvas id="evoChart"></canvas>
+      </div>
     </div>
+
   </div>
 
-  <!-- SIDE PANEL -->
-  <div class="panel top5">
-    <h2>Top 5 Most Likely Evolutions</h2>
-    <div id="top5List" class="top5-list">
-      Select a Pokémon
-    </div>
-  </div>
-
-</div>
-
-<script src="app.js"></script>
+  <script src="app.js"></script>
 </body>
+
 </html>
