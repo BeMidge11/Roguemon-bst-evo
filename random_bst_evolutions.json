@@ -1058,12 +1058,6 @@
     "forced": false,
     "evolutions": [
       {
-        "evolution": "Floettee",
-        "bst": 371,
-        "evolution_level": 37,
-        "probability": 0.019416666666666665
-      },
-      {
         "evolution": "Whiscash",
         "bst": 468,
         "evolution_level": 46,
@@ -1544,6 +1538,12 @@
         "probability": 0.00975
       },
       {
+        "evolution": "Floettee",
+        "bst": 551,
+        "evolution_level": 55,
+        "probability": 0.019416666666666665
+      },
+      {
         "evolution": "Florges",
         "bst": 552,
         "evolution_level": 55,
@@ -1669,12 +1669,6 @@
         "bst": 430,
         "evolution_level": 43,
         "probability": 8.333333333333333e-05
-      },
-      {
-        "evolution": "Miniorc",
-        "bst": 440,
-        "evolution_level": 44,
-        "probability": 0.01475
       },
       {
         "evolution": "Pelipper",
@@ -1815,12 +1809,6 @@
         "probability": 0.01725
       },
       {
-        "evolution": "Oricorioe",
-        "bst": 476,
-        "evolution_level": 47,
-        "probability": 0.014916666666666667
-      },
-      {
         "evolution": "Oricoriop",
         "bst": 476,
         "evolution_level": 47,
@@ -1951,6 +1939,12 @@
         "bst": 500,
         "evolution_level": 50,
         "probability": 0.014833333333333334
+      },
+      {
+        "evolution": "Miniorc",
+        "bst": 500,
+        "evolution_level": 50,
+        "probability": 0.01475
       },
       {
         "evolution": "Hawlucha",
@@ -2637,6 +2631,12 @@
         "bst": 460,
         "evolution_level": 46,
         "probability": 0.010916666666666667
+      },
+      {
+        "evolution": "Basculin",
+        "bst": 460,
+        "evolution_level": 46,
+        "probability": 0.010833333333333334
       },
       {
         "evolution": "Basculinb",
@@ -3366,12 +3366,6 @@
         "probability": 0.00025
       },
       {
-        "evolution": "Miniorc",
-        "bst": 440,
-        "evolution_level": 44,
-        "probability": 0.01725
-      },
-      {
         "evolution": "Pelipper",
         "bst": 440,
         "evolution_level": 44,
@@ -3510,12 +3504,6 @@
         "probability": 0.017166666666666667
       },
       {
-        "evolution": "Oricorioe",
-        "bst": 476,
-        "evolution_level": 47,
-        "probability": 0.015833333333333335
-      },
-      {
         "evolution": "Oricoriop",
         "bst": 476,
         "evolution_level": 47,
@@ -3640,6 +3628,12 @@
         "bst": 500,
         "evolution_level": 50,
         "probability": 0.01975
+      },
+      {
+        "evolution": "Miniorc",
+        "bst": 500,
+        "evolution_level": 50,
+        "probability": 0.01725
       },
       {
         "evolution": "Hawlucha",
@@ -4286,6 +4280,12 @@
         "probability": 0.021666666666666667
       },
       {
+        "evolution": "Darmanitan",
+        "bst": 480,
+        "evolution_level": 48,
+        "probability": 0.03158333333333333
+      },
+      {
         "evolution": "Salazzle",
         "bst": 480,
         "evolution_level": 48,
@@ -4484,6 +4484,12 @@
         "probability": 0.023
       },
       {
+        "evolution": "Blacphalon",
+        "bst": 570,
+        "evolution_level": 57,
+        "probability": 0.0295
+      },
+      {
         "evolution": "Chi-Yu",
         "bst": 570,
         "evolution_level": 57,
@@ -4502,6 +4508,18 @@
     "rule": "bst/10",
     "forced": false,
     "evolutions": [
+      {
+        "evolution": "Eiscue",
+        "bst": 470,
+        "evolution_level": 47,
+        "probability": 0.03891666666666667
+      },
+      {
+        "evolution": "Crabminble",
+        "bst": 478,
+        "evolution_level": 47,
+        "probability": 0.02925
+      },
       {
         "evolution": "Glalie",
         "bst": 480,
@@ -4561,6 +4579,12 @@
         "bst": 520,
         "evolution_level": 52,
         "probability": 0.029833333333333333
+      },
+      {
+        "evolution": "Rotomfr",
+        "bst": 520,
+        "evolution_level": 52,
+        "probability": 0.025583333333333333
       },
       {
         "evolution": "Cetitan",
@@ -4649,6 +4673,12 @@
       },
       {
         "evolution": "Sharpedo",
+        "bst": 460,
+        "evolution_level": 46,
+        "probability": 0.00016666666666666666
+      },
+      {
+        "evolution": "Basculin",
         "bst": 460,
         "evolution_level": 46,
         "probability": 0.00016666666666666666
@@ -5066,6 +5096,12 @@
         "bst": 590,
         "evolution_level": 59,
         "probability": 0.00016666666666666666
+      },
+      {
+        "evolution": "Palafin",
+        "bst": 650,
+        "evolution_level": 65,
+        "probability": 0.00025
       }
     ]
   },
@@ -5074,12 +5110,6 @@
     "rule": "bst/10",
     "forced": false,
     "evolutions": [
-      {
-        "evolution": "Miniorc",
-        "bst": 440,
-        "evolution_level": 44,
-        "probability": 0.012416666666666666
-      },
       {
         "evolution": "Minior",
         "bst": 440,
@@ -5181,12 +5211,6 @@
         "bst": 476,
         "evolution_level": 47,
         "probability": 0.015
-      },
-      {
-        "evolution": "Oricorioe",
-        "bst": 476,
-        "evolution_level": 47,
-        "probability": 0.014
       },
       {
         "evolution": "Oricoriop",
@@ -5367,6 +5391,12 @@
         "bst": 500,
         "evolution_level": 50,
         "probability": 0.013083333333333334
+      },
+      {
+        "evolution": "Miniorc",
+        "bst": 500,
+        "evolution_level": 50,
+        "probability": 0.012416666666666666
       },
       {
         "evolution": "Stoutland",
@@ -5619,235 +5649,6 @@
         "bst": 580,
         "evolution_level": 58,
         "probability": 8.333333333333333e-05
-      }
-    ]
-  },
-  "Cherrim": {
-    "base_bst": 450,
-    "rule": "bst/10",
-    "forced": false,
-    "evolutions": [
-      {
-        "evolution": "Cherrims",
-        "bst": 450,
-        "evolution_level": 45,
-        "probability": 0.022916666666666665
-      },
-      {
-        "evolution": "Cradily",
-        "bst": 495,
-        "evolution_level": 49,
-        "probability": 0.014666666666666666
-      },
-      {
-        "evolution": "Simisage",
-        "bst": 498,
-        "evolution_level": 49,
-        "probability": 0.02075
-      },
-      {
-        "evolution": "Calyrex",
-        "bst": 500,
-        "evolution_level": 50,
-        "probability": 0.015916666666666666
-      },
-      {
-        "evolution": "Leavanny",
-        "bst": 500,
-        "evolution_level": 50,
-        "probability": 0.01275
-      },
-      {
-        "evolution": "Sinistcha",
-        "bst": 508,
-        "evolution_level": 50,
-        "probability": 0.017
-      },
-      {
-        "evolution": "Tsareena",
-        "bst": 510,
-        "evolution_level": 51,
-        "probability": 0.024333333333333332
-      },
-      {
-        "evolution": "Arboliva",
-        "bst": 510,
-        "evolution_level": 51,
-        "probability": 0.012166666666666666
-      },
-      {
-        "evolution": "Roserade",
-        "bst": 515,
-        "evolution_level": 51,
-        "probability": 0.01525
-      },
-      {
-        "evolution": "Toedscruel",
-        "bst": 515,
-        "evolution_level": 51,
-        "probability": 0.013583333333333333
-      },
-      {
-        "evolution": "Dhelmise",
-        "bst": 517,
-        "evolution_level": 51,
-        "probability": 0.01775
-      },
-      {
-        "evolution": "Leafeon",
-        "bst": 525,
-        "evolution_level": 52,
-        "probability": 0.024333333333333332
-      },
-      {
-        "evolution": "Meganium",
-        "bst": 525,
-        "evolution_level": 52,
-        "probability": 0.022833333333333334
-      },
-      {
-        "evolution": "Torterra",
-        "bst": 525,
-        "evolution_level": 52,
-        "probability": 0.016666666666666666
-      },
-      {
-        "evolution": "Venusaur",
-        "bst": 525,
-        "evolution_level": 52,
-        "probability": 0.015916666666666666
-      },
-      {
-        "evolution": "Serperior",
-        "bst": 528,
-        "evolution_level": 52,
-        "probability": 0.0215
-      },
-      {
-        "evolution": "Exeggutora",
-        "bst": 530,
-        "evolution_level": 53,
-        "probability": 0.025333333333333333
-      },
-      {
-        "evolution": "Sceptile",
-        "bst": 530,
-        "evolution_level": 53,
-        "probability": 0.025166666666666667
-      },
-      {
-        "evolution": "Rillaboom",
-        "bst": 530,
-        "evolution_level": 53,
-        "probability": 0.02425
-      },
-      {
-        "evolution": "Chesnaught",
-        "bst": 530,
-        "evolution_level": 53,
-        "probability": 0.020833333333333332
-      },
-      {
-        "evolution": "Decidueyeh",
-        "bst": 530,
-        "evolution_level": 53,
-        "probability": 0.019833333333333335
-      },
-      {
-        "evolution": "Decidueye",
-        "bst": 530,
-        "evolution_level": 53,
-        "probability": 0.019416666666666665
-      },
-      {
-        "evolution": "Exeggutor",
-        "bst": 530,
-        "evolution_level": 53,
-        "probability": 0.017416666666666667
-      },
-      {
-        "evolution": "Gogoat",
-        "bst": 531,
-        "evolution_level": 53,
-        "probability": 0.024
-      },
-      {
-        "evolution": "Tangrowth",
-        "bst": 535,
-        "evolution_level": 53,
-        "probability": 0.023583333333333335
-      },
-      {
-        "evolution": "Hydrapple",
-        "bst": 540,
-        "evolution_level": 54,
-        "probability": 0.019333333333333334
-      },
-      {
-        "evolution": "Ogerpon",
-        "bst": 550,
-        "evolution_level": 55,
-        "probability": 0.029416666666666667
-      },
-      {
-        "evolution": "Ogerponw",
-        "bst": 550,
-        "evolution_level": 55,
-        "probability": 0.018333333333333333
-      },
-      {
-        "evolution": "Tapu Bulu",
-        "bst": 570,
-        "evolution_level": 57,
-        "probability": 0.030666666666666665
-      },
-      {
-        "evolution": "Kartana",
-        "bst": 570,
-        "evolution_level": 57,
-        "probability": 0.027333333333333334
-      },
-      {
-        "evolution": "Wo-Chien",
-        "bst": 570,
-        "evolution_level": 57,
-        "probability": 0.026333333333333334
-      },
-      {
-        "evolution": "Virizion",
-        "bst": 580,
-        "evolution_level": 58,
-        "probability": 0.030333333333333334
-      },
-      {
-        "evolution": "Ironleaves",
-        "bst": 590,
-        "evolution_level": 59,
-        "probability": 0.034166666666666665
-      },
-      {
-        "evolution": "Abomasnowm",
-        "bst": 594,
-        "evolution_level": 59,
-        "probability": 0.03625
-      },
-      {
-        "evolution": "Shaymins",
-        "bst": 600,
-        "evolution_level": 60,
-        "probability": 0.042166666666666665
-      },
-      {
-        "evolution": "Celebi",
-        "bst": 600,
-        "evolution_level": 60,
-        "probability": 0.0395
-      },
-      {
-        "evolution": "Zarude",
-        "bst": 600,
-        "evolution_level": 60,
-        "probability": 0.039
       }
     ]
   },
@@ -6302,6 +6103,12 @@
         "probability": 0.02375
       },
       {
+        "evolution": "Bramblgast",
+        "bst": 480,
+        "evolution_level": 48,
+        "probability": 0.02375
+      },
+      {
         "evolution": "Jellicent",
         "bst": 480,
         "evolution_level": 48,
@@ -6338,6 +6145,30 @@
         "probability": 0.03883333333333333
       },
       {
+        "evolution": "Gourgeist",
+        "bst": 494,
+        "evolution_level": 49,
+        "probability": 0.023416666666666665
+      },
+      {
+        "evolution": "Gourgeistl",
+        "bst": 494,
+        "evolution_level": 49,
+        "probability": 0.022416666666666668
+      },
+      {
+        "evolution": "Gourgeistx",
+        "bst": 494,
+        "evolution_level": 49,
+        "probability": 0.022166666666666668
+      },
+      {
+        "evolution": "Gourgeists",
+        "bst": 494,
+        "evolution_level": 49,
+        "probability": 0.021166666666666667
+      },
+      {
         "evolution": "Mismagius",
         "bst": 495,
         "evolution_level": 49,
@@ -6350,10 +6181,22 @@
         "probability": 0.02275
       },
       {
+        "evolution": "Aegislashb",
+        "bst": 500,
+        "evolution_level": 50,
+        "probability": 0.026583333333333334
+      },
+      {
         "evolution": "Gengar",
         "bst": 500,
         "evolution_level": 50,
         "probability": 0.0205
+      },
+      {
+        "evolution": "Poltegeist",
+        "bst": 508,
+        "evolution_level": 50,
+        "probability": 0.03958333333333333
       },
       {
         "evolution": "Sinistcha",
@@ -6446,6 +6289,12 @@
         "probability": 8.333333333333333e-05
       },
       {
+        "evolution": "Blacphalon",
+        "bst": 570,
+        "evolution_level": 57,
+        "probability": 8.333333333333333e-05
+      },
+      {
         "evolution": "Spectrier",
         "bst": 580,
         "evolution_level": 58,
@@ -6513,6 +6362,18 @@
         "probability": 0.0335
       },
       {
+        "evolution": "Eiscue",
+        "bst": 470,
+        "evolution_level": 47,
+        "probability": 0.04766666666666667
+      },
+      {
+        "evolution": "Crabminble",
+        "bst": 478,
+        "evolution_level": 47,
+        "probability": 0.03525
+      },
+      {
         "evolution": "Glalie",
         "bst": 480,
         "evolution_level": 48,
@@ -6573,6 +6434,12 @@
         "probability": 0.036333333333333336
       },
       {
+        "evolution": "Rotomfr",
+        "bst": 520,
+        "evolution_level": 52,
+        "probability": 0.028583333333333332
+      },
+      {
         "evolution": "Cetitan",
         "bst": 521,
         "evolution_level": 52,
@@ -6627,12 +6494,6 @@
     "rule": "bst/10",
     "forced": false,
     "evolutions": [
-      {
-        "evolution": "Floettee",
-        "bst": 371,
-        "evolution_level": 37,
-        "probability": 0.022583333333333334
-      },
       {
         "evolution": "Slurpuff",
         "bst": 480,
@@ -6826,6 +6687,12 @@
         "probability": 0.014916666666666667
       },
       {
+        "evolution": "Rotomfr",
+        "bst": 520,
+        "evolution_level": 52,
+        "probability": 0.010166666666666666
+      },
+      {
         "evolution": "Rotomfa",
         "bst": 520,
         "evolution_level": 52,
@@ -6836,6 +6703,12 @@
         "bst": 520,
         "evolution_level": 52,
         "probability": 0.00775
+      },
+      {
+        "evolution": "Rotomm",
+        "bst": 520,
+        "evolution_level": 52,
+        "probability": 0.007583333333333333
       },
       {
         "evolution": "Luxray",
@@ -6884,6 +6757,12 @@
         "bst": 545,
         "evolution_level": 54,
         "probability": 0.012
+      },
+      {
+        "evolution": "Floettee",
+        "bst": 551,
+        "evolution_level": 55,
+        "probability": 0.022583333333333334
       },
       {
         "evolution": "Florges",
@@ -7666,6 +7545,12 @@
         "bst": 465,
         "evolution_level": 46,
         "probability": 0.024333333333333332
+      },
+      {
+        "evolution": "Eiscue",
+        "bst": 470,
+        "evolution_level": 47,
+        "probability": 0.03241666666666667
       },
       {
         "evolution": "Xatu",
@@ -8873,6 +8758,12 @@
         "probability": 0.018833333333333334
       },
       {
+        "evolution": "Aegislashb",
+        "bst": 500,
+        "evolution_level": 50,
+        "probability": 0.017666666666666667
+      },
+      {
         "evolution": "Claydol",
         "bst": 500,
         "evolution_level": 50,
@@ -9962,12 +9853,6 @@
     "forced": false,
     "evolutions": [
       {
-        "evolution": "Miniorc",
-        "bst": 440,
-        "evolution_level": 44,
-        "probability": 0.00825
-      },
-      {
         "evolution": "Oricorio",
         "bst": 476,
         "evolution_level": 47,
@@ -9984,12 +9869,6 @@
         "bst": 476,
         "evolution_level": 47,
         "probability": 0.00975
-      },
-      {
-        "evolution": "Oricorioe",
-        "bst": 476,
-        "evolution_level": 47,
-        "probability": 0.00825
       },
       {
         "evolution": "Pidgeot",
@@ -10142,6 +10021,12 @@
         "probability": 0.00925
       },
       {
+        "evolution": "Miniorc",
+        "bst": 500,
+        "evolution_level": 50,
+        "probability": 0.00825
+      },
+      {
         "evolution": "Flamigo",
         "bst": 500,
         "evolution_level": 50,
@@ -10226,10 +10111,22 @@
         "probability": 0.00875
       },
       {
+        "evolution": "Rotomfr",
+        "bst": 520,
+        "evolution_level": 52,
+        "probability": 0.008083333333333333
+      },
+      {
         "evolution": "Rotomfa",
         "bst": 520,
         "evolution_level": 52,
         "probability": 0.008
+      },
+      {
+        "evolution": "Rotomm",
+        "bst": 520,
+        "evolution_level": 52,
+        "probability": 0.0075
       },
       {
         "evolution": "Rotomw",
@@ -10479,6 +10376,12 @@
         "probability": 0.035166666666666666
       },
       {
+        "evolution": "Crabminble",
+        "bst": 478,
+        "evolution_level": 47,
+        "probability": 0.022833333333333334
+      },
+      {
         "evolution": "Grapploct",
         "bst": 480,
         "evolution_level": 48,
@@ -10726,6 +10629,12 @@
         "probability": 0.02033333333333333
       },
       {
+        "evolution": "Basculin",
+        "bst": 460,
+        "evolution_level": 46,
+        "probability": 0.0135
+      },
+      {
         "evolution": "Lumineon",
         "bst": 460,
         "evolution_level": 46,
@@ -10852,6 +10761,12 @@
         "probability": 0.010583333333333333
       },
       {
+        "evolution": "Bramblgast",
+        "bst": 480,
+        "evolution_level": 48,
+        "probability": 0.009166666666666667
+      },
+      {
         "evolution": "Ludicolo",
         "bst": 480,
         "evolution_level": 48,
@@ -10936,6 +10851,30 @@
         "probability": 0.006083333333333333
       },
       {
+        "evolution": "Gourgeistx",
+        "bst": 494,
+        "evolution_level": 49,
+        "probability": 0.011333333333333334
+      },
+      {
+        "evolution": "Gourgeist",
+        "bst": 494,
+        "evolution_level": 49,
+        "probability": 0.010833333333333334
+      },
+      {
+        "evolution": "Gourgeists",
+        "bst": 494,
+        "evolution_level": 49,
+        "probability": 0.009916666666666667
+      },
+      {
+        "evolution": "Gourgeistl",
+        "bst": 494,
+        "evolution_level": 49,
+        "probability": 0.006666666666666667
+      },
+      {
         "evolution": "Mismagius",
         "bst": 495,
         "evolution_level": 49,
@@ -10996,6 +10935,12 @@
         "probability": 0.012083333333333333
       },
       {
+        "evolution": "Aegislashb",
+        "bst": 500,
+        "evolution_level": 50,
+        "probability": 0.012
+      },
+      {
         "evolution": "Wailord",
         "bst": 500,
         "evolution_level": 50,
@@ -11018,6 +10963,12 @@
         "bst": 500,
         "evolution_level": 50,
         "probability": 0.007333333333333333
+      },
+      {
+        "evolution": "Poltegeist",
+        "bst": 508,
+        "evolution_level": 50,
+        "probability": 0.018166666666666668
       },
       {
         "evolution": "Sinistcha",
@@ -11114,6 +11065,12 @@
         "bst": 528,
         "evolution_level": 52,
         "probability": 0.00825
+      },
+      {
+        "evolution": "Palafin",
+        "bst": 650,
+        "evolution_level": 65,
+        "probability": 0.014916666666666667
       }
     ]
   },
@@ -11689,12 +11646,6 @@
     "forced": false,
     "evolutions": [
       {
-        "evolution": "Floettee",
-        "bst": 371,
-        "evolution_level": 37,
-        "probability": 0.04425
-      },
-      {
         "evolution": "Alcremie",
         "bst": 495,
         "evolution_level": 49,
@@ -11765,6 +11716,12 @@
         "bst": 545,
         "evolution_level": 54,
         "probability": 0.024166666666666666
+      },
+      {
+        "evolution": "Floettee",
+        "bst": 551,
+        "evolution_level": 55,
+        "probability": 0.04425
       },
       {
         "evolution": "Florges",
@@ -11858,12 +11815,6 @@
     "forced": false,
     "evolutions": [
       {
-        "evolution": "Miniorc",
-        "bst": 440,
-        "evolution_level": 44,
-        "probability": 0.013666666666666667
-      },
-      {
         "evolution": "Klawf",
         "bst": 450,
         "evolution_level": 45,
@@ -11894,6 +11845,12 @@
         "probability": 0.01475
       },
       {
+        "evolution": "Stonjorner",
+        "bst": 470,
+        "evolution_level": 47,
+        "probability": 0.021416666666666667
+      },
+      {
         "evolution": "Stunfisk",
         "bst": 471,
         "evolution_level": 47,
@@ -11910,12 +11867,6 @@
         "bst": 475,
         "evolution_level": 47,
         "probability": 0.02225
-      },
-      {
-        "evolution": "Oricorioe",
-        "bst": 476,
-        "evolution_level": 47,
-        "probability": 0.015166666666666667
       },
       {
         "evolution": "Heliolisk",
@@ -11952,6 +11903,24 @@
         "bst": 485,
         "evolution_level": 48,
         "probability": 0.009666666666666667
+      },
+      {
+        "evolution": "Lycanroc",
+        "bst": 487,
+        "evolution_level": 48,
+        "probability": 0.024916666666666667
+      },
+      {
+        "evolution": "Lycanrocd",
+        "bst": 487,
+        "evolution_level": 48,
+        "probability": 0.0245
+      },
+      {
+        "evolution": "Lycanrocm",
+        "bst": 487,
+        "evolution_level": 48,
+        "probability": 0.021416666666666667
       },
       {
         "evolution": "Electabuzz",
@@ -12062,6 +12031,12 @@
         "probability": 0.014833333333333334
       },
       {
+        "evolution": "Miniorc",
+        "bst": 500,
+        "evolution_level": 50,
+        "probability": 0.013666666666666667
+      },
+      {
         "evolution": "Barbaracle",
         "bst": 500,
         "evolution_level": 50,
@@ -12138,6 +12113,18 @@
         "bst": 520,
         "evolution_level": 52,
         "probability": 0.013083333333333334
+      },
+      {
+        "evolution": "Rotomm",
+        "bst": 520,
+        "evolution_level": 52,
+        "probability": 0.0125
+      },
+      {
+        "evolution": "Rotomfr",
+        "bst": 520,
+        "evolution_level": 52,
+        "probability": 0.011416666666666667
       },
       {
         "evolution": "Rotomw",
@@ -12567,6 +12554,12 @@
         "probability": 0.012666666666666666
       },
       {
+        "evolution": "Meowscrada",
+        "bst": 530,
+        "evolution_level": 53,
+        "probability": 0.016666666666666666
+      },
+      {
         "evolution": "Incineroar",
         "bst": 530,
         "evolution_level": 53,
@@ -12616,12 +12609,6 @@
     "forced": false,
     "evolutions": [
       {
-        "evolution": "Miniorc",
-        "bst": 440,
-        "evolution_level": 44,
-        "probability": 0.011916666666666667
-      },
-      {
         "evolution": "Garganacl",
         "bst": 500,
         "evolution_level": 50,
@@ -12638,6 +12625,12 @@
         "bst": 500,
         "evolution_level": 50,
         "probability": 0.012916666666666667
+      },
+      {
+        "evolution": "Miniorc",
+        "bst": 500,
+        "evolution_level": 50,
+        "probability": 0.011916666666666667
       },
       {
         "evolution": "Carbink",
@@ -12832,6 +12825,12 @@
         "probability": 0.015
       },
       {
+        "evolution": "Ogerponr",
+        "bst": 550,
+        "evolution_level": 55,
+        "probability": 0.01425
+      },
+      {
         "evolution": "Volcarona",
         "bst": 550,
         "evolution_level": 55,
@@ -12878,6 +12877,12 @@
         "bst": 570,
         "evolution_level": 57,
         "probability": 0.018666666666666668
+      },
+      {
+        "evolution": "Blacphalon",
+        "bst": 570,
+        "evolution_level": 57,
+        "probability": 0.01725
       },
       {
         "evolution": "Iron Moth",
@@ -13958,12 +13963,6 @@
     "forced": false,
     "evolutions": [
       {
-        "evolution": "Miniorc",
-        "bst": 440,
-        "evolution_level": 44,
-        "probability": 0.019833333333333335
-      },
-      {
         "evolution": "Rampardos",
         "bst": 495,
         "evolution_level": 49,
@@ -14028,6 +14027,12 @@
         "bst": 500,
         "evolution_level": 50,
         "probability": 0.023333333333333334
+      },
+      {
+        "evolution": "Miniorc",
+        "bst": 500,
+        "evolution_level": 50,
+        "probability": 0.019833333333333335
       },
       {
         "evolution": "Barbaracle",
@@ -14100,6 +14105,12 @@
         "bst": 535,
         "evolution_level": 53,
         "probability": 0.021
+      },
+      {
+        "evolution": "Ogerponr",
+        "bst": 550,
+        "evolution_level": 55,
+        "probability": 0.029166666666666667
       },
       {
         "evolution": "Arcanineh",
@@ -14239,6 +14250,12 @@
         "bst": 424,
         "evolution_level": 42,
         "probability": 0.0031666666666666666
+      },
+      {
+        "evolution": "Wormadam",
+        "bst": 424,
+        "evolution_level": 42,
+        "probability": 0.0015
       },
       {
         "evolution": "Illumise",
@@ -14518,12 +14535,6 @@
         "probability": 0.00016666666666666666
       },
       {
-        "evolution": "Miniorc",
-        "bst": 440,
-        "evolution_level": 44,
-        "probability": 0.015333333333333332
-      },
-      {
         "evolution": "Minior",
         "bst": 440,
         "evolution_level": 44,
@@ -14654,12 +14665,6 @@
         "bst": 476,
         "evolution_level": 47,
         "probability": 0.01675
-      },
-      {
-        "evolution": "Oricorioe",
-        "bst": 476,
-        "evolution_level": 47,
-        "probability": 0.016583333333333332
       },
       {
         "evolution": "Oricoriog",
@@ -14795,6 +14800,12 @@
       },
       {
         "evolution": "Hawlucha",
+        "bst": 500,
+        "evolution_level": 50,
+        "probability": 0.015333333333333332
+      },
+      {
+        "evolution": "Miniorc",
         "bst": 500,
         "evolution_level": 50,
         "probability": 0.015333333333333332
@@ -15071,6 +15082,12 @@
         "probability": 0.023
       },
       {
+        "evolution": "Meowscrada",
+        "bst": 530,
+        "evolution_level": 53,
+        "probability": 0.021833333333333333
+      },
+      {
         "evolution": "Greninja",
         "bst": 530,
         "evolution_level": 53,
@@ -15123,6 +15140,12 @@
         "bst": 570,
         "evolution_level": 57,
         "probability": 0.03
+      },
+      {
+        "evolution": "Brutebonet",
+        "bst": 570,
+        "evolution_level": 57,
+        "probability": 0.029416666666666667
       },
       {
         "evolution": "Wo-Chien",
@@ -15967,6 +15990,12 @@
         "probability": 0.013916666666666667
       },
       {
+        "evolution": "Meowscrada",
+        "bst": 530,
+        "evolution_level": 53,
+        "probability": 0.01275
+      },
+      {
         "evolution": "Greninja",
         "bst": 530,
         "evolution_level": 53,
@@ -16055,6 +16084,12 @@
         "bst": 570,
         "evolution_level": 57,
         "probability": 0.019416666666666665
+      },
+      {
+        "evolution": "Brutebonet",
+        "bst": 570,
+        "evolution_level": 57,
+        "probability": 0.019333333333333334
       },
       {
         "evolution": "Ting-Lu",
@@ -16268,6 +16303,12 @@
         "probability": 0.01175
       },
       {
+        "evolution": "Meowscrada",
+        "bst": 530,
+        "evolution_level": 53,
+        "probability": 0.015083333333333334
+      },
+      {
         "evolution": "Incineroar",
         "bst": 530,
         "evolution_level": 53,
@@ -16362,6 +16403,12 @@
         "bst": 570,
         "evolution_level": 57,
         "probability": 0.019666666666666666
+      },
+      {
+        "evolution": "Brutebonet",
+        "bst": 570,
+        "evolution_level": 57,
+        "probability": 0.01925
       },
       {
         "evolution": "Guzzlord",
@@ -16593,6 +16640,12 @@
         "probability": 0.015583333333333333
       },
       {
+        "evolution": "Basculin",
+        "bst": 460,
+        "evolution_level": 46,
+        "probability": 0.0315
+      },
+      {
         "evolution": "Basculinb",
         "bst": 460,
         "evolution_level": 46,
@@ -16663,6 +16716,12 @@
         "bst": 485,
         "evolution_level": 48,
         "probability": 8.333333333333333e-05
+      },
+      {
+        "evolution": "Palafin",
+        "bst": 650,
+        "evolution_level": 65,
+        "probability": 0.03233333333333333
       }
     ]
   },
@@ -16672,10 +16731,10 @@
     "forced": false,
     "evolutions": [
       {
-        "evolution": "Miniorc",
-        "bst": 440,
-        "evolution_level": 44,
-        "probability": 0.009583333333333333
+        "evolution": "Darmanitan",
+        "bst": 480,
+        "evolution_level": 48,
+        "probability": 0.016666666666666666
       },
       {
         "evolution": "Salazzle",
@@ -16718,6 +16777,24 @@
         "bst": 486,
         "evolution_level": 48,
         "probability": 0.008166666666666666
+      },
+      {
+        "evolution": "Lycanroc",
+        "bst": 487,
+        "evolution_level": 48,
+        "probability": 0.015916666666666666
+      },
+      {
+        "evolution": "Lycanrocd",
+        "bst": 487,
+        "evolution_level": 48,
+        "probability": 0.014666666666666666
+      },
+      {
+        "evolution": "Lycanrocm",
+        "bst": 487,
+        "evolution_level": 48,
+        "probability": 0.013916666666666667
       },
       {
         "evolution": "Magmar",
@@ -16814,6 +16891,12 @@
         "bst": 500,
         "evolution_level": 50,
         "probability": 0.01
+      },
+      {
+        "evolution": "Miniorc",
+        "bst": 500,
+        "evolution_level": 50,
+        "probability": 0.009583333333333333
       },
       {
         "evolution": "Carbink",
@@ -17002,6 +17085,12 @@
         "probability": 0.012916666666666667
       },
       {
+        "evolution": "Ogerponr",
+        "bst": 550,
+        "evolution_level": 55,
+        "probability": 0.014
+      },
+      {
         "evolution": "Volcarona",
         "bst": 550,
         "evolution_level": 55,
@@ -17048,6 +17137,12 @@
         "bst": 570,
         "evolution_level": 57,
         "probability": 0.017416666666666667
+      },
+      {
+        "evolution": "Blacphalon",
+        "bst": 570,
+        "evolution_level": 57,
+        "probability": 0.01633333333333333
       },
       {
         "evolution": "Chi-Yu",
@@ -17346,6 +17441,12 @@
         "probability": 0.011666666666666667
       },
       {
+        "evolution": "Darmanitan",
+        "bst": 480,
+        "evolution_level": 48,
+        "probability": 0.020166666666666666
+      },
+      {
         "evolution": "Sableyem",
         "bst": 480,
         "evolution_level": 48,
@@ -17362,6 +17463,12 @@
         "bst": 480,
         "evolution_level": 48,
         "probability": 0.0105
+      },
+      {
+        "evolution": "Bramblgast",
+        "bst": 480,
+        "evolution_level": 48,
+        "probability": 0.010166666666666666
       },
       {
         "evolution": "Jellicent",
@@ -17418,6 +17525,30 @@
         "probability": 0.018333333333333333
       },
       {
+        "evolution": "Gourgeist",
+        "bst": 494,
+        "evolution_level": 49,
+        "probability": 0.01075
+      },
+      {
+        "evolution": "Gourgeistl",
+        "bst": 494,
+        "evolution_level": 49,
+        "probability": 0.01
+      },
+      {
+        "evolution": "Gourgeists",
+        "bst": 494,
+        "evolution_level": 49,
+        "probability": 0.009416666666666667
+      },
+      {
+        "evolution": "Gourgeistx",
+        "bst": 494,
+        "evolution_level": 49,
+        "probability": 0.009416666666666667
+      },
+      {
         "evolution": "Mismagius",
         "bst": 495,
         "evolution_level": 49,
@@ -17454,6 +17585,12 @@
         "probability": 0.014583333333333334
       },
       {
+        "evolution": "Aegislashb",
+        "bst": 500,
+        "evolution_level": 50,
+        "probability": 0.013583333333333333
+      },
+      {
         "evolution": "Houndoom",
         "bst": 500,
         "evolution_level": 50,
@@ -17476,6 +17613,12 @@
         "bst": 507,
         "evolution_level": 50,
         "probability": 0.006666666666666667
+      },
+      {
+        "evolution": "Poltegeist",
+        "bst": 508,
+        "evolution_level": 50,
+        "probability": 0.017
       },
       {
         "evolution": "Sinistcha",
@@ -17688,6 +17831,12 @@
         "probability": 0.01675
       },
       {
+        "evolution": "Blacphalon",
+        "bst": 570,
+        "evolution_level": 57,
+        "probability": 0.015916666666666666
+      },
+      {
         "evolution": "Iron Moth",
         "bst": 570,
         "evolution_level": 57,
@@ -17887,6 +18036,12 @@
         "probability": 0.01725
       },
       {
+        "evolution": "Aegislashb",
+        "bst": 500,
+        "evolution_level": 50,
+        "probability": 0.017083333333333332
+      },
+      {
         "evolution": "Rapidashg",
         "bst": 500,
         "evolution_level": 50,
@@ -18078,6 +18233,12 @@
         "bst": 476,
         "evolution_level": 47,
         "probability": 0.0105
+      },
+      {
+        "evolution": "Crabminble",
+        "bst": 478,
+        "evolution_level": 47,
+        "probability": 0.010916666666666667
       },
       {
         "evolution": "Veluza",
@@ -18893,6 +19054,12 @@
         "probability": 0.00016666666666666666
       },
       {
+        "evolution": "Aegislashb",
+        "bst": 500,
+        "evolution_level": 50,
+        "probability": 0.0006666666666666666
+      },
+      {
         "evolution": "Scizor",
         "bst": 500,
         "evolution_level": 50,
@@ -19092,6 +19259,12 @@
         "probability": 0.021
       },
       {
+        "evolution": "Meowscrada",
+        "bst": 530,
+        "evolution_level": 53,
+        "probability": 0.02375
+      },
+      {
         "evolution": "Incineroar",
         "bst": 530,
         "evolution_level": 53,
@@ -19140,6 +19313,12 @@
         "probability": 0.036583333333333336
       },
       {
+        "evolution": "Brutebonet",
+        "bst": 570,
+        "evolution_level": 57,
+        "probability": 0.035083333333333334
+      },
+      {
         "evolution": "Guzzlord",
         "bst": 570,
         "evolution_level": 57,
@@ -19171,10 +19350,22 @@
     "forced": false,
     "evolutions": [
       {
-        "evolution": "Miniorc",
-        "bst": 440,
-        "evolution_level": 44,
-        "probability": 0.010083333333333333
+        "evolution": "Lycanrocd",
+        "bst": 487,
+        "evolution_level": 48,
+        "probability": 0.0175
+      },
+      {
+        "evolution": "Lycanroc",
+        "bst": 487,
+        "evolution_level": 48,
+        "probability": 0.01633333333333333
+      },
+      {
+        "evolution": "Lycanrocm",
+        "bst": 487,
+        "evolution_level": 48,
+        "probability": 0.015916666666666666
       },
       {
         "evolution": "Unfezant",
@@ -19295,6 +19486,12 @@
         "bst": 500,
         "evolution_level": 50,
         "probability": 0.010333333333333333
+      },
+      {
+        "evolution": "Miniorc",
+        "bst": 500,
+        "evolution_level": 50,
+        "probability": 0.010083333333333333
       },
       {
         "evolution": "Carbink",
@@ -19445,6 +19642,12 @@
         "bst": 545,
         "evolution_level": 54,
         "probability": 0.015583333333333333
+      },
+      {
+        "evolution": "Ogerponr",
+        "bst": 550,
+        "evolution_level": 55,
+        "probability": 0.01225
       },
       {
         "evolution": "Arcanineh",
@@ -19652,12 +19855,6 @@
         "probability": 0.04083333333333333
       },
       {
-        "evolution": "Oricorioe",
-        "bst": 476,
-        "evolution_level": 47,
-        "probability": 0.027083333333333334
-      },
-      {
         "evolution": "Heliolisk",
         "bst": 481,
         "evolution_level": 48,
@@ -19766,10 +19963,22 @@
         "probability": 0.0365
       },
       {
+        "evolution": "Rotomfr",
+        "bst": 520,
+        "evolution_level": 52,
+        "probability": 0.026
+      },
+      {
         "evolution": "Rotomfa",
         "bst": 520,
         "evolution_level": 52,
         "probability": 0.024916666666666667
+      },
+      {
+        "evolution": "Rotomm",
+        "bst": 520,
+        "evolution_level": 52,
+        "probability": 0.021583333333333333
       },
       {
         "evolution": "Rotomw",
@@ -20079,10 +20288,22 @@
         "probability": 0.01025
       },
       {
+        "evolution": "Rotomfr",
+        "bst": 520,
+        "evolution_level": 52,
+        "probability": 0.009916666666666667
+      },
+      {
         "evolution": "Rotomw",
         "bst": 520,
         "evolution_level": 52,
         "probability": 0.009
+      },
+      {
+        "evolution": "Rotomm",
+        "bst": 520,
+        "evolution_level": 52,
+        "probability": 0.0075
       },
       {
         "evolution": "Luxray",
@@ -20110,6 +20331,12 @@
       },
       {
         "evolution": "Incineroar",
+        "bst": 530,
+        "evolution_level": 53,
+        "probability": 0.01225
+      },
+      {
+        "evolution": "Meowscrada",
         "bst": 530,
         "evolution_level": 53,
         "probability": 0.01225
@@ -20197,6 +20424,12 @@
         "bst": 570,
         "evolution_level": 57,
         "probability": 0.017333333333333333
+      },
+      {
+        "evolution": "Brutebonet",
+        "bst": 570,
+        "evolution_level": 57,
+        "probability": 0.016416666666666666
       },
       {
         "evolution": "Chi-Yu",
@@ -20470,10 +20703,22 @@
         "probability": 0.011083333333333334
       },
       {
+        "evolution": "Rotomfr",
+        "bst": 520,
+        "evolution_level": 52,
+        "probability": 0.009416666666666667
+      },
+      {
         "evolution": "Obstagoon",
         "bst": 520,
         "evolution_level": 52,
         "probability": 0.008833333333333334
+      },
+      {
+        "evolution": "Rotomm",
+        "bst": 520,
+        "evolution_level": 52,
+        "probability": 0.008583333333333333
       },
       {
         "evolution": "Rotomw",
@@ -20504,6 +20749,12 @@
         "bst": 528,
         "evolution_level": 52,
         "probability": 0.01175
+      },
+      {
+        "evolution": "Meowscrada",
+        "bst": 530,
+        "evolution_level": 53,
+        "probability": 0.011916666666666667
       },
       {
         "evolution": "Incineroar",
@@ -20614,6 +20865,12 @@
         "probability": 0.015416666666666667
       },
       {
+        "evolution": "Brutebonet",
+        "bst": 570,
+        "evolution_level": 57,
+        "probability": 0.014333333333333333
+      },
+      {
         "evolution": "Chi-Yu",
         "bst": 570,
         "evolution_level": 57,
@@ -20669,12 +20926,6 @@
     "forced": false,
     "evolutions": [
       {
-        "evolution": "Miniorc",
-        "bst": 440,
-        "evolution_level": 44,
-        "probability": 0.01425
-      },
-      {
         "evolution": "Galvantula",
         "bst": 472,
         "evolution_level": 47,
@@ -20715,12 +20966,6 @@
         "bst": 476,
         "evolution_level": 47,
         "probability": 0.016166666666666666
-      },
-      {
-        "evolution": "Oricorioe",
-        "bst": 476,
-        "evolution_level": 47,
-        "probability": 0.014833333333333334
       },
       {
         "evolution": "Pidgeot",
@@ -20853,6 +21098,12 @@
         "bst": 500,
         "evolution_level": 50,
         "probability": 0.0145
+      },
+      {
+        "evolution": "Miniorc",
+        "bst": 500,
+        "evolution_level": 50,
+        "probability": 0.01425
       },
       {
         "evolution": "Hawlucha",
@@ -21162,12 +21413,6 @@
         "probability": 0.043416666666666666
       },
       {
-        "evolution": "Oricorioe",
-        "bst": 476,
-        "evolution_level": 47,
-        "probability": 0.026333333333333334
-      },
-      {
         "evolution": "Heliolisk",
         "bst": 481,
         "evolution_level": 48,
@@ -21276,10 +21521,22 @@
         "probability": 0.03775
       },
       {
+        "evolution": "Rotomfr",
+        "bst": 520,
+        "evolution_level": 52,
+        "probability": 0.026
+      },
+      {
         "evolution": "Rotomfa",
         "bst": 520,
         "evolution_level": 52,
         "probability": 0.023916666666666666
+      },
+      {
+        "evolution": "Rotomm",
+        "bst": 520,
+        "evolution_level": 52,
+        "probability": 0.020416666666666666
       },
       {
         "evolution": "Rotomw",
@@ -21385,12 +21642,6 @@
     "forced": false,
     "evolutions": [
       {
-        "evolution": "Cherrims",
-        "bst": 450,
-        "evolution_level": 45,
-        "probability": 0.014083333333333333
-      },
-      {
         "evolution": "Ninjask",
         "bst": 456,
         "evolution_level": 45,
@@ -21493,6 +21744,12 @@
         "probability": 0.01
       },
       {
+        "evolution": "Bramblgast",
+        "bst": 480,
+        "evolution_level": 48,
+        "probability": 0.009583333333333333
+      },
+      {
         "evolution": "Lilliganth",
         "bst": 480,
         "evolution_level": 48,
@@ -21583,10 +21840,34 @@
         "probability": 0.0085
       },
       {
+        "evolution": "Gourgeistl",
+        "bst": 494,
+        "evolution_level": 49,
+        "probability": 0.0115
+      },
+      {
+        "evolution": "Gourgeists",
+        "bst": 494,
+        "evolution_level": 49,
+        "probability": 0.01075
+      },
+      {
         "evolution": "Abomasnow",
         "bst": 494,
         "evolution_level": 49,
         "probability": 0.010166666666666666
+      },
+      {
+        "evolution": "Gourgeist",
+        "bst": 494,
+        "evolution_level": 49,
+        "probability": 0.009583333333333333
+      },
+      {
+        "evolution": "Gourgeistx",
+        "bst": 494,
+        "evolution_level": 49,
+        "probability": 0.00925
       },
       {
         "evolution": "Accelgor",
@@ -21727,6 +22008,12 @@
         "probability": 0.010333333333333333
       },
       {
+        "evolution": "Rotomm",
+        "bst": 520,
+        "evolution_level": 52,
+        "probability": 0.007583333333333333
+      },
+      {
         "evolution": "Leafeon",
         "bst": 525,
         "evolution_level": 52,
@@ -21799,6 +22086,12 @@
         "probability": 0.0125
       },
       {
+        "evolution": "Meowscrada",
+        "bst": 530,
+        "evolution_level": 53,
+        "probability": 0.011833333333333333
+      },
+      {
         "evolution": "Chesnaught",
         "bst": 530,
         "evolution_level": 53,
@@ -21835,6 +22128,12 @@
         "probability": 0.021583333333333333
       },
       {
+        "evolution": "Ogerponr",
+        "bst": 550,
+        "evolution_level": 55,
+        "probability": 0.015
+      },
+      {
         "evolution": "Ogerponw",
         "bst": 550,
         "evolution_level": 55,
@@ -21853,12 +22152,6 @@
     "rule": "bst/10",
     "forced": false,
     "evolutions": [
-      {
-        "evolution": "Miniorc",
-        "bst": 440,
-        "evolution_level": 44,
-        "probability": 0.008916666666666666
-      },
       {
         "evolution": "Unfezant",
         "bst": 488,
@@ -21972,6 +22265,12 @@
         "bst": 500,
         "evolution_level": 50,
         "probability": 0.01075
+      },
+      {
+        "evolution": "Miniorc",
+        "bst": 500,
+        "evolution_level": 50,
+        "probability": 0.008916666666666666
       },
       {
         "evolution": "Hawlucha",
@@ -22417,6 +22716,12 @@
         "bst": 495,
         "evolution_level": 49,
         "probability": 0.02
+      },
+      {
+        "evolution": "Aegislashb",
+        "bst": 500,
+        "evolution_level": 50,
+        "probability": 0.02525
       },
       {
         "evolution": "Scizor",
@@ -23003,6 +23308,12 @@
         "probability": 0.022583333333333334
       },
       {
+        "evolution": "Meowscrada",
+        "bst": 530,
+        "evolution_level": 53,
+        "probability": 0.025916666666666668
+      },
+      {
         "evolution": "Incineroar",
         "bst": 530,
         "evolution_level": 53,
@@ -23055,6 +23366,12 @@
         "bst": 570,
         "evolution_level": 57,
         "probability": 0.03525
+      },
+      {
+        "evolution": "Brutebonet",
+        "bst": 570,
+        "evolution_level": 57,
+        "probability": 0.034583333333333334
       },
       {
         "evolution": "Wo-Chien",
@@ -23293,6 +23610,18 @@
         "probability": 0.0205
       },
       {
+        "evolution": "Rotomfr",
+        "bst": 520,
+        "evolution_level": 52,
+        "probability": 0.01925
+      },
+      {
+        "evolution": "Rotomm",
+        "bst": 520,
+        "evolution_level": 52,
+        "probability": 0.017166666666666667
+      },
+      {
         "evolution": "Rotomw",
         "bst": 520,
         "evolution_level": 52,
@@ -23498,6 +23827,18 @@
         "probability": 0.027416666666666666
       },
       {
+        "evolution": "Rotomfr",
+        "bst": 520,
+        "evolution_level": 52,
+        "probability": 0.01975
+      },
+      {
+        "evolution": "Rotomm",
+        "bst": 520,
+        "evolution_level": 52,
+        "probability": 0.019166666666666665
+      },
+      {
         "evolution": "Rotomfa",
         "bst": 520,
         "evolution_level": 52,
@@ -23673,12 +24014,6 @@
         "probability": 0.04125
       },
       {
-        "evolution": "Oricorioe",
-        "bst": 476,
-        "evolution_level": 47,
-        "probability": 0.027833333333333335
-      },
-      {
         "evolution": "Heliolisk",
         "bst": 481,
         "evolution_level": 48,
@@ -23791,6 +24126,18 @@
         "bst": 520,
         "evolution_level": 52,
         "probability": 0.02625
+      },
+      {
+        "evolution": "Rotomfr",
+        "bst": 520,
+        "evolution_level": 52,
+        "probability": 0.024833333333333332
+      },
+      {
+        "evolution": "Rotomm",
+        "bst": 520,
+        "evolution_level": 52,
+        "probability": 0.021
       },
       {
         "evolution": "Rotomw",
@@ -24203,18 +24550,6 @@
         "probability": 0.01425
       },
       {
-        "evolution": "Cherrim",
-        "bst": 450,
-        "evolution_level": 45,
-        "probability": 0.014083333333333333
-      },
-      {
-        "evolution": "Cherrims",
-        "bst": 450,
-        "evolution_level": 45,
-        "probability": 0.012583333333333334
-      },
-      {
         "evolution": "Carnivine",
         "bst": 454,
         "evolution_level": 45,
@@ -24309,6 +24644,12 @@
         "bst": 480,
         "evolution_level": 48,
         "probability": 0.011333333333333334
+      },
+      {
+        "evolution": "Bramblgast",
+        "bst": 480,
+        "evolution_level": 48,
+        "probability": 0.010666666666666666
       },
       {
         "evolution": "Froslass",
@@ -24431,6 +24772,24 @@
         "probability": 0.006666666666666667
       },
       {
+        "evolution": "Gourgeistl",
+        "bst": 494,
+        "evolution_level": 49,
+        "probability": 0.00875
+      },
+      {
+        "evolution": "Gourgeists",
+        "bst": 494,
+        "evolution_level": 49,
+        "probability": 0.008666666666666666
+      },
+      {
+        "evolution": "Gourgeistx",
+        "bst": 494,
+        "evolution_level": 49,
+        "probability": 0.008666666666666666
+      },
+      {
         "evolution": "Abomasnow",
         "bst": 494,
         "evolution_level": 49,
@@ -24461,6 +24820,12 @@
         "probability": 0.01025
       },
       {
+        "evolution": "Aegislashb",
+        "bst": 500,
+        "evolution_level": 50,
+        "probability": 0.010833333333333334
+      },
+      {
         "evolution": "Gengar",
         "bst": 500,
         "evolution_level": 50,
@@ -24477,6 +24842,12 @@
         "bst": 500,
         "evolution_level": 50,
         "probability": 0.006583333333333333
+      },
+      {
+        "evolution": "Poltegeist",
+        "bst": 508,
+        "evolution_level": 50,
+        "probability": 0.016583333333333332
       },
       {
         "evolution": "Sinistcha",
@@ -24531,6 +24902,12 @@
         "bst": 520,
         "evolution_level": 52,
         "probability": 0.009083333333333334
+      },
+      {
+        "evolution": "Rotomm",
+        "bst": 520,
+        "evolution_level": 52,
+        "probability": 0.00725
       },
       {
         "evolution": "Meganium",
@@ -24611,6 +24988,12 @@
         "probability": 0.0115
       },
       {
+        "evolution": "Meowscrada",
+        "bst": 530,
+        "evolution_level": 53,
+        "probability": 0.01075
+      },
+      {
         "evolution": "Basclegiof",
         "bst": 530,
         "evolution_level": 53,
@@ -24676,18 +25059,6 @@
         "bst": 448,
         "evolution_level": 44,
         "probability": 0.0125
-      },
-      {
-        "evolution": "Cherrim",
-        "bst": 450,
-        "evolution_level": 45,
-        "probability": 0.014083333333333333
-      },
-      {
-        "evolution": "Cherrims",
-        "bst": 450,
-        "evolution_level": 45,
-        "probability": 0.01325
       },
       {
         "evolution": "Carnivine",
@@ -24804,6 +25175,12 @@
         "probability": 0.01025
       },
       {
+        "evolution": "Bramblgast",
+        "bst": 480,
+        "evolution_level": 48,
+        "probability": 0.01
+      },
+      {
         "evolution": "Lilliganth",
         "bst": 480,
         "evolution_level": 48,
@@ -24906,6 +25283,24 @@
         "probability": 0.007333333333333333
       },
       {
+        "evolution": "Gourgeist",
+        "bst": 494,
+        "evolution_level": 49,
+        "probability": 0.01075
+      },
+      {
+        "evolution": "Gourgeists",
+        "bst": 494,
+        "evolution_level": 49,
+        "probability": 0.008916666666666666
+      },
+      {
+        "evolution": "Gourgeistx",
+        "bst": 494,
+        "evolution_level": 49,
+        "probability": 0.008833333333333334
+      },
+      {
         "evolution": "Abomasnow",
         "bst": 494,
         "evolution_level": 49,
@@ -24936,6 +25331,12 @@
         "probability": 0.0095
       },
       {
+        "evolution": "Aegislashb",
+        "bst": 500,
+        "evolution_level": 50,
+        "probability": 0.011416666666666667
+      },
+      {
         "evolution": "Gengar",
         "bst": 500,
         "evolution_level": 50,
@@ -24952,6 +25353,12 @@
         "bst": 500,
         "evolution_level": 50,
         "probability": 0.00725
+      },
+      {
+        "evolution": "Poltegeist",
+        "bst": 508,
+        "evolution_level": 50,
+        "probability": 0.016083333333333335
       },
       {
         "evolution": "Sinistcha",
@@ -25006,6 +25413,12 @@
         "bst": 520,
         "evolution_level": 52,
         "probability": 0.010166666666666666
+      },
+      {
+        "evolution": "Rotomm",
+        "bst": 520,
+        "evolution_level": 52,
+        "probability": 0.007083333333333333
       },
       {
         "evolution": "Dusknoir",
@@ -25072,6 +25485,12 @@
         "bst": 530,
         "evolution_level": 53,
         "probability": 0.012416666666666666
+      },
+      {
+        "evolution": "Meowscrada",
+        "bst": 530,
+        "evolution_level": 53,
+        "probability": 0.011416666666666667
       },
       {
         "evolution": "Decidueyeh",
@@ -25151,18 +25570,6 @@
         "bst": 448,
         "evolution_level": 44,
         "probability": 0.015333333333333332
-      },
-      {
-        "evolution": "Cherrim",
-        "bst": 450,
-        "evolution_level": 45,
-        "probability": 0.015166666666666667
-      },
-      {
-        "evolution": "Cherrims",
-        "bst": 450,
-        "evolution_level": 45,
-        "probability": 0.01325
       },
       {
         "evolution": "Carnivine",
@@ -25265,6 +25672,12 @@
         "bst": 480,
         "evolution_level": 48,
         "probability": 0.010583333333333333
+      },
+      {
+        "evolution": "Bramblgast",
+        "bst": 480,
+        "evolution_level": 48,
+        "probability": 0.009666666666666667
       },
       {
         "evolution": "Lilliganth",
@@ -25381,10 +25794,28 @@
         "probability": 0.007
       },
       {
+        "evolution": "Gourgeistl",
+        "bst": 494,
+        "evolution_level": 49,
+        "probability": 0.00975
+      },
+      {
         "evolution": "Abomasnow",
         "bst": 494,
         "evolution_level": 49,
         "probability": 0.009666666666666667
+      },
+      {
+        "evolution": "Gourgeistx",
+        "bst": 494,
+        "evolution_level": 49,
+        "probability": 0.008
+      },
+      {
+        "evolution": "Gourgeist",
+        "bst": 494,
+        "evolution_level": 49,
+        "probability": 0.007666666666666666
       },
       {
         "evolution": "Mismagius",
@@ -25411,6 +25842,12 @@
         "probability": 0.008666666666666666
       },
       {
+        "evolution": "Aegislashb",
+        "bst": 500,
+        "evolution_level": 50,
+        "probability": 0.010916666666666667
+      },
+      {
         "evolution": "Gengar",
         "bst": 500,
         "evolution_level": 50,
@@ -25427,6 +25864,12 @@
         "bst": 500,
         "evolution_level": 50,
         "probability": 0.006166666666666667
+      },
+      {
+        "evolution": "Poltegeist",
+        "bst": 508,
+        "evolution_level": 50,
+        "probability": 0.014583333333333334
       },
       {
         "evolution": "Sinistcha",
@@ -25481,6 +25924,12 @@
         "bst": 520,
         "evolution_level": 52,
         "probability": 0.0095
+      },
+      {
+        "evolution": "Rotomm",
+        "bst": 520,
+        "evolution_level": 52,
+        "probability": 0.0085
       },
       {
         "evolution": "Dusknoir",
@@ -25547,6 +25996,12 @@
         "bst": 530,
         "evolution_level": 53,
         "probability": 0.012916666666666667
+      },
+      {
+        "evolution": "Meowscrada",
+        "bst": 530,
+        "evolution_level": 53,
+        "probability": 0.012666666666666666
       },
       {
         "evolution": "Chesnaught",
@@ -25626,18 +26081,6 @@
         "bst": 448,
         "evolution_level": 44,
         "probability": 0.013583333333333333
-      },
-      {
-        "evolution": "Cherrim",
-        "bst": 450,
-        "evolution_level": 45,
-        "probability": 0.013666666666666667
-      },
-      {
-        "evolution": "Cherrims",
-        "bst": 450,
-        "evolution_level": 45,
-        "probability": 0.0115
       },
       {
         "evolution": "Carnivine",
@@ -25748,6 +26191,12 @@
         "probability": 0.009833333333333333
       },
       {
+        "evolution": "Bramblgast",
+        "bst": 480,
+        "evolution_level": 48,
+        "probability": 0.009333333333333334
+      },
+      {
         "evolution": "Whimsicott",
         "bst": 480,
         "evolution_level": 48,
@@ -25856,6 +26305,24 @@
         "probability": 0.007166666666666667
       },
       {
+        "evolution": "Gourgeist",
+        "bst": 494,
+        "evolution_level": 49,
+        "probability": 0.009833333333333333
+      },
+      {
+        "evolution": "Gourgeists",
+        "bst": 494,
+        "evolution_level": 49,
+        "probability": 0.009333333333333334
+      },
+      {
+        "evolution": "Gourgeistl",
+        "bst": 494,
+        "evolution_level": 49,
+        "probability": 0.009
+      },
+      {
         "evolution": "Abomasnow",
         "bst": 494,
         "evolution_level": 49,
@@ -25886,6 +26353,12 @@
         "probability": 0.009416666666666667
       },
       {
+        "evolution": "Aegislashb",
+        "bst": 500,
+        "evolution_level": 50,
+        "probability": 0.013333333333333334
+      },
+      {
         "evolution": "Gengar",
         "bst": 500,
         "evolution_level": 50,
@@ -25902,6 +26375,12 @@
         "bst": 500,
         "evolution_level": 50,
         "probability": 0.007583333333333333
+      },
+      {
+        "evolution": "Poltegeist",
+        "bst": 508,
+        "evolution_level": 50,
+        "probability": 0.016666666666666666
       },
       {
         "evolution": "Sinistcha",
@@ -25956,6 +26435,12 @@
         "bst": 520,
         "evolution_level": 52,
         "probability": 0.011416666666666667
+      },
+      {
+        "evolution": "Rotomm",
+        "bst": 520,
+        "evolution_level": 52,
+        "probability": 0.008333333333333333
       },
       {
         "evolution": "Dusknoir",
@@ -26048,6 +26533,12 @@
         "probability": 0.011
       },
       {
+        "evolution": "Meowscrada",
+        "bst": 530,
+        "evolution_level": 53,
+        "probability": 0.011
+      },
+      {
         "evolution": "Exeggutor",
         "bst": 530,
         "evolution_level": 53,
@@ -26131,6 +26622,12 @@
         "bst": 460,
         "evolution_level": 46,
         "probability": 0.01775
+      },
+      {
+        "evolution": "Basculin",
+        "bst": 460,
+        "evolution_level": 46,
+        "probability": 0.017333333333333333
       },
       {
         "evolution": "Sharpedo",
@@ -26545,6 +27042,12 @@
         "bst": 600,
         "evolution_level": 60,
         "probability": 8.333333333333333e-05
+      },
+      {
+        "evolution": "Palafin",
+        "bst": 650,
+        "evolution_level": 65,
+        "probability": 0.00016666666666666666
       }
     ]
   },
@@ -27864,6 +28367,12 @@
         "probability": 0.012166666666666666
       },
       {
+        "evolution": "Meowscrada",
+        "bst": 530,
+        "evolution_level": 53,
+        "probability": 0.01775
+      },
+      {
         "evolution": "Incineroar",
         "bst": 530,
         "evolution_level": 53,
@@ -28778,6 +29287,12 @@
         "probability": 0.016916666666666667
       },
       {
+        "evolution": "Meowscrada",
+        "bst": 530,
+        "evolution_level": 53,
+        "probability": 0.014083333333333333
+      },
+      {
         "evolution": "Greninja",
         "bst": 530,
         "evolution_level": 53,
@@ -29128,6 +29643,30 @@
         "probability": 0.009916666666666667
       },
       {
+        "evolution": "Gourgeists",
+        "bst": 494,
+        "evolution_level": 49,
+        "probability": 0.01225
+      },
+      {
+        "evolution": "Gourgeistl",
+        "bst": 494,
+        "evolution_level": 49,
+        "probability": 0.010916666666666667
+      },
+      {
+        "evolution": "Gourgeist",
+        "bst": 494,
+        "evolution_level": 49,
+        "probability": 0.010416666666666666
+      },
+      {
+        "evolution": "Gourgeistx",
+        "bst": 494,
+        "evolution_level": 49,
+        "probability": 0.009666666666666667
+      },
+      {
         "evolution": "Mismagius",
         "bst": 495,
         "evolution_level": 49,
@@ -29158,6 +29697,12 @@
         "probability": 0.01125
       },
       {
+        "evolution": "Aegislashb",
+        "bst": 500,
+        "evolution_level": 50,
+        "probability": 0.014666666666666666
+      },
+      {
         "evolution": "Gengar",
         "bst": 500,
         "evolution_level": 50,
@@ -29186,6 +29731,12 @@
         "bst": 505,
         "evolution_level": 50,
         "probability": 0.0115
+      },
+      {
+        "evolution": "Poltegeist",
+        "bst": 508,
+        "evolution_level": 50,
+        "probability": 0.019583333333333335
       },
       {
         "evolution": "Sinistcha",
@@ -29228,6 +29779,18 @@
         "bst": 520,
         "evolution_level": 52,
         "probability": 0.01175
+      },
+      {
+        "evolution": "Rotomfr",
+        "bst": 520,
+        "evolution_level": 52,
+        "probability": 0.010416666666666666
+      },
+      {
+        "evolution": "Rotomm",
+        "bst": 520,
+        "evolution_level": 52,
+        "probability": 0.0095
       },
       {
         "evolution": "Rotomfa",
@@ -29356,6 +29919,12 @@
         "probability": 0.0195
       },
       {
+        "evolution": "Blacphalon",
+        "bst": 570,
+        "evolution_level": 57,
+        "probability": 0.018833333333333334
+      },
+      {
         "evolution": "Sandyshock",
         "bst": 570,
         "evolution_level": 57,
@@ -29402,6 +29971,12 @@
         "bst": 580,
         "evolution_level": 58,
         "probability": 0.02033333333333333
+      },
+      {
+        "evolution": "Ragingbolt",
+        "bst": 590,
+        "evolution_level": 59,
+        "probability": 0.023
       }
     ]
   },
@@ -29555,6 +30130,12 @@
         "probability": 0.012583333333333334
       },
       {
+        "evolution": "Bramblgast",
+        "bst": 480,
+        "evolution_level": 48,
+        "probability": 0.012083333333333333
+      },
+      {
         "evolution": "Malamar",
         "bst": 482,
         "evolution_level": 48,
@@ -29603,6 +30184,30 @@
         "probability": 0.014416666666666666
       },
       {
+        "evolution": "Gourgeists",
+        "bst": 494,
+        "evolution_level": 49,
+        "probability": 0.013333333333333334
+      },
+      {
+        "evolution": "Gourgeistx",
+        "bst": 494,
+        "evolution_level": 49,
+        "probability": 0.011833333333333333
+      },
+      {
+        "evolution": "Gourgeist",
+        "bst": 494,
+        "evolution_level": 49,
+        "probability": 0.01025
+      },
+      {
+        "evolution": "Gourgeistl",
+        "bst": 494,
+        "evolution_level": 49,
+        "probability": 0.01025
+      },
+      {
         "evolution": "Mismagius",
         "bst": 495,
         "evolution_level": 49,
@@ -29619,6 +30224,12 @@
         "bst": 498,
         "evolution_level": 49,
         "probability": 0.011916666666666667
+      },
+      {
+        "evolution": "Aegislashb",
+        "bst": 500,
+        "evolution_level": 50,
+        "probability": 0.014166666666666666
       },
       {
         "evolution": "Drapion",
@@ -29655,6 +30266,12 @@
         "bst": 505,
         "evolution_level": 50,
         "probability": 0.014666666666666666
+      },
+      {
+        "evolution": "Poltegeist",
+        "bst": 508,
+        "evolution_level": 50,
+        "probability": 0.017916666666666668
       },
       {
         "evolution": "Sinistcha",
@@ -29868,6 +30485,12 @@
         "probability": 0.015416666666666667
       },
       {
+        "evolution": "Eiscue",
+        "bst": 470,
+        "evolution_level": 47,
+        "probability": 0.034416666666666665
+      },
+      {
         "evolution": "Klefki",
         "bst": 470,
         "evolution_level": 47,
@@ -29878,6 +30501,12 @@
         "bst": 471,
         "evolution_level": 47,
         "probability": 0.025166666666666667
+      },
+      {
+        "evolution": "Crabminble",
+        "bst": 478,
+        "evolution_level": 47,
+        "probability": 0.023166666666666665
       },
       {
         "evolution": "Glalie",
@@ -30158,6 +30787,12 @@
         "probability": 0.01075
       },
       {
+        "evolution": "Aegislashb",
+        "bst": 500,
+        "evolution_level": 50,
+        "probability": 0.012083333333333333
+      },
+      {
         "evolution": "Revavroom",
         "bst": 500,
         "evolution_level": 50,
@@ -30234,6 +30869,12 @@
         "bst": 520,
         "evolution_level": 52,
         "probability": 0.011833333333333333
+      },
+      {
+        "evolution": "Rotomfr",
+        "bst": 520,
+        "evolution_level": 52,
+        "probability": 0.010416666666666666
       },
       {
         "evolution": "Cetitan",
@@ -30778,18 +31419,6 @@
     "forced": false,
     "evolutions": [
       {
-        "evolution": "Floettee",
-        "bst": 371,
-        "evolution_level": 37,
-        "probability": 0.021
-      },
-      {
-        "evolution": "Cherrims",
-        "bst": 450,
-        "evolution_level": 45,
-        "probability": 0.013416666666666667
-      },
-      {
         "evolution": "Eldegoss",
         "bst": 460,
         "evolution_level": 46,
@@ -30910,6 +31539,12 @@
         "probability": 0.009333333333333334
       },
       {
+        "evolution": "Bramblgast",
+        "bst": 480,
+        "evolution_level": 48,
+        "probability": 0.009166666666666667
+      },
+      {
         "evolution": "Whimsicott",
         "bst": 480,
         "evolution_level": 48,
@@ -30992,6 +31627,30 @@
         "bst": 490,
         "evolution_level": 49,
         "probability": 0.007333333333333333
+      },
+      {
+        "evolution": "Gourgeist",
+        "bst": 494,
+        "evolution_level": 49,
+        "probability": 0.009833333333333333
+      },
+      {
+        "evolution": "Gourgeists",
+        "bst": 494,
+        "evolution_level": 49,
+        "probability": 0.00975
+      },
+      {
+        "evolution": "Gourgeistl",
+        "bst": 494,
+        "evolution_level": 49,
+        "probability": 0.00975
+      },
+      {
+        "evolution": "Gourgeistx",
+        "bst": 494,
+        "evolution_level": 49,
+        "probability": 0.009666666666666667
       },
       {
         "evolution": "Abomasnow",
@@ -31108,6 +31767,12 @@
         "probability": 0.011
       },
       {
+        "evolution": "Rotomm",
+        "bst": 520,
+        "evolution_level": 52,
+        "probability": 0.007333333333333333
+      },
+      {
         "evolution": "Sylveon",
         "bst": 525,
         "evolution_level": 52,
@@ -31180,6 +31845,12 @@
         "probability": 0.011416666666666667
       },
       {
+        "evolution": "Meowscrada",
+        "bst": 530,
+        "evolution_level": 53,
+        "probability": 0.010333333333333333
+      },
+      {
         "evolution": "Primarina",
         "bst": 530,
         "evolution_level": 53,
@@ -31228,10 +31899,22 @@
         "probability": 0.016
       },
       {
+        "evolution": "Ogerponr",
+        "bst": 550,
+        "evolution_level": 55,
+        "probability": 0.010583333333333333
+      },
+      {
         "evolution": "Ogerponw",
         "bst": 550,
         "evolution_level": 55,
         "probability": 0.010166666666666666
+      },
+      {
+        "evolution": "Floettee",
+        "bst": 551,
+        "evolution_level": 55,
+        "probability": 0.021
       },
       {
         "evolution": "Florges",
@@ -31715,6 +32398,12 @@
         "bst": 474,
         "evolution_level": 47,
         "probability": 0.01475
+      },
+      {
+        "evolution": "Crabminble",
+        "bst": 478,
+        "evolution_level": 47,
+        "probability": 0.012916666666666667
       },
       {
         "evolution": "Skuntank",
@@ -32680,12 +33369,6 @@
     "forced": false,
     "evolutions": [
       {
-        "evolution": "Miniorc",
-        "bst": 440,
-        "evolution_level": 44,
-        "probability": 0.011833333333333333
-      },
-      {
         "evolution": "Audino",
         "bst": 445,
         "evolution_level": 44,
@@ -32780,12 +33463,6 @@
         "bst": 476,
         "evolution_level": 47,
         "probability": 0.012416666666666666
-      },
-      {
-        "evolution": "Oricorioe",
-        "bst": 476,
-        "evolution_level": 47,
-        "probability": 0.010833333333333334
       },
       {
         "evolution": "Pidgeot",
@@ -32966,6 +33643,12 @@
         "bst": 500,
         "evolution_level": 50,
         "probability": 0.012
+      },
+      {
+        "evolution": "Miniorc",
+        "bst": 500,
+        "evolution_level": 50,
+        "probability": 0.011833333333333333
       },
       {
         "evolution": "Stoutland",
@@ -33221,12 +33904,6 @@
     "forced": false,
     "evolutions": [
       {
-        "evolution": "Miniorc",
-        "bst": 440,
-        "evolution_level": 44,
-        "probability": 0.023666666666666666
-      },
-      {
         "evolution": "Minior",
         "bst": 440,
         "evolution_level": 44,
@@ -33251,6 +33928,12 @@
         "probability": 0.027666666666666666
       },
       {
+        "evolution": "Stonjorner",
+        "bst": 470,
+        "evolution_level": 47,
+        "probability": 0.044333333333333336
+      },
+      {
         "evolution": "Rhydon",
         "bst": 485,
         "evolution_level": 48,
@@ -33267,6 +33950,24 @@
         "bst": 485,
         "evolution_level": 48,
         "probability": 0.020166666666666666
+      },
+      {
+        "evolution": "Lycanrocd",
+        "bst": 487,
+        "evolution_level": 48,
+        "probability": 0.044583333333333336
+      },
+      {
+        "evolution": "Lycanrocm",
+        "bst": 487,
+        "evolution_level": 48,
+        "probability": 0.04325
+      },
+      {
+        "evolution": "Lycanroc",
+        "bst": 487,
+        "evolution_level": 48,
+        "probability": 0.03841666666666667
       },
       {
         "evolution": "Rampardos",
@@ -33333,6 +34034,12 @@
         "bst": 500,
         "evolution_level": 50,
         "probability": 0.027333333333333334
+      },
+      {
+        "evolution": "Miniorc",
+        "bst": 500,
+        "evolution_level": 50,
+        "probability": 0.023666666666666666
       },
       {
         "evolution": "Kleavor",
@@ -33407,6 +34114,12 @@
         "probability": 0.0265
       },
       {
+        "evolution": "Ogerponr",
+        "bst": 550,
+        "evolution_level": 55,
+        "probability": 0.032
+      },
+      {
         "evolution": "Arcanineh",
         "bst": 555,
         "evolution_level": 55,
@@ -33456,12 +34169,6 @@
     "forced": false,
     "evolutions": [
       {
-        "evolution": "Cherrims",
-        "bst": 450,
-        "evolution_level": 45,
-        "probability": 0.021416666666666667
-      },
-      {
         "evolution": "Trevenant",
         "bst": 474,
         "evolution_level": 47,
@@ -33490,6 +34197,12 @@
         "bst": 480,
         "evolution_level": 48,
         "probability": 0.019416666666666665
+      },
+      {
+        "evolution": "Bramblgast",
+        "bst": 480,
+        "evolution_level": 48,
+        "probability": 0.015166666666666667
       },
       {
         "evolution": "Lilliganth",
@@ -33576,6 +34289,30 @@
         "probability": 0.015083333333333334
       },
       {
+        "evolution": "Gourgeistl",
+        "bst": 494,
+        "evolution_level": 49,
+        "probability": 0.013333333333333334
+      },
+      {
+        "evolution": "Gourgeistx",
+        "bst": 494,
+        "evolution_level": 49,
+        "probability": 0.013333333333333334
+      },
+      {
+        "evolution": "Gourgeists",
+        "bst": 494,
+        "evolution_level": 49,
+        "probability": 0.012833333333333334
+      },
+      {
+        "evolution": "Gourgeist",
+        "bst": 494,
+        "evolution_level": 49,
+        "probability": 0.01225
+      },
+      {
         "evolution": "Cradily",
         "bst": 495,
         "evolution_level": 49,
@@ -33634,6 +34371,12 @@
         "bst": 517,
         "evolution_level": 51,
         "probability": 0.014833333333333334
+      },
+      {
+        "evolution": "Rotomm",
+        "bst": 520,
+        "evolution_level": 52,
+        "probability": 0.011333333333333334
       },
       {
         "evolution": "Leafeon",
@@ -33708,6 +34451,12 @@
         "probability": 0.01633333333333333
       },
       {
+        "evolution": "Meowscrada",
+        "bst": 530,
+        "evolution_level": 53,
+        "probability": 0.01425
+      },
+      {
         "evolution": "Gogoat",
         "bst": 531,
         "evolution_level": 53,
@@ -33732,10 +34481,22 @@
         "probability": 0.025583333333333333
       },
       {
+        "evolution": "Ogerponr",
+        "bst": 550,
+        "evolution_level": 55,
+        "probability": 0.017916666666666668
+      },
+      {
         "evolution": "Ogerponw",
         "bst": 550,
         "evolution_level": 55,
         "probability": 0.016833333333333332
+      },
+      {
+        "evolution": "Brutebonet",
+        "bst": 570,
+        "evolution_level": 57,
+        "probability": 0.027833333333333335
       },
       {
         "evolution": "Wo-Chien",
@@ -33762,12 +34523,6 @@
     "rule": "bst/10",
     "forced": false,
     "evolutions": [
-      {
-        "evolution": "Miniorc",
-        "bst": 440,
-        "evolution_level": 44,
-        "probability": 0.010916666666666667
-      },
       {
         "evolution": "Swanna",
         "bst": 473,
@@ -33803,12 +34558,6 @@
         "bst": 476,
         "evolution_level": 47,
         "probability": 0.014
-      },
-      {
-        "evolution": "Oricorioe",
-        "bst": 476,
-        "evolution_level": 47,
-        "probability": 0.01225
       },
       {
         "evolution": "Oricoriog",
@@ -33995,6 +34744,12 @@
         "bst": 500,
         "evolution_level": 50,
         "probability": 0.011
+      },
+      {
+        "evolution": "Miniorc",
+        "bst": 500,
+        "evolution_level": 50,
+        "probability": 0.010916666666666667
       },
       {
         "evolution": "Calyrex",
@@ -34617,6 +35372,12 @@
         "probability": 0.013833333333333333
       },
       {
+        "evolution": "Aegislashb",
+        "bst": 500,
+        "evolution_level": 50,
+        "probability": 0.012083333333333333
+      },
+      {
         "evolution": "Scizor",
         "bst": 500,
         "evolution_level": 50,
@@ -34687,6 +35448,18 @@
         "bst": 520,
         "evolution_level": 52,
         "probability": 0.020666666666666667
+      },
+      {
+        "evolution": "Rotomfr",
+        "bst": 520,
+        "evolution_level": 52,
+        "probability": 0.010166666666666666
+      },
+      {
+        "evolution": "Rotomm",
+        "bst": 520,
+        "evolution_level": 52,
+        "probability": 0.009666666666666667
       },
       {
         "evolution": "Rotomfa",
@@ -35406,12 +36179,6 @@
     "forced": false,
     "evolutions": [
       {
-        "evolution": "Miniorc",
-        "bst": 440,
-        "evolution_level": 44,
-        "probability": 0.014333333333333333
-      },
-      {
         "evolution": "Minior",
         "bst": 440,
         "evolution_level": 44,
@@ -35506,12 +36273,6 @@
         "bst": 476,
         "evolution_level": 47,
         "probability": 0.018833333333333334
-      },
-      {
-        "evolution": "Oricorioe",
-        "bst": 476,
-        "evolution_level": 47,
-        "probability": 0.0165
       },
       {
         "evolution": "Oricoriop",
@@ -35650,6 +36411,12 @@
         "bst": 500,
         "evolution_level": 50,
         "probability": 0.015416666666666667
+      },
+      {
+        "evolution": "Miniorc",
+        "bst": 500,
+        "evolution_level": 50,
+        "probability": 0.014333333333333333
       },
       {
         "evolution": "Scizor",
@@ -36122,18 +36889,6 @@
     "forced": false,
     "evolutions": [
       {
-        "evolution": "Cherrim",
-        "bst": 450,
-        "evolution_level": 45,
-        "probability": 0.016083333333333335
-      },
-      {
-        "evolution": "Cherrims",
-        "bst": 450,
-        "evolution_level": 45,
-        "probability": 0.015
-      },
-      {
         "evolution": "Carnivine",
         "bst": 454,
         "evolution_level": 45,
@@ -36218,12 +36973,6 @@
         "probability": 0.007083333333333333
       },
       {
-        "evolution": "Oricorioe",
-        "bst": 476,
-        "evolution_level": 47,
-        "probability": 0.00925
-      },
-      {
         "evolution": "Lilligant",
         "bst": 480,
         "evolution_level": 48,
@@ -36234,6 +36983,12 @@
         "bst": 480,
         "evolution_level": 48,
         "probability": 0.013583333333333333
+      },
+      {
+        "evolution": "Bramblgast",
+        "bst": 480,
+        "evolution_level": 48,
+        "probability": 0.012083333333333333
       },
       {
         "evolution": "Shiftry",
@@ -36356,6 +37111,30 @@
         "probability": 0.006666666666666667
       },
       {
+        "evolution": "Gourgeistx",
+        "bst": 494,
+        "evolution_level": 49,
+        "probability": 0.011083333333333334
+      },
+      {
+        "evolution": "Gourgeistl",
+        "bst": 494,
+        "evolution_level": 49,
+        "probability": 0.010333333333333333
+      },
+      {
+        "evolution": "Gourgeist",
+        "bst": 494,
+        "evolution_level": 49,
+        "probability": 0.01025
+      },
+      {
+        "evolution": "Gourgeists",
+        "bst": 494,
+        "evolution_level": 49,
+        "probability": 0.008833333333333334
+      },
+      {
         "evolution": "Abomasnow",
         "bst": 494,
         "evolution_level": 49,
@@ -36476,6 +37255,12 @@
         "probability": 0.009166666666666667
       },
       {
+        "evolution": "Rotomfr",
+        "bst": 520,
+        "evolution_level": 52,
+        "probability": 0.009916666666666667
+      },
+      {
         "evolution": "Rotomfa",
         "bst": 520,
         "evolution_level": 52,
@@ -36486,6 +37271,12 @@
         "bst": 520,
         "evolution_level": 52,
         "probability": 0.00825
+      },
+      {
+        "evolution": "Rotomm",
+        "bst": 520,
+        "evolution_level": 52,
+        "probability": 0.007916666666666667
       },
       {
         "evolution": "Luxray",
@@ -36560,6 +37351,12 @@
         "probability": 0.012416666666666666
       },
       {
+        "evolution": "Meowscrada",
+        "bst": 530,
+        "evolution_level": 53,
+        "probability": 0.011833333333333333
+      },
+      {
         "evolution": "Decidueyeh",
         "bst": 530,
         "evolution_level": 53,
@@ -36621,6 +37418,18 @@
         "probability": 0.033416666666666664
       },
       {
+        "evolution": "Eiscue",
+        "bst": 470,
+        "evolution_level": 47,
+        "probability": 0.043333333333333335
+      },
+      {
+        "evolution": "Crabminble",
+        "bst": 478,
+        "evolution_level": 47,
+        "probability": 0.030583333333333334
+      },
+      {
         "evolution": "Glalie",
         "bst": 480,
         "evolution_level": 48,
@@ -36673,6 +37482,12 @@
         "bst": 520,
         "evolution_level": 52,
         "probability": 0.033166666666666664
+      },
+      {
+        "evolution": "Rotomfr",
+        "bst": 520,
+        "evolution_level": 52,
+        "probability": 0.026083333333333333
       },
       {
         "evolution": "Cetitan",
@@ -37169,12 +37984,6 @@
     "forced": false,
     "evolutions": [
       {
-        "evolution": "Floettee",
-        "bst": 371,
-        "evolution_level": 37,
-        "probability": 0.0285
-      },
-      {
         "evolution": "Ambipom",
         "bst": 482,
         "evolution_level": 48,
@@ -37455,6 +38264,12 @@
         "bst": 550,
         "evolution_level": 55,
         "probability": 0.01225
+      },
+      {
+        "evolution": "Floettee",
+        "bst": 551,
+        "evolution_level": 55,
+        "probability": 0.0285
       },
       {
         "evolution": "Florges",
@@ -38145,12 +38960,6 @@
     "forced": true,
     "evolutions": [
       {
-        "evolution": "Cherrims",
-        "bst": 450,
-        "evolution_level": 45,
-        "probability": 0.0145
-      },
-      {
         "evolution": "Galvantula",
         "bst": 472,
         "evolution_level": 47,
@@ -38191,6 +39000,12 @@
         "bst": 480,
         "evolution_level": 48,
         "probability": 0.012833333333333334
+      },
+      {
+        "evolution": "Bramblgast",
+        "bst": 480,
+        "evolution_level": 48,
+        "probability": 0.010666666666666666
       },
       {
         "evolution": "Lilliganth",
@@ -38287,6 +39102,30 @@
         "bst": 490,
         "evolution_level": 49,
         "probability": 0.00775
+      },
+      {
+        "evolution": "Gourgeist",
+        "bst": 494,
+        "evolution_level": 49,
+        "probability": 0.0105
+      },
+      {
+        "evolution": "Gourgeistl",
+        "bst": 494,
+        "evolution_level": 49,
+        "probability": 0.010166666666666666
+      },
+      {
+        "evolution": "Gourgeists",
+        "bst": 494,
+        "evolution_level": 49,
+        "probability": 0.009583333333333333
+      },
+      {
+        "evolution": "Gourgeistx",
+        "bst": 494,
+        "evolution_level": 49,
+        "probability": 0.0095
       },
       {
         "evolution": "Abomasnow",
@@ -38433,6 +39272,12 @@
         "probability": 0.010333333333333333
       },
       {
+        "evolution": "Rotomm",
+        "bst": 520,
+        "evolution_level": 52,
+        "probability": 0.00825
+      },
+      {
         "evolution": "Leafeon",
         "bst": 525,
         "evolution_level": 52,
@@ -38511,6 +39356,12 @@
         "probability": 0.012166666666666666
       },
       {
+        "evolution": "Meowscrada",
+        "bst": 530,
+        "evolution_level": 53,
+        "probability": 0.010916666666666667
+      },
+      {
         "evolution": "Golisopod",
         "bst": 530,
         "evolution_level": 53,
@@ -38539,6 +39390,12 @@
         "bst": 550,
         "evolution_level": 55,
         "probability": 0.019083333333333334
+      },
+      {
+        "evolution": "Ogerponr",
+        "bst": 550,
+        "evolution_level": 55,
+        "probability": 0.0145
       },
       {
         "evolution": "Ogerponw",
@@ -38581,6 +39438,12 @@
         "bst": 570,
         "evolution_level": 57,
         "probability": 0.018416666666666668
+      },
+      {
+        "evolution": "Brutebonet",
+        "bst": 570,
+        "evolution_level": 57,
+        "probability": 0.017916666666666668
       },
       {
         "evolution": "Wo-Chien",
@@ -39071,6 +39934,12 @@
         "probability": 0.019833333333333335
       },
       {
+        "evolution": "Aegislashb",
+        "bst": 500,
+        "evolution_level": 50,
+        "probability": 0.018583333333333334
+      },
+      {
         "evolution": "Revavroom",
         "bst": 500,
         "evolution_level": 50,
@@ -39275,6 +40144,12 @@
     "rule": "bst/10",
     "forced": false,
     "evolutions": [
+      {
+        "evolution": "Basculin",
+        "bst": 460,
+        "evolution_level": 46,
+        "probability": 8.333333333333333e-05
+      },
       {
         "evolution": "Lanturn",
         "bst": 460,
@@ -39682,6 +40557,12 @@
         "bst": 600,
         "evolution_level": 60,
         "probability": 0.00016666666666666666
+      },
+      {
+        "evolution": "Palafin",
+        "bst": 650,
+        "evolution_level": 65,
+        "probability": 8.333333333333333e-05
       }
     ]
   },
@@ -39793,6 +40674,12 @@
         "probability": 0.013
       },
       {
+        "evolution": "Bramblgast",
+        "bst": 480,
+        "evolution_level": 48,
+        "probability": 0.011833333333333333
+      },
+      {
         "evolution": "Jellicent",
         "bst": 480,
         "evolution_level": 48,
@@ -39835,6 +40722,30 @@
         "probability": 0.020083333333333335
       },
       {
+        "evolution": "Gourgeist",
+        "bst": 494,
+        "evolution_level": 49,
+        "probability": 0.013916666666666667
+      },
+      {
+        "evolution": "Gourgeists",
+        "bst": 494,
+        "evolution_level": 49,
+        "probability": 0.013833333333333333
+      },
+      {
+        "evolution": "Gourgeistl",
+        "bst": 494,
+        "evolution_level": 49,
+        "probability": 0.012333333333333333
+      },
+      {
+        "evolution": "Gourgeistx",
+        "bst": 494,
+        "evolution_level": 49,
+        "probability": 0.011
+      },
+      {
         "evolution": "Mismagius",
         "bst": 495,
         "evolution_level": 49,
@@ -39865,6 +40776,12 @@
         "probability": 0.019583333333333335
       },
       {
+        "evolution": "Aegislashb",
+        "bst": 500,
+        "evolution_level": 50,
+        "probability": 0.01475
+      },
+      {
         "evolution": "Claydol",
         "bst": 500,
         "evolution_level": 50,
@@ -39887,6 +40804,12 @@
         "bst": 505,
         "evolution_level": 50,
         "probability": 0.012166666666666666
+      },
+      {
+        "evolution": "Poltegeist",
+        "bst": 508,
+        "evolution_level": 50,
+        "probability": 0.0265
       },
       {
         "evolution": "Excadrill",
@@ -40365,6 +41288,12 @@
         "probability": 0.012833333333333334
       },
       {
+        "evolution": "Bramblgast",
+        "bst": 480,
+        "evolution_level": 48,
+        "probability": 0.01225
+      },
+      {
         "evolution": "Lopunny",
         "bst": 480,
         "evolution_level": 48,
@@ -40509,6 +41438,30 @@
         "probability": 0.008
       },
       {
+        "evolution": "Gourgeist",
+        "bst": 494,
+        "evolution_level": 49,
+        "probability": 0.011916666666666667
+      },
+      {
+        "evolution": "Gourgeists",
+        "bst": 494,
+        "evolution_level": 49,
+        "probability": 0.010916666666666667
+      },
+      {
+        "evolution": "Gourgeistx",
+        "bst": 494,
+        "evolution_level": 49,
+        "probability": 0.01075
+      },
+      {
+        "evolution": "Gourgeistl",
+        "bst": 494,
+        "evolution_level": 49,
+        "probability": 0.009583333333333333
+      },
+      {
         "evolution": "Mismagius",
         "bst": 495,
         "evolution_level": 49,
@@ -40519,6 +41472,12 @@
         "bst": 498,
         "evolution_level": 49,
         "probability": 0.0125
+      },
+      {
+        "evolution": "Aegislashb",
+        "bst": 500,
+        "evolution_level": 50,
+        "probability": 0.014083333333333333
       },
       {
         "evolution": "Gengar",
@@ -40555,6 +41514,12 @@
         "bst": 507,
         "evolution_level": 50,
         "probability": 0.0075
+      },
+      {
+        "evolution": "Poltegeist",
+        "bst": 508,
+        "evolution_level": 50,
+        "probability": 0.01875
       },
       {
         "evolution": "Sinistcha",
