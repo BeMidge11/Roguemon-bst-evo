@@ -63,9 +63,9 @@
 
     .app {
       display: grid;
-      grid-template-columns: 1fr 320px;
+      grid-template-columns: 1fr 350px;
       gap: 1.5rem;
-      max-width: 1200px;
+      max-width: 1300px;
       margin: auto;
     }
 
@@ -266,15 +266,15 @@
     </div>
 
     <!-- SIDE PANEL -->
-    <div class="panel top5">
-      <h2>Top 5 Most Likely Evolutions</h2>
-      <div id="top5List" class="top5-list">
-        Select a Pokémon
+    <div class="panel stats-panel">
+      <div class="chart-container" style="margin-top: 0;">
+        <h2 style="font-size: 0.9rem; margin-bottom: 0.8rem; opacity: 0.8;">Evolution Level Distribution</h2>
+        <canvas id="evoChart"></canvas>
       </div>
 
       <div class="chart-container">
-        <h2 style="font-size: 0.9rem; margin-bottom: 0.5rem; opacity: 0.8;">Evolution Level Curve</h2>
-        <canvas id="evoChart"></canvas>
+        <h2 style="font-size: 0.9rem; margin-bottom: 0.8rem; opacity: 0.8;">Type Combination Chances</h2>
+        <canvas id="typeChart"></canvas>
       </div>
     </div>
 
