@@ -1,0 +1,1883 @@
+{
+  "Abomasnowm": {
+    "bst": null,
+    "appears_in": [
+      "Cherrim"
+    ]
+  },
+  "Absolm": {
+    "bst": null,
+    "appears_in": [
+      "Liepard",
+      "Lokix",
+      "Mightyena"
+    ]
+  },
+  "Aegislash": {
+    "bst": null,
+    "appears_in": [
+      "Mawile",
+      "Perrserker",
+      "Rotom",
+      "Sableye",
+      "Togedemaru",
+      "Wormadamt"
+    ]
+  },
+  "Aegislashb": {
+    "bst": null,
+    "appears_in": [
+      "Mawile",
+      "Perrserker",
+      "Rotom",
+      "Sableye",
+      "Togedemaru",
+      "Wormadamt"
+    ]
+  },
+  "Altariam": {
+    "bst": null,
+    "appears_in": [
+      "Granbull"
+    ]
+  },
+  "Arcanineh": {
+    "bst": null,
+    "appears_in": [
+      "Klawf",
+      "Magcargo",
+      "Sudowoodo"
+    ]
+  },
+  "Articunog": {
+    "bst": null,
+    "appears_in": [
+      "Butterfree",
+      "Emolga",
+      "Fearow",
+      "Pelipper",
+      "Vivillon"
+    ]
+  },
+  "Audinom": {
+    "bst": null,
+    "appears_in": [
+      "Audino",
+      "Azumarill",
+      "Bibarel",
+      "Castform",
+      "Chatot",
+      "Dedenne",
+      "Delcatty",
+      "Diggersby",
+      "Eeveep",
+      "Fearow",
+      "Furret",
+      "Granbull",
+      "Gumshoos",
+      "Kecleon",
+      "Persian",
+      "Raticate",
+      "Shiinotic",
+      "Terapagos",
+      "Watchog",
+      "Wigglytuff"
+    ]
+  },
+  "Avaluggh": {
+    "bst": null,
+    "appears_in": [
+      "Klawf",
+      "Magcargo",
+      "Sudowoodo"
+    ]
+  },
+  "Banettem": {
+    "bst": null,
+    "appears_in": [
+      "Rotom"
+    ]
+  },
+  "Baraskewda": {
+    "bst": null,
+    "appears_in": [
+      "Azumarill",
+      "Bibarel",
+      "Pelipper",
+      "Pyukumuku",
+      "Quagsire",
+      "Wugtrio"
+    ]
+  },
+  "Basclegiof": {
+    "bst": null,
+    "appears_in": [
+      "Azumarill",
+      "Bibarel",
+      "Pelipper",
+      "Pyukumuku",
+      "Quagsire",
+      "Rotom",
+      "Seaking",
+      "Wugtrio"
+    ]
+  },
+  "Basclegion": {
+    "bst": null,
+    "appears_in": [
+      "Azumarill",
+      "Bibarel",
+      "Pelipper",
+      "Pyukumuku",
+      "Quagsire",
+      "Rotom",
+      "Seaking",
+      "Wugtrio"
+    ]
+  },
+  "Basculin": {
+    "bst": null,
+    "appears_in": [
+      "Bibarel",
+      "Luvdisc",
+      "Pyukumuku",
+      "Wugtrio"
+    ]
+  },
+  "Basculinb": {
+    "bst": null,
+    "appears_in": [
+      "Bibarel",
+      "Luvdisc",
+      "Pyukumuku",
+      "Wugtrio"
+    ]
+  },
+  "Basculinw": {
+    "bst": null,
+    "appears_in": [
+      "Bibarel",
+      "Luvdisc",
+      "Pyukumuku",
+      "Wugtrio"
+    ]
+  },
+  "Blacphalon": {
+    "bst": null,
+    "appears_in": [
+      "Magcargo",
+      "Rotom"
+    ]
+  },
+  "Bramblgast": {
+    "bst": null,
+    "appears_in": [
+      "Parasect",
+      "Sableye",
+      "Shiinotic",
+      "Sunflora",
+      "Wormadam"
+    ]
+  },
+  "Braviaryh": {
+    "bst": null,
+    "appears_in": [
+      "Beautifly",
+      "Butterfree",
+      "Chatot",
+      "Emolga",
+      "Fearow",
+      "Ledian",
+      "Medicham",
+      "Mothim",
+      "Pelipper",
+      "Swoobat",
+      "Unown",
+      "Vivillon",
+      "Wobbuffet"
+    ]
+  },
+  "Brutebonet": {
+    "bst": null,
+    "appears_in": [
+      "Cherrim",
+      "Liepard",
+      "Lokix",
+      "Mightyena",
+      "Sunflora",
+      "Wormadam"
+    ]
+  },
+  "Cameruptm": {
+    "bst": null,
+    "appears_in": [
+      "Clodsire",
+      "Diggersby",
+      "Dugtrio",
+      "Magcargo",
+      "Marowak",
+      "Quagsire",
+      "Sandslash",
+      "Wormadams"
+    ]
+  },
+  "Castformi": {
+    "bst": null,
+    "appears_in": [
+      "Delibird"
+    ]
+  },
+  "Castformw": {
+    "bst": null,
+    "appears_in": [
+      "Luvdisc"
+    ]
+  },
+  "Centskorch": {
+    "bst": null,
+    "appears_in": [
+      "Ariados",
+      "Beautifly",
+      "Beedrill",
+      "Butterfree",
+      "Dustox",
+      "Illumise",
+      "Kricketune",
+      "Ledian",
+      "Lokix",
+      "Magcargo",
+      "Mothim",
+      "Parasect",
+      "Spidops",
+      "Venomoth",
+      "Vivillon",
+      "Volbeat",
+      "Wormadam",
+      "Wormadams",
+      "Wormadamt"
+    ]
+  },
+  "Cherrims": {
+    "bst": null,
+    "appears_in": [
+      "Cherrim",
+      "Parasect",
+      "Shiinotic",
+      "Sunflora",
+      "Wormadam"
+    ]
+  },
+  "Corvknight": {
+    "bst": null,
+    "appears_in": [
+      "Beautifly",
+      "Butterfree",
+      "Chatot",
+      "Emolga",
+      "Fearow",
+      "Ledian",
+      "Mawile",
+      "Mothim",
+      "Pelipper",
+      "Perrserker",
+      "Swoobat",
+      "Togedemaru",
+      "Vivillon",
+      "Wormadamt"
+    ]
+  },
+  "Crabminble": {
+    "bst": null,
+    "appears_in": [
+      "Medicham"
+    ]
+  },
+  "Darmanitan": {
+    "bst": null,
+    "appears_in": [
+      "Magcargo"
+    ]
+  },
+  "Darmanitaz": {
+    "bst": null,
+    "appears_in": [
+      "Magcargo",
+      "Medicham",
+      "Swoobat",
+      "Wobbuffet"
+    ]
+  },
+  "Darmanitzg": {
+    "bst": null,
+    "appears_in": [
+      "Magcargo"
+    ]
+  },
+  "Decidueyeh": {
+    "bst": null,
+    "appears_in": [
+      "Cherrim",
+      "Medicham",
+      "Parasect",
+      "Shiinotic",
+      "Sunflora",
+      "Wormadam"
+    ]
+  },
+  "Dudunsprce": {
+    "bst": null,
+    "appears_in": [
+      "Audino",
+      "Bibarel",
+      "Castform",
+      "Chatot",
+      "Delcatty",
+      "Diggersby",
+      "Eeveep",
+      "Fearow",
+      "Furret",
+      "Gumshoos",
+      "Kecleon",
+      "Persian",
+      "Raticate",
+      "Terapagos",
+      "Watchog",
+      "Wigglytuff"
+    ]
+  },
+  "Dugtrioa": {
+    "bst": null,
+    "appears_in": [
+      "Meltan"
+    ]
+  },
+  "Eeveep": {
+    "bst": null,
+    "appears_in": [
+      "Castform",
+      "Delcatty",
+      "Furret",
+      "Gumshoos",
+      "Kecleon",
+      "Persian",
+      "Raticate",
+      "Spinda",
+      "Watchog"
+    ]
+  },
+  "Eiscue": {
+    "bst": null,
+    "appears_in": [
+      "Delibird"
+    ]
+  },
+  "Eiscuen": {
+    "bst": null,
+    "appears_in": [
+      "Delibird"
+    ]
+  },
+  "Electrodeh": {
+    "bst": null,
+    "appears_in": [
+      "Dedenne",
+      "Emolga",
+      "Minun",
+      "Pachirisu",
+      "Parasect",
+      "Pikachup",
+      "Pincurchin",
+      "Plusle",
+      "Rotom",
+      "Shiinotic",
+      "Sunflora",
+      "Togedemaru",
+      "Wormadam"
+    ]
+  },
+  "Enamorus": {
+    "bst": null,
+    "appears_in": [
+      "Dedenne",
+      "Emolga",
+      "Fearow",
+      "Granbull",
+      "Mothim",
+      "Pelipper",
+      "Vivillon",
+      "Wigglytuff"
+    ]
+  },
+  "Enamorust": {
+    "bst": null,
+    "appears_in": [
+      "Butterfree",
+      "Dedenne",
+      "Emolga",
+      "Fearow",
+      "Granbull",
+      "Pelipper",
+      "Vivillon",
+      "Wigglytuff"
+    ]
+  },
+  "Exeggutora": {
+    "bst": null,
+    "appears_in": [
+      "Cherrim",
+      "Parasect",
+      "Shiinotic",
+      "Sunflora",
+      "Wormadam"
+    ]
+  },
+  "Fezandipti": {
+    "bst": null,
+    "appears_in": [
+      "Arbok",
+      "Ariados",
+      "Azumarill",
+      "Beedrill",
+      "Clodsire",
+      "Dedenne",
+      "Dustox",
+      "Granbull",
+      "Shiinotic",
+      "Venomoth",
+      "Wigglytuff"
+    ]
+  },
+  "Floettee": {
+    "bst": null,
+    "appears_in": [
+      "Azumarill",
+      "Dedenne",
+      "Granbull",
+      "Shiinotic",
+      "Wigglytuff"
+    ]
+  },
+  "Fluttrmane": {
+    "bst": null,
+    "appears_in": [
+      "Azumarill",
+      "Dedenne",
+      "Granbull",
+      "Rotom",
+      "Wigglytuff"
+    ]
+  },
+  "Gourgeist": {
+    "bst": null,
+    "appears_in": [
+      "Parasect",
+      "Rotom",
+      "Sableye",
+      "Shiinotic",
+      "Sunflora",
+      "Wormadam"
+    ]
+  },
+  "Gourgeistl": {
+    "bst": null,
+    "appears_in": [
+      "Parasect",
+      "Rotom",
+      "Sableye",
+      "Shiinotic",
+      "Sunflora",
+      "Wormadam"
+    ]
+  },
+  "Gourgeists": {
+    "bst": null,
+    "appears_in": [
+      "Parasect",
+      "Rotom",
+      "Sableye",
+      "Shiinotic",
+      "Sunflora",
+      "Wormadam"
+    ]
+  },
+  "Gourgeistx": {
+    "bst": null,
+    "appears_in": [
+      "Parasect",
+      "Rotom",
+      "Sableye",
+      "Shiinotic",
+      "Sunflora",
+      "Wormadam"
+    ]
+  },
+  "Gravelera": {
+    "bst": null,
+    "appears_in": [
+      "Pikachuc"
+    ]
+  },
+  "Heracrossm": {
+    "bst": null,
+    "appears_in": [
+      "Illumise",
+      "Lokix",
+      "Mothim",
+      "Spidops",
+      "Venomoth",
+      "Volbeat",
+      "Wormadams"
+    ]
+  },
+  "Houndoomm": {
+    "bst": null,
+    "appears_in": [
+      "Liepard",
+      "Lokix"
+    ]
+  },
+  "Indeedee": {
+    "bst": null,
+    "appears_in": [
+      "Audino",
+      "Bibarel",
+      "Castform",
+      "Chatot",
+      "Delcatty",
+      "Diggersby",
+      "Eeveep",
+      "Furret",
+      "Gumshoos",
+      "Kecleon",
+      "Medicham",
+      "Raticate",
+      "Spinda",
+      "Swoobat",
+      "Unown",
+      "Watchog",
+      "Wobbuffet"
+    ]
+  },
+  "Indeedeef": {
+    "bst": null,
+    "appears_in": [
+      "Audino",
+      "Bibarel",
+      "Castform",
+      "Chatot",
+      "Delcatty",
+      "Diggersby",
+      "Eeveep",
+      "Furret",
+      "Gumshoos",
+      "Kecleon",
+      "Medicham",
+      "Persian",
+      "Raticate",
+      "Spinda",
+      "Swoobat",
+      "Unown",
+      "Watchog",
+      "Wobbuffet"
+    ]
+  },
+  "Ironbouldr": {
+    "bst": null,
+    "appears_in": [
+      "Klawf"
+    ]
+  },
+  "Ironbundle": {
+    "bst": null,
+    "appears_in": [
+      "Azumarill",
+      "Pelipper",
+      "Pyukumuku",
+      "Quagsire",
+      "Seaking",
+      "Wugtrio"
+    ]
+  },
+  "Ironjuglis": {
+    "bst": null,
+    "appears_in": [
+      "Emolga",
+      "Fearow",
+      "Liepard",
+      "Lokix",
+      "Mightyena",
+      "Mothim",
+      "Pelipper",
+      "Swoobat",
+      "Vivillon"
+    ]
+  },
+  "Ironleaves": {
+    "bst": null,
+    "appears_in": [
+      "Cherrim"
+    ]
+  },
+  "Ironthorns": {
+    "bst": null,
+    "appears_in": [
+      "Dedenne",
+      "Emolga",
+      "Klawf",
+      "Magcargo",
+      "Minun",
+      "Pachirisu",
+      "Pikachup",
+      "Pincurchin",
+      "Plusle",
+      "Rotom",
+      "Sudowoodo",
+      "Togedemaru"
+    ]
+  },
+  "Irontreads": {
+    "bst": null,
+    "appears_in": [
+      "Clodsire",
+      "Diggersby",
+      "Dugtrio",
+      "Marowak",
+      "Perrserker",
+      "Quagsire",
+      "Sandslash",
+      "Togedemaru",
+      "Wormadams",
+      "Wormadamt"
+    ]
+  },
+  "Ironvalian": {
+    "bst": null,
+    "appears_in": [
+      "Granbull"
+    ]
+  },
+  "Kangaskham": {
+    "bst": null,
+    "appears_in": [
+      "Audino",
+      "Castform",
+      "Delcatty",
+      "Eeveep",
+      "Fearow",
+      "Furret",
+      "Gumshoos",
+      "Kecleon",
+      "Persian",
+      "Raticate",
+      "Terapagos",
+      "Watchog"
+    ]
+  },
+  "Keldeo": {
+    "bst": null,
+    "appears_in": [
+      "Pelipper",
+      "Pyukumuku",
+      "Quagsire",
+      "Seaking",
+      "Wugtrio"
+    ]
+  },
+  "Kilowattrl": {
+    "bst": null,
+    "appears_in": [
+      "Beautifly",
+      "Butterfree",
+      "Chatot",
+      "Dedenne",
+      "Emolga",
+      "Fearow",
+      "Ledian",
+      "Minun",
+      "Mothim",
+      "Pachirisu",
+      "Pelipper",
+      "Pikachup",
+      "Pincurchin",
+      "Plusle",
+      "Rotom",
+      "Swoobat",
+      "Togedemaru",
+      "Vivillon"
+    ]
+  },
+  "Landorus": {
+    "bst": null,
+    "appears_in": [
+      "Dugtrio",
+      "Marowak",
+      "Sandslash"
+    ]
+  },
+  "Landorust": {
+    "bst": null,
+    "appears_in": [
+      "Clodsire",
+      "Diggersby",
+      "Dugtrio",
+      "Marowak",
+      "Mothim",
+      "Sandslash",
+      "Wormadams"
+    ]
+  },
+  "Lilliganth": {
+    "bst": null,
+    "appears_in": [
+      "Medicham",
+      "Parasect",
+      "Shiinotic",
+      "Sunflora",
+      "Wormadam"
+    ]
+  },
+  "Linooneg": {
+    "bst": null,
+    "appears_in": [
+      "Castform",
+      "Delcatty",
+      "Ditto",
+      "Gumshoos",
+      "Raticate",
+      "Spinda",
+      "Watchog"
+    ]
+  },
+  "Lopunnym": {
+    "bst": null,
+    "appears_in": [
+      "Audino",
+      "Castform",
+      "Chatot",
+      "Eeveep",
+      "Fearow",
+      "Furret",
+      "Gumshoos",
+      "Kecleon",
+      "Persian",
+      "Raticate",
+      "Terapagos",
+      "Watchog",
+      "Wigglytuff"
+    ]
+  },
+  "Lycanroc": {
+    "bst": null,
+    "appears_in": [
+      "Magcargo",
+      "Sudowoodo"
+    ]
+  },
+  "Lycanrocd": {
+    "bst": null,
+    "appears_in": [
+      "Magcargo",
+      "Sudowoodo"
+    ]
+  },
+  "Lycanrocm": {
+    "bst": null,
+    "appears_in": [
+      "Magcargo",
+      "Sudowoodo"
+    ]
+  },
+  "Manectricm": {
+    "bst": null,
+    "appears_in": [
+      "Dedenne",
+      "Emolga",
+      "Minun",
+      "Pachirisu",
+      "Pikachup",
+      "Pincurchin",
+      "Plusle",
+      "Rotom",
+      "Togedemaru"
+    ]
+  },
+  "Maushold": {
+    "bst": null,
+    "appears_in": [
+      "Audino",
+      "Bibarel",
+      "Castform",
+      "Chatot",
+      "Delcatty",
+      "Furret",
+      "Gumshoos",
+      "Kecleon",
+      "Persian",
+      "Raticate",
+      "Spinda",
+      "Terapagos",
+      "Watchog"
+    ]
+  },
+  "Mawilem": {
+    "bst": null,
+    "appears_in": [
+      "Azumarill",
+      "Dedenne",
+      "Mawile",
+      "Shiinotic",
+      "Wormadamt"
+    ]
+  },
+  "Medichamm": {
+    "bst": null,
+    "appears_in": [
+      "Medicham",
+      "Swoobat",
+      "Wobbuffet"
+    ]
+  },
+  "Meloetta": {
+    "bst": null,
+    "appears_in": [
+      "Audino",
+      "Castform",
+      "Delcatty",
+      "Diggersby",
+      "Eeveep",
+      "Gumshoos",
+      "Kecleon",
+      "Persian",
+      "Raticate",
+      "Terapagos",
+      "Watchog"
+    ]
+  },
+  "Meloettap": {
+    "bst": null,
+    "appears_in": [
+      "Audino",
+      "Castform",
+      "Delcatty",
+      "Eeveep",
+      "Furret",
+      "Gumshoos",
+      "Kecleon",
+      "Persian",
+      "Raticate",
+      "Terapagos",
+      "Watchog"
+    ]
+  },
+  "Meowscrada": {
+    "bst": null,
+    "appears_in": [
+      "Cherrim",
+      "Liepard",
+      "Lokix",
+      "Mightyena",
+      "Parasect",
+      "Shiinotic",
+      "Sunflora",
+      "Wormadam"
+    ]
+  },
+  "Meowstic": {
+    "bst": null,
+    "appears_in": [
+      "Medicham",
+      "Unown",
+      "Wobbuffet"
+    ]
+  },
+  "Meowsticf": {
+    "bst": null,
+    "appears_in": [
+      "Medicham",
+      "Unown",
+      "Wobbuffet"
+    ]
+  },
+  "Mimikyu": {
+    "bst": null,
+    "appears_in": [
+      "Azumarill",
+      "Mawile",
+      "Sableye",
+      "Shiinotic"
+    ]
+  },
+  "Minior": {
+    "bst": null,
+    "appears_in": [
+      "Beautifly",
+      "Butterfree",
+      "Chatot",
+      "Delibird",
+      "Ledian",
+      "Sudowoodo",
+      "Vivillon"
+    ]
+  },
+  "Miniorc": {
+    "bst": null,
+    "appears_in": [
+      "Beautifly",
+      "Butterfree",
+      "Chatot",
+      "Emolga",
+      "Fearow",
+      "Klawf",
+      "Ledian",
+      "Magcargo",
+      "Mothim",
+      "Pelipper",
+      "Sudowoodo",
+      "Swoobat",
+      "Vivillon"
+    ]
+  },
+  "Moltresg": {
+    "bst": null,
+    "appears_in": [
+      "Butterfree",
+      "Chatot",
+      "Emolga",
+      "Fearow",
+      "Liepard",
+      "Lokix",
+      "Pelipper",
+      "Vivillon"
+    ]
+  },
+  "Morpeko": {
+    "bst": null,
+    "appears_in": [
+      "Pachirisu",
+      "Pikachuc",
+      "Plusle",
+      "Sableye"
+    ]
+  },
+  "Morpekoh": {
+    "bst": null,
+    "appears_in": [
+      "Minun",
+      "Pachirisu",
+      "Pikachuc",
+      "Plusle",
+      "Sableye"
+    ]
+  },
+  "Mr. Mimeg": {
+    "bst": null,
+    "appears_in": [
+      "Delibird",
+      "Medicham",
+      "Unown",
+      "Wobbuffet"
+    ]
+  },
+  "Muka": {
+    "bst": null,
+    "appears_in": [
+      "Arbok",
+      "Ariados",
+      "Beedrill",
+      "Clodsire",
+      "Dustox",
+      "Liepard",
+      "Lokix",
+      "Mightyena",
+      "Sableye",
+      "Venomoth"
+    ]
+  },
+  "Ninetalesa": {
+    "bst": null,
+    "appears_in": [
+      "Azumarill",
+      "Dedenne",
+      "Granbull",
+      "Mawile",
+      "Shiinotic",
+      "Wigglytuff"
+    ]
+  },
+  "Ogerponf": {
+    "bst": null,
+    "appears_in": [
+      "Cherrim",
+      "Magcargo",
+      "Parasect",
+      "Shiinotic",
+      "Sunflora",
+      "Wormadam"
+    ]
+  },
+  "Ogerponr": {
+    "bst": null,
+    "appears_in": [
+      "Cherrim",
+      "Klawf",
+      "Magcargo",
+      "Parasect",
+      "Shiinotic",
+      "Sudowoodo",
+      "Sunflora",
+      "Wormadam"
+    ]
+  },
+  "Ogerponw": {
+    "bst": null,
+    "appears_in": [
+      "Azumarill",
+      "Bibarel",
+      "Cherrim",
+      "Parasect",
+      "Pelipper",
+      "Pyukumuku",
+      "Quagsire",
+      "Seaking",
+      "Shiinotic",
+      "Sunflora",
+      "Wormadam",
+      "Wugtrio"
+    ]
+  },
+  "Oinkologne": {
+    "bst": null,
+    "appears_in": [
+      "Audino",
+      "Bibarel",
+      "Castform",
+      "Chatot",
+      "Delcatty",
+      "Diggersby",
+      "Eeveep",
+      "Fearow",
+      "Furret",
+      "Gumshoos",
+      "Kecleon",
+      "Persian",
+      "Raticate",
+      "Spinda",
+      "Terapagos",
+      "Watchog",
+      "Wigglytuff"
+    ]
+  },
+  "Oinkolognf": {
+    "bst": null,
+    "appears_in": [
+      "Audino",
+      "Bibarel",
+      "Castform",
+      "Chatot",
+      "Delcatty",
+      "Diggersby",
+      "Eeveep",
+      "Fearow",
+      "Furret",
+      "Gumshoos",
+      "Kecleon",
+      "Persian",
+      "Raticate",
+      "Spinda",
+      "Watchog",
+      "Wigglytuff"
+    ]
+  },
+  "Oricorio": {
+    "bst": null,
+    "appears_in": [
+      "Beautifly",
+      "Butterfree",
+      "Chatot",
+      "Emolga",
+      "Ledian",
+      "Mothim",
+      "Swoobat",
+      "Vivillon"
+    ]
+  },
+  "Oricorioe": {
+    "bst": null,
+    "appears_in": [
+      "Beautifly",
+      "Butterfree",
+      "Chatot",
+      "Emolga",
+      "Ledian",
+      "Minun",
+      "Mothim",
+      "Pachirisu",
+      "Plusle",
+      "Swoobat",
+      "Vivillon"
+    ]
+  },
+  "Oricoriog": {
+    "bst": null,
+    "appears_in": [
+      "Beautifly",
+      "Butterfree",
+      "Chatot",
+      "Emolga",
+      "Ledian",
+      "Mothim",
+      "Sableye",
+      "Swoobat",
+      "Vivillon"
+    ]
+  },
+  "Oricoriop": {
+    "bst": null,
+    "appears_in": [
+      "Beautifly",
+      "Butterfree",
+      "Chatot",
+      "Emolga",
+      "Ledian",
+      "Medicham",
+      "Mothim",
+      "Swoobat",
+      "Unown",
+      "Vivillon",
+      "Wobbuffet"
+    ]
+  },
+  "Palafin": {
+    "bst": null,
+    "appears_in": [
+      "Luvdisc",
+      "Pyukumuku",
+      "Wugtrio"
+    ]
+  },
+  "Persiana": {
+    "bst": null,
+    "appears_in": [
+      "Mightyena",
+      "Sableye"
+    ]
+  },
+  "Pidgeotm": {
+    "bst": null,
+    "appears_in": [
+      "Audino",
+      "Butterfree",
+      "Castform",
+      "Delcatty",
+      "Eeveep",
+      "Emolga",
+      "Fearow",
+      "Furret",
+      "Gumshoos",
+      "Kecleon",
+      "Pelipper",
+      "Persian",
+      "Raticate",
+      "Terapagos",
+      "Watchog",
+      "Wigglytuff"
+    ]
+  },
+  "Pikachup": {
+    "bst": null,
+    "appears_in": [
+      "Minun",
+      "Pachirisu",
+      "Pikachuc",
+      "Plusle"
+    ]
+  },
+  "Pinsirm": {
+    "bst": null,
+    "appears_in": [
+      "Ariados",
+      "Illumise",
+      "Lokix",
+      "Spidops",
+      "Venomoth",
+      "Volbeat",
+      "Wormadams"
+    ]
+  },
+  "Poltegeist": {
+    "bst": null,
+    "appears_in": [
+      "Rotom",
+      "Sableye"
+    ]
+  },
+  "Ponytag": {
+    "bst": null,
+    "appears_in": [
+      "Unown"
+    ]
+  },
+  "Qwilfishh": {
+    "bst": null,
+    "appears_in": [
+      "Arbok",
+      "Ariados",
+      "Beedrill",
+      "Dustox",
+      "Sableye"
+    ]
+  },
+  "Ragingbolt": {
+    "bst": null,
+    "appears_in": [
+      "Rotom"
+    ]
+  },
+  "Raichua": {
+    "bst": null,
+    "appears_in": [
+      "Dedenne",
+      "Emolga",
+      "Medicham",
+      "Minun",
+      "Pachirisu",
+      "Pikachup",
+      "Pincurchin",
+      "Plusle",
+      "Swoobat",
+      "Togedemaru",
+      "Wobbuffet"
+    ]
+  },
+  "Rapidashg": {
+    "bst": null,
+    "appears_in": [
+      "Azumarill",
+      "Dedenne",
+      "Granbull",
+      "Mawile",
+      "Medicham",
+      "Shiinotic",
+      "Swoobat",
+      "Unown",
+      "Wigglytuff",
+      "Wobbuffet"
+    ]
+  },
+  "Raticatea": {
+    "bst": null,
+    "appears_in": [
+      "Delcatty",
+      "Ditto",
+      "Raticate",
+      "Spinda"
+    ]
+  },
+  "Roarinmoon": {
+    "bst": null,
+    "appears_in": [
+      "Liepard",
+      "Lokix"
+    ]
+  },
+  "Rotomfa": {
+    "bst": null,
+    "appears_in": [
+      "Beautifly",
+      "Butterfree",
+      "Chatot",
+      "Dedenne",
+      "Emolga",
+      "Fearow",
+      "Ledian",
+      "Minun",
+      "Mothim",
+      "Pachirisu",
+      "Pelipper",
+      "Pikachup",
+      "Pincurchin",
+      "Plusle",
+      "Rotom",
+      "Swoobat",
+      "Togedemaru",
+      "Vivillon"
+    ]
+  },
+  "Rotomfr": {
+    "bst": null,
+    "appears_in": [
+      "Dedenne",
+      "Emolga",
+      "Minun",
+      "Pachirisu",
+      "Pikachup",
+      "Pincurchin",
+      "Plusle",
+      "Rotom",
+      "Togedemaru"
+    ]
+  },
+  "Rotomh": {
+    "bst": null,
+    "appears_in": [
+      "Dedenne",
+      "Emolga",
+      "Magcargo",
+      "Minun",
+      "Pachirisu",
+      "Pikachup",
+      "Pincurchin",
+      "Plusle",
+      "Rotom",
+      "Togedemaru"
+    ]
+  },
+  "Rotomm": {
+    "bst": null,
+    "appears_in": [
+      "Cherrim",
+      "Dedenne",
+      "Emolga",
+      "Minun",
+      "Pachirisu",
+      "Parasect",
+      "Pikachup",
+      "Pincurchin",
+      "Plusle",
+      "Rotom",
+      "Shiinotic",
+      "Sunflora",
+      "Togedemaru",
+      "Wormadam"
+    ]
+  },
+  "Rotomw": {
+    "bst": null,
+    "appears_in": [
+      "Azumarill",
+      "Bibarel",
+      "Dedenne",
+      "Emolga",
+      "Minun",
+      "Pachirisu",
+      "Pelipper",
+      "Pikachup",
+      "Pincurchin",
+      "Plusle",
+      "Pyukumuku",
+      "Quagsire",
+      "Rotom",
+      "Seaking",
+      "Togedemaru",
+      "Wugtrio"
+    ]
+  },
+  "Sableyem": {
+    "bst": null,
+    "appears_in": [
+      "Mightyena",
+      "Sableye"
+    ]
+  },
+  "Samurotth": {
+    "bst": null,
+    "appears_in": [
+      "Azumarill",
+      "Bibarel",
+      "Liepard",
+      "Lokix",
+      "Mightyena",
+      "Pelipper",
+      "Pyukumuku",
+      "Quagsire",
+      "Sableye",
+      "Seaking",
+      "Wugtrio"
+    ]
+  },
+  "Sandslasha": {
+    "bst": null,
+    "appears_in": [
+      "Delibird",
+      "Mawile",
+      "Meltan",
+      "Wormadamt"
+    ]
+  },
+  "Sandyshock": {
+    "bst": null,
+    "appears_in": [
+      "Clodsire",
+      "Dedenne",
+      "Diggersby",
+      "Dugtrio",
+      "Emolga",
+      "Marowak",
+      "Minun",
+      "Pachirisu",
+      "Pikachup",
+      "Pincurchin",
+      "Plusle",
+      "Quagsire",
+      "Rotom",
+      "Sandslash",
+      "Togedemaru",
+      "Wormadams"
+    ]
+  },
+  "Scizorm": {
+    "bst": null,
+    "appears_in": [
+      "Illumise",
+      "Lokix",
+      "Spidops",
+      "Venomoth",
+      "Volbeat",
+      "Wormadams"
+    ]
+  },
+  "Screamtail": {
+    "bst": null,
+    "appears_in": [
+      "Azumarill",
+      "Dedenne",
+      "Granbull",
+      "Swoobat",
+      "Wigglytuff"
+    ]
+  },
+  "Sharpedom": {
+    "bst": null,
+    "appears_in": [
+      "Azumarill",
+      "Bibarel",
+      "Liepard",
+      "Lokix",
+      "Mightyena",
+      "Pelipper",
+      "Pyukumuku",
+      "Quagsire",
+      "Seaking",
+      "Wugtrio"
+    ]
+  },
+  "Shaymin": {
+    "bst": null,
+    "appears_in": [
+      "Cherrim"
+    ]
+  },
+  "Shaymins": {
+    "bst": null,
+    "appears_in": [
+      "Cherrim"
+    ]
+  },
+  "Sliggooh": {
+    "bst": null,
+    "appears_in": [
+      "Mawile",
+      "Meltan"
+    ]
+  },
+  "Slithrwing": {
+    "bst": null,
+    "appears_in": [
+      "Ariados",
+      "Beedrill",
+      "Dustox",
+      "Illumise",
+      "Kricketune",
+      "Ledian",
+      "Lokix",
+      "Mothim",
+      "Spidops",
+      "Venomoth",
+      "Vivillon",
+      "Volbeat",
+      "Wormadam",
+      "Wormadams",
+      "Wormadamt"
+    ]
+  },
+  "Slowbrog": {
+    "bst": null,
+    "appears_in": [
+      "Arbok",
+      "Ariados",
+      "Beedrill",
+      "Clodsire",
+      "Dustox",
+      "Medicham",
+      "Swoobat",
+      "Unown",
+      "Wobbuffet"
+    ]
+  },
+  "Slowkingg": {
+    "bst": null,
+    "appears_in": [
+      "Arbok",
+      "Ariados",
+      "Beedrill",
+      "Clodsire",
+      "Dustox",
+      "Medicham",
+      "Swoobat",
+      "Unown",
+      "Wobbuffet"
+    ]
+  },
+  "Sneaselh": {
+    "bst": null,
+    "appears_in": [
+      "Ariados",
+      "Beedrill",
+      "Dustox"
+    ]
+  },
+  "Squawkbily": {
+    "bst": null,
+    "appears_in": [
+      "Castform",
+      "Delcatty",
+      "Delibird",
+      "Ditto",
+      "Furret",
+      "Ledian",
+      "Spinda",
+      "Watchog"
+    ]
+  },
+  "Stonjorner": {
+    "bst": null,
+    "appears_in": [
+      "Sudowoodo"
+    ]
+  },
+  "Stunfiskg": {
+    "bst": null,
+    "appears_in": [
+      "Diggersby",
+      "Dugtrio",
+      "Mawile"
+    ]
+  },
+  "Tatsugiri": {
+    "bst": null,
+    "appears_in": [
+      "Azumarill",
+      "Bibarel",
+      "Pyukumuku",
+      "Wugtrio"
+    ]
+  },
+  "Taurosp": {
+    "bst": null,
+    "appears_in": [
+      "Medicham"
+    ]
+  },
+  "Taurospf": {
+    "bst": null,
+    "appears_in": [
+      "Magcargo",
+      "Medicham"
+    ]
+  },
+  "Taurospw": {
+    "bst": null,
+    "appears_in": [
+      "Azumarill",
+      "Bibarel",
+      "Medicham",
+      "Pelipper",
+      "Pyukumuku",
+      "Quagsire",
+      "Wugtrio"
+    ]
+  },
+  "Terapagost": {
+    "bst": null,
+    "appears_in": [
+      "Audino",
+      "Castform",
+      "Delcatty",
+      "Eeveep",
+      "Furret",
+      "Gumshoos",
+      "Kecleon",
+      "Persian",
+      "Raticate",
+      "Terapagos",
+      "Watchog"
+    ]
+  },
+  "Thundurus": {
+    "bst": null,
+    "appears_in": [
+      "Chatot",
+      "Dedenne",
+      "Emolga",
+      "Fearow",
+      "Ledian",
+      "Minun",
+      "Pachirisu",
+      "Pelipper",
+      "Pikachup",
+      "Pincurchin",
+      "Plusle",
+      "Rotom",
+      "Togedemaru",
+      "Vivillon"
+    ]
+  },
+  "Thundurust": {
+    "bst": null,
+    "appears_in": [
+      "Chatot",
+      "Dedenne",
+      "Emolga",
+      "Fearow",
+      "Minun",
+      "Pachirisu",
+      "Pelipper",
+      "Pikachup",
+      "Pincurchin",
+      "Plusle",
+      "Rotom",
+      "Togedemaru",
+      "Vivillon"
+    ]
+  },
+  "Tornadus": {
+    "bst": null,
+    "appears_in": [
+      "Chatot",
+      "Emolga",
+      "Fearow",
+      "Ledian",
+      "Mothim",
+      "Pelipper",
+      "Vivillon"
+    ]
+  },
+  "Tornadust": {
+    "bst": null,
+    "appears_in": [
+      "Beautifly",
+      "Chatot",
+      "Emolga",
+      "Fearow",
+      "Ledian",
+      "Pelipper",
+      "Vivillon"
+    ]
+  },
+  "Toxtricitl": {
+    "bst": null,
+    "appears_in": [
+      "Arbok",
+      "Ariados",
+      "Beedrill",
+      "Clodsire",
+      "Dedenne",
+      "Dustox",
+      "Emolga",
+      "Minun",
+      "Pachirisu",
+      "Pikachup",
+      "Pincurchin",
+      "Plusle",
+      "Rotom",
+      "Togedemaru",
+      "Venomoth"
+    ]
+  },
+  "Toxtricity": {
+    "bst": null,
+    "appears_in": [
+      "Arbok",
+      "Ariados",
+      "Beedrill",
+      "Clodsire",
+      "Dedenne",
+      "Dustox",
+      "Emolga",
+      "Minun",
+      "Pachirisu",
+      "Pikachup",
+      "Pincurchin",
+      "Plusle",
+      "Rotom",
+      "Togedemaru",
+      "Venomoth"
+    ]
+  },
+  "Typhlosioh": {
+    "bst": null,
+    "appears_in": [
+      "Magcargo",
+      "Rotom"
+    ]
+  },
+  "Ursalunab": {
+    "bst": null,
+    "appears_in": [
+      "Audino",
+      "Bibarel",
+      "Castform",
+      "Chatot",
+      "Clodsire",
+      "Delcatty",
+      "Diggersby",
+      "Dugtrio",
+      "Eeveep",
+      "Fearow",
+      "Furret",
+      "Gumshoos",
+      "Kecleon",
+      "Marowak",
+      "Persian",
+      "Quagsire",
+      "Raticate",
+      "Sandslash",
+      "Terapagos",
+      "Watchog",
+      "Wigglytuff",
+      "Wormadams"
+    ]
+  },
+  "Urshifu": {
+    "bst": null,
+    "appears_in": [
+      "Liepard",
+      "Lokix",
+      "Medicham",
+      "Mightyena"
+    ]
+  },
+  "Urshifur": {
+    "bst": null,
+    "appears_in": [
+      "Azumarill",
+      "Bibarel",
+      "Medicham",
+      "Pelipper",
+      "Pyukumuku",
+      "Quagsire",
+      "Seaking",
+      "Wugtrio"
+    ]
+  },
+  "Walkinwake": {
+    "bst": null,
+    "appears_in": [
+      "Pelipper",
+      "Seaking",
+      "Wugtrio"
+    ]
+  },
+  "Weezingg": {
+    "bst": null,
+    "appears_in": [
+      "Ariados",
+      "Azumarill",
+      "Beedrill",
+      "Clodsire",
+      "Dedenne",
+      "Dustox",
+      "Mawile",
+      "Shiinotic",
+      "Wigglytuff"
+    ]
+  },
+  "Wormadam": {
+    "bst": null,
+    "appears_in": [
+      "Kricketune"
+    ]
+  },
+  "Wormadams": {
+    "bst": null,
+    "appears_in": [
+      "Butterfree",
+      "Kricketune",
+      "Spidops"
+    ]
+  },
+  "Wormadamt": {
+    "bst": null,
+    "appears_in": [
+      "Beautifly",
+      "Butterfree",
+      "Kricketune",
+      "Ledian",
+      "Meltan",
+      "Spidops"
+    ]
+  },
+  "Zapdosg": {
+    "bst": null,
+    "appears_in": [
+      "Butterfree",
+      "Chatot",
+      "Emolga",
+      "Fearow",
+      "Ledian",
+      "Mothim",
+      "Pelipper",
+      "Vivillon"
+    ]
+  },
+  "Zoroarkh": {
+    "bst": null,
+    "appears_in": [
+      "Audino",
+      "Bibarel",
+      "Castform",
+      "Chatot",
+      "Delcatty",
+      "Diggersby",
+      "Eeveep",
+      "Fearow",
+      "Furret",
+      "Gumshoos",
+      "Kecleon",
+      "Persian",
+      "Raticate",
+      "Rotom",
+      "Sableye",
+      "Terapagos",
+      "Watchog",
+      "Wigglytuff"
+    ]
+  },
+  "Zoruah": {
+    "bst": null,
+    "appears_in": [
+      "Smeargle"
+    ]
+  },
+  "Zygarde": {
+    "bst": null,
+    "appears_in": [
+      "Clodsire",
+      "Diggersby",
+      "Dugtrio",
+      "Marowak",
+      "Sandslash"
+    ]
+  },
+  "Zygarde10": {
+    "bst": null,
+    "appears_in": [
+      "Clodsire",
+      "Diggersby",
+      "Dugtrio",
+      "Marowak",
+      "Quagsire",
+      "Wormadams"
+    ]
+  }
+}

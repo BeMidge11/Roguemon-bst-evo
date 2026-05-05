@@ -1,0 +1,5619 @@
+{
+  "Eelektrik": {
+    "types": [
+      "Electric"
+    ],
+    "bst": 405,
+    "evolution_level": 40
+  },
+  "Flareon": {
+    "types": [
+      "Fire"
+    ],
+    "bst": 525,
+    "evolution_level": 52
+  },
+  "Ampharos": {
+    "types": [
+      "Electric"
+    ],
+    "bst": 510,
+    "evolution_level": 51
+  },
+  "Porygon": {
+    "types": [
+      "Normal"
+    ],
+    "bst": 395,
+    "evolution_level": 39
+  },
+  "Crobat": {
+    "types": [
+      "Poison",
+      "Flying"
+    ],
+    "bst": 535,
+    "evolution_level": 53
+  },
+  "Amoonguss": {
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "bst": 464,
+    "evolution_level": 46
+  },
+  "Cinccino": {
+    "types": [
+      "Normal"
+    ],
+    "bst": 470,
+    "evolution_level": 47
+  },
+  "Stunfisk": {
+    "types": [
+      "Ground",
+      "Electric"
+    ],
+    "bst": 471,
+    "evolution_level": 47
+  },
+  "Hawlucha": {
+    "types": [
+      "Fighting",
+      "Flying"
+    ],
+    "bst": 500,
+    "evolution_level": 50
+  },
+  "Liepard": {
+    "types": [
+      "Dark"
+    ],
+    "bst": 446,
+    "evolution_level": 44
+  },
+  "Hydrapple": {
+    "types": [
+      "Grass",
+      "Dragon"
+    ],
+    "bst": 540,
+    "evolution_level": 54
+  },
+  "Boldore": {
+    "types": [
+      "Rock"
+    ],
+    "bst": 390,
+    "evolution_level": 39
+  },
+  "Pinsir": {
+    "types": [
+      "Bug"
+    ],
+    "bst": 500,
+    "evolution_level": 50
+  },
+  "Skarmory": {
+    "types": [
+      "Steel",
+      "Flying"
+    ],
+    "bst": 465,
+    "evolution_level": 46
+  },
+  "Porygon-Z": {
+    "types": [
+      "Normal"
+    ],
+    "bst": 535,
+    "evolution_level": 53
+  },
+  "Registeel": {
+    "types": [
+      "Steel"
+    ],
+    "bst": 580,
+    "evolution_level": 58
+  },
+  "Raichu": {
+    "types": [
+      "Electric"
+    ],
+    "bst": 485,
+    "evolution_level": 48
+  },
+  "Garbodor": {
+    "types": [
+      "Poison"
+    ],
+    "bst": 474,
+    "evolution_level": 47
+  },
+  "Comfey": {
+    "types": [
+      "Fairy"
+    ],
+    "bst": 485,
+    "evolution_level": 48
+  },
+  "Tranquill": {
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "bst": 358,
+    "evolution_level": 35
+  },
+  "Muk": {
+    "types": [
+      "Poison"
+    ],
+    "bst": 500,
+    "evolution_level": 50
+  },
+  "Teddiursa": {
+    "types": [
+      "Normal"
+    ],
+    "bst": 330,
+    "evolution_level": 33
+  },
+  "Tsareena": {
+    "types": [
+      "Grass"
+    ],
+    "bst": 510,
+    "evolution_level": 51
+  },
+  "Dusclops": {
+    "types": [
+      "Ghost"
+    ],
+    "bst": 455,
+    "evolution_level": 45
+  },
+  "Starmie": {
+    "types": [
+      "Water",
+      "Psychic"
+    ],
+    "bst": 520,
+    "evolution_level": 52
+  },
+  "Floatzel": {
+    "types": [
+      "Water"
+    ],
+    "bst": 495,
+    "evolution_level": 49
+  },
+  "Victreebel": {
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "bst": 490,
+    "evolution_level": 49
+  },
+  "Mamoswine": {
+    "types": [
+      "Ice",
+      "Ground"
+    ],
+    "bst": 530,
+    "evolution_level": 53
+  },
+  "Simisear": {
+    "types": [
+      "Fire"
+    ],
+    "bst": 498,
+    "evolution_level": 49
+  },
+  "Shuckle": {
+    "types": [
+      "Bug",
+      "Rock"
+    ],
+    "bst": 505,
+    "evolution_level": 50
+  },
+  "Chien-Pao": {
+    "types": [
+      "Dark",
+      "Ice"
+    ],
+    "bst": 570,
+    "evolution_level": 57
+  },
+  "Swalot": {
+    "types": [
+      "Poison"
+    ],
+    "bst": 467,
+    "evolution_level": 46
+  },
+  "Diggersby": {
+    "types": [
+      "Normal",
+      "Ground"
+    ],
+    "bst": 423,
+    "evolution_level": 42
+  },
+  "Quagsire": {
+    "types": [
+      "Water",
+      "Ground"
+    ],
+    "bst": 430,
+    "evolution_level": 43
+  },
+  "Sandaconda": {
+    "types": [
+      "Ground"
+    ],
+    "bst": 510,
+    "evolution_level": 51
+  },
+  "Forretress": {
+    "types": [
+      "Bug",
+      "Steel"
+    ],
+    "bst": 465,
+    "evolution_level": 46
+  },
+  "Incineroar": {
+    "types": [
+      "Fire",
+      "Dark"
+    ],
+    "bst": 530,
+    "evolution_level": 53
+  },
+  "Kabuto": {
+    "types": [
+      "Rock",
+      "Water"
+    ],
+    "bst": 355,
+    "evolution_level": 35
+  },
+  "Probopass": {
+    "types": [
+      "Rock",
+      "Steel"
+    ],
+    "bst": 525,
+    "evolution_level": 52
+  },
+  "Feraligatr": {
+    "types": [
+      "Water"
+    ],
+    "bst": 530,
+    "evolution_level": 53
+  },
+  "Marshtomp": {
+    "types": [
+      "Water",
+      "Ground"
+    ],
+    "bst": 405,
+    "evolution_level": 40
+  },
+  "Hippowdon": {
+    "types": [
+      "Ground"
+    ],
+    "bst": 525,
+    "evolution_level": 52
+  },
+  "Plusle": {
+    "types": [
+      "Electric"
+    ],
+    "bst": 405,
+    "evolution_level": 40
+  },
+  "Minun": {
+    "types": [
+      "Electric"
+    ],
+    "bst": 405,
+    "evolution_level": 40
+  },
+  "Wo-Chien": {
+    "types": [
+      "Dark",
+      "Grass"
+    ],
+    "bst": 570,
+    "evolution_level": 57
+  },
+  "Emboar": {
+    "types": [
+      "Fire",
+      "Fighting"
+    ],
+    "bst": 528,
+    "evolution_level": 52
+  },
+  "Iron Crown": {
+    "types": [
+      "Steel",
+      "Psychic"
+    ],
+    "bst": 590,
+    "evolution_level": 59
+  },
+  "Chandelure": {
+    "types": [
+      "Ghost",
+      "Fire"
+    ],
+    "bst": 520,
+    "evolution_level": 52
+  },
+  "Mr. Rime": {
+    "types": [
+      "Ice",
+      "Psychic"
+    ],
+    "bst": 520,
+    "evolution_level": 52
+  },
+  "Espathra": {
+    "types": [
+      "Psychic"
+    ],
+    "bst": 481,
+    "evolution_level": 48
+  },
+  "Vanilluxe": {
+    "types": [
+      "Ice"
+    ],
+    "bst": 535,
+    "evolution_level": 53
+  },
+  "Dachsbun": {
+    "types": [
+      "Fairy"
+    ],
+    "bst": 477,
+    "evolution_level": 47
+  },
+  "Passimian": {
+    "types": [
+      "Fighting"
+    ],
+    "bst": 490,
+    "evolution_level": 49
+  },
+  "Miltank": {
+    "types": [
+      "Normal"
+    ],
+    "bst": 490,
+    "evolution_level": 49
+  },
+  "Phione": {
+    "types": [
+      "Water"
+    ],
+    "bst": 480,
+    "evolution_level": 48
+  },
+  "Terapagos": {
+    "types": [
+      "Normal"
+    ],
+    "bst": 450,
+    "evolution_level": 45
+  },
+  "Orthworm": {
+    "types": [
+      "Steel"
+    ],
+    "bst": 480,
+    "evolution_level": 48
+  },
+  "Wyrdeer": {
+    "types": [
+      "Normal",
+      "Psychic"
+    ],
+    "bst": 525,
+    "evolution_level": 52
+  },
+  "Coalossal": {
+    "types": [
+      "Rock",
+      "Fire"
+    ],
+    "bst": 510,
+    "evolution_level": 51
+  },
+  "Magmar": {
+    "types": [
+      "Fire"
+    ],
+    "bst": 495,
+    "evolution_level": 49
+  },
+  "Tirtouga": {
+    "types": [
+      "Water",
+      "Rock"
+    ],
+    "bst": 355,
+    "evolution_level": 35
+  },
+  "Torterra": {
+    "types": [
+      "Grass",
+      "Ground"
+    ],
+    "bst": 525,
+    "evolution_level": 52
+  },
+  "Flaaffy": {
+    "types": [
+      "Electric"
+    ],
+    "bst": 365,
+    "evolution_level": 36
+  },
+  "Seviper": {
+    "types": [
+      "Poison"
+    ],
+    "bst": 458,
+    "evolution_level": 45
+  },
+  "Serperior": {
+    "types": [
+      "Grass"
+    ],
+    "bst": 528,
+    "evolution_level": 52
+  },
+  "Jolteon": {
+    "types": [
+      "Electric"
+    ],
+    "bst": 525,
+    "evolution_level": 52
+  },
+  "Steelix": {
+    "types": [
+      "Steel",
+      "Ground"
+    ],
+    "bst": 510,
+    "evolution_level": 51
+  },
+  "Iron Moth": {
+    "types": [
+      "Fire",
+      "Poison"
+    ],
+    "bst": 570,
+    "evolution_level": 57
+  },
+  "Aromatisse": {
+    "types": [
+      "Fairy"
+    ],
+    "bst": 462,
+    "evolution_level": 46
+  },
+  "Altaria": {
+    "types": [
+      "Dragon",
+      "Flying"
+    ],
+    "bst": 490,
+    "evolution_level": 49
+  },
+  "Electivire": {
+    "types": [
+      "Electric"
+    ],
+    "bst": 540,
+    "evolution_level": 54
+  },
+  "Grumpig": {
+    "types": [
+      "Psychic"
+    ],
+    "bst": 470,
+    "evolution_level": 47
+  },
+  "Alakazam": {
+    "types": [
+      "Psychic"
+    ],
+    "bst": 500,
+    "evolution_level": 50
+  },
+  "Xatu": {
+    "types": [
+      "Psychic",
+      "Flying"
+    ],
+    "bst": 470,
+    "evolution_level": 47
+  },
+  "Seadra": {
+    "types": [
+      "Water"
+    ],
+    "bst": 440,
+    "evolution_level": 44
+  },
+  "Porygon2": {
+    "types": [
+      "Normal"
+    ],
+    "bst": 515,
+    "evolution_level": 51
+  },
+  "Horsea": {
+    "types": [
+      "Water"
+    ],
+    "bst": 295,
+    "evolution_level": 29
+  },
+  "Grapploct": {
+    "types": [
+      "Fighting"
+    ],
+    "bst": 480,
+    "evolution_level": 48
+  },
+  "Throh": {
+    "types": [
+      "Fighting"
+    ],
+    "bst": 465,
+    "evolution_level": 46
+  },
+  "Charizard": {
+    "types": [
+      "Fire",
+      "Flying"
+    ],
+    "bst": 534,
+    "evolution_level": 53
+  },
+  "Ursaring": {
+    "types": [
+      "Normal"
+    ],
+    "bst": 500,
+    "evolution_level": 50
+  },
+  "Appletun": {
+    "types": [
+      "Grass",
+      "Dragon"
+    ],
+    "bst": 485,
+    "evolution_level": 48
+  },
+  "Meganium": {
+    "types": [
+      "Grass"
+    ],
+    "bst": 525,
+    "evolution_level": 52
+  },
+  "Dewott": {
+    "types": [
+      "Water"
+    ],
+    "bst": 413,
+    "evolution_level": 41
+  },
+  "Chewtle": {
+    "types": [
+      "Water"
+    ],
+    "bst": 284,
+    "evolution_level": 28
+  },
+  "Slowking": {
+    "types": [
+      "Water",
+      "Psychic"
+    ],
+    "bst": 490,
+    "evolution_level": 49
+  },
+  "Drapion": {
+    "types": [
+      "Poison",
+      "Dark"
+    ],
+    "bst": 500,
+    "evolution_level": 50
+  },
+  "Buneary": {
+    "types": [
+      "Normal"
+    ],
+    "bst": 350,
+    "evolution_level": 35
+  },
+  "Lucario": {
+    "types": [
+      "Fighting",
+      "Steel"
+    ],
+    "bst": 525,
+    "evolution_level": 52
+  },
+  "Audino": {
+    "types": [
+      "Normal"
+    ],
+    "bst": 445,
+    "evolution_level": 44
+  },
+  "Carnivine": {
+    "types": [
+      "Grass"
+    ],
+    "bst": 454,
+    "evolution_level": 45
+  },
+  "Abomasnow": {
+    "types": [
+      "Grass",
+      "Ice"
+    ],
+    "bst": 494,
+    "evolution_level": 49
+  },
+  "Delphox": {
+    "types": [
+      "Fire",
+      "Psychic"
+    ],
+    "bst": 534,
+    "evolution_level": 53
+  },
+  "Naclstack": {
+    "types": [
+      "Rock"
+    ],
+    "bst": 355,
+    "evolution_level": 35
+  },
+  "Leafeon": {
+    "types": [
+      "Grass"
+    ],
+    "bst": 525,
+    "evolution_level": 52
+  },
+  "Veluza": {
+    "types": [
+      "Water",
+      "Psychic"
+    ],
+    "bst": 478,
+    "evolution_level": 47
+  },
+  "Eldegoss": {
+    "types": [
+      "Grass"
+    ],
+    "bst": 460,
+    "evolution_level": 46
+  },
+  "Kartana": {
+    "types": [
+      "Grass",
+      "Steel"
+    ],
+    "bst": 570,
+    "evolution_level": 57
+  },
+  "Morgrem": {
+    "types": [
+      "Dark",
+      "Fairy"
+    ],
+    "bst": 370,
+    "evolution_level": 37
+  },
+  "Cobalion": {
+    "types": [
+      "Steel",
+      "Fighting"
+    ],
+    "bst": 580,
+    "evolution_level": 58
+  },
+  "Watchog": {
+    "types": [
+      "Normal"
+    ],
+    "bst": 420,
+    "evolution_level": 42
+  },
+  "Electrode": {
+    "types": [
+      "Electric"
+    ],
+    "bst": 490,
+    "evolution_level": 49
+  },
+  "Luxio": {
+    "types": [
+      "Electric"
+    ],
+    "bst": 363,
+    "evolution_level": 36
+  },
+  "Golisopod": {
+    "types": [
+      "Bug",
+      "Water"
+    ],
+    "bst": 530,
+    "evolution_level": 53
+  },
+  "Tyrantrum": {
+    "types": [
+      "Rock",
+      "Dragon"
+    ],
+    "bst": 521,
+    "evolution_level": 52
+  },
+  "Falinks": {
+    "types": [
+      "Fighting"
+    ],
+    "bst": 470,
+    "evolution_level": 47
+  },
+  "Absol": {
+    "types": [
+      "Dark"
+    ],
+    "bst": 465,
+    "evolution_level": 46
+  },
+  "Dondozo": {
+    "types": [
+      "Water"
+    ],
+    "bst": 530,
+    "evolution_level": 53
+  },
+  "Tyrunt": {
+    "types": [
+      "Rock",
+      "Dragon"
+    ],
+    "bst": 362,
+    "evolution_level": 36
+  },
+  "Shiftry": {
+    "types": [
+      "Grass",
+      "Dark"
+    ],
+    "bst": 480,
+    "evolution_level": 48
+  },
+  "Walrein": {
+    "types": [
+      "Ice",
+      "Water"
+    ],
+    "bst": 530,
+    "evolution_level": 53
+  },
+  "Kingambit": {
+    "types": [
+      "Dark",
+      "Steel"
+    ],
+    "bst": 550,
+    "evolution_level": 55
+  },
+  "Wailord": {
+    "types": [
+      "Water"
+    ],
+    "bst": 500,
+    "evolution_level": 50
+  },
+  "Boltund": {
+    "types": [
+      "Electric"
+    ],
+    "bst": 490,
+    "evolution_level": 49
+  },
+  "Heatmor": {
+    "types": [
+      "Fire"
+    ],
+    "bst": 484,
+    "evolution_level": 48
+  },
+  "Necrozma": {
+    "types": [
+      "Psychic"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "Articuno": {
+    "types": [
+      "Ice",
+      "Flying"
+    ],
+    "bst": 580,
+    "evolution_level": 58
+  },
+  "Spectrier": {
+    "types": [
+      "Ghost"
+    ],
+    "bst": 580,
+    "evolution_level": 58
+  },
+  "Escavalier": {
+    "types": [
+      "Bug",
+      "Steel"
+    ],
+    "bst": 495,
+    "evolution_level": 49
+  },
+  "Honchkrow": {
+    "types": [
+      "Dark",
+      "Flying"
+    ],
+    "bst": 505,
+    "evolution_level": 50
+  },
+  "Wigglytuff": {
+    "types": [
+      "Normal",
+      "Fairy"
+    ],
+    "bst": 435,
+    "evolution_level": 43
+  },
+  "Oranguru": {
+    "types": [
+      "Normal",
+      "Psychic"
+    ],
+    "bst": 490,
+    "evolution_level": 49
+  },
+  "Rufflet": {
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "bst": 350,
+    "evolution_level": 35
+  },
+  "Typhlosion": {
+    "types": [
+      "Fire"
+    ],
+    "bst": 534,
+    "evolution_level": 53
+  },
+  "Lilligant": {
+    "types": [
+      "Grass"
+    ],
+    "bst": 480,
+    "evolution_level": 48
+  },
+  "Noctowl": {
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "bst": 452,
+    "evolution_level": 45
+  },
+  "Victini": {
+    "types": [
+      "Psychic",
+      "Fire"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "Aron": {
+    "types": [
+      "Steel",
+      "Rock"
+    ],
+    "bst": 330,
+    "evolution_level": 33
+  },
+  "Furfrou": {
+    "types": [
+      "Normal"
+    ],
+    "bst": 472,
+    "evolution_level": 47
+  },
+  "Magearna": {
+    "types": [
+      "Steel",
+      "Fairy"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "Togetic": {
+    "types": [
+      "Fairy",
+      "Flying"
+    ],
+    "bst": 405,
+    "evolution_level": 40
+  },
+  "Mienshao": {
+    "types": [
+      "Fighting"
+    ],
+    "bst": 510,
+    "evolution_level": 51
+  },
+  "Pawmot": {
+    "types": [
+      "Electric",
+      "Fighting"
+    ],
+    "bst": 490,
+    "evolution_level": 49
+  },
+  "Ferrothorn": {
+    "types": [
+      "Grass",
+      "Steel"
+    ],
+    "bst": 489,
+    "evolution_level": 48
+  },
+  "Dewpider": {
+    "types": [
+      "Water",
+      "Bug"
+    ],
+    "bst": 269,
+    "evolution_level": 26
+  },
+  "Alomomola": {
+    "types": [
+      "Water"
+    ],
+    "bst": 470,
+    "evolution_level": 47
+  },
+  "Arrokuda": {
+    "types": [
+      "Water"
+    ],
+    "bst": 280,
+    "evolution_level": 28
+  },
+  "Iron Hands": {
+    "types": [
+      "Fighting",
+      "Electric"
+    ],
+    "bst": 570,
+    "evolution_level": 57
+  },
+  "Volcanion": {
+    "types": [
+      "Fire",
+      "Water"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "Tympole": {
+    "types": [
+      "Water"
+    ],
+    "bst": 294,
+    "evolution_level": 29
+  },
+  "Aggron": {
+    "types": [
+      "Steel",
+      "Rock"
+    ],
+    "bst": 530,
+    "evolution_level": 53
+  },
+  "Poliwrath": {
+    "types": [
+      "Water",
+      "Fighting"
+    ],
+    "bst": 510,
+    "evolution_level": 51
+  },
+  "Raikou": {
+    "types": [
+      "Electric"
+    ],
+    "bst": 580,
+    "evolution_level": 58
+  },
+  "Stufful": {
+    "types": [
+      "Normal",
+      "Fighting"
+    ],
+    "bst": 340,
+    "evolution_level": 34
+  },
+  "Rhyperior": {
+    "types": [
+      "Ground",
+      "Rock"
+    ],
+    "bst": 535,
+    "evolution_level": 53
+  },
+  "Volbeat": {
+    "types": [
+      "Bug"
+    ],
+    "bst": 430,
+    "evolution_level": 43
+  },
+  "Cryogonal": {
+    "types": [
+      "Ice"
+    ],
+    "bst": 515,
+    "evolution_level": 51
+  },
+  "Talonflame": {
+    "types": [
+      "Fire",
+      "Flying"
+    ],
+    "bst": 499,
+    "evolution_level": 49
+  },
+  "Lanturn": {
+    "types": [
+      "Water",
+      "Electric"
+    ],
+    "bst": 460,
+    "evolution_level": 46
+  },
+  "Garganacl": {
+    "types": [
+      "Rock"
+    ],
+    "bst": 500,
+    "evolution_level": 50
+  },
+  "Gholdengo": {
+    "types": [
+      "Steel",
+      "Ghost"
+    ],
+    "bst": 550,
+    "evolution_level": 55
+  },
+  "Solrock": {
+    "types": [
+      "Rock",
+      "Psychic"
+    ],
+    "bst": 460,
+    "evolution_level": 46
+  },
+  "Dragonite": {
+    "types": [
+      "Dragon",
+      "Flying"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "Houndoom": {
+    "types": [
+      "Dark",
+      "Fire"
+    ],
+    "bst": 500,
+    "evolution_level": 50
+  },
+  "Quaquaval": {
+    "types": [
+      "Water",
+      "Fighting"
+    ],
+    "bst": 530,
+    "evolution_level": 53
+  },
+  "Qwilfish": {
+    "types": [
+      "Water",
+      "Poison"
+    ],
+    "bst": 440,
+    "evolution_level": 44
+  },
+  "Entei": {
+    "types": [
+      "Fire"
+    ],
+    "bst": 580,
+    "evolution_level": 58
+  },
+  "Illumise": {
+    "types": [
+      "Bug"
+    ],
+    "bst": 430,
+    "evolution_level": 43
+  },
+  "Tinkatuff": {
+    "types": [
+      "Fairy",
+      "Steel"
+    ],
+    "bst": 380,
+    "evolution_level": 38
+  },
+  "Cloyster": {
+    "types": [
+      "Water",
+      "Ice"
+    ],
+    "bst": 525,
+    "evolution_level": 52
+  },
+  "Salamence": {
+    "types": [
+      "Dragon",
+      "Flying"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "Metagross": {
+    "types": [
+      "Steel",
+      "Psychic"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "Volcarona": {
+    "types": [
+      "Bug",
+      "Fire"
+    ],
+    "bst": 550,
+    "evolution_level": 55
+  },
+  "Floettee": {
+    "types": [
+      "Fairy"
+    ],
+    "bst": 551,
+    "evolution_level": 55
+  },
+  "Weavile": {
+    "types": [
+      "Dark",
+      "Ice"
+    ],
+    "bst": 510,
+    "evolution_level": 51
+  },
+  "Rapidash": {
+    "types": [
+      "Fire"
+    ],
+    "bst": 500,
+    "evolution_level": 50
+  },
+  "Machamp": {
+    "types": [
+      "Fighting"
+    ],
+    "bst": 505,
+    "evolution_level": 50
+  },
+  "Regieleki": {
+    "types": [
+      "Electric"
+    ],
+    "bst": 580,
+    "evolution_level": 58
+  },
+  "Lumineon": {
+    "types": [
+      "Water"
+    ],
+    "bst": 460,
+    "evolution_level": 46
+  },
+  "Glimmora": {
+    "types": [
+      "Rock",
+      "Poison"
+    ],
+    "bst": 525,
+    "evolution_level": 52
+  },
+  "Lairon": {
+    "types": [
+      "Steel",
+      "Rock"
+    ],
+    "bst": 430,
+    "evolution_level": 43
+  },
+  "Flamigo": {
+    "types": [
+      "Flying",
+      "Fighting"
+    ],
+    "bst": 500,
+    "evolution_level": 50
+  },
+  "Seaking": {
+    "types": [
+      "Water"
+    ],
+    "bst": 450,
+    "evolution_level": 45
+  },
+  "Electabuzz": {
+    "types": [
+      "Electric"
+    ],
+    "bst": 490,
+    "evolution_level": 49
+  },
+  "Cinderace": {
+    "types": [
+      "Fire"
+    ],
+    "bst": 530,
+    "evolution_level": 53
+  },
+  "Manaphy": {
+    "types": [
+      "Water"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "Empoleon": {
+    "types": [
+      "Water",
+      "Steel"
+    ],
+    "bst": 530,
+    "evolution_level": 53
+  },
+  "Eevee": {
+    "types": [
+      "Normal"
+    ],
+    "bst": 325,
+    "evolution_level": 32
+  },
+  "Tapu Bulu": {
+    "types": [
+      "Grass",
+      "Fairy"
+    ],
+    "bst": 570,
+    "evolution_level": 57
+  },
+  "Simipour": {
+    "types": [
+      "Water"
+    ],
+    "bst": 498,
+    "evolution_level": 49
+  },
+  "Scrafty": {
+    "types": [
+      "Dark",
+      "Fighting"
+    ],
+    "bst": 488,
+    "evolution_level": 48
+  },
+  "Mr. Mime": {
+    "types": [
+      "Psychic",
+      "Fairy"
+    ],
+    "bst": 460,
+    "evolution_level": 46
+  },
+  "Munchlax": {
+    "types": [
+      "Normal"
+    ],
+    "bst": 390,
+    "evolution_level": 39
+  },
+  "Terrakion": {
+    "types": [
+      "Rock",
+      "Fighting"
+    ],
+    "bst": 580,
+    "evolution_level": 58
+  },
+  "Gardevoir": {
+    "types": [
+      "Psychic",
+      "Fairy"
+    ],
+    "bst": 518,
+    "evolution_level": 51
+  },
+  "Vivillon": {
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "bst": 411,
+    "evolution_level": 41
+  },
+  "Octillery": {
+    "types": [
+      "Water"
+    ],
+    "bst": 480,
+    "evolution_level": 48
+  },
+  "Cosmoem": {
+    "types": [
+      "Psychic"
+    ],
+    "bst": 400,
+    "evolution_level": 40
+  },
+  "Cetitan": {
+    "types": [
+      "Ice"
+    ],
+    "bst": 521,
+    "evolution_level": 52
+  },
+  "Armaldo": {
+    "types": [
+      "Rock",
+      "Bug"
+    ],
+    "bst": 495,
+    "evolution_level": 49
+  },
+  "Brionne": {
+    "types": [
+      "Water"
+    ],
+    "bst": 420,
+    "evolution_level": 42
+  },
+  "Elekid": {
+    "types": [
+      "Electric"
+    ],
+    "bst": 360,
+    "evolution_level": 36
+  },
+  "Sandslash": {
+    "types": [
+      "Ground"
+    ],
+    "bst": 450,
+    "evolution_level": 45
+  },
+  "Donphan": {
+    "types": [
+      "Ground"
+    ],
+    "bst": 500,
+    "evolution_level": 50
+  },
+  "Swampert": {
+    "types": [
+      "Water",
+      "Ground"
+    ],
+    "bst": 535,
+    "evolution_level": 53
+  },
+  "Sudowoodo": {
+    "types": [
+      "Rock"
+    ],
+    "bst": 410,
+    "evolution_level": 41
+  },
+  "Carkol": {
+    "types": [
+      "Rock",
+      "Fire"
+    ],
+    "bst": 410,
+    "evolution_level": 41
+  },
+  "Obstagoon": {
+    "types": [
+      "Dark",
+      "Normal"
+    ],
+    "bst": 520,
+    "evolution_level": 52
+  },
+  "Quaxwell": {
+    "types": [
+      "Water"
+    ],
+    "bst": 410,
+    "evolution_level": 41
+  },
+  "Grafaiai": {
+    "types": [
+      "Poison",
+      "Normal"
+    ],
+    "bst": 485,
+    "evolution_level": 48
+  },
+  "Reuniclus": {
+    "types": [
+      "Psychic"
+    ],
+    "bst": 490,
+    "evolution_level": 49
+  },
+  "Revavroom": {
+    "types": [
+      "Steel",
+      "Poison"
+    ],
+    "bst": 500,
+    "evolution_level": 50
+  },
+  "Sylveon": {
+    "types": [
+      "Fairy"
+    ],
+    "bst": 525,
+    "evolution_level": 52
+  },
+  "Darkrai": {
+    "types": [
+      "Dark"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "Noivern": {
+    "types": [
+      "Flying",
+      "Dragon"
+    ],
+    "bst": 535,
+    "evolution_level": 53
+  },
+  "Barbaracle": {
+    "types": [
+      "Rock",
+      "Water"
+    ],
+    "bst": 500,
+    "evolution_level": 50
+  },
+  "Toucannon": {
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "bst": 485,
+    "evolution_level": 48
+  },
+  "Gorebyss": {
+    "types": [
+      "Water"
+    ],
+    "bst": 485,
+    "evolution_level": 48
+  },
+  "Archen": {
+    "types": [
+      "Rock",
+      "Flying"
+    ],
+    "bst": 401,
+    "evolution_level": 40
+  },
+  "Wailmer": {
+    "types": [
+      "Water"
+    ],
+    "bst": 400,
+    "evolution_level": 40
+  },
+  "Chansey": {
+    "types": [
+      "Normal"
+    ],
+    "bst": 450,
+    "evolution_level": 45
+  },
+  "Kangaskhan": {
+    "types": [
+      "Normal"
+    ],
+    "bst": 490,
+    "evolution_level": 49
+  },
+  "Mightyena": {
+    "types": [
+      "Dark"
+    ],
+    "bst": 420,
+    "evolution_level": 42
+  },
+  "Nidoking": {
+    "types": [
+      "Poison",
+      "Ground"
+    ],
+    "bst": 505,
+    "evolution_level": 50
+  },
+  "Infernape": {
+    "types": [
+      "Fire",
+      "Fighting"
+    ],
+    "bst": 534,
+    "evolution_level": 53
+  },
+  "Sawsbuck": {
+    "types": [
+      "Normal",
+      "Grass"
+    ],
+    "bst": 475,
+    "evolution_level": 47
+  },
+  "Arctozolt": {
+    "types": [
+      "Electric",
+      "Ice"
+    ],
+    "bst": 505,
+    "evolution_level": 50
+  },
+  "Chatot": {
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "bst": 411,
+    "evolution_level": 41
+  },
+  "Vespiquen": {
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "bst": 474,
+    "evolution_level": 47
+  },
+  "Graveler": {
+    "types": [
+      "Rock",
+      "Ground"
+    ],
+    "bst": 390,
+    "evolution_level": 39
+  },
+  "Alcremie": {
+    "types": [
+      "Fairy"
+    ],
+    "bst": 495,
+    "evolution_level": 49
+  },
+  "Litleo": {
+    "types": [
+      "Fire",
+      "Normal"
+    ],
+    "bst": 369,
+    "evolution_level": 36
+  },
+  "Bellibolt": {
+    "types": [
+      "Electric"
+    ],
+    "bst": 495,
+    "evolution_level": 49
+  },
+  "Pachirisu": {
+    "types": [
+      "Electric"
+    ],
+    "bst": 405,
+    "evolution_level": 40
+  },
+  "Simisage": {
+    "types": [
+      "Grass"
+    ],
+    "bst": 498,
+    "evolution_level": 49
+  },
+  "Durant": {
+    "types": [
+      "Bug",
+      "Steel"
+    ],
+    "bst": 484,
+    "evolution_level": 48
+  },
+  "Naganadel": {
+    "types": [
+      "Poison",
+      "Dragon"
+    ],
+    "bst": 540,
+    "evolution_level": 54
+  },
+  "Pyukumuku": {
+    "types": [
+      "Water"
+    ],
+    "bst": 410,
+    "evolution_level": 41
+  },
+  "Komala": {
+    "types": [
+      "Normal"
+    ],
+    "bst": 480,
+    "evolution_level": 48
+  },
+  "Espeon": {
+    "types": [
+      "Psychic"
+    ],
+    "bst": 525,
+    "evolution_level": 52
+  },
+  "Sneasler": {
+    "types": [
+      "Fighting",
+      "Poison"
+    ],
+    "bst": 510,
+    "evolution_level": 51
+  },
+  "Ludicolo": {
+    "types": [
+      "Water",
+      "Grass"
+    ],
+    "bst": 480,
+    "evolution_level": 48
+  },
+  "Celesteela": {
+    "types": [
+      "Steel",
+      "Flying"
+    ],
+    "bst": 570,
+    "evolution_level": 57
+  },
+  "Heatran": {
+    "types": [
+      "Fire",
+      "Steel"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "Mothim": {
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "bst": 424,
+    "evolution_level": 42
+  },
+  "Granbull": {
+    "types": [
+      "Fairy"
+    ],
+    "bst": 450,
+    "evolution_level": 45
+  },
+  "Gastrodon": {
+    "types": [
+      "Water",
+      "Ground"
+    ],
+    "bst": 475,
+    "evolution_level": 47
+  },
+  "Toxicroak": {
+    "types": [
+      "Poison",
+      "Fighting"
+    ],
+    "bst": 490,
+    "evolution_level": 49
+  },
+  "Froslass": {
+    "types": [
+      "Ice",
+      "Ghost"
+    ],
+    "bst": 480,
+    "evolution_level": 48
+  },
+  "Suicune": {
+    "types": [
+      "Water"
+    ],
+    "bst": 580,
+    "evolution_level": 58
+  },
+  "Archaludon": {
+    "types": [
+      "Steel",
+      "Dragon"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "Cufant": {
+    "types": [
+      "Steel"
+    ],
+    "bst": 330,
+    "evolution_level": 33
+  },
+  "Vileplume": {
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "bst": 490,
+    "evolution_level": 49
+  },
+  "Frogadier": {
+    "types": [
+      "Water"
+    ],
+    "bst": 405,
+    "evolution_level": 40
+  },
+  "Tauros": {
+    "types": [
+      "Normal"
+    ],
+    "bst": 490,
+    "evolution_level": 49
+  },
+  "Relicanth": {
+    "types": [
+      "Water",
+      "Rock"
+    ],
+    "bst": 485,
+    "evolution_level": 48
+  },
+  "Vikavolt": {
+    "types": [
+      "Bug",
+      "Electric"
+    ],
+    "bst": 500,
+    "evolution_level": 50
+  },
+  "Dolliv": {
+    "types": [
+      "Grass",
+      "Normal"
+    ],
+    "bst": 354,
+    "evolution_level": 35
+  },
+  "Leavanny": {
+    "types": [
+      "Bug",
+      "Grass"
+    ],
+    "bst": 500,
+    "evolution_level": 50
+  },
+  "Hattrem": {
+    "types": [
+      "Psychic"
+    ],
+    "bst": 370,
+    "evolution_level": 37
+  },
+  "Persian": {
+    "types": [
+      "Normal"
+    ],
+    "bst": 440,
+    "evolution_level": 44
+  },
+  "Heliolisk": {
+    "types": [
+      "Electric",
+      "Normal"
+    ],
+    "bst": 481,
+    "evolution_level": 48
+  },
+  "Herdier": {
+    "types": [
+      "Normal"
+    ],
+    "bst": 370,
+    "evolution_level": 37
+  },
+  "Arbok": {
+    "types": [
+      "Poison"
+    ],
+    "bst": 448,
+    "evolution_level": 44
+  },
+  "Sableye": {
+    "types": [
+      "Dark",
+      "Ghost"
+    ],
+    "bst": 380,
+    "evolution_level": 38
+  },
+  "Snorlax": {
+    "types": [
+      "Normal"
+    ],
+    "bst": 540,
+    "evolution_level": 54
+  },
+  "Silvally": {
+    "types": [
+      "Normal"
+    ],
+    "bst": 570,
+    "evolution_level": 57
+  },
+  "Glastrier": {
+    "types": [
+      "Ice"
+    ],
+    "bst": 580,
+    "evolution_level": 58
+  },
+  "Rampardos": {
+    "types": [
+      "Rock"
+    ],
+    "bst": 495,
+    "evolution_level": 49
+  },
+  "Marill": {
+    "types": [
+      "Water",
+      "Fairy"
+    ],
+    "bst": 250,
+    "evolution_level": 25
+  },
+  "Ledian": {
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "bst": 390,
+    "evolution_level": 39
+  },
+  "Golbat": {
+    "types": [
+      "Poison",
+      "Flying"
+    ],
+    "bst": 455,
+    "evolution_level": 45
+  },
+  "Chesnaught": {
+    "types": [
+      "Grass",
+      "Fighting"
+    ],
+    "bst": 530,
+    "evolution_level": 53
+  },
+  "Kleavor": {
+    "types": [
+      "Bug",
+      "Rock"
+    ],
+    "bst": 500,
+    "evolution_level": 50
+  },
+  "Ribombee": {
+    "types": [
+      "Bug",
+      "Fairy"
+    ],
+    "bst": 464,
+    "evolution_level": 46
+  },
+  "Glalie": {
+    "types": [
+      "Ice"
+    ],
+    "bst": 480,
+    "evolution_level": 48
+  },
+  "Stoutland": {
+    "types": [
+      "Normal"
+    ],
+    "bst": 500,
+    "evolution_level": 50
+  },
+  "Clawitzer": {
+    "types": [
+      "Water"
+    ],
+    "bst": 500,
+    "evolution_level": 50
+  },
+  "Gliscor": {
+    "types": [
+      "Ground",
+      "Flying"
+    ],
+    "bst": 510,
+    "evolution_level": 51
+  },
+  "Doublade": {
+    "types": [
+      "Steel",
+      "Ghost"
+    ],
+    "bst": 448,
+    "evolution_level": 44
+  },
+  "Great Tusk": {
+    "types": [
+      "Ground",
+      "Fighting"
+    ],
+    "bst": 570,
+    "evolution_level": 57
+  },
+  "Huntail": {
+    "types": [
+      "Water"
+    ],
+    "bst": 485,
+    "evolution_level": 48
+  },
+  "Musharna": {
+    "types": [
+      "Psychic"
+    ],
+    "bst": 487,
+    "evolution_level": 48
+  },
+  "Zapdos": {
+    "types": [
+      "Electric",
+      "Flying"
+    ],
+    "bst": 580,
+    "evolution_level": 58
+  },
+  "Klinklang": {
+    "types": [
+      "Steel"
+    ],
+    "bst": 520,
+    "evolution_level": 52
+  },
+  "Bouffalant": {
+    "types": [
+      "Normal"
+    ],
+    "bst": 490,
+    "evolution_level": 49
+  },
+  "Ogerpon": {
+    "types": [
+      "Grass"
+    ],
+    "bst": 550,
+    "evolution_level": 55
+  },
+  "Tropius": {
+    "types": [
+      "Grass",
+      "Flying"
+    ],
+    "bst": 460,
+    "evolution_level": 46
+  },
+  "Delcatty": {
+    "types": [
+      "Normal"
+    ],
+    "bst": 400,
+    "evolution_level": 40
+  },
+  "Roserade": {
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "bst": 515,
+    "evolution_level": 51
+  },
+  "Pidgeot": {
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "bst": 479,
+    "evolution_level": 47
+  },
+  "Sinistcha": {
+    "types": [
+      "Grass",
+      "Ghost"
+    ],
+    "bst": 508,
+    "evolution_level": 50
+  },
+  "Sealeo": {
+    "types": [
+      "Ice",
+      "Water"
+    ],
+    "bst": 410,
+    "evolution_level": 41
+  },
+  "Clefable": {
+    "types": [
+      "Fairy"
+    ],
+    "bst": 483,
+    "evolution_level": 48
+  },
+  "Tapu Fini": {
+    "types": [
+      "Water",
+      "Fairy"
+    ],
+    "bst": 570,
+    "evolution_level": 57
+  },
+  "Clodsire": {
+    "types": [
+      "Poison",
+      "Ground"
+    ],
+    "bst": 430,
+    "evolution_level": 43
+  },
+  "Vanillish": {
+    "types": [
+      "Ice"
+    ],
+    "bst": 395,
+    "evolution_level": 39
+  },
+  "Samurott": {
+    "types": [
+      "Water"
+    ],
+    "bst": 528,
+    "evolution_level": 52
+  },
+  "Nidorino": {
+    "types": [
+      "Poison"
+    ],
+    "bst": 365,
+    "evolution_level": 36
+  },
+  "Skeledirge": {
+    "types": [
+      "Fire",
+      "Ghost"
+    ],
+    "bst": 530,
+    "evolution_level": 53
+  },
+  "Perrserker": {
+    "types": [
+      "Steel"
+    ],
+    "bst": 440,
+    "evolution_level": 44
+  },
+  "Gallade": {
+    "types": [
+      "Psychic",
+      "Fighting"
+    ],
+    "bst": 518,
+    "evolution_level": 51
+  },
+  "Toxapex": {
+    "types": [
+      "Poison",
+      "Water"
+    ],
+    "bst": 495,
+    "evolution_level": 49
+  },
+  "Castform": {
+    "types": [
+      "Normal"
+    ],
+    "bst": 420,
+    "evolution_level": 42
+  },
+  "Metang": {
+    "types": [
+      "Steel",
+      "Psychic"
+    ],
+    "bst": 420,
+    "evolution_level": 42
+  },
+  "Blaziken": {
+    "types": [
+      "Fire",
+      "Fighting"
+    ],
+    "bst": 530,
+    "evolution_level": 53
+  },
+  "Kingdra": {
+    "types": [
+      "Water",
+      "Dragon"
+    ],
+    "bst": 540,
+    "evolution_level": 54
+  },
+  "Ceruledge": {
+    "types": [
+      "Fire",
+      "Ghost"
+    ],
+    "bst": 525,
+    "evolution_level": 52
+  },
+  "Golem": {
+    "types": [
+      "Rock",
+      "Ground"
+    ],
+    "bst": 495,
+    "evolution_level": 49
+  },
+  "Lapras": {
+    "types": [
+      "Water",
+      "Ice"
+    ],
+    "bst": 535,
+    "evolution_level": 53
+  },
+  "Moltres": {
+    "types": [
+      "Fire",
+      "Flying"
+    ],
+    "bst": 580,
+    "evolution_level": 58
+  },
+  "Blissey": {
+    "types": [
+      "Normal"
+    ],
+    "bst": 540,
+    "evolution_level": 54
+  },
+  "Dunsparce": {
+    "types": [
+      "Normal"
+    ],
+    "bst": 415,
+    "evolution_level": 41
+  },
+  "Gengar": {
+    "types": [
+      "Ghost",
+      "Poison"
+    ],
+    "bst": 500,
+    "evolution_level": 50
+  },
+  "Surskit": {
+    "types": [
+      "Bug",
+      "Water"
+    ],
+    "bst": 269,
+    "evolution_level": 26
+  },
+  "Weepinbell": {
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "bst": 390,
+    "evolution_level": 39
+  },
+  "Jirachi": {
+    "types": [
+      "Steel",
+      "Psychic"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "Wingull": {
+    "types": [
+      "Water",
+      "Flying"
+    ],
+    "bst": 270,
+    "evolution_level": 27
+  },
+  "Rhydon": {
+    "types": [
+      "Ground",
+      "Rock"
+    ],
+    "bst": 485,
+    "evolution_level": 48
+  },
+  "Duraludon": {
+    "types": [
+      "Steel",
+      "Dragon"
+    ],
+    "bst": 535,
+    "evolution_level": 53
+  },
+  "Omastar": {
+    "types": [
+      "Rock",
+      "Water"
+    ],
+    "bst": 495,
+    "evolution_level": 49
+  },
+  "Carbink": {
+    "types": [
+      "Rock",
+      "Fairy"
+    ],
+    "bst": 500,
+    "evolution_level": 50
+  },
+  "Magneton": {
+    "types": [
+      "Electric",
+      "Steel"
+    ],
+    "bst": 465,
+    "evolution_level": 46
+  },
+  "Tentacruel": {
+    "types": [
+      "Water",
+      "Poison"
+    ],
+    "bst": 515,
+    "evolution_level": 51
+  },
+  "Haunter": {
+    "types": [
+      "Ghost",
+      "Poison"
+    ],
+    "bst": 405,
+    "evolution_level": 40
+  },
+  "Aerodactyl": {
+    "types": [
+      "Rock",
+      "Flying"
+    ],
+    "bst": 515,
+    "evolution_level": 51
+  },
+  "Mesprit": {
+    "types": [
+      "Psychic"
+    ],
+    "bst": 580,
+    "evolution_level": 58
+  },
+  "Amaura": {
+    "types": [
+      "Rock",
+      "Ice"
+    ],
+    "bst": 362,
+    "evolution_level": 36
+  },
+  "Houndstone": {
+    "types": [
+      "Ghost"
+    ],
+    "bst": 488,
+    "evolution_level": 48
+  },
+  "Kecleon": {
+    "types": [
+      "Normal"
+    ],
+    "bst": 440,
+    "evolution_level": 44
+  },
+  "Runerigus": {
+    "types": [
+      "Ground",
+      "Ghost"
+    ],
+    "bst": 483,
+    "evolution_level": 48
+  },
+  "Scyther": {
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "bst": 500,
+    "evolution_level": 50
+  },
+  "Armarouge": {
+    "types": [
+      "Fire",
+      "Psychic"
+    ],
+    "bst": 525,
+    "evolution_level": 52
+  },
+  "Arboliva": {
+    "types": [
+      "Grass",
+      "Normal"
+    ],
+    "bst": 510,
+    "evolution_level": 51
+  },
+  "Gumshoos": {
+    "types": [
+      "Normal"
+    ],
+    "bst": 418,
+    "evolution_level": 41
+  },
+  "Buzzwole": {
+    "types": [
+      "Bug",
+      "Fighting"
+    ],
+    "bst": 570,
+    "evolution_level": 57
+  },
+  "Poipole": {
+    "types": [
+      "Poison"
+    ],
+    "bst": 420,
+    "evolution_level": 42
+  },
+  "Excadrill": {
+    "types": [
+      "Ground",
+      "Steel"
+    ],
+    "bst": 508,
+    "evolution_level": 50
+  },
+  "Kadabra": {
+    "types": [
+      "Psychic"
+    ],
+    "bst": 400,
+    "evolution_level": 40
+  },
+  "Camerupt": {
+    "types": [
+      "Fire",
+      "Ground"
+    ],
+    "bst": 460,
+    "evolution_level": 46
+  },
+  "Gloom": {
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "bst": 395,
+    "evolution_level": 39
+  },
+  "Sawk": {
+    "types": [
+      "Fighting"
+    ],
+    "bst": 465,
+    "evolution_level": 46
+  },
+  "Beheeyem": {
+    "types": [
+      "Psychic"
+    ],
+    "bst": 485,
+    "evolution_level": 48
+  },
+  "Togedemaru": {
+    "types": [
+      "Electric",
+      "Steel"
+    ],
+    "bst": 435,
+    "evolution_level": 43
+  },
+  "Trumbeak": {
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "bst": 355,
+    "evolution_level": 35
+  },
+  "Orbeetle": {
+    "types": [
+      "Bug",
+      "Psychic"
+    ],
+    "bst": 505,
+    "evolution_level": 50
+  },
+  "Primarina": {
+    "types": [
+      "Water",
+      "Fairy"
+    ],
+    "bst": 530,
+    "evolution_level": 53
+  },
+  "Araquanid": {
+    "types": [
+      "Water",
+      "Bug"
+    ],
+    "bst": 454,
+    "evolution_level": 45
+  },
+  "Pecharunt": {
+    "types": [
+      "Poison",
+      "Ghost"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "Murkrow": {
+    "types": [
+      "Dark",
+      "Flying"
+    ],
+    "bst": 405,
+    "evolution_level": 40
+  },
+  "Pidgeotto": {
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "bst": 349,
+    "evolution_level": 34
+  },
+  "Mantine": {
+    "types": [
+      "Water",
+      "Flying"
+    ],
+    "bst": 485,
+    "evolution_level": 48
+  },
+  "Wartortle": {
+    "types": [
+      "Water"
+    ],
+    "bst": 405,
+    "evolution_level": 40
+  },
+  "Pelipper": {
+    "types": [
+      "Water",
+      "Flying"
+    ],
+    "bst": 440,
+    "evolution_level": 44
+  },
+  "Klawf": {
+    "types": [
+      "Rock"
+    ],
+    "bst": 450,
+    "evolution_level": 45
+  },
+  "Cradily": {
+    "types": [
+      "Rock",
+      "Grass"
+    ],
+    "bst": 495,
+    "evolution_level": 49
+  },
+  "Butterfree": {
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "bst": 395,
+    "evolution_level": 39
+  },
+  "Blastoise": {
+    "types": [
+      "Water"
+    ],
+    "bst": 530,
+    "evolution_level": 53
+  },
+  "Nihilego": {
+    "types": [
+      "Rock",
+      "Poison"
+    ],
+    "bst": 570,
+    "evolution_level": 57
+  },
+  "Accelgor": {
+    "types": [
+      "Bug"
+    ],
+    "bst": 495,
+    "evolution_level": 49
+  },
+  "Ting-Lu": {
+    "types": [
+      "Dark",
+      "Ground"
+    ],
+    "bst": 570,
+    "evolution_level": 57
+  },
+  "Drifblim": {
+    "types": [
+      "Ghost",
+      "Flying"
+    ],
+    "bst": 498,
+    "evolution_level": 49
+  },
+  "Prinplup": {
+    "types": [
+      "Water"
+    ],
+    "bst": 405,
+    "evolution_level": 40
+  },
+  "Melmetal": {
+    "types": [
+      "Steel"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "Spidops": {
+    "types": [
+      "Bug"
+    ],
+    "bst": 404,
+    "evolution_level": 40
+  },
+  "Salazzle": {
+    "types": [
+      "Poison",
+      "Fire"
+    ],
+    "bst": 480,
+    "evolution_level": 48
+  },
+  "Crustle": {
+    "types": [
+      "Bug",
+      "Rock"
+    ],
+    "bst": 485,
+    "evolution_level": 48
+  },
+  "Gligar": {
+    "types": [
+      "Ground",
+      "Flying"
+    ],
+    "bst": 430,
+    "evolution_level": 43
+  },
+  "Baxcalibur": {
+    "types": [
+      "Dragon",
+      "Ice"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "Piloswine": {
+    "types": [
+      "Ice",
+      "Ground"
+    ],
+    "bst": 450,
+    "evolution_level": 45
+  },
+  "Raticate": {
+    "types": [
+      "Normal"
+    ],
+    "bst": 413,
+    "evolution_level": 41
+  },
+  "Calyrex": {
+    "types": [
+      "Psychic",
+      "Grass"
+    ],
+    "bst": 500,
+    "evolution_level": 50
+  },
+  "Beartic": {
+    "types": [
+      "Ice"
+    ],
+    "bst": 505,
+    "evolution_level": 50
+  },
+  "Zoroark": {
+    "types": [
+      "Dark"
+    ],
+    "bst": 510,
+    "evolution_level": 51
+  },
+  "Greninja": {
+    "types": [
+      "Water",
+      "Dark"
+    ],
+    "bst": 530,
+    "evolution_level": 53
+  },
+  "Swellow": {
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "bst": 455,
+    "evolution_level": 45
+  },
+  "Ursaluna": {
+    "types": [
+      "Ground",
+      "Normal"
+    ],
+    "bst": 550,
+    "evolution_level": 55
+  },
+  "Hydreigon": {
+    "types": [
+      "Dark",
+      "Dragon"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "Mudsdale": {
+    "types": [
+      "Ground"
+    ],
+    "bst": 500,
+    "evolution_level": 50
+  },
+  "Gabite": {
+    "types": [
+      "Dragon",
+      "Ground"
+    ],
+    "bst": 410,
+    "evolution_level": 41
+  },
+  "Tyranitar": {
+    "types": [
+      "Rock",
+      "Dark"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "Ninetales": {
+    "types": [
+      "Fire"
+    ],
+    "bst": 505,
+    "evolution_level": 50
+  },
+  "Cyclizar": {
+    "types": [
+      "Dragon",
+      "Normal"
+    ],
+    "bst": 501,
+    "evolution_level": 50
+  },
+  "Grimmsnarl": {
+    "types": [
+      "Dark",
+      "Fairy"
+    ],
+    "bst": 510,
+    "evolution_level": 51
+  },
+  "Archeops": {
+    "types": [
+      "Rock",
+      "Flying"
+    ],
+    "bst": 567,
+    "evolution_level": 56
+  },
+  "Magnezone": {
+    "types": [
+      "Electric",
+      "Steel"
+    ],
+    "bst": 535,
+    "evolution_level": 53
+  },
+  "Overqwil": {
+    "types": [
+      "Dark",
+      "Poison"
+    ],
+    "bst": 510,
+    "evolution_level": 51
+  },
+  "Palpitoad": {
+    "types": [
+      "Water",
+      "Ground"
+    ],
+    "bst": 384,
+    "evolution_level": 38
+  },
+  "Diancie": {
+    "types": [
+      "Rock",
+      "Fairy"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "Breloom": {
+    "types": [
+      "Grass",
+      "Fighting"
+    ],
+    "bst": 460,
+    "evolution_level": 46
+  },
+  "Spheal": {
+    "types": [
+      "Ice",
+      "Water"
+    ],
+    "bst": 290,
+    "evolution_level": 29
+  },
+  "Sneasel": {
+    "types": [
+      "Dark",
+      "Ice"
+    ],
+    "bst": 430,
+    "evolution_level": 43
+  },
+  "Scolipede": {
+    "types": [
+      "Bug",
+      "Poison"
+    ],
+    "bst": 485,
+    "evolution_level": 48
+  },
+  "Hatterene": {
+    "types": [
+      "Psychic",
+      "Fairy"
+    ],
+    "bst": 510,
+    "evolution_level": 51
+  },
+  "Omanyte": {
+    "types": [
+      "Rock",
+      "Water"
+    ],
+    "bst": 355,
+    "evolution_level": 35
+  },
+  "Azumarill": {
+    "types": [
+      "Water",
+      "Fairy"
+    ],
+    "bst": 420,
+    "evolution_level": 42
+  },
+  "Dragalge": {
+    "types": [
+      "Poison",
+      "Dragon"
+    ],
+    "bst": 494,
+    "evolution_level": 49
+  },
+  "Florges": {
+    "types": [
+      "Fairy"
+    ],
+    "bst": 552,
+    "evolution_level": 55
+  },
+  "Dubwool": {
+    "types": [
+      "Normal"
+    ],
+    "bst": 490,
+    "evolution_level": 49
+  },
+  "Lopunny": {
+    "types": [
+      "Normal"
+    ],
+    "bst": 480,
+    "evolution_level": 48
+  },
+  "Whiscash": {
+    "types": [
+      "Water",
+      "Ground"
+    ],
+    "bst": 468,
+    "evolution_level": 46
+  },
+  "Drizzile": {
+    "types": [
+      "Water"
+    ],
+    "bst": 420,
+    "evolution_level": 42
+  },
+  "Eelektross": {
+    "types": [
+      "Electric"
+    ],
+    "bst": 515,
+    "evolution_level": 51
+  },
+  "Nidoqueen": {
+    "types": [
+      "Poison",
+      "Ground"
+    ],
+    "bst": 505,
+    "evolution_level": 50
+  },
+  "Arctibax": {
+    "types": [
+      "Dragon",
+      "Ice"
+    ],
+    "bst": 423,
+    "evolution_level": 42
+  },
+  "Exploud": {
+    "types": [
+      "Normal"
+    ],
+    "bst": 490,
+    "evolution_level": 49
+  },
+  "Vigoroth": {
+    "types": [
+      "Normal"
+    ],
+    "bst": 440,
+    "evolution_level": 44
+  },
+  "Scizor": {
+    "types": [
+      "Bug",
+      "Steel"
+    ],
+    "bst": 500,
+    "evolution_level": 50
+  },
+  "Onix": {
+    "types": [
+      "Rock",
+      "Ground"
+    ],
+    "bst": 385,
+    "evolution_level": 38
+  },
+  "Mudbray": {
+    "types": [
+      "Ground"
+    ],
+    "bst": 385,
+    "evolution_level": 38
+  },
+  "Regirock": {
+    "types": [
+      "Rock"
+    ],
+    "bst": 580,
+    "evolution_level": 58
+  },
+  "Pawniard": {
+    "types": [
+      "Dark",
+      "Steel"
+    ],
+    "bst": 340,
+    "evolution_level": 34
+  },
+  "Claydol": {
+    "types": [
+      "Ground",
+      "Psychic"
+    ],
+    "bst": 500,
+    "evolution_level": 50
+  },
+  "Hypno": {
+    "types": [
+      "Psychic"
+    ],
+    "bst": 483,
+    "evolution_level": 48
+  },
+  "Togekiss": {
+    "types": [
+      "Fairy",
+      "Flying"
+    ],
+    "bst": 545,
+    "evolution_level": 54
+  },
+  "Magmortar": {
+    "types": [
+      "Fire"
+    ],
+    "bst": 540,
+    "evolution_level": 54
+  },
+  "Conkeldurr": {
+    "types": [
+      "Fighting"
+    ],
+    "bst": 505,
+    "evolution_level": 50
+  },
+  "Lickilicky": {
+    "types": [
+      "Normal"
+    ],
+    "bst": 515,
+    "evolution_level": 51
+  },
+  "Banette": {
+    "types": [
+      "Ghost"
+    ],
+    "bst": 455,
+    "evolution_level": 45
+  },
+  "Glaceon": {
+    "types": [
+      "Ice"
+    ],
+    "bst": 525,
+    "evolution_level": 52
+  },
+  "Purugly": {
+    "types": [
+      "Normal"
+    ],
+    "bst": 452,
+    "evolution_level": 45
+  },
+  "Drampa": {
+    "types": [
+      "Normal",
+      "Dragon"
+    ],
+    "bst": 485,
+    "evolution_level": 48
+  },
+  "Staravia": {
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "bst": 340,
+    "evolution_level": 34
+  },
+  "Beautifly": {
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "bst": 395,
+    "evolution_level": 39
+  },
+  "Klefki": {
+    "types": [
+      "Steel",
+      "Fairy"
+    ],
+    "bst": 470,
+    "evolution_level": 47
+  },
+  "Gyarados": {
+    "types": [
+      "Water",
+      "Flying"
+    ],
+    "bst": 540,
+    "evolution_level": 54
+  },
+  "Linoone": {
+    "types": [
+      "Normal"
+    ],
+    "bst": 420,
+    "evolution_level": 42
+  },
+  "Tapu Koko": {
+    "types": [
+      "Electric",
+      "Fairy"
+    ],
+    "bst": 570,
+    "evolution_level": 57
+  },
+  "Ambipom": {
+    "types": [
+      "Normal"
+    ],
+    "bst": 482,
+    "evolution_level": 48
+  },
+  "Dodrio": {
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "bst": 470,
+    "evolution_level": 47
+  },
+  "Jynx": {
+    "types": [
+      "Ice",
+      "Psychic"
+    ],
+    "bst": 455,
+    "evolution_level": 45
+  },
+  "Bibarel": {
+    "types": [
+      "Normal",
+      "Water"
+    ],
+    "bst": 410,
+    "evolution_level": 41
+  },
+  "Ninjask": {
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "bst": 456,
+    "evolution_level": 45
+  },
+  "Skuntank": {
+    "types": [
+      "Poison",
+      "Dark"
+    ],
+    "bst": 479,
+    "evolution_level": 47
+  },
+  "Torkoal": {
+    "types": [
+      "Fire"
+    ],
+    "bst": 470,
+    "evolution_level": 47
+  },
+  "Okidogi": {
+    "types": [
+      "Poison",
+      "Fighting"
+    ],
+    "bst": 555,
+    "evolution_level": 55
+  },
+  "Scovillain": {
+    "types": [
+      "Grass",
+      "Fire"
+    ],
+    "bst": 486,
+    "evolution_level": 48
+  },
+  "Dipplin": {
+    "types": [
+      "Grass",
+      "Dragon"
+    ],
+    "bst": 485,
+    "evolution_level": 48
+  },
+  "Poliwhirl": {
+    "types": [
+      "Water"
+    ],
+    "bst": 385,
+    "evolution_level": 38
+  },
+  "Loudred": {
+    "types": [
+      "Normal"
+    ],
+    "bst": 360,
+    "evolution_level": 36
+  },
+  "Wugtrio": {
+    "types": [
+      "Water"
+    ],
+    "bst": 425,
+    "evolution_level": 42
+  },
+  "Remoraid": {
+    "types": [
+      "Water"
+    ],
+    "bst": 300,
+    "evolution_level": 30
+  },
+  "Vaporeon": {
+    "types": [
+      "Water"
+    ],
+    "bst": 525,
+    "evolution_level": 52
+  },
+  "Sceptile": {
+    "types": [
+      "Grass"
+    ],
+    "bst": 530,
+    "evolution_level": 53
+  },
+  "Heracross": {
+    "types": [
+      "Bug",
+      "Fighting"
+    ],
+    "bst": 500,
+    "evolution_level": 50
+  },
+  "Chimecho": {
+    "types": [
+      "Psychic"
+    ],
+    "bst": 455,
+    "evolution_level": 45
+  },
+  "Toedscruel": {
+    "types": [
+      "Ground",
+      "Grass"
+    ],
+    "bst": 515,
+    "evolution_level": 51
+  },
+  "Maractus": {
+    "types": [
+      "Grass"
+    ],
+    "bst": 461,
+    "evolution_level": 46
+  },
+  "Slurpuff": {
+    "types": [
+      "Fairy"
+    ],
+    "bst": 480,
+    "evolution_level": 48
+  },
+  "Cofagrigus": {
+    "types": [
+      "Ghost"
+    ],
+    "bst": 483,
+    "evolution_level": 48
+  },
+  "Cramorant": {
+    "types": [
+      "Flying",
+      "Water"
+    ],
+    "bst": 475,
+    "evolution_level": 47
+  },
+  "Stakataka": {
+    "types": [
+      "Rock",
+      "Steel"
+    ],
+    "bst": 570,
+    "evolution_level": 57
+  },
+  "Flygon": {
+    "types": [
+      "Ground",
+      "Dragon"
+    ],
+    "bst": 520,
+    "evolution_level": 52
+  },
+  "Mismagius": {
+    "types": [
+      "Ghost"
+    ],
+    "bst": 495,
+    "evolution_level": 49
+  },
+  "Exeggutor": {
+    "types": [
+      "Grass",
+      "Psychic"
+    ],
+    "bst": 530,
+    "evolution_level": 53
+  },
+  "Bewear": {
+    "types": [
+      "Normal",
+      "Fighting"
+    ],
+    "bst": 500,
+    "evolution_level": 50
+  },
+  "Dartrix": {
+    "types": [
+      "Grass",
+      "Flying"
+    ],
+    "bst": 420,
+    "evolution_level": 42
+  },
+  "Galvantula": {
+    "types": [
+      "Bug",
+      "Electric"
+    ],
+    "bst": 472,
+    "evolution_level": 47
+  },
+  "Gothitelle": {
+    "types": [
+      "Psychic"
+    ],
+    "bst": 490,
+    "evolution_level": 49
+  },
+  "Genesect": {
+    "types": [
+      "Bug",
+      "Steel"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "Spiritomb": {
+    "types": [
+      "Ghost",
+      "Dark"
+    ],
+    "bst": 485,
+    "evolution_level": 48
+  },
+  "Kingler": {
+    "types": [
+      "Water"
+    ],
+    "bst": 475,
+    "evolution_level": 47
+  },
+  "Slowbro": {
+    "types": [
+      "Water",
+      "Psychic"
+    ],
+    "bst": 490,
+    "evolution_level": 49
+  },
+  "Thievul": {
+    "types": [
+      "Dark"
+    ],
+    "bst": 455,
+    "evolution_level": 45
+  },
+  "Trevenant": {
+    "types": [
+      "Ghost",
+      "Grass"
+    ],
+    "bst": 474,
+    "evolution_level": 47
+  },
+  "Turtonator": {
+    "types": [
+      "Fire",
+      "Dragon"
+    ],
+    "bst": 485,
+    "evolution_level": 48
+  },
+  "Staraptor": {
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "bst": 485,
+    "evolution_level": 48
+  },
+  "Stantler": {
+    "types": [
+      "Normal"
+    ],
+    "bst": 465,
+    "evolution_level": 46
+  },
+  "Crawdaunt": {
+    "types": [
+      "Water",
+      "Dark"
+    ],
+    "bst": 468,
+    "evolution_level": 46
+  },
+  "Annihilape": {
+    "types": [
+      "Fighting",
+      "Ghost"
+    ],
+    "bst": 535,
+    "evolution_level": 53
+  },
+  "Whimsicott": {
+    "types": [
+      "Grass",
+      "Fairy"
+    ],
+    "bst": 480,
+    "evolution_level": 48
+  },
+  "Nosepass": {
+    "types": [
+      "Rock"
+    ],
+    "bst": 375,
+    "evolution_level": 37
+  },
+  "Guzzlord": {
+    "types": [
+      "Dark",
+      "Dragon"
+    ],
+    "bst": 570,
+    "evolution_level": 57
+  },
+  "Zarude": {
+    "types": [
+      "Dark",
+      "Grass"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "Marowak": {
+    "types": [
+      "Ground"
+    ],
+    "bst": 425,
+    "evolution_level": 42
+  },
+  "Golduck": {
+    "types": [
+      "Water"
+    ],
+    "bst": 500,
+    "evolution_level": 50
+  },
+  "Gothorita": {
+    "types": [
+      "Psychic"
+    ],
+    "bst": 390,
+    "evolution_level": 39
+  },
+  "Hariyama": {
+    "types": [
+      "Fighting"
+    ],
+    "bst": 474,
+    "evolution_level": 47
+  },
+  "Gogoat": {
+    "types": [
+      "Grass"
+    ],
+    "bst": 531,
+    "evolution_level": 53
+  },
+  "Wobbuffet": {
+    "types": [
+      "Psychic"
+    ],
+    "bst": 405,
+    "evolution_level": 40
+  },
+  "Dusknoir": {
+    "types": [
+      "Ghost"
+    ],
+    "bst": 525,
+    "evolution_level": 52
+  },
+  "Inteleon": {
+    "types": [
+      "Water"
+    ],
+    "bst": 530,
+    "evolution_level": 53
+  },
+  "Swanna": {
+    "types": [
+      "Water",
+      "Flying"
+    ],
+    "bst": 473,
+    "evolution_level": 47
+  },
+  "Manectric": {
+    "types": [
+      "Electric"
+    ],
+    "bst": 475,
+    "evolution_level": 47
+  },
+  "Tapu Lele": {
+    "types": [
+      "Psychic",
+      "Fairy"
+    ],
+    "bst": 570,
+    "evolution_level": 57
+  },
+  "Milotic": {
+    "types": [
+      "Water"
+    ],
+    "bst": 540,
+    "evolution_level": 54
+  },
+  "Unfezant": {
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "bst": 488,
+    "evolution_level": 48
+  },
+  "Pheromosa": {
+    "types": [
+      "Bug",
+      "Fighting"
+    ],
+    "bst": 570,
+    "evolution_level": 57
+  },
+  "Shieldon": {
+    "types": [
+      "Rock",
+      "Steel"
+    ],
+    "bst": 350,
+    "evolution_level": 35
+  },
+  "Kabutops": {
+    "types": [
+      "Rock",
+      "Water"
+    ],
+    "bst": 495,
+    "evolution_level": 49
+  },
+  "Arcanine": {
+    "types": [
+      "Fire"
+    ],
+    "bst": 555,
+    "evolution_level": 55
+  },
+  "Luxray": {
+    "types": [
+      "Electric"
+    ],
+    "bst": 523,
+    "evolution_level": 52
+  },
+  "Cursola": {
+    "types": [
+      "Ghost"
+    ],
+    "bst": 510,
+    "evolution_level": 51
+  },
+  "Venomoth": {
+    "types": [
+      "Bug",
+      "Poison"
+    ],
+    "bst": 450,
+    "evolution_level": 45
+  },
+  "Medicham": {
+    "types": [
+      "Fighting",
+      "Psychic"
+    ],
+    "bst": 410,
+    "evolution_level": 41
+  },
+  "Weezing": {
+    "types": [
+      "Poison"
+    ],
+    "bst": 490,
+    "evolution_level": 49
+  },
+  "Lokix": {
+    "types": [
+      "Bug",
+      "Dark"
+    ],
+    "bst": 450,
+    "evolution_level": 45
+  },
+  "Cacturne": {
+    "types": [
+      "Grass",
+      "Dark"
+    ],
+    "bst": 475,
+    "evolution_level": 47
+  },
+  "Xurkitree": {
+    "types": [
+      "Electric"
+    ],
+    "bst": 570,
+    "evolution_level": 57
+  },
+  "Decidueye": {
+    "types": [
+      "Grass",
+      "Ghost"
+    ],
+    "bst": 530,
+    "evolution_level": 53
+  },
+  "Pangoro": {
+    "types": [
+      "Fighting",
+      "Dark"
+    ],
+    "bst": 495,
+    "evolution_level": 49
+  },
+  "Greedent": {
+    "types": [
+      "Normal"
+    ],
+    "bst": 460,
+    "evolution_level": 46
+  },
+  "Ariados": {
+    "types": [
+      "Bug",
+      "Poison"
+    ],
+    "bst": 400,
+    "evolution_level": 40
+  },
+  "Bellossom": {
+    "types": [
+      "Grass"
+    ],
+    "bst": 490,
+    "evolution_level": 49
+  },
+  "Braviary": {
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "bst": 510,
+    "evolution_level": 51
+  },
+  "Yanma": {
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "bst": 390,
+    "evolution_level": 39
+  },
+  "Ivysaur": {
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "bst": 405,
+    "evolution_level": 40
+  },
+  "Rotom": {
+    "types": [
+      "Electric",
+      "Ghost"
+    ],
+    "bst": 440,
+    "evolution_level": 44
+  },
+  "Misdreavus": {
+    "types": [
+      "Ghost"
+    ],
+    "bst": 435,
+    "evolution_level": 43
+  },
+  "Parasect": {
+    "types": [
+      "Bug",
+      "Grass"
+    ],
+    "bst": 405,
+    "evolution_level": 40
+  },
+  "Magnemite": {
+    "types": [
+      "Electric",
+      "Steel"
+    ],
+    "bst": 325,
+    "evolution_level": 32
+  },
+  "Zweilous": {
+    "types": [
+      "Dark",
+      "Dragon"
+    ],
+    "bst": 420,
+    "evolution_level": 42
+  },
+  "Lurantis": {
+    "types": [
+      "Grass"
+    ],
+    "bst": 480,
+    "evolution_level": 48
+  },
+  "Sigilyph": {
+    "types": [
+      "Psychic",
+      "Flying"
+    ],
+    "bst": 490,
+    "evolution_level": 49
+  },
+  "Chi-Yu": {
+    "types": [
+      "Dark",
+      "Fire"
+    ],
+    "bst": 570,
+    "evolution_level": 57
+  },
+  "Mawile": {
+    "types": [
+      "Steel",
+      "Fairy"
+    ],
+    "bst": 380,
+    "evolution_level": 38
+  },
+  "Flapple": {
+    "types": [
+      "Grass",
+      "Dragon"
+    ],
+    "bst": 485,
+    "evolution_level": 48
+  },
+  "Seismitoad": {
+    "types": [
+      "Water",
+      "Ground"
+    ],
+    "bst": 509,
+    "evolution_level": 50
+  },
+  "Zangoose": {
+    "types": [
+      "Normal"
+    ],
+    "bst": 458,
+    "evolution_level": 45
+  },
+  "Dracozolt": {
+    "types": [
+      "Electric",
+      "Dragon"
+    ],
+    "bst": 505,
+    "evolution_level": 50
+  },
+  "Roselia": {
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "bst": 400,
+    "evolution_level": 40
+  },
+  "Mabosstiff": {
+    "types": [
+      "Dark"
+    ],
+    "bst": 505,
+    "evolution_level": 50
+  },
+  "Krookodile": {
+    "types": [
+      "Ground",
+      "Dark"
+    ],
+    "bst": 519,
+    "evolution_level": 51
+  },
+  "Sharpedo": {
+    "types": [
+      "Water",
+      "Dark"
+    ],
+    "bst": 460,
+    "evolution_level": 46
+  },
+  "Bastiodon": {
+    "types": [
+      "Rock",
+      "Steel"
+    ],
+    "bst": 495,
+    "evolution_level": 49
+  },
+  "Rabsca": {
+    "types": [
+      "Bug",
+      "Psychic"
+    ],
+    "bst": 470,
+    "evolution_level": 47
+  },
+  "Yanmega": {
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "bst": 515,
+    "evolution_level": 51
+  },
+  "Emolga": {
+    "types": [
+      "Electric",
+      "Flying"
+    ],
+    "bst": 428,
+    "evolution_level": 42
+  },
+  "Pupitar": {
+    "types": [
+      "Rock",
+      "Ground"
+    ],
+    "bst": 410,
+    "evolution_level": 41
+  },
+  "Primeape": {
+    "types": [
+      "Fighting"
+    ]
+  },
+  "Lunatone": {
+    "types": [
+      "Rock",
+      "Psychic"
+    ],
+    "bst": 460,
+    "evolution_level": 46
+  },
+  "Aipom": {
+    "types": [
+      "Normal"
+    ],
+    "bst": 360,
+    "evolution_level": 36
+  },
+  "Dedenne": {
+    "types": [
+      "Electric",
+      "Fairy"
+    ],
+    "bst": 431,
+    "evolution_level": 43
+  },
+  "Tangrowth": {
+    "types": [
+      "Grass"
+    ],
+    "bst": 535,
+    "evolution_level": 53
+  },
+  "Pincurchin": {
+    "types": [
+      "Electric"
+    ],
+    "bst": 435,
+    "evolution_level": 43
+  },
+  "Dugtrio": {
+    "types": [
+      "Ground"
+    ],
+    "bst": 425,
+    "evolution_level": 42
+  },
+  "Umbreon": {
+    "types": [
+      "Dark"
+    ],
+    "bst": 525,
+    "evolution_level": 52
+  },
+  "Bombirdier": {
+    "types": [
+      "Flying",
+      "Dark"
+    ],
+    "bst": 485,
+    "evolution_level": 48
+  },
+  "Swoobat": {
+    "types": [
+      "Psychic",
+      "Flying"
+    ],
+    "bst": 425,
+    "evolution_level": 42
+  },
+  "Carracosta": {
+    "types": [
+      "Water",
+      "Rock"
+    ],
+    "bst": 495,
+    "evolution_level": 49
+  },
+  "Spinda": {
+    "types": [
+      "Normal"
+    ],
+    "bst": 360,
+    "evolution_level": 36
+  },
+  "Aurorus": {
+    "types": [
+      "Rock",
+      "Ice"
+    ],
+    "bst": 521,
+    "evolution_level": 52
+  },
+  "Masquerain": {
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "bst": 454,
+    "evolution_level": 45
+  },
+  "Zebstrika": {
+    "types": [
+      "Electric"
+    ],
+    "bst": 497,
+    "evolution_level": 49
+  },
+  "Furret": {
+    "types": [
+      "Normal"
+    ],
+    "bst": 415,
+    "evolution_level": 41
+  },
+  "Dhelmise": {
+    "types": [
+      "Ghost",
+      "Grass"
+    ],
+    "bst": 517,
+    "evolution_level": 51
+  },
+  "Beedrill": {
+    "types": [
+      "Bug",
+      "Poison"
+    ],
+    "bst": 395,
+    "evolution_level": 39
+  },
+  "Rillaboom": {
+    "types": [
+      "Grass"
+    ],
+    "bst": 530,
+    "evolution_level": 53
+  },
+  "Regice": {
+    "types": [
+      "Ice"
+    ],
+    "bst": 580,
+    "evolution_level": 58
+  },
+  "Mandibuzz": {
+    "types": [
+      "Dark",
+      "Flying"
+    ],
+    "bst": 510,
+    "evolution_level": 51
+  },
+  "Venusaur": {
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "bst": 525,
+    "evolution_level": 52
+  },
+  "Corsola": {
+    "types": [
+      "Water",
+      "Rock"
+    ],
+    "bst": 410,
+    "evolution_level": 41
+  },
+  "Malamar": {
+    "types": [
+      "Dark",
+      "Psychic"
+    ],
+    "bst": 482,
+    "evolution_level": 48
+  },
+  "Poliwag": {
+    "types": [
+      "Water"
+    ],
+    "bst": 300,
+    "evolution_level": 30
+  },
+  "Tinkaton": {
+    "types": [
+      "Fairy",
+      "Steel"
+    ],
+    "bst": 506,
+    "evolution_level": 50
+  },
+  "Politoed": {
+    "types": [
+      "Water"
+    ],
+    "bst": 500,
+    "evolution_level": 50
+  },
+  "Munkidori": {
+    "types": [
+      "Poison",
+      "Psychic"
+    ],
+    "bst": 555,
+    "evolution_level": 55
+  },
+  "Golurk": {
+    "types": [
+      "Ground",
+      "Ghost"
+    ],
+    "bst": 483,
+    "evolution_level": 48
+  },
+  "Rotomfr": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 520,
+    "evolution_level": 52
+  },
+  "Rotomfa": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 520,
+    "evolution_level": 52
+  },
+  "Pyroar": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 507,
+    "evolution_level": 50
+  },
+  "Ogerponw": {
+    "types": [
+      "Grass"
+    ],
+    "bst": 550,
+    "evolution_level": 55
+  },
+  "Golema": {
+    "types": [
+      "Rock",
+      "Electric"
+    ],
+    "bst": 495,
+    "evolution_level": 49
+  },
+  "Gengarm": {
+    "types": [
+      "Ghost",
+      "Poison"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "Gourgeistl": {
+    "types": [
+      "Ghost",
+      "Grass"
+    ],
+    "bst": 494,
+    "evolution_level": 49
+  },
+  "Blacphalon": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 570,
+    "evolution_level": 57
+  },
+  "Irontreads": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 570,
+    "evolution_level": 57
+  },
+  "Farfetch\u2019d": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 377,
+    "evolution_level": 37
+  },
+  "Maushold": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 470,
+    "evolution_level": 47
+  },
+  "Articunog": {
+    "types": [
+      "Psychic",
+      "Flying"
+    ],
+    "bst": 580,
+    "evolution_level": 58
+  },
+  "Ironbouldr": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 590,
+    "evolution_level": 59
+  },
+  "Taurospw": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 490,
+    "evolution_level": 49
+  },
+  "Samurotth": {
+    "types": [
+      "Water",
+      "Dark"
+    ],
+    "bst": 528,
+    "evolution_level": 52
+  },
+  "Castformi": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 420,
+    "evolution_level": 42
+  },
+  "Landorust": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "Toxtricity": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 502,
+    "evolution_level": 50
+  },
+  "Darmanitaz": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 540,
+    "evolution_level": 54
+  },
+  "Urshifu": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 550,
+    "evolution_level": 55
+  },
+  "Muka": {
+    "types": [
+      "Poison",
+      "Dark"
+    ],
+    "bst": 500,
+    "evolution_level": 50
+  },
+  "Qwilfishh": {
+    "types": [
+      "Dark",
+      "Poison"
+    ],
+    "bst": 440,
+    "evolution_level": 44
+  },
+  "Zoroarkh": {
+    "types": [
+      "Normal",
+      "Ghost"
+    ],
+    "bst": 510,
+    "evolution_level": 51
+  },
+  "Slowbrog": {
+    "types": [
+      "Poison",
+      "Psychic"
+    ],
+    "bst": 490,
+    "evolution_level": 49
+  },
+  "Lilliganth": {
+    "types": [
+      "Grass",
+      "Fighting"
+    ],
+    "bst": 480,
+    "evolution_level": 48
+  },
+  "Raichua": {
+    "types": [
+      "Electric",
+      "Psychic"
+    ],
+    "bst": 485,
+    "evolution_level": 48
+  },
+  "Indeedee": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 475,
+    "evolution_level": 47
+  },
+  "Medichamm": {
+    "types": [
+      "Fighting",
+      "Psychic"
+    ],
+    "bst": 510,
+    "evolution_level": 51
+  },
+  "Oricoriop": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 476,
+    "evolution_level": 47
+  },
+  "Ponytag": {
+    "types": [
+      "Psychic"
+    ],
+    "bst": 410,
+    "evolution_level": 41
+  },
+  "Oricorio": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 476,
+    "evolution_level": 47
+  },
+  "Lopunnym": {
+    "types": [
+      "Normal",
+      "Fighting"
+    ],
+    "bst": 580,
+    "evolution_level": 58
+  },
+  "Terapagost": {
+    "types": [
+      "Normal"
+    ],
+    "bst": 700,
+    "evolution_level": 70
+  },
+  "Sliggooh": {
+    "types": [
+      "Steel",
+      "Dragon"
+    ],
+    "bst": 452,
+    "evolution_level": 45
+  },
+  "Mawilem": {
+    "types": [
+      "Steel",
+      "Fairy"
+    ],
+    "bst": 480,
+    "evolution_level": 48
+  },
+  "Stunfiskg": {
+    "types": [
+      "Ground",
+      "Steel"
+    ],
+    "bst": 471,
+    "evolution_level": 47
+  },
+  "Manectricm": {
+    "types": [
+      "Electric"
+    ],
+    "bst": 575,
+    "evolution_level": 57
+  },
+  "Rotomm": {
+    "types": [
+      "Electric",
+      "Ghost"
+    ],
+    "bst": 520,
+    "evolution_level": 52
+  },
+  "Basculinb": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 460,
+    "evolution_level": 46
+  },
+  "Ogerponr": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 550,
+    "evolution_level": 55
+  },
+  "Wormadamt": {
+    "types": [
+      "Bug",
+      "Steel"
+    ],
+    "bst": 424,
+    "evolution_level": 42
+  },
+  "Cameruptm": {
+    "types": [
+      "Fire",
+      "Ground"
+    ],
+    "bst": 560,
+    "evolution_level": 56
+  },
+  "Indeedeef": {
+    "types": [
+      "Psychic",
+      "Normal"
+    ],
+    "bst": 475,
+    "evolution_level": 47
+  },
+  "Landorus": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "Heracrossm": {
+    "types": [
+      "Bug",
+      "Fighting"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "Screamtail": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 570,
+    "evolution_level": 57
+  },
+  "Gourgeist": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 494,
+    "evolution_level": 49
+  },
+  "Ironbundle": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 570,
+    "evolution_level": 57
+  },
+  "Meloetta": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "Wormadam": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 424,
+    "evolution_level": 42
+  },
+  "Lycanrocm": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 487,
+    "evolution_level": 48
+  },
+  "Tornadust": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 580,
+    "evolution_level": 58
+  },
+  "Fezandipti": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 555,
+    "evolution_level": 55
+  },
+  "Meowstic": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 466,
+    "evolution_level": 46
+  },
+  "Glaliem": {
+    "types": [
+      "Ice"
+    ],
+    "bst": 580,
+    "evolution_level": 58
+  },
+  "Thundurust": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 580,
+    "evolution_level": 58
+  },
+  "Gravelera": {
+    "types": [
+      "Rock",
+      "Electric"
+    ],
+    "bst": 390,
+    "evolution_level": 39
+  },
+  "Slithrwing": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 570,
+    "evolution_level": 57
+  },
+  "Kilowattrl": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 490,
+    "evolution_level": 49
+  },
+  "Walkinwake": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 590,
+    "evolution_level": 59
+  },
+  "Ironjuglis": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 570,
+    "evolution_level": 57
+  },
+  "Lycanrocd": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 487,
+    "evolution_level": 48
+  },
+  "Slowkingg": {
+    "types": [
+      "Poison",
+      "Psychic"
+    ],
+    "bst": 490,
+    "evolution_level": 49
+  },
+  "Linooneg": {
+    "types": [
+      "Dark",
+      "Normal"
+    ],
+    "bst": 420,
+    "evolution_level": 42
+  },
+  "Avaluggh": {
+    "types": [
+      "Ice",
+      "Rock"
+    ],
+    "bst": 514,
+    "evolution_level": 51
+  },
+  "Sableyem": {
+    "types": [
+      "Dark",
+      "Ghost"
+    ],
+    "bst": 480,
+    "evolution_level": 48
+  },
+  "Enamorust": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 580,
+    "evolution_level": 58
+  },
+  "Sandyshock": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 570,
+    "evolution_level": 57
+  },
+  "Castformw": {
+    "types": [
+      "Normal"
+    ],
+    "bst": 420,
+    "evolution_level": 42
+  },
+  "Minior": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 440,
+    "evolution_level": 44
+  },
+  "Meloettap": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "Roarinmoon": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 590,
+    "evolution_level": 59
+  },
+  "Poltegeist": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 508,
+    "evolution_level": 50
+  },
+  "Decidueyeh": {
+    "types": [
+      "Grass",
+      "Fighting"
+    ],
+    "bst": 530,
+    "evolution_level": 53
+  },
+  "Rotomw": {
+    "types": [
+      "Electric",
+      "Ghost"
+    ],
+    "bst": 520,
+    "evolution_level": 52
+  },
+  "Gourgeists": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 494,
+    "evolution_level": 49
+  },
+  "Abomasnowm": {
+    "types": [
+      "Grass",
+      "Ice"
+    ],
+    "bst": 594,
+    "evolution_level": 59
+  },
+  "Brutebonet": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 570,
+    "evolution_level": 57
+  },
+  "Exeggutora": {
+    "types": [
+      "Grass",
+      "Dragon"
+    ],
+    "bst": 530,
+    "evolution_level": 53
+  },
+  "Meowsticf": {
+    "types": [
+      "Psychic"
+    ],
+    "bst": 466,
+    "evolution_level": 46
+  },
+  "Typhlosioh": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 534,
+    "evolution_level": 53
+  },
+  "Basclegiof": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 530,
+    "evolution_level": 53
+  },
+  "Ninetalesa": {
+    "types": [
+      "Ice",
+      "Fairy"
+    ],
+    "bst": 505,
+    "evolution_level": 50
+  },
+  "Eiscue": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 470,
+    "evolution_level": 47
+  },
+  "Crabminble": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 478,
+    "evolution_level": 47
+  },
+  "Ironthorns": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 570,
+    "evolution_level": 57
+  },
+  "Bramblgast": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 480,
+    "evolution_level": 48
+  },
+  "Darmanitan": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 480,
+    "evolution_level": 48
+  },
+  "Sharpedom": {
+    "types": [
+      "Water",
+      "Dark"
+    ],
+    "bst": 560,
+    "evolution_level": 56
+  },
+  "Sirfetch\u2019d": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 507,
+    "evolution_level": 50
+  },
+  "Braviaryh": {
+    "types": [
+      "Psychic",
+      "Flying"
+    ],
+    "bst": 510,
+    "evolution_level": 51
+  },
+  "Tatsugiri": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 475,
+    "evolution_level": 47
+  },
+  "Stonjorner": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 470,
+    "evolution_level": 47
+  },
+  "Sneaselh": {
+    "types": [
+      "Fighting",
+      "Poison"
+    ],
+    "bst": 430,
+    "evolution_level": 43
+  },
+  "Zoruah": {
+    "types": [
+      "Normal",
+      "Ghost"
+    ],
+    "bst": 330,
+    "evolution_level": 33
+  },
+  "Meowscrada": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 530,
+    "evolution_level": 53
+  },
+  "Pidgeotm": {
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "bst": 579,
+    "evolution_level": 57
+  },
+  "Raticatea": {
+    "types": [
+      "Dark",
+      "Normal"
+    ],
+    "bst": 413,
+    "evolution_level": 41
+  },
+  "Oinkolognf": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 489,
+    "evolution_level": 48
+  },
+  "Urshifur": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 550,
+    "evolution_level": 55
+  },
+  "Dugtrioa": {
+    "types": [
+      "Ground",
+      "Steel"
+    ],
+    "bst": 425,
+    "evolution_level": 42
+  },
+  "Audinom": {
+    "types": [
+      "Normal",
+      "Fairy"
+    ],
+    "bst": 545,
+    "evolution_level": 54
+  },
+  "Oinkologne": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 489,
+    "evolution_level": 48
+  },
+  "Keldeo": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 580,
+    "evolution_level": 58
+  },
+  "Enamorus": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 580,
+    "evolution_level": 58
+  },
+  "Zygarde": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 486,
+    "evolution_level": 48
+  },
+  "Pinsirm": {
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "Arcanineh": {
+    "types": [
+      "Fire",
+      "Rock"
+    ],
+    "bst": 555,
+    "evolution_level": 55
+  },
+  "Basculinw": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 460,
+    "evolution_level": 46
+  },
+  "Zygarde10": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 486,
+    "evolution_level": 48
+  },
+  "Basculin": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 460,
+    "evolution_level": 46
+  },
+  "Miniorc": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 500,
+    "evolution_level": 50
+  },
+  "Squawkbily": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 417,
+    "evolution_level": 41
+  },
+  "Ironvalian": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 590,
+    "evolution_level": 59
+  },
+  "Lycanroc": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 487,
+    "evolution_level": 48
+  },
+  "Oricoriog": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 476,
+    "evolution_level": 47
+  },
+  "Palafin": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 650,
+    "evolution_level": 65
+  },
+  "Tornadus": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 580,
+    "evolution_level": 58
+  },
+  "Morpeko": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 436,
+    "evolution_level": 43
+  },
+  "Gourgeistx": {
+    "types": [
+      "Ghost",
+      "Grass"
+    ],
+    "bst": 494,
+    "evolution_level": 49
+  },
+  "Sandslasha": {
+    "types": [
+      "Ice",
+      "Steel"
+    ],
+    "bst": 450,
+    "evolution_level": 45
+  },
+  "Absolm": {
+    "types": [
+      "Dark"
+    ],
+    "bst": 565,
+    "evolution_level": 56
+  },
+  "Zapdosg": {
+    "types": [
+      "Fighting",
+      "Flying"
+    ],
+    "bst": 580,
+    "evolution_level": 58
+  },
+  "Ragingbolt": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 590,
+    "evolution_level": 59
+  },
+  "Type: Null": {
+    "types": [
+      "Normal"
+    ],
+    "bst": 534,
+    "evolution_level": 53
+  },
+  "Scizorm": {
+    "types": [
+      "Bug",
+      "Steel"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "Houndoomm": {
+    "types": [
+      "Dark",
+      "Fire"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "Morpekoh": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 436,
+    "evolution_level": 43
+  },
+  "Moltresg": {
+    "types": [
+      "Dark",
+      "Flying"
+    ],
+    "bst": 580,
+    "evolution_level": 58
+  },
+  "Electrodeh": {
+    "types": [
+      "Electric",
+      "Grass"
+    ],
+    "bst": 490,
+    "evolution_level": 49
+  },
+  "Wormadams": {
+    "types": [
+      "Bug",
+      "Ground"
+    ],
+    "bst": 424,
+    "evolution_level": 42
+  },
+  "Persiana": {
+    "types": [
+      "Dark"
+    ],
+    "bst": 440,
+    "evolution_level": 44
+  },
+  "Thundurus": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 580,
+    "evolution_level": 58
+  },
+  "Corvknight": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 495,
+    "evolution_level": 49
+  },
+  "Slowbrom": {
+    "types": [
+      "Water",
+      "Psychic"
+    ],
+    "bst": 590,
+    "evolution_level": 59
+  },
+  "Ursalunab": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 555,
+    "evolution_level": 55
+  },
+  "Fluttrmane": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 570,
+    "evolution_level": 57
+  },
+  "Goodrah": {
+    "types": [
+      "Steel",
+      "Dragon"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "Banettem": {
+    "types": [
+      "Ghost"
+    ],
+    "bst": 555,
+    "evolution_level": 55
+  },
+  "Jellicent": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 480,
+    "evolution_level": 48
+  },
+  "Altariam": {
+    "types": [
+      "Dragon",
+      "Fairy"
+    ],
+    "bst": 590,
+    "evolution_level": 59
+  },
+  "Baraskewda": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 490,
+    "evolution_level": 49
+  },
+  "Kangaskham": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 590,
+    "evolution_level": 59
+  },
+  "Beedrillm": {
+    "types": [
+      "Bug",
+      "Poison"
+    ],
+    "bst": 495,
+    "evolution_level": 49
+  },
+  "Weezingg": {
+    "types": [
+      "Poison",
+      "Fairy"
+    ],
+    "bst": 490,
+    "evolution_level": 49
+  },
+  "Aegislashb": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 500,
+    "evolution_level": 50
+  },
+  "Mimikyu": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 476,
+    "evolution_level": 47
+  },
+  "Mr. Mimeg": {
+    "types": [
+      "Ice",
+      "Psychic"
+    ],
+    "bst": 460,
+    "evolution_level": 46
+  },
+  "Centskorch": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 525,
+    "evolution_level": 52
+  },
+  "Basclegion": {
+    "types": [
+      "Unknown"
+    ],
+    "bst": 530,
+    "evolution_level": 53
+  },
+  "Rapidashg": {
+    "types": [
+      "Psychic",
+      "Fairy"
+    ],
+    "bst": 500,
+    "evolution_level": 50
+  },
+  "Toxtricitl": {
+    "bst": null,
+    "evolution_level": null
+  },
+  "Frosmoth": {
+    "bst": 475,
+    "evolution_level": 47
+  },
+  "Fearow": {
+    "bst": 442,
+    "evolution_level": 44
+  },
+  "Farigiraf": {
+    "bst": 520,
+    "evolution_level": 52
+  },
+  "Dudunsprce": {
+    "bst": null,
+    "evolution_level": null
+  },
+  "Dewgong": {
+    "bst": 475,
+    "evolution_level": 47
+  },
+  "Bruxish": {
+    "bst": 475,
+    "evolution_level": 47
+  },
+  "Drednaw": {
+    "bst": 485,
+    "evolution_level": 48
+  },
+  "Dracovish": {
+    "bst": 505,
+    "evolution_level": 50
+  },
+  "Arctovish": {
+    "bst": 505,
+    "evolution_level": 50
+  },
+  "Jumpluff": {
+    "bst": 460,
+    "evolution_level": 46
+  },
+  "Oricorioe": {
+    "bst": null,
+    "evolution_level": null
+  },
+  "Charjabug": {
+    "bst": 400,
+    "evolution_level": 40
+  },
+  "Girafarig": {
+    "bst": 455,
+    "evolution_level": 45
+  },
+  "Eeveep": {
+    "bst": 430,
+    "evolution_level": null
+  },
+  "Cherrim": {},
+  "Virizion": {
+    "bst": 580,
+    "evolution_level": 58
+  },
+  "Celebi": {
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "Shaymins": {
+    "bst": null,
+    "evolution_level": null
+  },
+  "Shaymin": {
+    "bst": null,
+    "evolution_level": null
+  },
+  "Ironleaves": {
+    "bst": null,
+    "evolution_level": null
+  },
+  "Cherrims": {
+    "bst": null,
+    "evolution_level": null
+  },
+  "Ogerponf": {
+    "bst": null,
+    "evolution_level": null
+  },
+  "Palossand": {
+    "bst": 480,
+    "evolution_level": 48
+  },
+  "Garchomp": {
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "Rotomh": {
+    "bst": null,
+    "evolution_level": null
+  },
+  "Delibird": {
+    "bst": 330
+  },
+  "Eiscuen": {
+    "bst": null,
+    "evolution_level": null
+  },
+  "Ditto": {
+    "bst": 288
+  },
+  "Lickitung": {
+    "bst": 385,
+    "evolution_level": 38
+  },
+  "Dustox": {
+    "bst": 385
+  },
+  "Gigalith": {
+    "bst": 515,
+    "evolution_level": 51
+  },
+  "Kricketune": {
+    "bst": 384
+  },
+  "Luvdisc": {
+    "bst": 330
+  },
+  "Croconaw": {
+    "bst": 405,
+    "evolution_level": 40
+  },
+  "Magcargo": {
+    "bst": 430
+  },
+  "Darmanitzg": {
+    "bst": null,
+    "evolution_level": null
+  },
+  "Taurospf": {
+    "bst": null,
+    "evolution_level": null
+  },
+  "Klang": {
+    "bst": 440,
+    "evolution_level": 44
+  },
+  "Bisharp": {
+    "bst": 490,
+    "evolution_level": 49
+  },
+  "Copperajah": {
+    "bst": 500,
+    "evolution_level": 50
+  },
+  "Bronzong": {
+    "bst": 500,
+    "evolution_level": 50
+  },
+  "Aegislash": {
+    "bst": null,
+    "evolution_level": null
+  },
+  "Taurosp": {
+    "bst": null,
+    "evolution_level": null
+  },
+  "Meltan": {
+    "bst": 300
+  },
+  "Pikachup": {
+    "bst": 430,
+    "evolution_level": null
+  },
+  "Pikachuc": {
+    "bst": 320,
+    "types": [
+      "Electric"
+    ],
+    "evolution_level": 32
+  },
+  "Shiinotic": {
+    "bst": 405
+  },
+  "Smeargle": {
+    "bst": 250
+  },
+  "Deerling": {
+    "bst": 335,
+    "evolution_level": 33
+  },
+  "Sunflora": {
+    "bst": 425
+  },
+  "Unown": {
+    "bst": 336
+  },
+  "Wishiwashi": {},
+  "Barboach": {
+    "bst": 288,
+    "evolution_level": 28
+  },
+  "Castformf": {
+    "bst": 420
+  },
+  "Corsolag": {
+    "bst": 410
+  },
+  "Darumakag": {
+    "bst": 315
+  },
+  "Digletta": {
+    "bst": 265
+  },
+  "Frillish": {
+    "bst": 335
+  },
+  "Geodudea": {
+    "bst": 300,
+    "types": [
+      "Rock",
+      "Electric"
+    ],
+    "evolution_level": 30
+  },
+  "Grimera": {
+    "bst": 325
+  },
+  "Growlitheh": {
+    "bst": 350
+  },
+  "Marowaka": {
+    "bst": 425
+  },
+  "Meowtha": {
+    "bst": 290
+  },
+  "Meowthg": {
+    "bst": 290
+  },
+  "Pichus": {
+    "bst": 205
+  },
+  "Tynamo": {
+    "bst": 275,
+    "types": [
+      "Electric"
+    ],
+    "evolution_level": 27
+  },
+  "Mareep": {
+    "bst": 280,
+    "types": [
+      "Electric"
+    ],
+    "evolution_level": 28
+  },
+  "Wattrel": {
+    "bst": 280,
+    "types": [
+      "Electric",
+      "Flying"
+    ],
+    "evolution_level": 28
+  },
+  "Helioptile": {
+    "bst": 289,
+    "types": [
+      "Electric",
+      "Normal"
+    ],
+    "evolution_level": 28
+  },
+  "Blitzle": {
+    "bst": 295,
+    "types": [
+      "Electric"
+    ],
+    "evolution_level": 29
+  },
+  "Electrike": {
+    "bst": 295,
+    "types": [
+      "Electric"
+    ],
+    "evolution_level": 29
+  },
+  "Joltik": {
+    "bst": 319,
+    "types": [
+      "Bug",
+      "Electric"
+    ],
+    "evolution_level": 31
+  },
+  "Pikachu": {
+    "bst": 320,
+    "types": [
+      "Electric"
+    ],
+    "evolution_level": 32
+  },
+  "Chinchou": {
+    "bst": 330,
+    "types": [
+      "Water",
+      "Electric"
+    ],
+    "evolution_level": 33
+  },
+  "Voltorb": {
+    "bst": 330,
+    "types": [
+      "Electric"
+    ],
+    "evolution_level": 33
+  },
+  "Voltorbh": {
+    "bst": 330,
+    "types": [
+      "Electric",
+      "Grass"
+    ],
+    "evolution_level": 33
+  },
+  "Pumpkaboo": {
+    "bst": 335
+  },
+  "Pumpkabool": {
+    "bst": 335
+  },
+  "Pumpkaboos": {
+    "bst": 335
+  },
+  "Pumpkaboox": {
+    "bst": 335
+  },
+  "Rattataa": {
+    "bst": 253
+  },
+  "Sandshrewa": {
+    "bst": 300
+  },
+  "Slowpokeg": {
+    "bst": 315
+  },
+  "Vulpixa": {
+    "bst": 299
+  },
+  "Wooperp": {
+    "bst": 210
+  },
+  "Yamaskg": {
+    "bst": 303
+  },
+  "Zigzagoong": {
+    "bst": 240
+  }
+}

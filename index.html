@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Roguemon BST/10 Evo Calculator</title>
+  <meta name="description" content="Calculate evolution outcomes for Roguemon BST/10 mode.">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script data-goatcounter="https://bemidge11.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+  <style>
+    :root {
+      --bg: #020617; --panel: #0a0f1e; --card: #0f172a; --card-hover: #1a2540;
+      --accent: #38bdf8; --accent-2: #22c55e; --text: #e5e7eb; --muted: #9ca3af;
+      --border: #1e293b; --glow: rgba(56, 189, 248, 0.08);
+    }
+    * { box-sizing: border-box; font-family: Inter, sans-serif; margin: 0; }
+    body { padding: 2rem; background: var(--bg); color: var(--text); min-height: 100vh; }
+    .header { text-align: center; margin-bottom: 2.5rem; }
+    .header h1 { font-size: 2rem; font-weight: 800; background: linear-gradient(135deg, #fff 0%, #94a3b8 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    .app { 
+      display: grid; 
+      grid-template-columns: 480px 1fr; 
+      gap: 2.5rem; 
+      max-width: 1600px; 
+      margin: 0 auto; 
+    }
+    .panel { background: var(--panel); border-radius: 20px; border: 1px solid var(--border); overflow: hidden; display: flex; flex-direction: column; }
+    .sidebar { padding: 1.5rem; display: flex; flex-direction: column; gap: 1.5rem; }
+    /* === SEARCH & SUGGESTIONS === */
+    .search-section {
+      position: relative;
+    }
+
+    .suggestions-box {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background: rgba(15, 23, 42, 0.95);
+      backdrop-filter: blur(12px);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      margin-top: 0.5rem;
+      max-height: 400px;
+      overflow-y: auto;
+      z-index: 1000;
+      box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+    }
+
+    .suggestion-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.85rem 1.25rem;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+    .suggestion-item:last-child {
+      border-bottom: none;
+    }
+
+    .suggestion-item:hover {
+      background: rgba(56, 189, 248, 0.15);
+      padding-left: 1.5rem;
+    }
+
+    .suggestion-item span {
+      font-weight: 600;
+      font-size: 0.95rem;
+    }
+
+    .bst-badge {
+      font-size: 0.75rem;
+      font-weight: 800;
+      background: rgba(56, 189, 248, 0.2);
+      color: var(--accent);
+      padding: 0.25rem 0.6rem;
+      border-radius: 6px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .level-select { display: flex; align-items: center; gap: 1rem; }
+    .level-pills { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1rem; }
+    .level-pill { padding: 0.4rem 0.8rem; background: var(--card); border: 1px solid var(--border); border-radius: 8px; font-size: 0.85rem; font-weight: 600; cursor: pointer; transition: all 0.2s; color: var(--muted); }
+    .level-pill.active { background: var(--accent); color: #020617; }
+    input {
+      width: 100%;
+      background: rgba(15, 23, 42, 0.6);
+      backdrop-filter: blur(8px);
+      color: var(--text);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 0.85rem 1.1rem;
+      font-size: 1rem;
+      transition: all 0.2s ease;
+      outline: none;
+      box-shadow: inset 0 2px 4px rgba(0,0,0,0.1);
+    }
+    input:focus {
+      border-color: var(--accent);
+      background: rgba(15, 23, 42, 0.8);
+      box-shadow: 0 0 0 4px var(--glow), inset 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .level-pill.disabled { opacity: 0.3; pointer-events: none; }
+    .results-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; padding: 0.75rem; background: rgba(15,23,42,0.4); border-radius: 10px; border: 1px solid var(--border); }
+    .stat-box { display: flex; flex-direction: column; gap: 0.2rem; }
+    .stat-box .label { font-size: 0.65rem; text-transform: uppercase; color: var(--muted); }
+    .stat-box .value { font-size: 1.1rem; font-weight: 700; color: var(--stat-color); }
+    .results { display: flex; flex-direction: column; gap: 0.75rem; padding: 1.5rem; background: rgba(15,23,42,0.2); flex: 1; overflow-y: auto; }
+    .evo-card { display: flex; align-items: center; gap: 1.25rem; padding: 0.85rem 1.25rem; background: var(--card); border: 1px solid var(--border); border-radius: 12px; transition: all 0.2s; }
+    .evo-sprite { width: 44px; height: 44px; image-rendering: pixelated; }
+    .evo-name { font-weight: 600; font-size: 0.95rem; }
+    .type-badge { display: inline-block; padding: 0.1rem 0.4rem; border-radius: 4px; font-size: 0.6rem; font-weight: 700; color: #fff; margin-right: 0.2rem; }
+    .type-fire { background: #e62829; } .type-water { background: #2980ef; } .type-grass { background: #3fa129; }
+    .bar { flex: 1; height: 8px; background: #1a2235; border-radius: 999px; overflow: hidden; }
+    .bar-fill { height: 100%; background: var(--accent); transition: width 0.3s; }
+    .stats-panel {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+    .chart-container {
+      background: var(--card);
+      border-radius: 14px;
+      padding: 1.5rem;
+      border: 1px solid var(--border);
+    }
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      font-size: 0.75rem;
+      color: var(--muted);
+    }
+    .legend-color {
+      width: 10px;
+      height: 10px;
+      border-radius: 2px;
+      flex-shrink: 0;
+    }
+    .type-chart-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1.5rem;
+    }
+    #typeChart {
+      max-width: 300px !important;
+      max-height: 300px !important;
+    }
+    .custom-legend {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+      gap: 0.6rem 1rem;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>Roguemon BST/10 Evo Calculator</h1>
+    <div class="credit" style="margin-top: 0.5rem; font-size: 0.9rem; color: var(--muted);">Created by <a href="https://www.twitch.tv/bemidgegaming" target="_blank" style="color: var(--accent); text-decoration: none; font-weight: 600;">BeMidgeGaming</a></div>
+  </div>
+  <div class="app">
+    <div class="panel">
+      <div class="sidebar">
+        <div class="search-section">
+          <input type="text" id="pokemonInput" placeholder="Search Pokémon..." autocomplete="off" />
+          <div id="suggestions" class="suggestions-box" hidden></div>
+        </div>
+        <div id="starterInfo"></div>
+        <div class="level-select"><label style="font-weight: 600; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted);">Current Level</label><input type="number" id="currentLevel" value="5" min="1" max="100" style="width: 70px;"/></div>
+        <div id="levels" class="level-pills"></div>
+      </div>
+      <div class="results-header" id="resultMeta" hidden></div>
+      <div id="results" class="results"><div class="empty-state">🔍 Select a Pokémon to see evolution outcomes.</div></div>
+    </div>
+    <div class="stats-panel">
+      <div class="chart-container"><h2>Evolution Level Distribution</h2><canvas id="evoChart"></canvas></div>
+      <div class="chart-container"><h2>Type Combination Chances</h2><div class="type-chart-wrapper"><canvas id="typeChart"></canvas><div id="typeLegend" class="custom-legend"></div></div></div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

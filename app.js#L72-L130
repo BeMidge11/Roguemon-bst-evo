@@ -1,0 +1,54 @@
+function toSpriteSlug(name) {
+  const SPRITE_ALIASES = {
+    "farfetch\u2019d": "farfetchd", "sirfetch\u2019d": "sirfetchd", "mr. mime": "mr-mime",
+    "mr. rime": "mr-rime", "mime jr.": "mime-jr", "type: null": "type-null",
+    "nidoran\u2642": "nidoran-m", "nidoran\u2640": "nidoran-f", "porygon-z": "porygon-z",
+    "ironvalian": "iron-valiant", "fluttrmane": "flutter-mane", "ironbundle": "iron-bundle",
+    "ironjuglis": "iron-jugulis", "ironmoth": "iron-moth", "ironthorns": "iron-thorns",
+    "irontreads": "iron-treads", "ironleaves": "iron-leaves", "ironbouldr": "iron-boulder",
+    "ironcrown": "iron-crown", "screamtail": "scream-tail", "greattusk": "great-tusk",
+    "slithrwing": "slither-wing", "brutebonet": "brute-bonnet", "sandyshock": "sandy-shocks",
+    "roarinmoon": "roaring-moon", "walkinwake": "walking-wake", "ragingbolt": "raging-bolt",
+    "gouginfire": "gouging-fire", "enamorust": "enamorus-therian", "floettee": "floette",
+    "ursalunab": "ursaluna-bloodmoon", "maushold": "maushold", "dudunsprce": "dudunsparce",
+    "basclegion": "basculegion", "basclegiof": "basculegion-female", "enamorus": "enamorus-incarnate",
+    "thundurus": "thundurus-incarnate", "landorus": "landorus-incarnate", "tornadus": "tornadus-incarnate",
+    "enamorust": "enamorus-therian", "thundurust": "thundurus-therian", "landorust": "landorus-therian",
+    "tornadust": "tornadus-therian", "oricoriog": "oricorio-sensu", "oricorioe": "oricorio-pom-pom",
+    "oricoriop": "oricorio-pau", "oricorio": "oricorio-baile", "toxtricitl": "toxtricity-low-key",
+    "toxtricity": "toxtricity-amped", "lycanrocd": "lycanroc-dusk", "lycanrocm": "lycanroc-midnight",
+    "lycanroc": "lycanroc", "wishiwashi": "wishiwashi-solo", "mimikyu": "mimikyu-disguised",
+    "minior": "minior-red", "miniorcore": "minior-red", "minior-meteor": "minior"
+  };
+
+  let slug = name.toLowerCase().trim()
+    .replace(/\s+/g, "-")
+    .replace(/[.''\u2019:]/g, "")
+    .replace(/\d+$/, "");
+
+  // Priority 1: Direct Name Match
+  if (SPRITE_ALIASES[name.toLowerCase()]) return SPRITE_ALIASES[name.toLowerCase()];
+  
+  // Priority 2: Regional Suffixes
+  if (slug.endsWith('a') && slug.length > 3) {
+    const base = slug.slice(0, -1);
+    if (["raticate", "rattata", "raichu", "sandshrew", "sandslash", "vulpix", "ninetales", "diglett", "dugtrio", "meowth", "persian", "geodude", "graveler", "golem", "grimer", "muk", "exeggutor", "marowak"].includes(base)) return base + "-alola";
+  }
+  if (slug.endsWith('g') && slug.length > 3) {
+    const base = slug.slice(0, -1);
+    if (["meowth", "ponyta", "rapidash", "farfetchd", "weezing", "mrmime", "corsola", "zigzagoon", "linoone", "darumaka", "darmanitan", "yamask", "stunfisk", "slowpoke", "slowbro", "slowking", "articuno", "zapdos", "moltres"].includes(base)) return base + "-galar";
+  }
+  if (slug.endsWith('h') && slug.length > 3) {
+    const base = slug.slice(0, -1);
+    if (["growlithe", "arcanine", "voltorb", "electrode", "typhlosion", "qwilfish", "sneasel", "samurott", "lilligant", "basculin", "zorua", "zoroark", "braviary", "sliggoo", "goodra", "avalugg", "decidueye", "overqwil", "sneasler", "kleavor"].includes(base)) return base + "-hisui";
+  }
+  if (slug.endsWith('p') && slug.length > 3) {
+    const base = slug.slice(0, -1);
+    if (["wooper", "tauros"].includes(base)) return base + "-paldea";
+  }
+
+  // Priority 3: Slug-based Alias Match
+  if (SPRITE_ALIASES[slug]) return SPRITE_ALIASES[slug];
+
+  return slug;
+}

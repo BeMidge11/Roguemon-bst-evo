@@ -1,0 +1,1490 @@
+[
+  {
+    "name": "Charcadet",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Charmander",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Chimchar",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Cyndaquil",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Darumaka",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Fennekin",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Fuecoco",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Growlithe",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Growlithe H",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Houndour",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Larvesta",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Litleo",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Litten",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Magby",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Numel",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Pansear",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Ponyta",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Salandit",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Scorbunny",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Sizzlipede",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Slugma",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Tepig",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Torchic",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Vulpix",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Arrokuda",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Barboach",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Basculin W",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Binacle",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Buizel",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Carvanha",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Chewtle",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Chinchou",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Clamperl",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Clauncher",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Corphish",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Corsola",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Dewpider",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Ducklett",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Feebas",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Finizen",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Finneon",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Frillish",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Froakie",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Goldeen",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Horsea",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Kabuto",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Krabby",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Lotad",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Luvdisc",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Magikarp",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Mantyke",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Mareanie",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Mudkip",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Omanyte",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Oshawott",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Panpour",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Piplup",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Poliwag",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Popplio",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Psyduck",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Pyukumuku",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Quaxly",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Remoraid",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Seel",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Shellder",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Shellos",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Skrelp",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Slowpoke",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Sobble",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Spheal",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Squirtle",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Staryu",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Surskit",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Tentacool",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Tirtouga",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Totodile",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Tympole",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Wailmer",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Wiglett",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Wimpod",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Wingull",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Wishiwashi",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Wooper",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Applin",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Bellsprout",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Bounsweet",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Bramblin",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Budew",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Bulbasaur",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Cacnea",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Capsakid",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Cherubi",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Chespin",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Chikorita",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Cottonee",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Deerling",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Exeggcute",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Ferroseed",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Fomantis",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Foongus",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Gossifleur",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Grookey",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Hoppip",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Lileep",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Morelull",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Oddish",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Pansage",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Paras",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Petilil",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Phantump",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Polchgeist",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Pumpkaboo",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "PumpkabooS",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "PumpkabooL",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "PumpkabooX",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Rowlet",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Seedot",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Sewaddle",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Shroomish",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Skiddo",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Smoliv",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Snivy",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Snover",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Sprigatito",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Sunkern",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Tangela",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Toedscool",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Treecko",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Turtwig",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Voltorb H",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Poochyena",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Impidimp",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Maschiff",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Rattata A",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Murkrow",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Inkay",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Sneasel",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Grimer A",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Nickit",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Purrloin",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Zigzagoon G",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Scraggy",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Pawniard",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Sandile",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Meowth A",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Vullaby",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Deino",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Qwilfish H",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Sableye",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Zorua",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Anorith",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Blipbug",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Burmy",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Caterpie",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Combee",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Cutiefly",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Dwebble",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Grubbin",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Joltik",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Karrablast",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Kricketot",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Ledyba",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Nincada",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Nymble",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Pineco",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Rellor",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Scatterbug",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Shelmet",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Skorupi",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Snom",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Spinarak",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Tarountula",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Venipede",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Venonat",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Weedle",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Wurmple",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Yanma",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Axew",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Bagon",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Dratini",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Dreepy",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Frigibax",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Gible",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Goomy",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Jangmo-o",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Noibat",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Tyrunt",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Blitzle",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Electrike",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Elekid",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Geodude A",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Helioptile",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Magnemite",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Mareep",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Minun",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Pachirisu",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Pawmi",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Pichu",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Pikachu C",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Plusle",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Shinx",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Tadbulb",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Toxel",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Tynamo",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Voltorb",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Wattrel",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Yamper",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Azurill",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Cleffa",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Fidough",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Flabebe",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Igglybuff",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Mawile",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Milcery",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Mime Jr",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Ralts",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Snubbull",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Spritzee",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Swirlix",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Tinkatink",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Togepi",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Archen",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Delibird",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Doduo",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Drifloon",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Fletchling",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Gligar",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Hoothoot",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Natu",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Pidgey",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Pidove",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Pikipek",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Rookidee",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Rufflet",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Spearow",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Starly",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Swablu",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Taillow",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Woobat",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Zubat",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Clobbopus",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Crabrawler",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Croagunk",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Farfetchd G",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Kubfu",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Machop",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Makuhita",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Mankey",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Meditite",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Mienfoo",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Pancham",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Riolu",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Sneasel H",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Stufful",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Timburr",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Tyrogue",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Corsola G",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Duskull",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Gastly",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Gimmighoul",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "GimmighoulR",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Golett",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Greavard",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Honedge",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Litwick",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Misdreavus",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Sandygast",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Shuppet",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Sinistea",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Yamask",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Yamask G",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Zorua H",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Baltoy",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Cubone",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Diglett",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Diglett A",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Drilbur",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Geodude",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Hippopotas",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Larvitar",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Mudbray",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Onix",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Phanpy",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Rhyhorn",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Sandshrew",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Silicobra",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Swinub",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Trapinch",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Wooper P",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Amaura",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Bergmite",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Cetoddle",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Cubchoo",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Darumaka G",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Sandshrew A",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Smoochum",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Snorunt",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Vanillite",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Vulpix A",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Aipom",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Bidoof",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Buneary",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Bunnelby",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Ditto",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Dunsparce",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Eevee",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Girafarig",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Glameow",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Happiny",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Lechonk",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Lickitung",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Lillipup",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Meowth",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Minccino",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Munchlax",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Patrat",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Porygon",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Rattata",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Sentret",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Shroodle",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Skitty",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Skwovet",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Slakoth",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Smeargle",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Spinda",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Stantler",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Tandemaus",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Teddiursa",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Whismur",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Wooloo",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Yungoos",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Zigzagoon",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Ekans",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Glimmet",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Grimer",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Gulpin",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Koffing",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Poipole",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Stunky",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Trubbish",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Varoom",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Abra",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Beldum",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Bronzor",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Chingling",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Cosmog",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Drowzee",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Elgyem",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Espurr",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Flittle",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Gothita",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Hatenna",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Munna",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Ponyta G",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Slowpoke G",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Solosis",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Spoink",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Wynaut",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Aron",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Bonsly",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Cranidos",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Nacli",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Nosepass",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Rockruff",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Roggenrola",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Rolycoly",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Shieldon",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Cufant",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Klink",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Meltan",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Meowth G",
+    "type_sheet": "Starter"
+  },
+  {
+    "name": "Farfetch'd",
+    "type_sheet": "Starter"
+  }
+]

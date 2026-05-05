@@ -1,0 +1,1393 @@
+
+
+import re
+import json
+import requests
+import time
+import unicodedata
+from functools import lru_cache
+import os
+
+# Prevent SSL keylog permission issues on Windows
+os.environ.pop("SSLKEYLOGFILE", None)
+
+# =========================
+# CONFIG
+# =========================
+
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+EVO_FILE = os.path.join(SCRIPT_DIR, "revo12000.txt")
+OUTPUT_FILE = os.path.join(SCRIPT_DIR, "random_bst_evolutions.json")
+OVERRIDE_FILE = os.path.join(SCRIPT_DIR, "bst_overrides.json")
+FAILED_LOOKUPS_FILE = os.path.join(SCRIPT_DIR, "failed_lookups.json")
+ALIASES_FILE = os.path.join(SCRIPT_DIR, "name_aliases.json")
+COVERAGE_THRESHOLD = float(os.environ.get("BST_EVO_COVERAGE_THRESHOLD", "0.85"))
+
+TOTAL_RUNS = 12000
+BST_LIMIT = 450
+POKEAPI = "https://pokeapi.co/api/v2"
+
+# =========================
+# STATS / TIMING
+# =========================
+
+STATS = {
+    "starters_seen": 0,
+    "starters_kept": 0,
+    "bst_lookups": 0,
+    "lookup_attempts": 0,
+    "lookup_successes": 0,
+    "failed_starters": [],
+    "failed_evolutions": {},
+}
+
+# =========================
+# LOAD OVERRIDES
+# =========================
+
+with open(OVERRIDE_FILE, "r", encoding="utf-8") as f:
+    OVERRIDES = json.load(f)
+
+FORCE_BST_STARTERS = {
+    name.lower() for name in OVERRIDES.get("force_bst_starter", [])
+}
+
+# =========================
+# FORCED BST/10 STARTERS
+# =========================
+
+FORCED_STARTERS = {
+    "Pikachup": 430,  # Starter Pikachu
+    "Eeveep": 430,    # Starter Eevee
+    "Pichus": 205     # Spiky-eared Pichu
+}
+
+# Regional forms that evolve (should be skipped as starters)
+REGIONAL_EVOLVERS = [
+    # Hisui forms that evolve
+    "Qwilfishh", "Sneaselh", "Growlitheh", "Voltorbh", "Zoruah",
+    # Galar forms that evolve
+    "Farfetchdg", "Linooneg", "Sliggooh", "Meowthg", "Ponytag",
+    "Slowpokeg", "Corsolag", "Darumakag", "Yamaskg", "Zigzagoong",
+    # Alola forms that evolve
+    "Vulpixa", "Sandshrewa", "Geodudea", "Grimera", "Meowtha",
+    "Digletta", "Rattataa",
+    # Paldea forms that evolve
+    "Wooperp",
+    # Standard forms already handled by vanilla evo check
+    "Bisharp",
+]
+
+# Pokémon that are final forms in standard but have a regional evolution (keep as starters)
+TERMINAL_WHIELIST = ["Linoone", "Qwilfish", "Farfetchd", "Farfetch\u2019d", "Sliggoo", "Bisharp"]
+
+# =========================
+# NAME ALIASES (COMPREHENSIVE)
+# =========================
+
+# Load discovered aliases if they exist
+DISCOVERED_ALIASES_FILE = os.path.join(SCRIPT_DIR, "discovered_aliases.json")
+DISCOVERED_ALIASES = {}
+if os.path.exists(DISCOVERED_ALIASES_FILE):
+    try:
+        with open(DISCOVERED_ALIASES_FILE, "r", encoding="utf-8") as f:
+            DISCOVERED_ALIASES = json.load(f)
+    except:
+        pass
+
+LEGACY_NAME_ALIASES = {
+    # Regional Forms & Megas
+    "Kangaskham": "kangaskhan-mega",
+    "Lopunnym": "lopunny-mega",
+    "Pidgeotm": "pidgeot-mega",
+    "Audinom": "audino-mega",
+    "Mawilem": "mawile-mega",
+    "Growlitheh": "growlithe-hisui",
+    "Zoroarkh": "zoroark-hisui",
+    "Braviaryh": "braviary-hisui",
+    "Electrodeh": "electrode-hisui",
+    "Dudunsprce": "dudunsparce",
+    "Squawkbily": "squawkabilly-blue-plumage",
+    "Miniorc": "minior-red-meteor",
+    "Golema": "golem-alola",
+    "Meowsticf": "meowstic",
+    "Abomasnowm": "abomasnow-mega",
+    "Absolutm": "absol-mega",
+    "Absolm": "absol-mega",
+    "Acidictm": "acid-mega",
+    "Alakazamm": "alakazam-mega",
+    "Altariam": "altaria-mega",
+    "Ampharosm": "ampharos-mega",
+    "Arctibaxm": "arctibax-mega",
+    "Arcunonog": "articuno-galar",
+    "Articunog": "articuno-galar",
+    "Abomasnow": "abomasnow",
+    "Abomasnowm": "abomasnow-mega",
+    "Aerodactylm": "aerodactyl-mega",
+    "Aggronm": "aggron-mega",
+    "Alakazam": "alakazam",
+    "Alakazamm": "alakazam-mega",
+    "Altaria": "altaria",
+    "Altariam": "altaria-mega",
+    "Ampharos": "ampharos",
+    "Ampharosm": "ampharos-mega",
+    "Arcanine": "arcanine",
+    "Arcanineh": "arcanine-hisui",
+    "Arcaninea": "arcanine-alola",
+    "Araquanid": "araquanid",
+    "Articuno": "articuno",
+    "Articunog": "articuno-galar",
+    "Banette": "banette",
+    "Banettem": "banette-mega",
+    "Basculin": "basculin",
+    "Basculinb": "basculin-blue-striped",
+    "Basculinw": "basculin-white-striped",
+    "Beedrillm": "beedrill-mega",
+    "Blastoisem": "blastoise-mega",
+    "Braviaryh": "braviary-hisui",
+    "Cameruptm": "camerupt-mega",
+    "Cameruptm": "camerupt-mega",
+    "Centskorch": "centiskorch",
+    "Charcadet": "charcadet",
+    "Ceruledge": "ceruledge",
+    "Charizardm": "charizard-mega-x",
+    "Charizardy": "charizard-mega-y",
+    "Cherrims": "cherrim",
+    "Cherubis": "cherubi",
+    "Chien-Pao": "chien-pao",
+    "Chi-Yu": "chi-yu",
+    "Cinccino": "cinccino",
+    "Corsola": "corsola",
+    "Corsolag": "corsola-galar",
+    "Darmanitan": "darmanitan",
+    "Darmanitag": "darmanitan-galar",
+    "Darmanitaz": "darmanitan-zen",
+    "Darmanitazg": "darmanitan-galar-zen",
+    "Decidueye": "decidueye",
+    "Decidueyeh": "decidueye-hisui",
+    "Deoxys": "deoxys",
+    "Deoxyss": "deoxys-speed",
+    "Deoxysa": "deoxys-attack",
+    "Deoxysd": "deoxys-defense",
+    "Diarcie": "diancie",
+    "Digletta": "diglett-alola",
+    "Ditto": "ditto",
+    "Dugtrioa": "dugtrio-alola",
+    "Eiscuen": "eiscue",
+    "Enamorust": "enamorus-therian",
+    "Enamorus": "enamorus-therian",
+    "Electrodeh": "electrode-hisui",
+    "Exeggutoram": "exeggutor-alola",
+    "Exeggutora": "exeggutor-alola",
+    "Flabébé": "flabebe",
+    "Fezandipti": "fezandipiti",
+    "Florges": "florges",
+    "Galatiam": "gallade-mega",
+    "Galopidesm": "gallade-mega",
+    "Garbodorm": "garbodor-mega",
+    "Gardevoir": "gardevoir",
+    "Gardevoirm": "gardevoir-mega",
+    "Garlacier": "gardevoir",
+    "Gastrodon": "gastrodon",
+    "Gengarm": "gengar-mega",
+    "Geodudea": "geodude-alola",
+    "Gigaformm": "gigantamax",
+    "Gimmighour": "gimmighoul",
+    "Glaliem": "glalie-mega",
+    "Glastrier": "glastrier",
+    "Glelier": "glalie-mega",
+    "Glebotom": "gloom",
+    "Glimmom": "glimmet-form",
+    "Golema": "golem-alola",
+    "Golemga": "golem-galar",
+    "Goodrah": "goodra-hisui",
+    "Goresbyss": "gorebyss",
+    "Gossifleur": "gossifleur",
+    "Gravitez": "graveler",
+    "Gravelera": "graveler-alola",
+    "Great Tusk": "great-tusk",
+    "Grimmsnarl": "grimmsnarl",
+    "Grimer": "grimer",
+    "Grimera": "grimer-alola",
+    "Grovyle": "grovyle",
+    "Growlithe": "growlithe",
+    "Growlitheh": "growlithe-hisui",
+    "Growtheath": "growlithe-hisui",
+    "Grumpig": "grumpig",
+    "Guzzlord": "guzzlord",
+    "Hakamo-O": "hakamo-o",
+    "Happiny": "happiny",
+    "Hatterene": "hatterene",
+    "Hattrem": "hattrem",
+    "Haxorus": "haxorus",
+    "Heatran": "heatran",
+    "Heracrossm": "heracross-mega",
+    "Heracross": "heracross",
+    "Hitmonchan": "hitmonchan",
+    "Hitmonlee": "hitmonlee",
+    "Hitmontop": "hitmontop",
+    "Honchkrow": "honchkrow",
+    "Hoopa": "hoopa",
+    "Houndoomm": "houndoom-mega",
+    "Houndstone": "houndstone",
+    "Hydreigon": "hydreigon",
+    "Hypno": "hypno",
+    "Iron Crown": "iron-crown",
+    "Iron Hands": "iron-hands",
+    "Iron Moth": "iron-moth",
+    "Iron Bundle": "iron-bundle",
+    "Ironbouldr": "iron-boulder",
+    "Ironbundle": "iron-bundle",
+    "Ironjuglis": "iron-jugulis",
+    "Ironleaves": "iron-leaves",
+    "Ironsmither": "iron-moth",
+    "Ironthorns": "iron-thorns",
+    "Irontreads": "iron-treads",
+    "Ironvalian": "iron-valiant",
+    "Jirachi": "jirachi",
+    "Kartana": "kartana",
+    "Kangaskhan": "kangaskhan",
+    "Kangaskham": "kangaskhan-mega",
+    "Kecleon": "kecleon",
+    "Keldeo": "keldeo-resolute",
+    "Kingambit": "kingambit",
+    "Kingler": "kingler",
+    "Kingdra": "kingdra",
+    "Klawf": "klawf",
+    "Klefki": "klefki",
+    "Klinklang": "klinklang",
+    "Komala": "komala",
+    "Kommo-O": "kommo-o",
+    "Krookodile": "krookodile",
+    "Krokorok": "krokorok",
+    "Landorus": "landorus-therian",
+    "Landorust": "landorus-therian",
+    "Lanturn": "lanturn",
+    "Latias": "latias",
+    "Latios": "latios",
+    "Leaning": "lean-pokemon",
+    "Leafeon": "leafeon",
+    "Leavanny": "leavanny",
+    "Lechonk": "lechonk",
+    "Ledian": "ledian",
+    "Ledyba": "ledyba",
+    "Lickilicky": "lickilicky",
+    "Liepard": "liepard",
+    "Lilligant": "lilligant",
+    "Lilliganth": "lilligant-hisui",
+    "Lilligantg": "lilligant-hisui",
+    "Linoone": "linoone",
+    "Linooneg": "linoone-galar",
+    "Litleo": "litleo",
+    "Litten": "litten",
+    "Lokix": "lokix",
+    "Lombre": "lombre",
+    "Lopunny": "lopunny",
+    "Lopunnym": "lopunny-mega",
+    "Loudred": "loudred",
+    "Lucario": "lucario",
+    "Lucarionm": "lucario-mega",
+    "Ludicolo": "ludicolo",
+    "Lumineon": "lumineon",
+    "Lunatone": "lunatone",
+    "Lurantis": "lurantis",
+    "Luvdisc": "luvdisc",
+    "Luxio": "luxio",
+    "Luxray": "luxray",
+    "Mabosstiff": "mabosstiff",
+    "Machamp": "machamp",
+    "Machoke": "machoke",
+    "Machop": "machop",
+    "Magby": "magby",
+    "Magcargo": "magcargo",
+    "Magearna": "magearna",
+    "Magikarp": "magikarp",
+    "Magmar": "magmar",
+    "Magmortar": "magmortar",
+    "Magnemite": "magnemite",
+    "Magneton": "magneton",
+    "Magnezone": "magnezone",
+    "Makuhita": "makuhita",
+    "Malamar": "malamar",
+    "Mamoswine": "mamoswine",
+    "Manaphy": "manaphy",
+    "Mandibuzz": "mandibuzz",
+    "Manectric": "manectric",
+    "Manectricm": "manectric-mega",
+    "Mantic": "manectric",
+    "Mankey": "mankey",
+    "Mantine": "mantine",
+    "Mantyke": "mantyke",
+    "Maractus": "maractus",
+    "Mareanie": "mareanie",
+    "Mareep": "mareep",
+    "Marill": "marill",
+    "Marowak": "marowak",
+    "Marowaka": "marowak-alola",
+    "Marowakg": "marowak-alola",
+    "Marshadow": "marshadow",
+    "Marshtomp": "marshtomp",
+    "Maschiff": "maschiff",
+    "Masquerain": "masquerain",
+    "Mawile": "mawile",
+    "Mawilem": "mawile-mega",
+    "Mawilef": "mawile",
+    "Medicham": "medicham",
+    "Medichamm": "medicham-mega",
+    "Medichamf": "medicham",
+    "Meditite": "meditite",
+    "Meganium": "meganium",
+    "Melmetal": "melmetal",
+    "Meltan": "meltan",
+    "Meowstic": "meowstic-male",
+    "Meowsticf": "meowstic-female",
+    "Meowth": "meowth",
+    "Meowthg": "meowth-galar",
+    "Meowthg": "meowth-galar",
+    "Meowthga": "meowth-alola",
+    "Mesprit": "mesprit",
+    "Metagross": "metagross",
+    "Metagrossm": "metagross-mega",
+    "Metang": "metang",
+    "Metapod": "metapod",
+    "Mew": "mew",
+    "Mienfoo": "mienfoo",
+    "Mienshao": "mienshao",
+    "Mightyena": "mightyena",
+    "Milcery": "milcery",
+    "Milotic": "milotic",
+    "Miltank": "miltank",
+    "Mime Jr.": "mime-jr",
+    "Minccino": "minccino",
+    "Minior": "minior-red-meteor",
+    "Miniorc": "minior-red-meteor",
+    "Minun": "minun",
+    "Misdreavus": "misdreavus",
+    "Mismagius": "mismagius",
+    "Mitsume": "misty-pokemon",
+    "Moltres": "moltres",
+    "Moltresg": "moltres-galar",
+    "Monferno": "monferno",
+    "Morellull": "morelull",
+    "Morelull": "morelull",
+    "Morgrem": "morgrem",
+    "Morpeko": "morpeko-full-belly",
+    "Morpekoh": "morpeko-hangry",
+    "Mothim": "mothim",
+    "Mr. Mime": "mr-mime",
+    "Mr. Mimeg": "mr-mime-galar",
+    "Mr. Rime": "mr-rime",
+    "Mudbray": "mudbray",
+    "Mudkip": "mudkip",
+    "Mudsdale": "mudsdale",
+    "Muk": "muk",
+    "Muka": "muk-alola",
+    "Mukg": "muk-galar",
+    "Mukla": "muk-alola",
+    "Munchlax": "munchlax",
+    "Munkidori": "munkidori",
+    "Munna": "munna",
+    "Murkrow": "murkrow",
+    "Musharna": "musharna",
+    "Nacli": "nacli",
+    "Naclstack": "naclstack",
+    "Naganadel": "naganadel",
+    "Nait": "natu",
+    "Natu": "natu",
+    "Necrozma": "necrozma",
+    "Necrozmaul": "necrozma-ultra",
+    "Nickit": "nickit",
+    "Nidoking": "nidoking",
+    "Nidoqueen": "nidoqueen",
+    "Nidoran♀": "nidoran-f",
+    "Nidoran♂": "nidoran-m",
+    "Nidorina": "nidorina",
+    "Nidorino": "nidorino",
+    "Nihilego": "nihilego",
+    "Nincada": "nincada",
+    "Ninetales": "ninetales",
+    "Ninetalesa": "ninetales-alola",
+    "Ninjask": "ninjask",
+    "Noctowl": "noctowl",
+    "Noibat": "noibat",
+    "Noivern": "noivern",
+    "Nosepass": "nosepass",
+    "Numel": "numel",
+    "Nuzleaf": "nuzleaf",
+    "Nymble": "nymble",
+    "Obstagoon": "obstagoon",
+    "Octillery": "octillery",
+    "Oddish": "oddish",
+    "Ogerpon": "ogerpon",
+    "Ogerponr": "ogerpon-water-mask",
+    "Okidogi": "okidogi",
+    "Omanyte": "omanyte",
+    "Omastar": "omastar",
+    "Onix": "onix",
+    "Oranguru": "oranguru",
+    "Orbeetle": "orbeetle",
+    "Orthworm": "orthworm",
+    "Oshawott": "oshawott",
+    "Overqwil": "overqwil",
+    "Pachirisu": "pachirisu",
+    "Palafin": "palafin",
+    "Palalosstiff": "pallossand",
+    "Palossand": "pallossand",
+    "Palpitoad": "palpitoad",
+    "Pancham": "pancham",
+    "Pangoro": "pangoro",
+    "Pangorom": "pangoro-mega",
+    "Panpour": "panpour",
+    "Pansage": "pansage",
+    "Pansear": "pansear",
+    "Paras": "paras",
+    "Parasect": "parasect",
+    "Passimian": "passimian",
+    "Patrat": "patrat",
+    "Pawmi": "pawmi",
+    "Pawmo": "pawmo",
+    "Pawmot": "pawmot",
+    "Pawniard": "pawniard",
+    "Pecharunt": "pecharunt",
+    "Pelipper": "pelipper",
+    "Perrserker": "perrserker",
+    "Persian": "persian",
+    "Persiana": "persian-alola",
+    "Petilil": "petilil",
+    "Phanpy": "phanpy",
+    "Phantump": "phantump",
+    "Pheromosa": "pheromosa",
+    "Phione": "phione",
+    "Pichu": "pichu",
+    "Pidgeot": "pidgeot",
+    "Pidgeotm": "pidgeot-mega",
+    "Pidgeotto": "pidgeotto",
+    "Pidgey": "pidgey",
+    "Pidove": "pidove",
+    "Pignite": "pignite",
+    "Pikachu": "pikachu",
+    "Pikachuc": "pikachu-gmax",
+    "Pikachup": "pikachu-partner",
+    "Pikipek": "pikipek",
+    "Piloswine": "piloswine",
+    "Pincurchin": "pincurchin",
+    "Pineco": "pineco",
+    "Pinsir": "pinsir",
+    "Pinsirm": "pinsir-mega",
+    "Piplup": "piplup",
+    "Plusle": "plusle",
+    "Poipole": "poipole",
+    "Politoed": "politoed",
+    "Poliwag": "poliwag",
+    "Poliwhirl": "poliwhirl",
+    "Poliwrath": "poliwrath",
+    "Ponyta": "ponyta",
+    "Ponytag": "ponyta-galar",
+    "Poochyena": "poochyena",
+    "Popplio": "popplio",
+    "Porygon": "porygon",
+    "Porygon-Z": "porygon-z",
+    "Porygon2": "porygon2",
+    "Primarina": "primarina",
+    "Primeape": "primeape",
+    "Prinplup": "prinplup",
+    "Probopass": "probopass",
+    "Psyduck": "psyduck",
+    "Pumpkaboo": "pumpkaboo-average",
+    "Pumpkabool": "pumpkaboo-large",
+    "Pumpkaboos": "pumpkaboo-small",
+    "Pumpkaboox": "pumpkaboo-super",
+    "Pupitar": "pupitar",
+    "Purrloin": "purrloin",
+    "Purugly": "purugly",
+    "Pyroar": "pyroar-male",
+    "Pyukumuku": "pyukumuku",
+    "Quagsire": "quagsire",
+    "Quaquaval": "quaquaval",
+    "Quaxly": "quaxly",
+    "Quaxwell": "quaxwell",
+    "Quilava": "quilava",
+    "Quilladin": "quilladin",
+    "Qwilfish": "qwilfish",
+    "Qwilfishh": "qwilfish-hisui",
+    "Raboot": "raboot",
+    "Rabsca": "rabsca",
+    "Raichu": "raichu",
+    "Raichus": "raichu-alola",
+    "Raikou": "raikou",
+    "Ralts": "ralts",
+    "Rampardos": "rampardos",
+    "Rapidash": "rapidash",
+    "Rapidashg": "rapidash-galar",
+    "Raticate": "raticate",
+    "Raticatea": "raticate-alola",
+    "Rattata": "rattata",
+    "Rattataa": "rattata-alola",
+    "Regice": "regice",
+    "Regidrago": "regidrago",
+    "Regieleki": "regieleki",
+    "Regirock": "regirock",
+    "Registeel": "registeel",
+    "Relicanth": "relicanth",
+    "Rellor": "rellor",
+    "Remoraid": "remoraid",
+    "Reuniclus": "reuniclus",
+    "Revavroom": "revavroom",
+    "Rhydon": "rhydon",
+    "Rhyhorn": "rhyhorn",
+    "Rhyperior": "rhyperior",
+    "Ribombee": "ribombee",
+    "Rillaboom": "rillaboom",
+    "Riolu": "riolu",
+    "Roarinmoon": "roaring-moon",
+    "Rockruff": "rockruff",
+    "Roggenrola": "roggenrola",
+    "Rolycoly": "rolycoly",
+    "Rookidee": "rookidee",
+    "Roselia": "roselia",
+    "Roserade": "roserade",
+    "Rotom": "rotom",
+    "Rowlet": "rowlet",
+    "Rufflet": "rufflet",
+    "Sableyem": "sableye-mega",
+    "Sableye": "sableye",
+    "Salamence": "salamence",
+    "Salamencem": "salamence-mega",
+    "Salandit": "salandit",
+    "Salazzle": "salazzle",
+    "Salazzlem": "salazzle-mega",
+    "Samurott": "samurott",
+    "Samurotth": "samurott-hisui",
+    "Sandaconda": "sandaconda",
+    "Sandile": "sandile",
+    "Sandshrew": "sandshrew",
+    "Sandshrewa": "sandshrew-alola",
+    "Sandslash": "sandslash",
+    "Sandslasha": "sandslash-alola",
+    "Sandygast": "sandygast",
+    "Sandyshock": "sandy-shocks",
+    "Sawk": "sawk",
+    "Sawsbuck": "sawsbuck",
+    "Scatterbug": "scatterbug",
+    "Scapegoat": "sceptile",
+    "Sceptile": "sceptile",
+    "Scepilerm": "sceptile-mega",
+    "Scizor": "scizor",
+    "Scizorm": "scizor-mega",
+    "Scolipede": "scolipede",
+    "Scorbunny": "scorbunny",
+    "Scovillain": "scovillain",
+    "Scrafty": "scrafty",
+    "Scraggy": "scraggy",
+    "Scyther": "scyther",
+    "Seadra": "seadra",
+    "Seaking": "seaking",
+    "Sealeo": "sealeo",
+    "Seedot": "seedot",
+    "Seel": "seel",
+    "Seismitoad": "seismitoad",
+    "Sentret": "sentret",
+    "Serperior": "serperior",
+    "Servine": "servine",
+    "Seviper": "seviper",
+    "Sewaddle": "sewaddle",
+    "Sharpedo": "sharpedo",
+    "Sharpedom": "sharpedo-mega",
+    "Shaymin": "shaymin",
+    "Shaymins": "shaymin-sky",
+    "Shelgon": "shelgon",
+    "Shellder": "shellder",
+    "Shellos": "shellos",
+    "Shelmet": "shelmet",
+    "Shieldon": "shieldon",
+    "Shiftry": "shiftry",
+    "Shiinotic": "shiinotic",
+    "Shinx": "shinx",
+    "Shroodle": "shroodle",
+    "Shroomish": "shroomish",
+    "Shuckle": "shuckle",
+    "Shuppet": "shuppet",
+    "Sigilyph": "sigilyph",
+    "Silcoon": "silcoon",
+    "Silicobra": "silicobra",
+    "Silvally": "silvally",
+    "Simipour": "simipour",
+    "Simisage": "simisage",
+    "Simisear": "simisear",
+    "Sinistcha": "sinistcha",
+    "Sinistea": "sinistea",
+    "Sirfetch'd": "sirfetchd",
+    "Sizzlipede": "sizzlipede",
+    "Skarmory": "skarmory",
+    "Skeledirge": "skeledirge",
+    "Skiddo": "skiddo",
+    "Skiploom": "skiploom",
+    "Skitty": "skitty",
+    "Skorupi": "skorupi",
+    "Skrelp": "skrelp",
+    "Skuntank": "skuntank",
+    "Skwovet": "skwovet",
+    "Slakoth": "slakoth",
+    "Sliggoo": "sliggoo",
+    "Sliggooh": "sliggoo-hisui",
+    "Slowbro": "slowbro",
+    "Slowbrog": "slowbro-galar",
+    "Slowbrom": "slowbro-mega",
+    "Slowking": "slowking",
+    "Slowkingg": "slowking-galar",
+    "Slowpoke": "slowpoke",
+    "Slowpokeg": "slowpoke-galar",
+    "Slugma": "slugma",
+    "Slurpuff": "slurpuff",
+    "Slithrwing": "slither-wing",
+    "Smeargle": "smeargle",
+    "Smoliv": "smoliv",
+    "Smoochum": "smoochum",
+    "Sneasel": "sneasel",
+    "Sneaselh": "sneasel-hisui",
+    "Sneasler": "sneasler",
+    "Snivy": "snivy",
+    "Snom": "snom",
+    "Snorlax": "snorlax",
+    "Snorunt": "snorunt",
+    "Snover": "snover",
+    "Snubbull": "snubbull",
+    "Sobble": "sobble",
+    "Solosis": "solosis",
+    "Solrock": "solrock",
+    "Spearow": "spearow",
+    "Spectrier": "spectrier",
+    "Spewpa": "spewpa",
+    "Spheal": "spheal",
+    "Spidops": "spidops",
+    "Spinarak": "spinarak",
+    "Spinda": "spinda",
+    "Spiritomb": "spiritomb",
+    "Spoink": "spoink",
+    "Sprigatito": "sprigatito",
+    "Spritzee": "spritzee",
+    "Squirtle": "squirtle",
+    "Stakataka": "stakataka",
+    "Stantler": "stantler",
+    "Staraptor": "staraptor",
+    "Staravia": "staravia",
+    "Starly": "starly",
+    "Starmie": "starmie",
+    "Staryu": "staryu",
+    "Steelix": "steelix",
+    "Steelixm": "steelix-mega",
+    "Steenee": "steenee",
+    "Stoutland": "stoutland",
+    "Stufful": "stufful",
+    "Stunfisk": "stunfisk",
+    "Stunfiskg": "stunfisk-galar",
+    "Stunky": "stunky",
+    "Sudowoodo": "sudowoodo",
+    "Suicune": "suicune",
+    "Sunflora": "sunflora",
+    "Sunkern": "sunkern",
+    "Surskit": "surskit",
+    "Swablu": "swablu",
+    "Swadloon": "swadloon",
+    "Swalot": "swalot",
+    "Swampert": "swampert",
+    "Swampertm": "swampert-mega",
+    "Swanna": "swanna",
+    "Swellow": "swellow",
+    "Swinub": "swinub",
+    "Swirlix": "swirlix",
+    "Swoobat": "swoobat",
+    "Sylveon": "sylveon",
+    "Tadbulb": "tadbulb",
+    "Taillow": "taillow",
+    "Talonflame": "talonflame",
+    "Tandemaus": "tandemaus",
+    "Tangela": "tangela",
+    "Tangrowth": "tangrowth",
+    "Tapu Bulu": "tapu-bulu",
+    "Tapu Fini": "tapu-fini",
+    "Tapu Koko": "tapu-koko",
+    "Tapu Lele": "tapu-lele",
+    "Tarountula": "tarountula",
+    "Tauros": "tauros",
+    "Taurosp": "tauros-paldean",
+    "Teddiursa": "teddiursa",
+    "Tentacool": "tentacool",
+    "Tentacruel": "tentacruel",
+    "Tepig": "tepig",
+    "Terapagos": "terapagos",
+    "Terrakion": "terrakion",
+    "Thievul": "thievul",
+    "Throh": "throh",
+    "Thundurus": "thundurus-therian",
+    "Thundurust": "thundurus-therian",
+    "Thwackey": "thwackey",
+    "Timburr": "timburr",
+    "Ting-Lu": "ting-lu",
+    "Tinkatink": "tinkatink",
+    "Tinkaton": "tinkaton",
+    "Tinkatuff": "tinkatuff",
+    "Tirtouga": "tirtouga",
+    "Toedscool": "toedscool",
+    "Toedscruel": "toedscruel",
+    "Togedemaru": "togedemaru",
+    "Togekiss": "togekiss",
+    "Togepi": "togepi",
+    "Togetic": "togetic",
+    "Torchic": "torchic",
+    "Torkoal": "torkoal",
+    "Tornadus": "tornadus-therian",
+    "Tornadust": "tornadus-therian",
+    "Torracat": "torracat",
+    "Torterra": "torterra",
+    "Totodile": "totodile",
+    "Toucannon": "toucannon",
+    "Toxapex": "toxapex",
+    "Toxel": "toxel",
+    "Toxicroak": "toxicroak",
+    "Toxtricity": "toxtricity-amped",
+    "Toxtricitl": "toxtricity-lowkey",
+    "Tranquill": "tranquill",
+    "Trapinch": "trapinch",
+    "Treecko": "treecko",
+    "Trevenant": "trevenant",
+    "Tropius": "tropius",
+    "Trubbish": "trubbish",
+    "Trumbeak": "trumbeak",
+    "Tsareena": "tsareena",
+    "Turtonator": "turtonator",
+    "Turtwig": "turtwig",
+    "Tympole": "tympole",
+    "Tynamo": "tynamo",
+    "Type: Null": "type-null",
+    "Typhlosion": "typhlosion",
+    "Typhlosioh": "typhlosion-hisui",
+    "Tyranitar": "tyranitar",
+    "Tyranitarm": "tyranitar-mega",
+    "Tyrantrum": "tyrantrum",
+    "Tyrogue": "tyrogue",
+    "Tyrunt": "tyrunt",
+    "Umbreon": "umbreon",
+    "Unfezant": "unfezant",
+    "Unown": "unown",
+    "Ursaluna": "ursaluna",
+    "Ursaring": "ursaring",
+    "Urshifu": "urshifu-rapid-strike",
+    "Urshifur": "urshifu-rapid-strike",
+    "Uxie": "uxie",
+    "Vanillish": "vanillish",
+    "Vanillite": "vanillite",
+    "Vanilluxe": "vanilluxe",
+    "Vaporeon": "vaporeon",
+    "Varoom": "varoom",
+    "Veluza": "veluza",
+    "Venipede": "venipede",
+    "Venomoth": "venomoth",
+    "Venonat": "venonat",
+    "Venusaur": "venusaur",
+    "Venusaurm": "venusaur-mega",
+    "Vespiquen": "vespiquen",
+    "Vibrava": "vibrava",
+    "Victini": "victini",
+    "Victreebel": "victreebel",
+    "Vigoroth": "vigoroth",
+    "Vikavolt": "vikavolt",
+    "Vileplume": "vileplume",
+    "Virizion": "virizion",
+    "Vivillon": "vivillon",
+    "Volbeat": "volbeat",
+    "Volcanion": "volcanion",
+    "Volcarona": "volcarona",
+    "Voltorb": "voltorb",
+    "Voltorbh": "voltorb-hisui",
+    "Vullaby": "vullaby",
+    "Vulpix": "vulpix",
+    "Vulpixa": "vulpix-alola",
+    "Walkinwake": "walking-wake",
+    "Wailmer": "wailmer",
+    "Wailord": "wailord",
+    "Walrein": "walrein",
+    "Wartortle": "wartortle",
+    "Watchog": "watchog",
+    "Wattrel": "wattrel",
+    "Weavile": "weavile",
+    "Weedle": "weedle",
+    "Weepinbell": "weepinbell",
+    "Weezing": "weezing",
+    "Weezingg": "weezing-galar",
+    "Whimsicott": "whimsicott",
+    "Whirlipede": "whirlipede",
+    "Whiscash": "whiscash",
+    "Whismur": "whismur",
+    "Wigglytuff": "wigglytuff",
+    "Wiglett": "wiglett",
+    "Wimpod": "wimpod",
+    "Wingull": "wingull",
+    "Wo-Chien": "wo-chien",
+    "Wobbuffet": "wobbuffet",
+    "Woobat": "woobat",
+    "Wooloo": "wooloo",
+    "Wooper": "wooper",
+    "Wormadams": "wormadam-sandy",
+    "Wormadam": "wormadam",
+    "Wormadamt": "wormadam-trash",
+    "Wormadamt": "wormadam-trash",
+    "Wugtrio": "wugtrio",
+    "Wurmple": "wurmple",
+    "Wynaut": "wynaut",
+    "Wyrdeer": "wyrdeer",
+    "Xatu": "xatu",
+    "Xurkitree": "xurkitree",
+    "Yamask": "yamask",
+    "Yamaskg": "yamask-galar",
+    "Yamper": "yamper",
+    "Yanma": "yanma",
+    "Yanmega": "yanmega",
+    "Yungoos": "yungoos",
+    "Zangoose": "zangoose",
+    "Zapdos": "zapdos",
+    "Zapdosg": "zapdos-galar",
+    "Zarude": "zarude",
+    "Zebstrika": "zebstrika",
+    "Zeraora": "zeraora",
+    "Zigzagoon": "zigzagoon",
+    "Zigzagoong": "zigzagoon-galar",
+    "Zoroark": "zoroark",
+    "Zoroarkh": "zoroark-hisui",
+    "Zorua": "zorua",
+    "Zoruah": "zorua-hisui",
+    "Zubat": "zubat",
+    "Zweilous": "zweilous",
+    "Zygarde": "zygarde-50",
+    "Zygarde10": "zygarde-10",
+    # Typos / revo-specific spellings / multi-form API slugs
+    "Flechinder": "fletchinder",
+    "Polchgeist": "polteageist",
+    "Pichus": "pichu",
+    "Corvsquire": "corvisquire",
+    "Corvknight": "corviknight",
+    "Baraskewda": "barraskewda",
+    "Fluttrmane": "flutter-mane",
+    "Basclegion": "basculegion-male",
+    "Basclegiof": "basculegion-female",
+    "Taurospw": "tauros-paldea-aqua-breed",
+    "Ogerponw": "ogerpon-wellspring-mask",
+    "Rotomw": "rotom-wash",
+    "Rotomfa": "rotom-fan",
+    "Oricoriog": "oricorio-pom-pom",
+    "Oricorioe": "oricorio-pom-pom",
+    "Oricoriop": "oricorio-pau",
+    "Terapagost": "terapagos-terastal",
+    "Ursalunab": "ursaluna-bloodmoon",
+    "Meloettap": "meloetta-pirouette",
+    "Oinkolognf": "oinkologne-female",
+    "Indeedeef": "indeedee-female",
+    "Indeedeem": "indeedee-male",
+    "Frillish": "frillish-male",
+    "Jellicent": "jellicent-male",
+    "Mimikyu": "mimikyu-disguised",
+    "Maushold": "maushold-family-of-four",
+    "Oinkologne": "oinkologne-male",
+    "Meloetta": "meloetta-aria",
+    "Screamtail": "scream-tail",
+    "Tatsugiri": "tatsugiri-curly",
+    "Oricorio": "oricorio-baile",
+    "Burmys": "burmy-sandy",
+    "Burmyt": "burmy-trash",
+}
+
+# =========================
+# NAME NORMALIZATION (handover pipeline + merged aliases)
+# =========================
+
+CASTFORM_CORE_ALIASES = {
+    "castformf": "castform-sunny",
+    "castformw": "castform-rainy",
+    "castformi": "castform-snowy",
+}
+
+# Excludes "m" (megas) and "a" (end of many species names, e.g. kirlia) — use explicit aliases for -alola.
+FORM_MAP = {
+    "p": "-paldea",
+    "f": "-female",
+    "w": "-water",
+    "g": "-galar",
+    "h": "-hisui",
+}
+
+# PokeAPI often requires an explicit variety slug when no generic /pokemon/{name} exists.
+DEFAULT_FORM_SLUG = {
+    "minior": "minior-red-meteor",
+    "morpeko": "morpeko-full-belly",
+    "pumpkaboo": "pumpkaboo-average",
+    "frillish": "frillish-male",
+    "jellicent": "jellicent-male",
+    "toxtricity": "toxtricity-amped",
+    "indeedee": "indeedee-male",
+    "squawkabilly": "squawkabilly-blue-plumage",
+    "mimikyu": "mimikyu-disguised",
+    "maushold": "maushold-family-of-four",
+    "oinkologne": "oinkologne-male",
+    "meloetta": "meloetta-aria",
+    "pyroar": "pyroar-male",
+    "tatsugiri": "tatsugiri-curly",
+    "basculegion": "basculegion-male",
+    "oricorio": "oricorio-baile",
+    "zygarde": "zygarde-50",
+}
+
+
+def _normalize_core(name: str) -> str:
+    x = unicodedata.normalize("NFKD", name)
+    x = x.lower().strip()
+    x = re.sub(r"\d+$", "", x)
+    x = x.replace(".", "").replace("'", "").replace("\u2019", "")
+    x = x.replace(":", "")
+    x = x.replace("♀", "-f").replace("♂", "-m")
+    x = x.strip()
+    if x in CASTFORM_CORE_ALIASES:
+        return CASTFORM_CORE_ALIASES[x]
+    if x and x[-1] in FORM_MAP:
+        x = x[:-1] + FORM_MAP[x[-1]]
+    return x
+
+
+def _load_merged_aliases() -> dict:
+    """JSON `name_aliases.json` overrides the shipped LEGACY table for the same normalized key."""
+    merged: dict = {}
+    
+    # Merge discovered aliases
+    for k, v in LEGACY_NAME_ALIASES.items():
+        key = _normalize_core(k)
+        merged[key] = v
+        
+    # DISCOVERED_ALIASES take priority over legacy
+    for k, v in DISCOVERED_ALIASES.items():
+        merged[k.lower()] = v.lower()
+
+    if os.path.isfile(ALIASES_FILE):
+        with open(ALIASES_FILE, "r", encoding="utf-8") as f:
+            file_aliases = json.load(f)
+        for k, v in file_aliases.items():
+            key = _normalize_core(k)
+            merged[key] = v
+    return merged
+
+
+ALIASES = _load_merged_aliases()
+
+
+def normalize_name(name: str) -> str:
+    # 1. Clean characters (handle both standard and curly apostrophes)
+    n = name.lower().strip().replace(" ", "-").replace(".", "").replace("'", "").replace("’", "")
+    
+    # 2. Strip trailing digits (e.g., Basculinw1 -> Basculinw)
+    n = re.sub(r"\d+$", "", n)
+    
+    # 2. Check for exact special mappings (Floette, Starters, etc.)
+    specials = {
+        "floettee": "floette-eternal",
+        "eeveep": "eevee-starter",
+        "pikachup": "pikachu-starter",
+        "pikachuc": "pikachu-cosplay",
+        "pichus": "pichu",
+        "farfetchd": "farfetchd",
+        "sirfetchd": "sirfetchd",
+        "type:-null": "type-null",
+        "nidoran♂": "nidoran-m",
+        "nidoran♀": "nidoran-f",
+        "flabébé": "flabebe",
+        "flabebe": "flabebe",
+        "wishiwashi": "wishiwashi-solo",
+        "burmys": "burmy",
+        "burmyt": "burmy",
+        "frillish": "frillish-male",
+        "porygon2": "porygon2",
+        "porygon-z": "porygon-z",
+    }
+    if n in specials: return specials[n]
+
+    # 3. Check the verified Alldata/Legacy Aliases (Loaded at startup)
+    if n in ALIASES:
+        return ALIASES[n]
+
+    # 4. Explicit Regional Whitelist (Only apply if exact match in revo data)
+    regional_map = {
+        "qwilfishh": "qwilfish-hisui",
+        "farfetchdg": "farfetchd-galar",
+        "linooneg": "linoone-galar",
+        "sliggooh": "sliggoo-hisui",
+        "sneaselh": "sneasel-hisui",
+        "growlitheh": "growlithe-hisui",
+        "voltorbh": "voltorb-hisui",
+        "zoruah": "zorua-hisui",
+        "zoroarkh": "zoroark-hisui",
+        "arcanineh": "arcanine-hisui",
+        "electrodeh": "electrode-hisui",
+        "typhlosioh": "typhlosion-hisui",
+        "samurotth": "samurott-hisui",
+        "lilliganth": "lilligant-hisui",
+        "braviaryh": "braviary-hisui",
+        "goodrah": "goodra-hisui",
+        "decidueyeh": "decidueye-hisui",
+        "avaluggh": "avalugg-hisui",
+        "meowthg": "meowth-galar",
+        "slowpokeg": "slowpoke-galar",
+        "yamaskg": "yamask-galar",
+        "zigzagoong": "zigzagoon-galar",
+        "darumakag": "darumaka-galar",
+        "mr-mimeg": "mr-mime-galar",
+        "corsolag": "corsola-galar",
+        "wooperp": "wooper-paldea",
+        "muka": "muk-alola",
+        "raichua": "raichu-alola",
+        "sandslasha": "sandslash-alola",
+        "ninetalesa": "ninetales-alola",
+        "dugtrioa": "dugtrio-alola",
+        "persiana": "persian-alola",
+        "geodudea": "geodude-alola",
+        "gravelera": "graveler-alola",
+        "golema": "golem-alola",
+        "exeggutora": "exeggutor-alola",
+        "marowaka": "marowak-alola",
+        "ponytag": "ponyta-galar",
+        "rapidashg": "rapidash-galar",
+        "slowbrog": "slowbro-galar",
+        "slowkingg": "slowking-galar",
+        "weezingg": "weezing-galar",
+        "articunog": "articuno-galar",
+        "zapdosg": "zapdos-galar",
+        "moltresg": "moltres-galar",
+        "stunfiskg": "stunfisk-galar",
+        "taurospw": "tauros-paldea-water",
+        "taurosps": "tauros-paldea-fire"
+    }
+    if n in regional_map:
+        return regional_map[n]
+
+    # 5. Default: Just the cleaned base name
+    return n
+
+# =========================
+# PARSE EVO FILE
+# =========================
+
+def parse_evo_file(path):
+    pattern = re.compile(r"\(([^,]+),\s*(\d+)\)")
+    data = {}
+
+    with open(path, "r", encoding="utf-8") as f:
+        for line in f:
+            if "->" not in line:
+                continue
+
+            starter, rest = line.split("->", 1)
+            evos = []
+
+            for evo, count in pattern.findall(rest):
+                evos.append({
+                    "name": evo.strip(),
+                    "count": int(count)
+                })
+
+            data[starter.strip()] = evos
+
+    return data
+
+# =========================
+# BUILD VANILLA FORWARD EVO SET
+# =========================
+
+def build_vanilla_forward_evolvers():
+    CACHE_FILE = os.path.join(SCRIPT_DIR, "vanilla_evos_cache.json")
+    if os.path.exists(CACHE_FILE):
+        try:
+            with open(CACHE_FILE, "r", encoding="utf-8") as f:
+                cached = set(json.load(f))
+                print(f"Loaded {len(cached)} vanilla evolvers from cache.")
+                return cached
+        except:
+            pass
+
+    print("Building vanilla forward evolution set...", flush=True)
+    forward = set()
+
+    r = requests.get(f"{POKEAPI}/evolution-chain?limit=600")
+    chains = r.json()["results"]
+
+    for i, entry in enumerate(chains, 1):
+        if i % 50 == 0:
+            print(f"  Fetching chain {i}/{len(chains)}...")
+        try:
+            chain_data = requests.get(entry["url"], timeout=10).json()["chain"]
+        except:
+            continue
+        
+        chain = chain_data
+
+        def walk(node):
+            parent = node["species"]["name"]
+            for nxt in node["evolves_to"]:
+                child = nxt["species"]["name"]
+                forward.add(parent)
+                walk(nxt)
+
+        walk(chain)
+
+    print(f"Vanilla forward evolvers found: {len(forward)}", flush=True)
+
+    # Save cache
+    try:
+        with open(CACHE_FILE, "w", encoding="utf-8") as f:
+            json.dump(list(forward), f)
+        print(f"✔ Saved {len(forward)} vanilla evolvers to cache.")
+    except:
+        pass
+
+    return forward
+
+
+_VANILLA_FORWARD_EVOLVERS = None
+
+
+def _get_vanilla_forward_evolvers():
+    global _VANILLA_FORWARD_EVOLVERS
+    if _VANILLA_FORWARD_EVOLVERS is None:
+        _VANILLA_FORWARD_EVOLVERS = build_vanilla_forward_evolvers()
+    return _VANILLA_FORWARD_EVOLVERS
+
+
+def has_forward_vanilla_evolution(name: str) -> bool:
+    norm = normalize_name(name)
+    evos = _get_vanilla_forward_evolvers()
+    if norm in evos:
+        return True
+    # Check base species name (e.g. "frillish-male" -> "frillish")
+    base = norm.split("-")[0]
+    return base in evos
+
+# =========================
+# BST LOOKUP
+# =========================
+
+POKEMON_DATA_CACHE = {}
+if os.path.exists("pokemon_data_cache.json"):
+    with open("pokemon_data_cache.json", "r", encoding="utf-8") as f:
+        POKEMON_DATA_CACHE = json.load(f)
+
+@lru_cache(maxsize=2000)
+def get_pokemon_data(name: str):
+    """Returns (bst, evolution_level, types) or (None, None, None).
+    
+    NOTE: `name` is expected to be ALREADY normalized by the caller (get_bst).
+    We do NOT re-normalize here to avoid double-expansion of form suffixes.
+    """
+    if name in POKEMON_DATA_CACHE:
+        d = POKEMON_DATA_CACHE[name]
+        # Only use cache if it has both bst and types
+        if d.get("bst") and d.get("types"):
+            return d.get("bst"), d.get("evolution_level"), d.get("types")
+
+    # Use the name directly as the API slug (caller already normalized)
+    slug = name
+    
+    # Apply DEFAULT_FORM_SLUG if available (e.g. "frillish" -> "frillish-male")
+    slug = DEFAULT_FORM_SLUG.get(slug, slug)
+    
+    url = f"{POKEAPI}/pokemon/{slug}"
+    
+    for attempt in range(3):
+        try:
+            r = requests.get(url, timeout=10)
+            if r.status_code == 200:
+                data = r.json()
+                bst = sum(s["base_stat"] for s in data["stats"])
+                
+                # Fetch species for evolution level
+                species_url = data["species"]["url"]
+                sr = requests.get(species_url, timeout=10)
+                evolution_level = None
+                if sr.status_code == 200:
+                    sdata = sr.json()
+                    # Use BST-based level rule
+                    evolution_level = int(bst / 10)
+
+                types = [t["type"]["name"].capitalize() for t in data["types"]]
+                
+                # Safeguard: Use manual types from cache if they exist
+                if name in POKEMON_DATA_CACHE and "types" in POKEMON_DATA_CACHE[name]:
+                    types = POKEMON_DATA_CACHE[name]["types"]
+                elif slug in POKEMON_DATA_CACHE and "types" in POKEMON_DATA_CACHE[slug]:
+                    types = POKEMON_DATA_CACHE[slug]["types"]
+
+                return bst, evolution_level, types
+            elif r.status_code == 404:
+                # If the default form slug was applied and still 404, try the base name
+                if slug != name:
+                    slug = name
+                    url = f"{POKEAPI}/pokemon/{slug}"
+                    continue
+                return None, None, None
+        except:
+            time.sleep(0.5)
+
+    return None, None, None
+
+
+def get_bst(name: str):
+    STATS["bst_lookups"] += 1
+    STATS["lookup_attempts"] += 1
+    if STATS["bst_lookups"] % 50 == 0:
+        print(f"[BST] {STATS['bst_lookups']} lookups", flush=True)
+
+    n = normalize_name(name)
+    try:
+        bst, _, _ = get_pokemon_data(n)
+        if bst is None:
+            raise ValueError("BST not found")
+        STATS["lookup_successes"] += 1
+        return bst
+    except Exception as e:
+        raise ValueError(f"BST lookup failed for {name} (normalized: {n})") from e
+
+# =========================
+# MAIN BUILD LOGIC
+# =========================
+
+def build_random_bst_evo_table():
+    evo_data = parse_evo_file(EVO_FILE)
+    result = {}
+
+    total = len(evo_data)
+    kept = 0
+    start_time = time.time()
+
+    for i, (starter, evos) in enumerate(evo_data.items(), 1):
+        STATS["starters_seen"] += 1
+
+        if i % 10 == 0 or i == total:
+            elapsed = int(time.time() - start_time)
+            print(f"[STARTERS] {i}/{total} | kept {kept} | {elapsed}s")
+
+        # ---------- BASE BST ----------
+        if starter in FORCED_STARTERS:
+            base_bst = FORCED_STARTERS[starter]
+        else:
+            try:
+                base_bst = get_bst(starter)
+            except Exception as e:
+                STATS["failed_starters"].append({
+                    "name": starter,
+                    "reason": str(e)
+                })
+                continue
+
+        if base_bst > BST_LIMIT:
+            continue
+
+        if starter in REGIONAL_EVOLVERS:
+            continue
+
+        if starter not in FORCED_STARTERS and starter not in TERMINAL_WHIELIST:
+            if has_forward_vanilla_evolution(starter):
+                continue
+
+        # ---------- PROCESS EVOS ----------
+        processed = []
+
+        for e in evos:
+            evo_name = e["name"]
+            evo_slug = normalize_name(evo_name)
+            try:
+               bst, evo_lvl, types = get_pokemon_data(evo_slug)
+            
+               if bst is not None:
+                   processed.append({
+                       "evolution": evo_name,
+                       "bst": bst,
+                       "types": types,
+                       "evolution_level": evo_lvl,
+                       "probability": e["count"] / TOTAL_RUNS
+                   })
+            except Exception as e:
+                # SKIP failed evolutions instead of keeping null placeholders
+                if starter not in STATS["failed_evolutions"]:
+                    STATS["failed_evolutions"][starter] = []
+                STATS["failed_evolutions"][starter].append({
+                    "evolution": evo["name"],
+                    "reason": str(e)
+                })
+
+        if not processed:
+            continue
+
+        processed.sort(
+            key=lambda x: (x["bst"] is None, x["bst"] if x["bst"] is not None else 0)
+        )
+
+        result[starter] = {
+            "base_bst": base_bst,
+            "rule": "bst/10",
+            "forced": starter in FORCED_STARTERS,
+            "evolutions": processed
+        }
+
+        kept += 1
+        STATS["starters_kept"] += 1
+
+    print("\n===== SUMMARY =====")
+    print(f"Starters seen:  {STATS['starters_seen']}")
+    print(f"Starters kept: {STATS['starters_kept']}")
+    print(f"BST lookups:   {STATS['bst_lookups']}")
+    print(f"Failed starters: {len(STATS['failed_starters'])}")
+    failed_evo_forms = sum(len(v) for v in STATS["failed_evolutions"].values())
+    print(f"Failed evolution forms: {failed_evo_forms}")
+    print(f"Total failures: {len(STATS['failed_starters']) + failed_evo_forms}")
+    if STATS["lookup_attempts"] > 0:
+        coverage = STATS["lookup_successes"] / STATS["lookup_attempts"]
+    else:
+        coverage = 1.0
+    print(f"Coverage: {coverage:.2%}")
+    print(f"Time:          {int(time.time() - start_time)}s")
+    print("===================\n")
+
+    revo_names = set(evo_data.keys())
+    output_names = set(result.keys())
+    missing = revo_names - output_names
+    if missing:
+        print("Starters in revo but not in output (includes filtered by BST limit / vanilla evo):")
+        for m in sorted(missing)[:50]:
+            print(f"  {m}")
+        if len(missing) > 50:
+            print(f"  ... and {len(missing) - 50} more")
+        print(f"Total missing from output: {len(missing)}\n")
+
+    if coverage < COVERAGE_THRESHOLD:
+        raise RuntimeError(
+            f"Coverage {coverage:.2%} below required {COVERAGE_THRESHOLD:.2%}"
+        )
+
+    return result
+
+# =========================
+# ENTRY POINT
+# =========================
+
+if __name__ == "__main__":
+    print("Building BST-based random evolution table...", flush=True)
+    data = build_random_bst_evo_table()
+
+    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2)
+
+    # Save failure logs
+    with open(FAILED_LOOKUPS_FILE, "w", encoding="utf-8") as f:
+        json.dump({
+            "failed_starters": STATS["failed_starters"],
+            "failed_evolutions_by_starter": STATS["failed_evolutions"],
+            "total_failed_starters": len(STATS["failed_starters"]),
+            "total_failed_evolution_forms": sum(len(v) for v in STATS["failed_evolutions"].values())
+        }, f, indent=2)
+
+    print(f"\nDone. Wrote {len(data)} Pokémon to {OUTPUT_FILE}")
+    print(f"Failed lookups saved to {FAILED_LOOKUPS_FILE}")
