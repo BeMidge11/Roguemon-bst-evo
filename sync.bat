@@ -8,7 +8,7 @@ echo [2/3] Committing changes...
 %GIT_EXE% commit -m "Restore and optimize BST/10 Evolution Simulator UI/Data"
 
 echo [3/3] Pushing to GitHub...
-%GIT_EXE% push -u origin main
+%GIT_EXE% push -u origin main --force
 
 echo.
 echo Sync Complete!
