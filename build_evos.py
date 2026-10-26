@@ -1,5 +1,3 @@
-
-
 import re
 import json
 import requests
@@ -16,7 +14,22 @@ os.environ.pop("SSLKEYLOGFILE", None)
 # =========================
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-EVO_FILE = os.path.join(SCRIPT_DIR, "revo12000.txt")
+LEGACY_EVO_FILE = os.path.join(SCRIPT_DIR, "revo12000.txt")
+REVO_FILE_CANDIDATES = [
+    os.path.join(SCRIPT_DIR, "RoguemonMoonRevoData.lua"),
+    os.path.join(SCRIPT_DIR, "RoguemonRevoData.lua"),
+    LEGACY_EVO_FILE,
+]
+
+
+def resolve_revo_file():
+    for candidate in REVO_FILE_CANDIDATES:
+        if os.path.exists(candidate):
+            return candidate
+    return LEGACY_EVO_FILE
+
+
+EVO_FILE = resolve_revo_file()
 OUTPUT_FILE = os.path.join(SCRIPT_DIR, "random_bst_evolutions.json")
 OVERRIDE_FILE = os.path.join(SCRIPT_DIR, "bst_overrides.json")
 FAILED_LOOKUPS_FILE = os.path.join(SCRIPT_DIR, "failed_lookups.json")
@@ -57,35 +70,27 @@ FORCE_BST_STARTERS = {
 # =========================
 
 FORCED_STARTERS = {
-    "Pikachup": 430,  # Starter Pikachu
-    "Eeveep": 430,    # Starter Eevee
-    "Pichus": 205     # Spiky-eared Pichu
+    "Pikachup": 430,
+    "Eeveep": 430,
+    "Pichus": 205
 }
 
-# Regional forms that evolve (should be skipped as starters)
 REGIONAL_EVOLVERS = [
-    # Hisui forms that evolve
     "Qwilfishh", "Sneaselh", "Growlitheh", "Voltorbh", "Zoruah",
-    # Galar forms that evolve
     "Farfetchdg", "Linooneg", "Sliggooh", "Meowthg", "Ponytag",
     "Slowpokeg", "Corsolag", "Darumakag", "Yamaskg", "Zigzagoong",
-    # Alola forms that evolve
     "Vulpixa", "Sandshrewa", "Geodudea", "Grimera", "Meowtha",
     "Digletta", "Rattataa",
-    # Paldea forms that evolve
     "Wooperp",
-    # Standard forms already handled by vanilla evo check
     "Bisharp",
 ]
 
-# Pokémon that are final forms in standard but have a regional evolution (keep as starters)
 TERMINAL_WHIELIST = ["Linoone", "Qwilfish", "Farfetchd", "Farfetch\u2019d", "Sliggoo", "Bisharp"]
 
 # =========================
 # NAME ALIASES (COMPREHENSIVE)
 # =========================
 
-# Load discovered aliases if they exist
 DISCOVERED_ALIASES_FILE = os.path.join(SCRIPT_DIR, "discovered_aliases.json")
 DISCOVERED_ALIASES = {}
 if os.path.exists(DISCOVERED_ALIASES_FILE):
@@ -122,7 +127,6 @@ LEGACY_NAME_ALIASES = {
     "Arcunonog": "articuno-galar",
     "Articunog": "articuno-galar",
     "Abomasnow": "abomasnow",
-    "Abomasnowm": "abomasnow-mega",
     "Aerodactylm": "aerodactyl-mega",
     "Aggronm": "aggron-mega",
     "Alakazam": "alakazam",
@@ -145,7 +149,6 @@ LEGACY_NAME_ALIASES = {
     "Beedrillm": "beedrill-mega",
     "Blastoisem": "blastoise-mega",
     "Braviaryh": "braviary-hisui",
-    "Cameruptm": "camerupt-mega",
     "Cameruptm": "camerupt-mega",
     "Centskorch": "centiskorch",
     "Charcadet": "charcadet",
@@ -187,17 +190,12 @@ LEGACY_NAME_ALIASES = {
     "Garbodorm": "garbodor-mega",
     "Gardevoir": "gardevoir",
     "Gardevoirm": "gardevoir-mega",
-    "Garlacier": "gardevoir",
     "Gastrodon": "gastrodon",
     "Gengarm": "gengar-mega",
     "Geodudea": "geodude-alola",
-    "Gigaformm": "gigantamax",
     "Gimmighour": "gimmighoul",
     "Glaliem": "glalie-mega",
     "Glastrier": "glastrier",
-    "Glelier": "glalie-mega",
-    "Glebotom": "gloom",
-    "Glimmom": "glimmet-form",
     "Golema": "golem-alola",
     "Golemga": "golem-galar",
     "Goodrah": "goodra-hisui",
@@ -212,7 +210,6 @@ LEGACY_NAME_ALIASES = {
     "Grovyle": "grovyle",
     "Growlithe": "growlithe",
     "Growlitheh": "growlithe-hisui",
-    "Growtheath": "growlithe-hisui",
     "Grumpig": "grumpig",
     "Guzzlord": "guzzlord",
     "Hakamo-O": "hakamo-o",
@@ -247,7 +244,6 @@ LEGACY_NAME_ALIASES = {
     "Jirachi": "jirachi",
     "Kartana": "kartana",
     "Kangaskhan": "kangaskhan",
-    "Kangaskham": "kangaskhan-mega",
     "Kecleon": "kecleon",
     "Keldeo": "keldeo-resolute",
     "Kingambit": "kingambit",
@@ -343,7 +339,6 @@ LEGACY_NAME_ALIASES = {
     "Meowsticf": "meowstic-female",
     "Meowth": "meowth",
     "Meowthg": "meowth-galar",
-    "Meowthg": "meowth-galar",
     "Meowthga": "meowth-alola",
     "Mesprit": "mesprit",
     "Metagross": "metagross",
@@ -369,7 +364,6 @@ LEGACY_NAME_ALIASES = {
     "Moltresg": "moltres-galar",
     "Monferno": "monferno",
     "Morellull": "morelull",
-    "Morelull": "morelull",
     "Morgrem": "morgrem",
     "Morpeko": "morpeko-full-belly",
     "Morpekoh": "morpeko-hangry",
@@ -392,7 +386,6 @@ LEGACY_NAME_ALIASES = {
     "Nacli": "nacli",
     "Naclstack": "naclstack",
     "Naganadel": "naganadel",
-    "Nait": "natu",
     "Natu": "natu",
     "Necrozma": "necrozma",
     "Necrozmaul": "necrozma-ultra",
@@ -639,7 +632,6 @@ LEGACY_NAME_ALIASES = {
     "Slowpokeg": "slowpoke-galar",
     "Slugma": "slugma",
     "Slurpuff": "slurpuff",
-    "Slithrwing": "slither-wing",
     "Smeargle": "smeargle",
     "Smoliv": "smoliv",
     "Smoochum": "smoochum",
@@ -831,7 +823,6 @@ LEGACY_NAME_ALIASES = {
     "Wormadams": "wormadam-sandy",
     "Wormadam": "wormadam",
     "Wormadamt": "wormadam-trash",
-    "Wormadamt": "wormadam-trash",
     "Wugtrio": "wugtrio",
     "Wurmple": "wurmple",
     "Wynaut": "wynaut",
@@ -860,7 +851,6 @@ LEGACY_NAME_ALIASES = {
     "Zweilous": "zweilous",
     "Zygarde": "zygarde-50",
     "Zygarde10": "zygarde-10",
-    # Typos / revo-specific spellings / multi-form API slugs
     "Flechinder": "fletchinder",
     "Polchgeist": "polteageist",
     "Pichus": "pichu",
@@ -896,17 +886,12 @@ LEGACY_NAME_ALIASES = {
     "Burmyt": "burmy-trash",
 }
 
-# =========================
-# NAME NORMALIZATION (handover pipeline + merged aliases)
-# =========================
-
 CASTFORM_CORE_ALIASES = {
     "castformf": "castform-sunny",
     "castformw": "castform-rainy",
     "castformi": "castform-snowy",
 }
 
-# Excludes "m" (megas) and "a" (end of many species names, e.g. kirlia) — use explicit aliases for -alola.
 FORM_MAP = {
     "p": "-paldea",
     "f": "-female",
@@ -915,7 +900,6 @@ FORM_MAP = {
     "h": "-hisui",
 }
 
-# PokeAPI often requires an explicit variety slug when no generic /pokemon/{name} exists.
 DEFAULT_FORM_SLUG = {
     "minior": "minior-red-meteor",
     "morpeko": "morpeko-full-belly",
@@ -953,18 +937,12 @@ def _normalize_core(name: str) -> str:
 
 
 def _load_merged_aliases() -> dict:
-    """JSON `name_aliases.json` overrides the shipped LEGACY table for the same normalized key."""
     merged: dict = {}
-    
-    # Merge discovered aliases
     for k, v in LEGACY_NAME_ALIASES.items():
         key = _normalize_core(k)
         merged[key] = v
-        
-    # DISCOVERED_ALIASES take priority over legacy
     for k, v in DISCOVERED_ALIASES.items():
         merged[k.lower()] = v.lower()
-
     if os.path.isfile(ALIASES_FILE):
         with open(ALIASES_FILE, "r", encoding="utf-8") as f:
             file_aliases = json.load(f)
@@ -978,13 +956,8 @@ ALIASES = _load_merged_aliases()
 
 
 def normalize_name(name: str) -> str:
-    # 1. Clean characters (handle both standard and curly apostrophes)
     n = name.lower().strip().replace(" ", "-").replace(".", "").replace("'", "").replace("’", "")
-    
-    # 2. Strip trailing digits (e.g., Basculinw1 -> Basculinw)
     n = re.sub(r"\d+$", "", n)
-    
-    # 2. Check for exact special mappings (Floette, Starters, etc.)
     specials = {
         "floettee": "floette-eternal",
         "eeveep": "eevee-starter",
@@ -1005,13 +978,10 @@ def normalize_name(name: str) -> str:
         "porygon2": "porygon2",
         "porygon-z": "porygon-z",
     }
-    if n in specials: return specials[n]
-
-    # 3. Check the verified Alldata/Legacy Aliases (Loaded at startup)
+    if n in specials:
+        return specials[n]
     if n in ALIASES:
         return ALIASES[n]
-
-    # 4. Explicit Regional Whitelist (Only apply if exact match in revo data)
     regional_map = {
         "qwilfishh": "qwilfish-hisui",
         "farfetchdg": "farfetchd-galar",
@@ -1030,7 +1000,6 @@ def normalize_name(name: str) -> str:
         "braviaryh": "braviary-hisui",
         "goodrah": "goodra-hisui",
         "decidueyeh": "decidueye-hisui",
-        "avaluggh": "avalugg-hisui",
         "meowthg": "meowth-galar",
         "slowpokeg": "slowpoke-galar",
         "yamaskg": "yamask-galar",
@@ -1064,15 +1033,72 @@ def normalize_name(name: str) -> str:
     }
     if n in regional_map:
         return regional_map[n]
-
-    # 5. Default: Just the cleaned base name
     return n
 
-# =========================
-# PARSE EVO FILE
-# =========================
+
+def _resolve_pokemon_name_from_id(pokemon_id: int):
+    url = f"{POKEAPI}/pokemon/{pokemon_id}"
+    try:
+        r = requests.get(url, timeout=10)
+        if r.status_code == 200:
+            return r.json()["name"]
+    except Exception:
+        pass
+    return None
+
+
+def parse_lua_revo_file(path):
+    data = {}
+    with open(path, "r", encoding="utf-8") as f:
+        lines = f.readlines()
+
+    i = 0
+    while i < len(lines):
+        line = lines[i]
+        match = re.match(r"\s*\[(\d+)\]\s*=\s*\{\s*(?:--\s*(.+))?\s*$", line)
+        if not match:
+            i += 1
+            continue
+
+        starter_id = int(match.group(1))
+        starter_name_hint = (match.group(2) or "").strip()
+        starter_name = starter_name_hint or _resolve_pokemon_name_from_id(starter_id)
+
+        entries = []
+        i += 1
+        depth = 1
+        while i < len(lines):
+            current = lines[i]
+            depth += current.count("{") - current.count("}")
+            if depth <= 0:
+                break
+            entries.append(current)
+            i += 1
+
+        block_text = "\n".join(entries)
+        evo_list = []
+        for item in re.finditer(r"\{\s*id\s*=\s*(\d+)\s*,\s*perc\s*=\s*([0-9.]+)\s*\}", block_text):
+            evo_id = int(item.group(1))
+            perc = float(item.group(2))
+            evo_name = _resolve_pokemon_name_from_id(evo_id)
+            if evo_name is None:
+                continue
+            evo_list.append({
+                "name": evo_name,
+                "count": max(1, int(round((perc / 100.0) * TOTAL_RUNS)))
+            })
+
+        if starter_name:
+            data[starter_name] = evo_list
+        i += 1
+
+    return data
+
 
 def parse_evo_file(path):
+    if path.lower().endswith(".lua"):
+        return parse_lua_revo_file(path)
+
     pattern = re.compile(r"\(([^,]+),\s*(\d+)\)")
     data = {}
 
@@ -1083,13 +1109,8 @@ def parse_evo_file(path):
 
             starter, rest = line.split("->", 1)
             evos = []
-
             for evo, count in pattern.findall(rest):
-                evos.append({
-                    "name": evo.strip(),
-                    "count": int(count)
-                })
-
+                evos.append({"name": evo.strip(), "count": int(count)})
             data[starter.strip()] = evos
 
     return data
@@ -1097,6 +1118,7 @@ def parse_evo_file(path):
 # =========================
 # BUILD VANILLA FORWARD EVO SET
 # =========================
+
 
 def build_vanilla_forward_evolvers():
     CACHE_FILE = os.path.join(SCRIPT_DIR, "vanilla_evos_cache.json")
@@ -1122,21 +1144,17 @@ def build_vanilla_forward_evolvers():
             chain_data = requests.get(entry["url"], timeout=10).json()["chain"]
         except:
             continue
-        
-        chain = chain_data
 
         def walk(node):
             parent = node["species"]["name"]
             for nxt in node["evolves_to"]:
-                child = nxt["species"]["name"]
                 forward.add(parent)
                 walk(nxt)
 
-        walk(chain)
+        walk(chain_data)
 
     print(f"Vanilla forward evolvers found: {len(forward)}", flush=True)
 
-    # Save cache
     try:
         with open(CACHE_FILE, "w", encoding="utf-8") as f:
             json.dump(list(forward), f)
@@ -1162,7 +1180,6 @@ def has_forward_vanilla_evolution(name: str) -> bool:
     evos = _get_vanilla_forward_evolvers()
     if norm in evos:
         return True
-    # Check base species name (e.g. "frillish-male" -> "frillish")
     base = norm.split("-")[0]
     return base in evos
 
@@ -1177,52 +1194,33 @@ if os.path.exists("pokemon_data_cache.json"):
 
 @lru_cache(maxsize=2000)
 def get_pokemon_data(name: str):
-    """Returns (bst, evolution_level, types) or (None, None, None).
-    
-    NOTE: `name` is expected to be ALREADY normalized by the caller (get_bst).
-    We do NOT re-normalize here to avoid double-expansion of form suffixes.
-    """
     if name in POKEMON_DATA_CACHE:
         d = POKEMON_DATA_CACHE[name]
-        # Only use cache if it has both bst and types
         if d.get("bst") and d.get("types"):
             return d.get("bst"), d.get("evolution_level"), d.get("types")
 
-    # Use the name directly as the API slug (caller already normalized)
-    slug = name
-    
-    # Apply DEFAULT_FORM_SLUG if available (e.g. "frillish" -> "frillish-male")
-    slug = DEFAULT_FORM_SLUG.get(slug, slug)
-    
+    slug = DEFAULT_FORM_SLUG.get(name, name)
     url = f"{POKEAPI}/pokemon/{slug}"
-    
+
     for attempt in range(3):
         try:
             r = requests.get(url, timeout=10)
             if r.status_code == 200:
                 data = r.json()
                 bst = sum(s["base_stat"] for s in data["stats"])
-                
-                # Fetch species for evolution level
                 species_url = data["species"]["url"]
                 sr = requests.get(species_url, timeout=10)
                 evolution_level = None
                 if sr.status_code == 200:
                     sdata = sr.json()
-                    # Use BST-based level rule
                     evolution_level = int(bst / 10)
-
                 types = [t["type"]["name"].capitalize() for t in data["types"]]
-                
-                # Safeguard: Use manual types from cache if they exist
                 if name in POKEMON_DATA_CACHE and "types" in POKEMON_DATA_CACHE[name]:
                     types = POKEMON_DATA_CACHE[name]["types"]
                 elif slug in POKEMON_DATA_CACHE and "types" in POKEMON_DATA_CACHE[slug]:
                     types = POKEMON_DATA_CACHE[slug]["types"]
-
                 return bst, evolution_level, types
             elif r.status_code == 404:
-                # If the default form slug was applied and still 404, try the base name
                 if slug != name:
                     slug = name
                     url = f"{POKEAPI}/pokemon/{slug}"
@@ -1254,6 +1252,7 @@ def get_bst(name: str):
 # MAIN BUILD LOGIC
 # =========================
 
+
 def build_random_bst_evo_table():
     evo_data = parse_evo_file(EVO_FILE)
     result = {}
@@ -1269,17 +1268,13 @@ def build_random_bst_evo_table():
             elapsed = int(time.time() - start_time)
             print(f"[STARTERS] {i}/{total} | kept {kept} | {elapsed}s")
 
-        # ---------- BASE BST ----------
         if starter in FORCED_STARTERS:
             base_bst = FORCED_STARTERS[starter]
         else:
             try:
                 base_bst = get_bst(starter)
             except Exception as e:
-                STATS["failed_starters"].append({
-                    "name": starter,
-                    "reason": str(e)
-                })
+                STATS["failed_starters"].append({"name": starter, "reason": str(e)})
                 continue
 
         if base_bst > BST_LIMIT:
@@ -1292,25 +1287,21 @@ def build_random_bst_evo_table():
             if has_forward_vanilla_evolution(starter):
                 continue
 
-        # ---------- PROCESS EVOS ----------
         processed = []
-
         for e in evos:
             evo_name = e["name"]
             evo_slug = normalize_name(evo_name)
             try:
-               bst, evo_lvl, types = get_pokemon_data(evo_slug)
-            
-               if bst is not None:
-                   processed.append({
-                       "evolution": evo_name,
-                       "bst": bst,
-                       "types": types,
-                       "evolution_level": evo_lvl,
-                       "probability": e["count"] / TOTAL_RUNS
-                   })
+                bst, evo_lvl, types = get_pokemon_data(evo_slug)
+                if bst is not None:
+                    processed.append({
+                        "evolution": evo_name,
+                        "bst": bst,
+                        "types": types,
+                        "evolution_level": evo_lvl,
+                        "probability": e["count"] / TOTAL_RUNS,
+                    })
             except Exception as e:
-                # SKIP failed evolutions instead of keeping null placeholders
                 if starter not in STATS["failed_evolutions"]:
                     STATS["failed_evolutions"][starter] = []
                 STATS["failed_evolutions"][starter].append({
@@ -1321,17 +1312,13 @@ def build_random_bst_evo_table():
         if not processed:
             continue
 
-        processed.sort(
-            key=lambda x: (x["bst"] is None, x["bst"] if x["bst"] is not None else 0)
-        )
-
+        processed.sort(key=lambda x: (x["bst"] is None, x["bst"] if x["bst"] is not None else 0))
         result[starter] = {
             "base_bst": base_bst,
             "rule": "bst/10",
             "forced": starter in FORCED_STARTERS,
-            "evolutions": processed
+            "evolutions": processed,
         }
-
         kept += 1
         STATS["starters_kept"] += 1
 
@@ -1374,13 +1361,13 @@ def build_random_bst_evo_table():
 # =========================
 
 if __name__ == "__main__":
+    print(f"Using source data: {EVO_FILE}", flush=True)
     print("Building BST-based random evolution table...", flush=True)
     data = build_random_bst_evo_table()
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2)
 
-    # Save failure logs
     with open(FAILED_LOOKUPS_FILE, "w", encoding="utf-8") as f:
         json.dump({
             "failed_starters": STATS["failed_starters"],
