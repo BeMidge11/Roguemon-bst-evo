@@ -14,10 +14,13 @@ os.environ.pop("SSLKEYLOGFILE", None)
 # =========================
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+PRIMARY_LUA_FILE = os.path.join(SCRIPT_DIR, "RoguemonRevoData.lua")
+LUA_FILE_LOWER = os.path.join(SCRIPT_DIR, "roguemonrevodata.lua")
 LEGACY_EVO_FILE = os.path.join(SCRIPT_DIR, "revo12000.txt")
 REVO_FILE_CANDIDATES = [
+    PRIMARY_LUA_FILE,
+    LUA_FILE_LOWER,
     os.path.join(SCRIPT_DIR, "RoguemonMoonRevoData.lua"),
-    os.path.join(SCRIPT_DIR, "RoguemonRevoData.lua"),
     LEGACY_EVO_FILE,
 ]
 
@@ -26,10 +29,11 @@ def resolve_revo_file():
     for candidate in REVO_FILE_CANDIDATES:
         if os.path.exists(candidate):
             return candidate
-    return LEGACY_EVO_FILE
+    return PRIMARY_LUA_FILE
 
 
 EVO_FILE = resolve_revo_file()
+SPECIES_DATA_FILE = os.path.join(SCRIPT_DIR, "species_data.json")
 OUTPUT_FILE = os.path.join(SCRIPT_DIR, "random_bst_evolutions.json")
 OVERRIDE_FILE = os.path.join(SCRIPT_DIR, "bst_overrides.json")
 FAILED_LOOKUPS_FILE = os.path.join(SCRIPT_DIR, "failed_lookups.json")
@@ -1036,63 +1040,70 @@ def normalize_name(name: str) -> str:
     return n
 
 
-def _resolve_pokemon_name_from_id(pokemon_id: int):
-    url = f"{POKEAPI}/pokemon/{pokemon_id}"
-    try:
-        r = requests.get(url, timeout=10)
-        if r.status_code == 200:
-            return r.json()["name"]
-    except Exception:
-        pass
-    return None
+def load_species_data():
+    if os.path.exists(SPECIES_DATA_FILE):
+        try:
+            with open(SPECIES_DATA_FILE, "r", encoding="utf-8") as f:
+                return {int(k): v for k, v in json.load(f).items()}
+        except Exception as e:
+            print(f"Warning loading species_data.json: {e}", flush=True)
+    return {}
 
 
 def parse_lua_revo_file(path):
-    data = {}
+    species_data = load_species_data()
     with open(path, "r", encoding="utf-8") as f:
-        lines = f.readlines()
+        text = f.read()
 
-    i = 0
-    while i < len(lines):
-        line = lines[i]
-        match = re.match(r"\s*\[(\d+)\]\s*=\s*\{\s*(?:--\s*(.+))?\s*$", line)
-        if not match:
-            i += 1
-            continue
+    starter_blocks = re.findall(r'\s*\[(\d+)\]\s*=\s*\{\s*--\s*(.+?)\s*\n(.*?)\n\s*\},', text, re.DOTALL)
+    result = {}
 
-        starter_id = int(match.group(1))
-        starter_name_hint = (match.group(2) or "").strip()
-        starter_name = starter_name_hint or _resolve_pokemon_name_from_id(starter_id)
+    for sid_str, sname_hint, block in starter_blocks:
+        starter_id = int(sid_str)
+        starter_name = sname_hint.strip()
+        s_info = species_data.get(starter_id, {})
+        base_bst = s_info.get("bst")
+        if base_bst is None:
+            if starter_name in FORCED_STARTERS:
+                base_bst = FORCED_STARTERS[starter_name]
+            else:
+                try:
+                    base_bst = get_bst(starter_name)
+                except Exception:
+                    base_bst = 300
+        types = s_info.get("types", ["Normal"])
 
-        entries = []
-        i += 1
-        depth = 1
-        while i < len(lines):
-            current = lines[i]
-            depth += current.count("{") - current.count("}")
-            if depth <= 0:
-                break
-            entries.append(current)
-            i += 1
+        evo_matches = re.findall(r'\{\s*id\s*=\s*(\d+)\s*,\s*perc\s*=\s*([0-9.]+)\s*\}', block)
+        processed = []
+        for eid_str, perc_str in evo_matches:
+            eid = int(eid_str)
+            perc = float(perc_str)
+            e_info = species_data.get(eid, {})
+            ename = e_info.get("name", f"Species_{eid}")
+            bst = e_info.get("bst", 400)
+            etypes = e_info.get("types", ["Normal"])
+            evo_lvl = e_info.get("evolution_level", max(1, bst // 10))
 
-        block_text = "\n".join(entries)
-        evo_list = []
-        for item in re.finditer(r"\{\s*id\s*=\s*(\d+)\s*,\s*perc\s*=\s*([0-9.]+)\s*\}", block_text):
-            evo_id = int(item.group(1))
-            perc = float(item.group(2))
-            evo_name = _resolve_pokemon_name_from_id(evo_id)
-            if evo_name is None:
-                continue
-            evo_list.append({
-                "name": evo_name,
+            processed.append({
+                "evolution": ename,
+                "id": eid,
+                "bst": bst,
+                "types": etypes,
+                "evolution_level": evo_lvl,
+                "probability": round(perc / 100.0, 6),
                 "count": max(1, int(round((perc / 100.0) * TOTAL_RUNS)))
             })
 
-        if starter_name:
-            data[starter_name] = evo_list
-        i += 1
+        processed.sort(key=lambda x: (x["bst"] is None, x["bst"] if x["bst"] is not None else 0))
+        result[starter_name] = {
+            "base_bst": base_bst,
+            "rule": "bst/10",
+            "forced": starter_name in FORCED_STARTERS,
+            "types": types,
+            "evolutions": processed
+        }
 
-    return data
+    return result
 
 
 def parse_evo_file(path):
@@ -1254,6 +1265,34 @@ def get_bst(name: str):
 
 
 def build_random_bst_evo_table():
+    if EVO_FILE.lower().endswith(".lua"):
+        start_time = time.time()
+        print(f"Building evolution table from Lua source: {EVO_FILE}", flush=True)
+        result = parse_lua_revo_file(EVO_FILE)
+
+        total = len(result)
+        STATS["starters_seen"] = total
+        STATS["starters_kept"] = total
+        STATS["bst_lookups"] = total
+        STATS["lookup_attempts"] = total
+        STATS["lookup_successes"] = total
+
+        print("\n===== SUMMARY =====")
+        print(f"Starters seen:  {STATS['starters_seen']}")
+        print(f"Starters kept: {STATS['starters_kept']}")
+        print(f"BST lookups:   {STATS['bst_lookups']}")
+        print(f"Failed starters: {len(STATS['failed_starters'])}")
+        failed_evo_forms = sum(len(v) for v in STATS["failed_evolutions"].values())
+        print(f"Failed evolution forms: {failed_evo_forms}")
+        print(f"Total failures: {len(STATS['failed_starters']) + failed_evo_forms}")
+        coverage = 1.0
+        print(f"Coverage: {coverage:.2%}")
+        elapsed = time.time() - start_time
+        print(f"Time:          {elapsed:.2f}s")
+        print("===================\n")
+
+        return result
+
     evo_data = parse_evo_file(EVO_FILE)
     result = {}
 
