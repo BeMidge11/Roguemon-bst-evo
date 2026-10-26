@@ -1,0 +1,10985 @@
+{
+  "1": {
+    "name": "Bulbasaur",
+    "slug": "bulbasaur",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "bst": 318,
+    "evolution_level": 31
+  },
+  "2": {
+    "name": "Ivysaur",
+    "slug": "ivysaur",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "bst": 405,
+    "evolution_level": 40
+  },
+  "3": {
+    "name": "Venusaur",
+    "slug": "venusaur",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "bst": 525,
+    "evolution_level": 52
+  },
+  "4": {
+    "name": "Charmander",
+    "slug": "charmander",
+    "types": [
+      "Fire"
+    ],
+    "bst": 309,
+    "evolution_level": 30
+  },
+  "5": {
+    "name": "Charmeleon",
+    "slug": "charmeleon",
+    "types": [
+      "Fire"
+    ],
+    "bst": 405,
+    "evolution_level": 40
+  },
+  "6": {
+    "name": "Charizard",
+    "slug": "charizard",
+    "types": [
+      "Fire",
+      "Flying"
+    ],
+    "bst": 534,
+    "evolution_level": 53
+  },
+  "7": {
+    "name": "Squirtle",
+    "slug": "squirtle",
+    "types": [
+      "Water"
+    ],
+    "bst": 314,
+    "evolution_level": 31
+  },
+  "8": {
+    "name": "Wartortle",
+    "slug": "wartortle",
+    "types": [
+      "Water"
+    ],
+    "bst": 405,
+    "evolution_level": 40
+  },
+  "9": {
+    "name": "Blastoise",
+    "slug": "blastoise",
+    "types": [
+      "Water"
+    ],
+    "bst": 530,
+    "evolution_level": 53
+  },
+  "10": {
+    "name": "Caterpie",
+    "slug": "caterpie",
+    "types": [
+      "Bug"
+    ],
+    "bst": 195,
+    "evolution_level": 19
+  },
+  "11": {
+    "name": "Metapod",
+    "slug": "metapod",
+    "types": [
+      "Bug"
+    ],
+    "bst": 205,
+    "evolution_level": 20
+  },
+  "12": {
+    "name": "Butterfree",
+    "slug": "butterfree",
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "bst": 395,
+    "evolution_level": 39
+  },
+  "13": {
+    "name": "Weedle",
+    "slug": "weedle",
+    "types": [
+      "Bug",
+      "Poison"
+    ],
+    "bst": 195,
+    "evolution_level": 19
+  },
+  "14": {
+    "name": "Kakuna",
+    "slug": "kakuna",
+    "types": [
+      "Bug",
+      "Poison"
+    ],
+    "bst": 205,
+    "evolution_level": 20
+  },
+  "15": {
+    "name": "Beedrill",
+    "slug": "beedrill",
+    "types": [
+      "Bug",
+      "Poison"
+    ],
+    "bst": 395,
+    "evolution_level": 39
+  },
+  "16": {
+    "name": "Pidgey",
+    "slug": "pidgey",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "bst": 251,
+    "evolution_level": 25
+  },
+  "17": {
+    "name": "Pidgeotto",
+    "slug": "pidgeotto",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "bst": 349,
+    "evolution_level": 34
+  },
+  "18": {
+    "name": "Pidgeot",
+    "slug": "pidgeot",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "bst": 479,
+    "evolution_level": 47
+  },
+  "19": {
+    "name": "Rattata",
+    "slug": "rattata",
+    "types": [
+      "Normal"
+    ],
+    "bst": 253,
+    "evolution_level": 25
+  },
+  "20": {
+    "name": "Raticate",
+    "slug": "raticate",
+    "types": [
+      "Normal"
+    ],
+    "bst": 413,
+    "evolution_level": 41
+  },
+  "21": {
+    "name": "Spearow",
+    "slug": "spearow",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "bst": 262,
+    "evolution_level": 26
+  },
+  "22": {
+    "name": "Fearow",
+    "slug": "fearow",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "bst": 442,
+    "evolution_level": 44
+  },
+  "23": {
+    "name": "Ekans",
+    "slug": "ekans",
+    "types": [
+      "Poison"
+    ],
+    "bst": 288,
+    "evolution_level": 28
+  },
+  "24": {
+    "name": "Arbok",
+    "slug": "arbok",
+    "types": [
+      "Poison"
+    ],
+    "bst": 448,
+    "evolution_level": 44
+  },
+  "25": {
+    "name": "Pikachu",
+    "slug": "pikachu",
+    "types": [
+      "Electric"
+    ],
+    "bst": 320,
+    "evolution_level": 32
+  },
+  "26": {
+    "name": "Raichu",
+    "slug": "raichu",
+    "types": [
+      "Electric"
+    ],
+    "bst": 485,
+    "evolution_level": 48
+  },
+  "27": {
+    "name": "Sandshrew",
+    "slug": "sandshrew",
+    "types": [
+      "Ground"
+    ],
+    "bst": 300,
+    "evolution_level": 30
+  },
+  "28": {
+    "name": "Sandslash",
+    "slug": "sandslash",
+    "types": [
+      "Ground"
+    ],
+    "bst": 450,
+    "evolution_level": 45
+  },
+  "29": {
+    "name": "Nidoran\u2640",
+    "slug": "nidoranf",
+    "types": [
+      "Poison"
+    ],
+    "bst": 275,
+    "evolution_level": 27
+  },
+  "30": {
+    "name": "Nidorina",
+    "slug": "nidorina",
+    "types": [
+      "Poison"
+    ],
+    "bst": 365,
+    "evolution_level": 36
+  },
+  "31": {
+    "name": "Nidoqueen",
+    "slug": "nidoqueen",
+    "types": [
+      "Poison",
+      "Ground"
+    ],
+    "bst": 505,
+    "evolution_level": 50
+  },
+  "32": {
+    "name": "Nidoran\u2642",
+    "slug": "nidoranm",
+    "types": [
+      "Poison"
+    ],
+    "bst": 273,
+    "evolution_level": 27
+  },
+  "33": {
+    "name": "Nidorino",
+    "slug": "nidorino",
+    "types": [
+      "Poison"
+    ],
+    "bst": 365,
+    "evolution_level": 36
+  },
+  "34": {
+    "name": "Nidoking",
+    "slug": "nidoking",
+    "types": [
+      "Poison",
+      "Ground"
+    ],
+    "bst": 505,
+    "evolution_level": 50
+  },
+  "35": {
+    "name": "Clefairy",
+    "slug": "clefairy",
+    "types": [
+      "Fairy"
+    ],
+    "bst": 323,
+    "evolution_level": 32
+  },
+  "36": {
+    "name": "Clefable",
+    "slug": "clefable",
+    "types": [
+      "Fairy"
+    ],
+    "bst": 483,
+    "evolution_level": 48
+  },
+  "37": {
+    "name": "Vulpix",
+    "slug": "vulpix",
+    "types": [
+      "Fire"
+    ],
+    "bst": 299,
+    "evolution_level": 29
+  },
+  "38": {
+    "name": "Ninetales",
+    "slug": "ninetales",
+    "types": [
+      "Fire"
+    ],
+    "bst": 505,
+    "evolution_level": 50
+  },
+  "39": {
+    "name": "Jigglypuff",
+    "slug": "jigglypuff",
+    "types": [
+      "Normal",
+      "Fairy"
+    ],
+    "bst": 270,
+    "evolution_level": 27
+  },
+  "40": {
+    "name": "Wigglytuff",
+    "slug": "wigglytuff",
+    "types": [
+      "Normal",
+      "Fairy"
+    ],
+    "bst": 435,
+    "evolution_level": 43
+  },
+  "41": {
+    "name": "Zubat",
+    "slug": "zubat",
+    "types": [
+      "Poison",
+      "Flying"
+    ],
+    "bst": 245,
+    "evolution_level": 24
+  },
+  "42": {
+    "name": "Golbat",
+    "slug": "golbat",
+    "types": [
+      "Poison",
+      "Flying"
+    ],
+    "bst": 455,
+    "evolution_level": 45
+  },
+  "43": {
+    "name": "Oddish",
+    "slug": "oddish",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "bst": 320,
+    "evolution_level": 32
+  },
+  "44": {
+    "name": "Gloom",
+    "slug": "gloom",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "bst": 395,
+    "evolution_level": 39
+  },
+  "45": {
+    "name": "Vileplume",
+    "slug": "vileplume",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "bst": 490,
+    "evolution_level": 49
+  },
+  "46": {
+    "name": "Paras",
+    "slug": "paras",
+    "types": [
+      "Bug",
+      "Grass"
+    ],
+    "bst": 285,
+    "evolution_level": 28
+  },
+  "47": {
+    "name": "Parasect",
+    "slug": "parasect",
+    "types": [
+      "Bug",
+      "Grass"
+    ],
+    "bst": 405,
+    "evolution_level": 40
+  },
+  "48": {
+    "name": "Venonat",
+    "slug": "venonat",
+    "types": [
+      "Bug",
+      "Poison"
+    ],
+    "bst": 305,
+    "evolution_level": 30
+  },
+  "49": {
+    "name": "Venomoth",
+    "slug": "venomoth",
+    "types": [
+      "Bug",
+      "Poison"
+    ],
+    "bst": 450,
+    "evolution_level": 45
+  },
+  "50": {
+    "name": "Diglett",
+    "slug": "diglett",
+    "types": [
+      "Ground"
+    ],
+    "bst": 265,
+    "evolution_level": 26
+  },
+  "51": {
+    "name": "Dugtrio",
+    "slug": "dugtrio",
+    "types": [
+      "Ground"
+    ],
+    "bst": 425,
+    "evolution_level": 42
+  },
+  "52": {
+    "name": "Meowth",
+    "slug": "meowth",
+    "types": [
+      "Normal"
+    ],
+    "bst": 290,
+    "evolution_level": 29
+  },
+  "53": {
+    "name": "Persian",
+    "slug": "persian",
+    "types": [
+      "Normal"
+    ],
+    "bst": 440,
+    "evolution_level": 44
+  },
+  "54": {
+    "name": "Psyduck",
+    "slug": "psyduck",
+    "types": [
+      "Water"
+    ],
+    "bst": 320,
+    "evolution_level": 32
+  },
+  "55": {
+    "name": "Golduck",
+    "slug": "golduck",
+    "types": [
+      "Water"
+    ],
+    "bst": 500,
+    "evolution_level": 50
+  },
+  "56": {
+    "name": "Mankey",
+    "slug": "mankey",
+    "types": [
+      "Fighting"
+    ],
+    "bst": 305,
+    "evolution_level": 30
+  },
+  "57": {
+    "name": "Primeape",
+    "slug": "primeape",
+    "types": [
+      "Fighting"
+    ],
+    "bst": 455,
+    "evolution_level": 45
+  },
+  "58": {
+    "name": "Growlithe",
+    "slug": "growlithe",
+    "types": [
+      "Fire"
+    ],
+    "bst": 350,
+    "evolution_level": 35
+  },
+  "59": {
+    "name": "Arcanine",
+    "slug": "arcanine",
+    "types": [
+      "Fire"
+    ],
+    "bst": 555,
+    "evolution_level": 55
+  },
+  "60": {
+    "name": "Poliwag",
+    "slug": "poliwag",
+    "types": [
+      "Water"
+    ],
+    "bst": 300,
+    "evolution_level": 30
+  },
+  "61": {
+    "name": "Poliwhirl",
+    "slug": "poliwhirl",
+    "types": [
+      "Water"
+    ],
+    "bst": 385,
+    "evolution_level": 38
+  },
+  "62": {
+    "name": "Poliwrath",
+    "slug": "poliwrath",
+    "types": [
+      "Water",
+      "Fighting"
+    ],
+    "bst": 510,
+    "evolution_level": 51
+  },
+  "63": {
+    "name": "Abra",
+    "slug": "abra",
+    "types": [
+      "Psychic"
+    ],
+    "bst": 310,
+    "evolution_level": 31
+  },
+  "64": {
+    "name": "Kadabra",
+    "slug": "kadabra",
+    "types": [
+      "Psychic"
+    ],
+    "bst": 400,
+    "evolution_level": 40
+  },
+  "65": {
+    "name": "Alakazam",
+    "slug": "alakazam",
+    "types": [
+      "Psychic"
+    ],
+    "bst": 500,
+    "evolution_level": 50
+  },
+  "66": {
+    "name": "Machop",
+    "slug": "machop",
+    "types": [
+      "Fighting"
+    ],
+    "bst": 305,
+    "evolution_level": 30
+  },
+  "67": {
+    "name": "Machoke",
+    "slug": "machoke",
+    "types": [
+      "Fighting"
+    ],
+    "bst": 405,
+    "evolution_level": 40
+  },
+  "68": {
+    "name": "Machamp",
+    "slug": "machamp",
+    "types": [
+      "Fighting"
+    ],
+    "bst": 505,
+    "evolution_level": 50
+  },
+  "69": {
+    "name": "Bellsprout",
+    "slug": "bellsprout",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "bst": 300,
+    "evolution_level": 30
+  },
+  "70": {
+    "name": "Weepinbell",
+    "slug": "weepinbell",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "bst": 390,
+    "evolution_level": 39
+  },
+  "71": {
+    "name": "Victreebel",
+    "slug": "victreebel",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "bst": 490,
+    "evolution_level": 49
+  },
+  "72": {
+    "name": "Tentacool",
+    "slug": "tentacool",
+    "types": [
+      "Water",
+      "Poison"
+    ],
+    "bst": 335,
+    "evolution_level": 33
+  },
+  "73": {
+    "name": "Tentacruel",
+    "slug": "tentacruel",
+    "types": [
+      "Water",
+      "Poison"
+    ],
+    "bst": 515,
+    "evolution_level": 51
+  },
+  "74": {
+    "name": "Geodude",
+    "slug": "geodude",
+    "types": [
+      "Rock",
+      "Ground"
+    ],
+    "bst": 300,
+    "evolution_level": 30
+  },
+  "75": {
+    "name": "Graveler",
+    "slug": "graveler",
+    "types": [
+      "Rock",
+      "Ground"
+    ],
+    "bst": 390,
+    "evolution_level": 39
+  },
+  "76": {
+    "name": "Golem",
+    "slug": "golem",
+    "types": [
+      "Rock",
+      "Ground"
+    ],
+    "bst": 495,
+    "evolution_level": 49
+  },
+  "77": {
+    "name": "Ponyta",
+    "slug": "ponyta",
+    "types": [
+      "Fire"
+    ],
+    "bst": 410,
+    "evolution_level": 41
+  },
+  "78": {
+    "name": "Rapidash",
+    "slug": "rapidash",
+    "types": [
+      "Fire"
+    ],
+    "bst": 500,
+    "evolution_level": 50
+  },
+  "79": {
+    "name": "Slowpoke",
+    "slug": "slowpoke",
+    "types": [
+      "Water",
+      "Psychic"
+    ],
+    "bst": 315,
+    "evolution_level": 31
+  },
+  "80": {
+    "name": "Slowbro",
+    "slug": "slowbro",
+    "types": [
+      "Water",
+      "Psychic"
+    ],
+    "bst": 490,
+    "evolution_level": 49
+  },
+  "81": {
+    "name": "Magnemite",
+    "slug": "magnemite",
+    "types": [
+      "Electric",
+      "Steel"
+    ],
+    "bst": 325,
+    "evolution_level": 32
+  },
+  "82": {
+    "name": "Magneton",
+    "slug": "magneton",
+    "types": [
+      "Electric",
+      "Steel"
+    ],
+    "bst": 465,
+    "evolution_level": 46
+  },
+  "83": {
+    "name": "Farfetch'd",
+    "slug": "farfetchd",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "bst": 377,
+    "evolution_level": 37
+  },
+  "84": {
+    "name": "Doduo",
+    "slug": "doduo",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "bst": 310,
+    "evolution_level": 31
+  },
+  "85": {
+    "name": "Dodrio",
+    "slug": "dodrio",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "bst": 470,
+    "evolution_level": 47
+  },
+  "86": {
+    "name": "Seel",
+    "slug": "seel",
+    "types": [
+      "Water"
+    ],
+    "bst": 325,
+    "evolution_level": 32
+  },
+  "87": {
+    "name": "Dewgong",
+    "slug": "dewgong",
+    "types": [
+      "Water",
+      "Ice"
+    ],
+    "bst": 475,
+    "evolution_level": 47
+  },
+  "88": {
+    "name": "Grimer",
+    "slug": "grimer",
+    "types": [
+      "Poison"
+    ],
+    "bst": 325,
+    "evolution_level": 32
+  },
+  "89": {
+    "name": "Muk",
+    "slug": "muk",
+    "types": [
+      "Poison"
+    ],
+    "bst": 500,
+    "evolution_level": 50
+  },
+  "90": {
+    "name": "Shellder",
+    "slug": "shellder",
+    "types": [
+      "Water"
+    ],
+    "bst": 305,
+    "evolution_level": 30
+  },
+  "91": {
+    "name": "Cloyster",
+    "slug": "cloyster",
+    "types": [
+      "Water",
+      "Ice"
+    ],
+    "bst": 525,
+    "evolution_level": 52
+  },
+  "92": {
+    "name": "Gastly",
+    "slug": "gastly",
+    "types": [
+      "Ghost",
+      "Poison"
+    ],
+    "bst": 310,
+    "evolution_level": 31
+  },
+  "93": {
+    "name": "Haunter",
+    "slug": "haunter",
+    "types": [
+      "Ghost",
+      "Poison"
+    ],
+    "bst": 405,
+    "evolution_level": 40
+  },
+  "94": {
+    "name": "Gengar",
+    "slug": "gengar",
+    "types": [
+      "Ghost",
+      "Poison"
+    ],
+    "bst": 500,
+    "evolution_level": 50
+  },
+  "95": {
+    "name": "Onix",
+    "slug": "onix",
+    "types": [
+      "Rock",
+      "Ground"
+    ],
+    "bst": 385,
+    "evolution_level": 38
+  },
+  "96": {
+    "name": "Drowzee",
+    "slug": "drowzee",
+    "types": [
+      "Psychic"
+    ],
+    "bst": 328,
+    "evolution_level": 32
+  },
+  "97": {
+    "name": "Hypno",
+    "slug": "hypno",
+    "types": [
+      "Psychic"
+    ],
+    "bst": 483,
+    "evolution_level": 48
+  },
+  "98": {
+    "name": "Krabby",
+    "slug": "krabby",
+    "types": [
+      "Water"
+    ],
+    "bst": 325,
+    "evolution_level": 32
+  },
+  "99": {
+    "name": "Kingler",
+    "slug": "kingler",
+    "types": [
+      "Water"
+    ],
+    "bst": 475,
+    "evolution_level": 47
+  },
+  "100": {
+    "name": "Voltorb",
+    "slug": "voltorb",
+    "types": [
+      "Electric"
+    ],
+    "bst": 330,
+    "evolution_level": 33
+  },
+  "101": {
+    "name": "Electrode",
+    "slug": "electrode",
+    "types": [
+      "Electric"
+    ],
+    "bst": 490,
+    "evolution_level": 49
+  },
+  "102": {
+    "name": "Exeggcute",
+    "slug": "exeggcute",
+    "types": [
+      "Grass",
+      "Psychic"
+    ],
+    "bst": 325,
+    "evolution_level": 32
+  },
+  "103": {
+    "name": "Exeggutor",
+    "slug": "exeggutor",
+    "types": [
+      "Grass",
+      "Psychic"
+    ],
+    "bst": 530,
+    "evolution_level": 53
+  },
+  "104": {
+    "name": "Cubone",
+    "slug": "cubone",
+    "types": [
+      "Ground"
+    ],
+    "bst": 320,
+    "evolution_level": 32
+  },
+  "105": {
+    "name": "Marowak",
+    "slug": "marowak",
+    "types": [
+      "Ground"
+    ],
+    "bst": 425,
+    "evolution_level": 42
+  },
+  "106": {
+    "name": "Hitmonlee",
+    "slug": "hitmonlee",
+    "types": [
+      "Fighting"
+    ],
+    "bst": 455,
+    "evolution_level": 45
+  },
+  "107": {
+    "name": "Hitmonchan",
+    "slug": "hitmonchan",
+    "types": [
+      "Fighting"
+    ],
+    "bst": 455,
+    "evolution_level": 45
+  },
+  "108": {
+    "name": "Lickitung",
+    "slug": "lickitung",
+    "types": [
+      "Normal"
+    ],
+    "bst": 385,
+    "evolution_level": 38
+  },
+  "109": {
+    "name": "Koffing",
+    "slug": "koffing",
+    "types": [
+      "Poison"
+    ],
+    "bst": 340,
+    "evolution_level": 34
+  },
+  "110": {
+    "name": "Weezing",
+    "slug": "weezing",
+    "types": [
+      "Poison"
+    ],
+    "bst": 490,
+    "evolution_level": 49
+  },
+  "111": {
+    "name": "Rhyhorn",
+    "slug": "rhyhorn",
+    "types": [
+      "Ground",
+      "Rock"
+    ],
+    "bst": 345,
+    "evolution_level": 34
+  },
+  "112": {
+    "name": "Rhydon",
+    "slug": "rhydon",
+    "types": [
+      "Ground",
+      "Rock"
+    ],
+    "bst": 485,
+    "evolution_level": 48
+  },
+  "113": {
+    "name": "Chansey",
+    "slug": "chansey",
+    "types": [
+      "Normal"
+    ],
+    "bst": 450,
+    "evolution_level": 45
+  },
+  "114": {
+    "name": "Tangela",
+    "slug": "tangela",
+    "types": [
+      "Grass"
+    ],
+    "bst": 435,
+    "evolution_level": 43
+  },
+  "115": {
+    "name": "Kangaskhan",
+    "slug": "kangaskhan",
+    "types": [
+      "Normal"
+    ],
+    "bst": 490,
+    "evolution_level": 49
+  },
+  "116": {
+    "name": "Horsea",
+    "slug": "horsea",
+    "types": [
+      "Water"
+    ],
+    "bst": 295,
+    "evolution_level": 29
+  },
+  "117": {
+    "name": "Seadra",
+    "slug": "seadra",
+    "types": [
+      "Water"
+    ],
+    "bst": 440,
+    "evolution_level": 44
+  },
+  "118": {
+    "name": "Goldeen",
+    "slug": "goldeen",
+    "types": [
+      "Water"
+    ],
+    "bst": 320,
+    "evolution_level": 32
+  },
+  "119": {
+    "name": "Seaking",
+    "slug": "seaking",
+    "types": [
+      "Water"
+    ],
+    "bst": 450,
+    "evolution_level": 45
+  },
+  "120": {
+    "name": "Staryu",
+    "slug": "staryu",
+    "types": [
+      "Water"
+    ],
+    "bst": 340,
+    "evolution_level": 34
+  },
+  "121": {
+    "name": "Starmie",
+    "slug": "starmie",
+    "types": [
+      "Water",
+      "Psychic"
+    ],
+    "bst": 520,
+    "evolution_level": 52
+  },
+  "122": {
+    "name": "Mr. Mime",
+    "slug": "mrmime",
+    "types": [
+      "Psychic",
+      "Fairy"
+    ],
+    "bst": 460,
+    "evolution_level": 46
+  },
+  "123": {
+    "name": "Scyther",
+    "slug": "scyther",
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "bst": 500,
+    "evolution_level": 50
+  },
+  "124": {
+    "name": "Jynx",
+    "slug": "jynx",
+    "types": [
+      "Ice",
+      "Psychic"
+    ],
+    "bst": 455,
+    "evolution_level": 45
+  },
+  "125": {
+    "name": "Electabuzz",
+    "slug": "electabuzz",
+    "types": [
+      "Electric"
+    ],
+    "bst": 490,
+    "evolution_level": 49
+  },
+  "126": {
+    "name": "Magmar",
+    "slug": "magmar",
+    "types": [
+      "Fire"
+    ],
+    "bst": 495,
+    "evolution_level": 49
+  },
+  "127": {
+    "name": "Pinsir",
+    "slug": "pinsir",
+    "types": [
+      "Bug"
+    ],
+    "bst": 500,
+    "evolution_level": 50
+  },
+  "128": {
+    "name": "Tauros",
+    "slug": "tauros",
+    "types": [
+      "Normal"
+    ],
+    "bst": 490,
+    "evolution_level": 49
+  },
+  "129": {
+    "name": "Magikarp",
+    "slug": "magikarp",
+    "types": [
+      "Water"
+    ],
+    "bst": 200,
+    "evolution_level": 20
+  },
+  "130": {
+    "name": "Gyarados",
+    "slug": "gyarados",
+    "types": [
+      "Water",
+      "Flying"
+    ],
+    "bst": 540,
+    "evolution_level": 54
+  },
+  "131": {
+    "name": "Lapras",
+    "slug": "lapras",
+    "types": [
+      "Water",
+      "Ice"
+    ],
+    "bst": 535,
+    "evolution_level": 53
+  },
+  "132": {
+    "name": "Ditto",
+    "slug": "ditto",
+    "types": [
+      "Normal"
+    ],
+    "bst": 288,
+    "evolution_level": 28
+  },
+  "133": {
+    "name": "Eevee",
+    "slug": "eevee",
+    "types": [
+      "Normal"
+    ],
+    "bst": 325,
+    "evolution_level": 32
+  },
+  "134": {
+    "name": "Vaporeon",
+    "slug": "vaporeon",
+    "types": [
+      "Water"
+    ],
+    "bst": 525,
+    "evolution_level": 52
+  },
+  "135": {
+    "name": "Jolteon",
+    "slug": "jolteon",
+    "types": [
+      "Electric"
+    ],
+    "bst": 525,
+    "evolution_level": 52
+  },
+  "136": {
+    "name": "Flareon",
+    "slug": "flareon",
+    "types": [
+      "Fire"
+    ],
+    "bst": 525,
+    "evolution_level": 52
+  },
+  "137": {
+    "name": "Porygon",
+    "slug": "porygon",
+    "types": [
+      "Normal"
+    ],
+    "bst": 395,
+    "evolution_level": 39
+  },
+  "138": {
+    "name": "Omanyte",
+    "slug": "omanyte",
+    "types": [
+      "Rock",
+      "Water"
+    ],
+    "bst": 355,
+    "evolution_level": 35
+  },
+  "139": {
+    "name": "Omastar",
+    "slug": "omastar",
+    "types": [
+      "Rock",
+      "Water"
+    ],
+    "bst": 495,
+    "evolution_level": 49
+  },
+  "140": {
+    "name": "Kabuto",
+    "slug": "kabuto",
+    "types": [
+      "Rock",
+      "Water"
+    ],
+    "bst": 355,
+    "evolution_level": 35
+  },
+  "141": {
+    "name": "Kabutops",
+    "slug": "kabutops",
+    "types": [
+      "Rock",
+      "Water"
+    ],
+    "bst": 495,
+    "evolution_level": 49
+  },
+  "142": {
+    "name": "Aerodactyl",
+    "slug": "aerodactyl",
+    "types": [
+      "Rock",
+      "Flying"
+    ],
+    "bst": 515,
+    "evolution_level": 51
+  },
+  "143": {
+    "name": "Snorlax",
+    "slug": "snorlax",
+    "types": [
+      "Normal"
+    ],
+    "bst": 540,
+    "evolution_level": 54
+  },
+  "144": {
+    "name": "Articuno",
+    "slug": "articuno",
+    "types": [
+      "Ice",
+      "Flying"
+    ],
+    "bst": 580,
+    "evolution_level": 58
+  },
+  "145": {
+    "name": "Zapdos",
+    "slug": "zapdos",
+    "types": [
+      "Electric",
+      "Flying"
+    ],
+    "bst": 580,
+    "evolution_level": 58
+  },
+  "146": {
+    "name": "Moltres",
+    "slug": "moltres",
+    "types": [
+      "Fire",
+      "Flying"
+    ],
+    "bst": 580,
+    "evolution_level": 58
+  },
+  "147": {
+    "name": "Dratini",
+    "slug": "dratini",
+    "types": [
+      "Dragon"
+    ],
+    "bst": 300,
+    "evolution_level": 30
+  },
+  "148": {
+    "name": "Dragonair",
+    "slug": "dragonair",
+    "types": [
+      "Dragon"
+    ],
+    "bst": 420,
+    "evolution_level": 42
+  },
+  "149": {
+    "name": "Dragonite",
+    "slug": "dragonite",
+    "types": [
+      "Dragon",
+      "Flying"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "151": {
+    "name": "Mew",
+    "slug": "mew",
+    "types": [
+      "Psychic"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "152": {
+    "name": "Chikorita",
+    "slug": "chikorita",
+    "types": [
+      "Grass"
+    ],
+    "bst": 318,
+    "evolution_level": 31
+  },
+  "153": {
+    "name": "Bayleef",
+    "slug": "bayleef",
+    "types": [
+      "Grass"
+    ],
+    "bst": 405,
+    "evolution_level": 40
+  },
+  "154": {
+    "name": "Meganium",
+    "slug": "meganium",
+    "types": [
+      "Grass"
+    ],
+    "bst": 525,
+    "evolution_level": 52
+  },
+  "155": {
+    "name": "Cyndaquil",
+    "slug": "cyndaquil",
+    "types": [
+      "Fire"
+    ],
+    "bst": 309,
+    "evolution_level": 30
+  },
+  "156": {
+    "name": "Quilava",
+    "slug": "quilava",
+    "types": [
+      "Fire"
+    ],
+    "bst": 405,
+    "evolution_level": 40
+  },
+  "157": {
+    "name": "Typhlosion",
+    "slug": "typhlosion",
+    "types": [
+      "Fire"
+    ],
+    "bst": 534,
+    "evolution_level": 53
+  },
+  "158": {
+    "name": "Totodile",
+    "slug": "totodile",
+    "types": [
+      "Water"
+    ],
+    "bst": 314,
+    "evolution_level": 31
+  },
+  "159": {
+    "name": "Croconaw",
+    "slug": "croconaw",
+    "types": [
+      "Water"
+    ],
+    "bst": 405,
+    "evolution_level": 40
+  },
+  "160": {
+    "name": "Feraligatr",
+    "slug": "feraligatr",
+    "types": [
+      "Water"
+    ],
+    "bst": 530,
+    "evolution_level": 53
+  },
+  "161": {
+    "name": "Sentret",
+    "slug": "sentret",
+    "types": [
+      "Normal"
+    ],
+    "bst": 215,
+    "evolution_level": 21
+  },
+  "162": {
+    "name": "Furret",
+    "slug": "furret",
+    "types": [
+      "Normal"
+    ],
+    "bst": 415,
+    "evolution_level": 41
+  },
+  "163": {
+    "name": "Hoothoot",
+    "slug": "hoothoot",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "bst": 262,
+    "evolution_level": 26
+  },
+  "164": {
+    "name": "Noctowl",
+    "slug": "noctowl",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "bst": 452,
+    "evolution_level": 45
+  },
+  "165": {
+    "name": "Ledyba",
+    "slug": "ledyba",
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "bst": 265,
+    "evolution_level": 26
+  },
+  "166": {
+    "name": "Ledian",
+    "slug": "ledian",
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "bst": 390,
+    "evolution_level": 39
+  },
+  "167": {
+    "name": "Spinarak",
+    "slug": "spinarak",
+    "types": [
+      "Bug",
+      "Poison"
+    ],
+    "bst": 250,
+    "evolution_level": 25
+  },
+  "168": {
+    "name": "Ariados",
+    "slug": "ariados",
+    "types": [
+      "Bug",
+      "Poison"
+    ],
+    "bst": 400,
+    "evolution_level": 40
+  },
+  "169": {
+    "name": "Crobat",
+    "slug": "crobat",
+    "types": [
+      "Poison",
+      "Flying"
+    ],
+    "bst": 535,
+    "evolution_level": 53
+  },
+  "170": {
+    "name": "Chinchou",
+    "slug": "chinchou",
+    "types": [
+      "Water",
+      "Electric"
+    ],
+    "bst": 330,
+    "evolution_level": 33
+  },
+  "171": {
+    "name": "Lanturn",
+    "slug": "lanturn",
+    "types": [
+      "Water",
+      "Electric"
+    ],
+    "bst": 460,
+    "evolution_level": 46
+  },
+  "172": {
+    "name": "Pichu",
+    "slug": "pichu",
+    "types": [
+      "Electric"
+    ],
+    "bst": 205,
+    "evolution_level": 20
+  },
+  "173": {
+    "name": "Cleffa",
+    "slug": "cleffa",
+    "types": [
+      "Fairy"
+    ],
+    "bst": 218,
+    "evolution_level": 21
+  },
+  "174": {
+    "name": "Igglybuff",
+    "slug": "igglybuff",
+    "types": [
+      "Normal",
+      "Fairy"
+    ],
+    "bst": 210,
+    "evolution_level": 21
+  },
+  "175": {
+    "name": "Togepi",
+    "slug": "togepi",
+    "types": [
+      "Fairy"
+    ],
+    "bst": 245,
+    "evolution_level": 24
+  },
+  "176": {
+    "name": "Togetic",
+    "slug": "togetic",
+    "types": [
+      "Fairy",
+      "Flying"
+    ],
+    "bst": 405,
+    "evolution_level": 40
+  },
+  "177": {
+    "name": "Natu",
+    "slug": "natu",
+    "types": [
+      "Psychic",
+      "Flying"
+    ],
+    "bst": 320,
+    "evolution_level": 32
+  },
+  "178": {
+    "name": "Xatu",
+    "slug": "xatu",
+    "types": [
+      "Psychic",
+      "Flying"
+    ],
+    "bst": 470,
+    "evolution_level": 47
+  },
+  "179": {
+    "name": "Mareep",
+    "slug": "mareep",
+    "types": [
+      "Electric"
+    ],
+    "bst": 280,
+    "evolution_level": 28
+  },
+  "180": {
+    "name": "Flaaffy",
+    "slug": "flaaffy",
+    "types": [
+      "Electric"
+    ],
+    "bst": 365,
+    "evolution_level": 36
+  },
+  "181": {
+    "name": "Ampharos",
+    "slug": "ampharos",
+    "types": [
+      "Electric"
+    ],
+    "bst": 510,
+    "evolution_level": 51
+  },
+  "182": {
+    "name": "Bellossom",
+    "slug": "bellossom",
+    "types": [
+      "Grass"
+    ],
+    "bst": 490,
+    "evolution_level": 49
+  },
+  "183": {
+    "name": "Marill",
+    "slug": "marill",
+    "types": [
+      "Water",
+      "Fairy"
+    ],
+    "bst": 250,
+    "evolution_level": 25
+  },
+  "184": {
+    "name": "Azumarill",
+    "slug": "azumarill",
+    "types": [
+      "Water",
+      "Fairy"
+    ],
+    "bst": 420,
+    "evolution_level": 42
+  },
+  "185": {
+    "name": "Sudowoodo",
+    "slug": "sudowoodo",
+    "types": [
+      "Rock"
+    ],
+    "bst": 410,
+    "evolution_level": 41
+  },
+  "186": {
+    "name": "Politoed",
+    "slug": "politoed",
+    "types": [
+      "Water"
+    ],
+    "bst": 500,
+    "evolution_level": 50
+  },
+  "187": {
+    "name": "Hoppip",
+    "slug": "hoppip",
+    "types": [
+      "Grass",
+      "Flying"
+    ],
+    "bst": 250,
+    "evolution_level": 25
+  },
+  "188": {
+    "name": "Skiploom",
+    "slug": "skiploom",
+    "types": [
+      "Grass",
+      "Flying"
+    ],
+    "bst": 340,
+    "evolution_level": 34
+  },
+  "189": {
+    "name": "Jumpluff",
+    "slug": "jumpluff",
+    "types": [
+      "Grass",
+      "Flying"
+    ],
+    "bst": 460,
+    "evolution_level": 46
+  },
+  "190": {
+    "name": "Aipom",
+    "slug": "aipom",
+    "types": [
+      "Normal"
+    ],
+    "bst": 360,
+    "evolution_level": 36
+  },
+  "191": {
+    "name": "Sunkern",
+    "slug": "sunkern",
+    "types": [
+      "Grass"
+    ],
+    "bst": 180,
+    "evolution_level": 18
+  },
+  "192": {
+    "name": "Sunflora",
+    "slug": "sunflora",
+    "types": [
+      "Grass"
+    ],
+    "bst": 425,
+    "evolution_level": 42
+  },
+  "193": {
+    "name": "Yanma",
+    "slug": "yanma",
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "bst": 390,
+    "evolution_level": 39
+  },
+  "194": {
+    "name": "Wooper",
+    "slug": "wooper",
+    "types": [
+      "Water",
+      "Ground"
+    ],
+    "bst": 210,
+    "evolution_level": 21
+  },
+  "195": {
+    "name": "Quagsire",
+    "slug": "quagsire",
+    "types": [
+      "Water",
+      "Ground"
+    ],
+    "bst": 430,
+    "evolution_level": 43
+  },
+  "196": {
+    "name": "Espeon",
+    "slug": "espeon",
+    "types": [
+      "Psychic"
+    ],
+    "bst": 525,
+    "evolution_level": 52
+  },
+  "197": {
+    "name": "Umbreon",
+    "slug": "umbreon",
+    "types": [
+      "Dark"
+    ],
+    "bst": 525,
+    "evolution_level": 52
+  },
+  "198": {
+    "name": "Murkrow",
+    "slug": "murkrow",
+    "types": [
+      "Dark",
+      "Flying"
+    ],
+    "bst": 405,
+    "evolution_level": 40
+  },
+  "199": {
+    "name": "Slowking",
+    "slug": "slowking",
+    "types": [
+      "Water",
+      "Psychic"
+    ],
+    "bst": 490,
+    "evolution_level": 49
+  },
+  "200": {
+    "name": "Misdreavus",
+    "slug": "misdreavus",
+    "types": [
+      "Ghost"
+    ],
+    "bst": 435,
+    "evolution_level": 43
+  },
+  "201": {
+    "name": "Unown",
+    "slug": "unown",
+    "types": [
+      "Psychic"
+    ],
+    "bst": 336,
+    "evolution_level": 33
+  },
+  "202": {
+    "name": "Wobbuffet",
+    "slug": "wobbuffet",
+    "types": [
+      "Psychic"
+    ],
+    "bst": 405,
+    "evolution_level": 40
+  },
+  "203": {
+    "name": "Girafarig",
+    "slug": "girafarig",
+    "types": [
+      "Normal",
+      "Psychic"
+    ],
+    "bst": 455,
+    "evolution_level": 45
+  },
+  "204": {
+    "name": "Pineco",
+    "slug": "pineco",
+    "types": [
+      "Bug"
+    ],
+    "bst": 290,
+    "evolution_level": 29
+  },
+  "205": {
+    "name": "Forretress",
+    "slug": "forretress",
+    "types": [
+      "Bug",
+      "Steel"
+    ],
+    "bst": 465,
+    "evolution_level": 46
+  },
+  "206": {
+    "name": "Dunsparce",
+    "slug": "dunsparce",
+    "types": [
+      "Normal"
+    ],
+    "bst": 415,
+    "evolution_level": 41
+  },
+  "207": {
+    "name": "Gligar",
+    "slug": "gligar",
+    "types": [
+      "Ground",
+      "Flying"
+    ],
+    "bst": 430,
+    "evolution_level": 43
+  },
+  "208": {
+    "name": "Steelix",
+    "slug": "steelix",
+    "types": [
+      "Steel",
+      "Ground"
+    ],
+    "bst": 510,
+    "evolution_level": 51
+  },
+  "209": {
+    "name": "Snubbull",
+    "slug": "snubbull",
+    "types": [
+      "Fairy"
+    ],
+    "bst": 300,
+    "evolution_level": 30
+  },
+  "210": {
+    "name": "Granbull",
+    "slug": "granbull",
+    "types": [
+      "Fairy"
+    ],
+    "bst": 450,
+    "evolution_level": 45
+  },
+  "211": {
+    "name": "Qwilfish",
+    "slug": "qwilfish",
+    "types": [
+      "Water",
+      "Poison"
+    ],
+    "bst": 440,
+    "evolution_level": 44
+  },
+  "212": {
+    "name": "Scizor",
+    "slug": "scizor",
+    "types": [
+      "Bug",
+      "Steel"
+    ],
+    "bst": 500,
+    "evolution_level": 50
+  },
+  "213": {
+    "name": "Shuckle",
+    "slug": "shuckle",
+    "types": [
+      "Bug",
+      "Rock"
+    ],
+    "bst": 505,
+    "evolution_level": 50
+  },
+  "214": {
+    "name": "Heracross",
+    "slug": "heracross",
+    "types": [
+      "Bug",
+      "Fighting"
+    ],
+    "bst": 500,
+    "evolution_level": 50
+  },
+  "215": {
+    "name": "Sneasel",
+    "slug": "sneasel",
+    "types": [
+      "Dark",
+      "Ice"
+    ],
+    "bst": 430,
+    "evolution_level": 43
+  },
+  "216": {
+    "name": "Teddiursa",
+    "slug": "teddiursa",
+    "types": [
+      "Normal"
+    ],
+    "bst": 330,
+    "evolution_level": 33
+  },
+  "217": {
+    "name": "Ursaring",
+    "slug": "ursaring",
+    "types": [
+      "Normal"
+    ],
+    "bst": 500,
+    "evolution_level": 50
+  },
+  "218": {
+    "name": "Slugma",
+    "slug": "slugma",
+    "types": [
+      "Fire"
+    ],
+    "bst": 250,
+    "evolution_level": 25
+  },
+  "219": {
+    "name": "Magcargo",
+    "slug": "magcargo",
+    "types": [
+      "Fire",
+      "Rock"
+    ],
+    "bst": 430,
+    "evolution_level": 43
+  },
+  "220": {
+    "name": "Swinub",
+    "slug": "swinub",
+    "types": [
+      "Ice",
+      "Ground"
+    ],
+    "bst": 250,
+    "evolution_level": 25
+  },
+  "221": {
+    "name": "Piloswine",
+    "slug": "piloswine",
+    "types": [
+      "Ice",
+      "Ground"
+    ],
+    "bst": 450,
+    "evolution_level": 45
+  },
+  "222": {
+    "name": "Corsola",
+    "slug": "corsola",
+    "types": [
+      "Water",
+      "Rock"
+    ],
+    "bst": 410,
+    "evolution_level": 41
+  },
+  "223": {
+    "name": "Remoraid",
+    "slug": "remoraid",
+    "types": [
+      "Water"
+    ],
+    "bst": 300,
+    "evolution_level": 30
+  },
+  "224": {
+    "name": "Octillery",
+    "slug": "octillery",
+    "types": [
+      "Water"
+    ],
+    "bst": 480,
+    "evolution_level": 48
+  },
+  "225": {
+    "name": "Delibird",
+    "slug": "delibird",
+    "types": [
+      "Ice",
+      "Flying"
+    ],
+    "bst": 330,
+    "evolution_level": 33
+  },
+  "226": {
+    "name": "Mantine",
+    "slug": "mantine",
+    "types": [
+      "Water",
+      "Flying"
+    ],
+    "bst": 485,
+    "evolution_level": 48
+  },
+  "227": {
+    "name": "Skarmory",
+    "slug": "skarmory",
+    "types": [
+      "Steel",
+      "Flying"
+    ],
+    "bst": 465,
+    "evolution_level": 46
+  },
+  "228": {
+    "name": "Houndour",
+    "slug": "houndour",
+    "types": [
+      "Dark",
+      "Fire"
+    ],
+    "bst": 330,
+    "evolution_level": 33
+  },
+  "229": {
+    "name": "Houndoom",
+    "slug": "houndoom",
+    "types": [
+      "Dark",
+      "Fire"
+    ],
+    "bst": 500,
+    "evolution_level": 50
+  },
+  "230": {
+    "name": "Kingdra",
+    "slug": "kingdra",
+    "types": [
+      "Water",
+      "Dragon"
+    ],
+    "bst": 540,
+    "evolution_level": 54
+  },
+  "231": {
+    "name": "Phanpy",
+    "slug": "phanpy",
+    "types": [
+      "Ground"
+    ],
+    "bst": 330,
+    "evolution_level": 33
+  },
+  "232": {
+    "name": "Donphan",
+    "slug": "donphan",
+    "types": [
+      "Ground"
+    ],
+    "bst": 500,
+    "evolution_level": 50
+  },
+  "233": {
+    "name": "Porygon2",
+    "slug": "porygon2",
+    "types": [
+      "Normal"
+    ],
+    "bst": 515,
+    "evolution_level": 51
+  },
+  "234": {
+    "name": "Stantler",
+    "slug": "stantler",
+    "types": [
+      "Normal"
+    ],
+    "bst": 465,
+    "evolution_level": 46
+  },
+  "235": {
+    "name": "Smeargle",
+    "slug": "smeargle",
+    "types": [
+      "Normal"
+    ],
+    "bst": 250,
+    "evolution_level": 25
+  },
+  "236": {
+    "name": "Tyrogue",
+    "slug": "tyrogue",
+    "types": [
+      "Fighting"
+    ],
+    "bst": 210,
+    "evolution_level": 21
+  },
+  "237": {
+    "name": "Hitmontop",
+    "slug": "hitmontop",
+    "types": [
+      "Fighting"
+    ],
+    "bst": 455,
+    "evolution_level": 45
+  },
+  "238": {
+    "name": "Smoochum",
+    "slug": "smoochum",
+    "types": [
+      "Ice",
+      "Psychic"
+    ],
+    "bst": 305,
+    "evolution_level": 30
+  },
+  "239": {
+    "name": "Elekid",
+    "slug": "elekid",
+    "types": [
+      "Electric"
+    ],
+    "bst": 360,
+    "evolution_level": 36
+  },
+  "240": {
+    "name": "Magby",
+    "slug": "magby",
+    "types": [
+      "Fire"
+    ],
+    "bst": 365,
+    "evolution_level": 36
+  },
+  "241": {
+    "name": "Miltank",
+    "slug": "miltank",
+    "types": [
+      "Normal"
+    ],
+    "bst": 490,
+    "evolution_level": 49
+  },
+  "242": {
+    "name": "Blissey",
+    "slug": "blissey",
+    "types": [
+      "Normal"
+    ],
+    "bst": 540,
+    "evolution_level": 54
+  },
+  "243": {
+    "name": "Raikou",
+    "slug": "raikou",
+    "types": [
+      "Electric"
+    ],
+    "bst": 580,
+    "evolution_level": 58
+  },
+  "244": {
+    "name": "Entei",
+    "slug": "entei",
+    "types": [
+      "Fire"
+    ],
+    "bst": 580,
+    "evolution_level": 58
+  },
+  "245": {
+    "name": "Suicune",
+    "slug": "suicune",
+    "types": [
+      "Water"
+    ],
+    "bst": 580,
+    "evolution_level": 58
+  },
+  "246": {
+    "name": "Larvitar",
+    "slug": "larvitar",
+    "types": [
+      "Rock",
+      "Ground"
+    ],
+    "bst": 300,
+    "evolution_level": 30
+  },
+  "247": {
+    "name": "Pupitar",
+    "slug": "pupitar",
+    "types": [
+      "Rock",
+      "Ground"
+    ],
+    "bst": 410,
+    "evolution_level": 41
+  },
+  "248": {
+    "name": "Tyranitar",
+    "slug": "tyranitar",
+    "types": [
+      "Rock",
+      "Dark"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "251": {
+    "name": "Celebi",
+    "slug": "celebi",
+    "types": [
+      "Psychic",
+      "Grass"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "252": {
+    "name": "Treecko",
+    "slug": "treecko",
+    "types": [
+      "Grass"
+    ],
+    "bst": 310,
+    "evolution_level": 31
+  },
+  "253": {
+    "name": "Grovyle",
+    "slug": "grovyle",
+    "types": [
+      "Grass"
+    ],
+    "bst": 405,
+    "evolution_level": 40
+  },
+  "254": {
+    "name": "Sceptile",
+    "slug": "sceptile",
+    "types": [
+      "Grass"
+    ],
+    "bst": 530,
+    "evolution_level": 53
+  },
+  "255": {
+    "name": "Torchic",
+    "slug": "torchic",
+    "types": [
+      "Fire"
+    ],
+    "bst": 310,
+    "evolution_level": 31
+  },
+  "256": {
+    "name": "Combusken",
+    "slug": "combusken",
+    "types": [
+      "Fire",
+      "Fighting"
+    ],
+    "bst": 405,
+    "evolution_level": 40
+  },
+  "257": {
+    "name": "Blaziken",
+    "slug": "blaziken",
+    "types": [
+      "Fire",
+      "Fighting"
+    ],
+    "bst": 530,
+    "evolution_level": 53
+  },
+  "258": {
+    "name": "Mudkip",
+    "slug": "mudkip",
+    "types": [
+      "Water"
+    ],
+    "bst": 310,
+    "evolution_level": 31
+  },
+  "259": {
+    "name": "Marshtomp",
+    "slug": "marshtomp",
+    "types": [
+      "Water",
+      "Ground"
+    ],
+    "bst": 405,
+    "evolution_level": 40
+  },
+  "260": {
+    "name": "Swampert",
+    "slug": "swampert",
+    "types": [
+      "Water",
+      "Ground"
+    ],
+    "bst": 535,
+    "evolution_level": 53
+  },
+  "261": {
+    "name": "Poochyena",
+    "slug": "poochyena",
+    "types": [
+      "Dark"
+    ],
+    "bst": 220,
+    "evolution_level": 22
+  },
+  "262": {
+    "name": "Mightyena",
+    "slug": "mightyena",
+    "types": [
+      "Dark"
+    ],
+    "bst": 420,
+    "evolution_level": 42
+  },
+  "263": {
+    "name": "Zigzagoon",
+    "slug": "zigzagoon",
+    "types": [
+      "Normal"
+    ],
+    "bst": 240,
+    "evolution_level": 24
+  },
+  "264": {
+    "name": "Linoone",
+    "slug": "linoone",
+    "types": [
+      "Normal"
+    ],
+    "bst": 420,
+    "evolution_level": 42
+  },
+  "265": {
+    "name": "Wurmple",
+    "slug": "wurmple",
+    "types": [
+      "Bug"
+    ],
+    "bst": 195,
+    "evolution_level": 19
+  },
+  "266": {
+    "name": "Silcoon",
+    "slug": "silcoon",
+    "types": [
+      "Bug"
+    ],
+    "bst": 205,
+    "evolution_level": 20
+  },
+  "267": {
+    "name": "Beautifly",
+    "slug": "beautifly",
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "bst": 395,
+    "evolution_level": 39
+  },
+  "268": {
+    "name": "Cascoon",
+    "slug": "cascoon",
+    "types": [
+      "Bug"
+    ],
+    "bst": 205,
+    "evolution_level": 20
+  },
+  "269": {
+    "name": "Dustox",
+    "slug": "dustox",
+    "types": [
+      "Bug",
+      "Poison"
+    ],
+    "bst": 385,
+    "evolution_level": 38
+  },
+  "270": {
+    "name": "Lotad",
+    "slug": "lotad",
+    "types": [
+      "Water",
+      "Grass"
+    ],
+    "bst": 220,
+    "evolution_level": 22
+  },
+  "271": {
+    "name": "Lombre",
+    "slug": "lombre",
+    "types": [
+      "Water",
+      "Grass"
+    ],
+    "bst": 340,
+    "evolution_level": 34
+  },
+  "272": {
+    "name": "Ludicolo",
+    "slug": "ludicolo",
+    "types": [
+      "Water",
+      "Grass"
+    ],
+    "bst": 480,
+    "evolution_level": 48
+  },
+  "273": {
+    "name": "Seedot",
+    "slug": "seedot",
+    "types": [
+      "Grass"
+    ],
+    "bst": 220,
+    "evolution_level": 22
+  },
+  "274": {
+    "name": "Nuzleaf",
+    "slug": "nuzleaf",
+    "types": [
+      "Grass",
+      "Dark"
+    ],
+    "bst": 340,
+    "evolution_level": 34
+  },
+  "275": {
+    "name": "Shiftry",
+    "slug": "shiftry",
+    "types": [
+      "Grass",
+      "Dark"
+    ],
+    "bst": 480,
+    "evolution_level": 48
+  },
+  "276": {
+    "name": "Taillow",
+    "slug": "taillow",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "bst": 270,
+    "evolution_level": 27
+  },
+  "277": {
+    "name": "Swellow",
+    "slug": "swellow",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "bst": 455,
+    "evolution_level": 45
+  },
+  "278": {
+    "name": "Wingull",
+    "slug": "wingull",
+    "types": [
+      "Water",
+      "Flying"
+    ],
+    "bst": 270,
+    "evolution_level": 27
+  },
+  "279": {
+    "name": "Pelipper",
+    "slug": "pelipper",
+    "types": [
+      "Water",
+      "Flying"
+    ],
+    "bst": 440,
+    "evolution_level": 44
+  },
+  "280": {
+    "name": "Ralts",
+    "slug": "ralts",
+    "types": [
+      "Psychic",
+      "Fairy"
+    ],
+    "bst": 198,
+    "evolution_level": 19
+  },
+  "281": {
+    "name": "Kirlia",
+    "slug": "kirlia",
+    "types": [
+      "Psychic",
+      "Fairy"
+    ],
+    "bst": 278,
+    "evolution_level": 27
+  },
+  "282": {
+    "name": "Gardevoir",
+    "slug": "gardevoir",
+    "types": [
+      "Psychic",
+      "Fairy"
+    ],
+    "bst": 518,
+    "evolution_level": 51
+  },
+  "283": {
+    "name": "Surskit",
+    "slug": "surskit",
+    "types": [
+      "Bug",
+      "Water"
+    ],
+    "bst": 269,
+    "evolution_level": 26
+  },
+  "284": {
+    "name": "Masquerain",
+    "slug": "masquerain",
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "bst": 454,
+    "evolution_level": 45
+  },
+  "285": {
+    "name": "Shroomish",
+    "slug": "shroomish",
+    "types": [
+      "Grass"
+    ],
+    "bst": 295,
+    "evolution_level": 29
+  },
+  "286": {
+    "name": "Breloom",
+    "slug": "breloom",
+    "types": [
+      "Grass",
+      "Fighting"
+    ],
+    "bst": 460,
+    "evolution_level": 46
+  },
+  "287": {
+    "name": "Slakoth",
+    "slug": "slakoth",
+    "types": [
+      "Normal"
+    ],
+    "bst": 280,
+    "evolution_level": 28
+  },
+  "288": {
+    "name": "Vigoroth",
+    "slug": "vigoroth",
+    "types": [
+      "Normal"
+    ],
+    "bst": 440,
+    "evolution_level": 44
+  },
+  "290": {
+    "name": "Nincada",
+    "slug": "nincada",
+    "types": [
+      "Bug",
+      "Ground"
+    ],
+    "bst": 266,
+    "evolution_level": 26
+  },
+  "291": {
+    "name": "Ninjask",
+    "slug": "ninjask",
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "bst": 456,
+    "evolution_level": 45
+  },
+  "293": {
+    "name": "Whismur",
+    "slug": "whismur",
+    "types": [
+      "Normal"
+    ],
+    "bst": 240,
+    "evolution_level": 24
+  },
+  "294": {
+    "name": "Loudred",
+    "slug": "loudred",
+    "types": [
+      "Normal"
+    ],
+    "bst": 360,
+    "evolution_level": 36
+  },
+  "295": {
+    "name": "Exploud",
+    "slug": "exploud",
+    "types": [
+      "Normal"
+    ],
+    "bst": 490,
+    "evolution_level": 49
+  },
+  "296": {
+    "name": "Makuhita",
+    "slug": "makuhita",
+    "types": [
+      "Fighting"
+    ],
+    "bst": 237,
+    "evolution_level": 23
+  },
+  "297": {
+    "name": "Hariyama",
+    "slug": "hariyama",
+    "types": [
+      "Fighting"
+    ],
+    "bst": 474,
+    "evolution_level": 47
+  },
+  "298": {
+    "name": "Azurill",
+    "slug": "azurill",
+    "types": [
+      "Normal",
+      "Fairy"
+    ],
+    "bst": 190,
+    "evolution_level": 19
+  },
+  "299": {
+    "name": "Nosepass",
+    "slug": "nosepass",
+    "types": [
+      "Rock"
+    ],
+    "bst": 375,
+    "evolution_level": 37
+  },
+  "300": {
+    "name": "Skitty",
+    "slug": "skitty",
+    "types": [
+      "Normal"
+    ],
+    "bst": 260,
+    "evolution_level": 26
+  },
+  "301": {
+    "name": "Delcatty",
+    "slug": "delcatty",
+    "types": [
+      "Normal"
+    ],
+    "bst": 400,
+    "evolution_level": 40
+  },
+  "302": {
+    "name": "Sableye",
+    "slug": "sableye",
+    "types": [
+      "Dark",
+      "Ghost"
+    ],
+    "bst": 380,
+    "evolution_level": 38
+  },
+  "303": {
+    "name": "Mawile",
+    "slug": "mawile",
+    "types": [
+      "Steel",
+      "Fairy"
+    ],
+    "bst": 380,
+    "evolution_level": 38
+  },
+  "304": {
+    "name": "Aron",
+    "slug": "aron",
+    "types": [
+      "Steel",
+      "Rock"
+    ],
+    "bst": 330,
+    "evolution_level": 33
+  },
+  "305": {
+    "name": "Lairon",
+    "slug": "lairon",
+    "types": [
+      "Steel",
+      "Rock"
+    ],
+    "bst": 430,
+    "evolution_level": 43
+  },
+  "306": {
+    "name": "Aggron",
+    "slug": "aggron",
+    "types": [
+      "Steel",
+      "Rock"
+    ],
+    "bst": 530,
+    "evolution_level": 53
+  },
+  "307": {
+    "name": "Meditite",
+    "slug": "meditite",
+    "types": [
+      "Fighting",
+      "Psychic"
+    ],
+    "bst": 280,
+    "evolution_level": 28
+  },
+  "308": {
+    "name": "Medicham",
+    "slug": "medicham",
+    "types": [
+      "Fighting",
+      "Psychic"
+    ],
+    "bst": 410,
+    "evolution_level": 41
+  },
+  "309": {
+    "name": "Electrike",
+    "slug": "electrike",
+    "types": [
+      "Electric"
+    ],
+    "bst": 295,
+    "evolution_level": 29
+  },
+  "310": {
+    "name": "Manectric",
+    "slug": "manectric",
+    "types": [
+      "Electric"
+    ],
+    "bst": 475,
+    "evolution_level": 47
+  },
+  "311": {
+    "name": "Plusle",
+    "slug": "plusle",
+    "types": [
+      "Electric"
+    ],
+    "bst": 405,
+    "evolution_level": 40
+  },
+  "312": {
+    "name": "Minun",
+    "slug": "minun",
+    "types": [
+      "Electric"
+    ],
+    "bst": 405,
+    "evolution_level": 40
+  },
+  "313": {
+    "name": "Volbeat",
+    "slug": "volbeat",
+    "types": [
+      "Bug"
+    ],
+    "bst": 430,
+    "evolution_level": 43
+  },
+  "314": {
+    "name": "Illumise",
+    "slug": "illumise",
+    "types": [
+      "Bug"
+    ],
+    "bst": 430,
+    "evolution_level": 43
+  },
+  "315": {
+    "name": "Roselia",
+    "slug": "roselia",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "bst": 400,
+    "evolution_level": 40
+  },
+  "316": {
+    "name": "Gulpin",
+    "slug": "gulpin",
+    "types": [
+      "Poison"
+    ],
+    "bst": 302,
+    "evolution_level": 30
+  },
+  "317": {
+    "name": "Swalot",
+    "slug": "swalot",
+    "types": [
+      "Poison"
+    ],
+    "bst": 467,
+    "evolution_level": 46
+  },
+  "318": {
+    "name": "Carvanha",
+    "slug": "carvanha",
+    "types": [
+      "Water",
+      "Dark"
+    ],
+    "bst": 305,
+    "evolution_level": 30
+  },
+  "319": {
+    "name": "Sharpedo",
+    "slug": "sharpedo",
+    "types": [
+      "Water",
+      "Dark"
+    ],
+    "bst": 460,
+    "evolution_level": 46
+  },
+  "320": {
+    "name": "Wailmer",
+    "slug": "wailmer",
+    "types": [
+      "Water"
+    ],
+    "bst": 400,
+    "evolution_level": 40
+  },
+  "321": {
+    "name": "Wailord",
+    "slug": "wailord",
+    "types": [
+      "Water"
+    ],
+    "bst": 500,
+    "evolution_level": 50
+  },
+  "322": {
+    "name": "Numel",
+    "slug": "numel",
+    "types": [
+      "Fire",
+      "Ground"
+    ],
+    "bst": 305,
+    "evolution_level": 30
+  },
+  "323": {
+    "name": "Camerupt",
+    "slug": "camerupt",
+    "types": [
+      "Fire",
+      "Ground"
+    ],
+    "bst": 460,
+    "evolution_level": 46
+  },
+  "324": {
+    "name": "Torkoal",
+    "slug": "torkoal",
+    "types": [
+      "Fire"
+    ],
+    "bst": 470,
+    "evolution_level": 47
+  },
+  "325": {
+    "name": "Spoink",
+    "slug": "spoink",
+    "types": [
+      "Psychic"
+    ],
+    "bst": 330,
+    "evolution_level": 33
+  },
+  "326": {
+    "name": "Grumpig",
+    "slug": "grumpig",
+    "types": [
+      "Psychic"
+    ],
+    "bst": 470,
+    "evolution_level": 47
+  },
+  "327": {
+    "name": "Spinda",
+    "slug": "spinda",
+    "types": [
+      "Normal"
+    ],
+    "bst": 360,
+    "evolution_level": 36
+  },
+  "328": {
+    "name": "Trapinch",
+    "slug": "trapinch",
+    "types": [
+      "Ground"
+    ],
+    "bst": 290,
+    "evolution_level": 29
+  },
+  "329": {
+    "name": "Vibrava",
+    "slug": "vibrava",
+    "types": [
+      "Ground",
+      "Dragon"
+    ],
+    "bst": 340,
+    "evolution_level": 34
+  },
+  "330": {
+    "name": "Flygon",
+    "slug": "flygon",
+    "types": [
+      "Ground",
+      "Dragon"
+    ],
+    "bst": 520,
+    "evolution_level": 52
+  },
+  "331": {
+    "name": "Cacnea",
+    "slug": "cacnea",
+    "types": [
+      "Grass"
+    ],
+    "bst": 335,
+    "evolution_level": 33
+  },
+  "332": {
+    "name": "Cacturne",
+    "slug": "cacturne",
+    "types": [
+      "Grass",
+      "Dark"
+    ],
+    "bst": 475,
+    "evolution_level": 47
+  },
+  "333": {
+    "name": "Swablu",
+    "slug": "swablu",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "bst": 310,
+    "evolution_level": 31
+  },
+  "334": {
+    "name": "Altaria",
+    "slug": "altaria",
+    "types": [
+      "Dragon",
+      "Flying"
+    ],
+    "bst": 490,
+    "evolution_level": 49
+  },
+  "335": {
+    "name": "Zangoose",
+    "slug": "zangoose",
+    "types": [
+      "Normal"
+    ],
+    "bst": 458,
+    "evolution_level": 45
+  },
+  "336": {
+    "name": "Seviper",
+    "slug": "seviper",
+    "types": [
+      "Poison"
+    ],
+    "bst": 458,
+    "evolution_level": 45
+  },
+  "337": {
+    "name": "Lunatone",
+    "slug": "lunatone",
+    "types": [
+      "Rock",
+      "Psychic"
+    ],
+    "bst": 460,
+    "evolution_level": 46
+  },
+  "338": {
+    "name": "Solrock",
+    "slug": "solrock",
+    "types": [
+      "Rock",
+      "Psychic"
+    ],
+    "bst": 460,
+    "evolution_level": 46
+  },
+  "339": {
+    "name": "Barboach",
+    "slug": "barboach",
+    "types": [
+      "Water",
+      "Ground"
+    ],
+    "bst": 288,
+    "evolution_level": 28
+  },
+  "340": {
+    "name": "Whiscash",
+    "slug": "whiscash",
+    "types": [
+      "Water",
+      "Ground"
+    ],
+    "bst": 468,
+    "evolution_level": 46
+  },
+  "341": {
+    "name": "Corphish",
+    "slug": "corphish",
+    "types": [
+      "Water"
+    ],
+    "bst": 308,
+    "evolution_level": 30
+  },
+  "342": {
+    "name": "Crawdaunt",
+    "slug": "crawdaunt",
+    "types": [
+      "Water",
+      "Dark"
+    ],
+    "bst": 468,
+    "evolution_level": 46
+  },
+  "343": {
+    "name": "Baltoy",
+    "slug": "baltoy",
+    "types": [
+      "Ground",
+      "Psychic"
+    ],
+    "bst": 300,
+    "evolution_level": 30
+  },
+  "344": {
+    "name": "Claydol",
+    "slug": "claydol",
+    "types": [
+      "Ground",
+      "Psychic"
+    ],
+    "bst": 500,
+    "evolution_level": 50
+  },
+  "345": {
+    "name": "Lileep",
+    "slug": "lileep",
+    "types": [
+      "Rock",
+      "Grass"
+    ],
+    "bst": 355,
+    "evolution_level": 35
+  },
+  "346": {
+    "name": "Cradily",
+    "slug": "cradily",
+    "types": [
+      "Rock",
+      "Grass"
+    ],
+    "bst": 495,
+    "evolution_level": 49
+  },
+  "347": {
+    "name": "Anorith",
+    "slug": "anorith",
+    "types": [
+      "Rock",
+      "Bug"
+    ],
+    "bst": 355,
+    "evolution_level": 35
+  },
+  "348": {
+    "name": "Armaldo",
+    "slug": "armaldo",
+    "types": [
+      "Rock",
+      "Bug"
+    ],
+    "bst": 495,
+    "evolution_level": 49
+  },
+  "349": {
+    "name": "Feebas",
+    "slug": "feebas",
+    "types": [
+      "Water"
+    ],
+    "bst": 200,
+    "evolution_level": 20
+  },
+  "350": {
+    "name": "Milotic",
+    "slug": "milotic",
+    "types": [
+      "Water"
+    ],
+    "bst": 540,
+    "evolution_level": 54
+  },
+  "351": {
+    "name": "Castform",
+    "slug": "castform",
+    "types": [
+      "Normal"
+    ],
+    "bst": 420,
+    "evolution_level": 42
+  },
+  "352": {
+    "name": "Kecleon",
+    "slug": "kecleon",
+    "types": [
+      "Normal"
+    ],
+    "bst": 440,
+    "evolution_level": 44
+  },
+  "353": {
+    "name": "Shuppet",
+    "slug": "shuppet",
+    "types": [
+      "Ghost"
+    ],
+    "bst": 295,
+    "evolution_level": 29
+  },
+  "354": {
+    "name": "Banette",
+    "slug": "banette",
+    "types": [
+      "Ghost"
+    ],
+    "bst": 455,
+    "evolution_level": 45
+  },
+  "355": {
+    "name": "Duskull",
+    "slug": "duskull",
+    "types": [
+      "Ghost"
+    ],
+    "bst": 295,
+    "evolution_level": 29
+  },
+  "356": {
+    "name": "Dusclops",
+    "slug": "dusclops",
+    "types": [
+      "Ghost"
+    ],
+    "bst": 455,
+    "evolution_level": 45
+  },
+  "357": {
+    "name": "Tropius",
+    "slug": "tropius",
+    "types": [
+      "Grass",
+      "Flying"
+    ],
+    "bst": 460,
+    "evolution_level": 46
+  },
+  "358": {
+    "name": "Chimecho",
+    "slug": "chimecho",
+    "types": [
+      "Psychic"
+    ],
+    "bst": 455,
+    "evolution_level": 45
+  },
+  "359": {
+    "name": "Absol",
+    "slug": "absol",
+    "types": [
+      "Dark"
+    ],
+    "bst": 465,
+    "evolution_level": 46
+  },
+  "360": {
+    "name": "Wynaut",
+    "slug": "wynaut",
+    "types": [
+      "Psychic"
+    ],
+    "bst": 260,
+    "evolution_level": 26
+  },
+  "361": {
+    "name": "Snorunt",
+    "slug": "snorunt",
+    "types": [
+      "Ice"
+    ],
+    "bst": 300,
+    "evolution_level": 30
+  },
+  "362": {
+    "name": "Glalie",
+    "slug": "glalie",
+    "types": [
+      "Ice"
+    ],
+    "bst": 480,
+    "evolution_level": 48
+  },
+  "363": {
+    "name": "Spheal",
+    "slug": "spheal",
+    "types": [
+      "Ice",
+      "Water"
+    ],
+    "bst": 290,
+    "evolution_level": 29
+  },
+  "364": {
+    "name": "Sealeo",
+    "slug": "sealeo",
+    "types": [
+      "Ice",
+      "Water"
+    ],
+    "bst": 410,
+    "evolution_level": 41
+  },
+  "365": {
+    "name": "Walrein",
+    "slug": "walrein",
+    "types": [
+      "Ice",
+      "Water"
+    ],
+    "bst": 530,
+    "evolution_level": 53
+  },
+  "366": {
+    "name": "Clamperl",
+    "slug": "clamperl",
+    "types": [
+      "Water"
+    ],
+    "bst": 345,
+    "evolution_level": 34
+  },
+  "367": {
+    "name": "Huntail",
+    "slug": "huntail",
+    "types": [
+      "Water"
+    ],
+    "bst": 485,
+    "evolution_level": 48
+  },
+  "368": {
+    "name": "Gorebyss",
+    "slug": "gorebyss",
+    "types": [
+      "Water"
+    ],
+    "bst": 485,
+    "evolution_level": 48
+  },
+  "369": {
+    "name": "Relicanth",
+    "slug": "relicanth",
+    "types": [
+      "Water",
+      "Rock"
+    ],
+    "bst": 485,
+    "evolution_level": 48
+  },
+  "370": {
+    "name": "Luvdisc",
+    "slug": "luvdisc",
+    "types": [
+      "Water"
+    ],
+    "bst": 330,
+    "evolution_level": 33
+  },
+  "371": {
+    "name": "Bagon",
+    "slug": "bagon",
+    "types": [
+      "Dragon"
+    ],
+    "bst": 300,
+    "evolution_level": 30
+  },
+  "372": {
+    "name": "Shelgon",
+    "slug": "shelgon",
+    "types": [
+      "Dragon"
+    ],
+    "bst": 420,
+    "evolution_level": 42
+  },
+  "373": {
+    "name": "Salamence",
+    "slug": "salamence",
+    "types": [
+      "Dragon",
+      "Flying"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "374": {
+    "name": "Beldum",
+    "slug": "beldum",
+    "types": [
+      "Steel",
+      "Psychic"
+    ],
+    "bst": 300,
+    "evolution_level": 30
+  },
+  "375": {
+    "name": "Metang",
+    "slug": "metang",
+    "types": [
+      "Steel",
+      "Psychic"
+    ],
+    "bst": 420,
+    "evolution_level": 42
+  },
+  "376": {
+    "name": "Metagross",
+    "slug": "metagross",
+    "types": [
+      "Steel",
+      "Psychic"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "377": {
+    "name": "Regirock",
+    "slug": "regirock",
+    "types": [
+      "Rock"
+    ],
+    "bst": 580,
+    "evolution_level": 58
+  },
+  "378": {
+    "name": "Regice",
+    "slug": "regice",
+    "types": [
+      "Ice"
+    ],
+    "bst": 580,
+    "evolution_level": 58
+  },
+  "379": {
+    "name": "Registeel",
+    "slug": "registeel",
+    "types": [
+      "Steel"
+    ],
+    "bst": 580,
+    "evolution_level": 58
+  },
+  "380": {
+    "name": "Latias",
+    "slug": "latias",
+    "types": [
+      "Dragon",
+      "Psychic"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "381": {
+    "name": "Latios",
+    "slug": "latios",
+    "types": [
+      "Dragon",
+      "Psychic"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "385": {
+    "name": "Jirachi",
+    "slug": "jirachi",
+    "types": [
+      "Steel",
+      "Psychic"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "386": {
+    "name": "Deoxys",
+    "slug": "deoxys",
+    "types": [
+      "Psychic"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "387": {
+    "name": "Turtwig",
+    "slug": "turtwig",
+    "types": [
+      "Grass"
+    ],
+    "bst": 318,
+    "evolution_level": 31
+  },
+  "388": {
+    "name": "Grotle",
+    "slug": "grotle",
+    "types": [
+      "Grass"
+    ],
+    "bst": 405,
+    "evolution_level": 40
+  },
+  "389": {
+    "name": "Torterra",
+    "slug": "torterra",
+    "types": [
+      "Grass",
+      "Ground"
+    ],
+    "bst": 525,
+    "evolution_level": 52
+  },
+  "390": {
+    "name": "Chimchar",
+    "slug": "chimchar",
+    "types": [
+      "Fire"
+    ],
+    "bst": 309,
+    "evolution_level": 30
+  },
+  "391": {
+    "name": "Monferno",
+    "slug": "monferno",
+    "types": [
+      "Fire",
+      "Fighting"
+    ],
+    "bst": 405,
+    "evolution_level": 40
+  },
+  "392": {
+    "name": "Infernape",
+    "slug": "infernape",
+    "types": [
+      "Fire",
+      "Fighting"
+    ],
+    "bst": 534,
+    "evolution_level": 53
+  },
+  "393": {
+    "name": "Piplup",
+    "slug": "piplup",
+    "types": [
+      "Water"
+    ],
+    "bst": 314,
+    "evolution_level": 31
+  },
+  "394": {
+    "name": "Prinplup",
+    "slug": "prinplup",
+    "types": [
+      "Water"
+    ],
+    "bst": 405,
+    "evolution_level": 40
+  },
+  "395": {
+    "name": "Empoleon",
+    "slug": "empoleon",
+    "types": [
+      "Water",
+      "Steel"
+    ],
+    "bst": 530,
+    "evolution_level": 53
+  },
+  "396": {
+    "name": "Starly",
+    "slug": "starly",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "bst": 245,
+    "evolution_level": 24
+  },
+  "397": {
+    "name": "Staravia",
+    "slug": "staravia",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "bst": 340,
+    "evolution_level": 34
+  },
+  "398": {
+    "name": "Staraptor",
+    "slug": "staraptor",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "bst": 485,
+    "evolution_level": 48
+  },
+  "399": {
+    "name": "Bidoof",
+    "slug": "bidoof",
+    "types": [
+      "Normal"
+    ],
+    "bst": 250,
+    "evolution_level": 25
+  },
+  "400": {
+    "name": "Bibarel",
+    "slug": "bibarel",
+    "types": [
+      "Normal",
+      "Water"
+    ],
+    "bst": 410,
+    "evolution_level": 41
+  },
+  "401": {
+    "name": "Kricketot",
+    "slug": "kricketot",
+    "types": [
+      "Bug"
+    ],
+    "bst": 194,
+    "evolution_level": 19
+  },
+  "402": {
+    "name": "Kricketune",
+    "slug": "kricketune",
+    "types": [
+      "Bug"
+    ],
+    "bst": 384,
+    "evolution_level": 38
+  },
+  "403": {
+    "name": "Shinx",
+    "slug": "shinx",
+    "types": [
+      "Electric"
+    ],
+    "bst": 263,
+    "evolution_level": 26
+  },
+  "404": {
+    "name": "Luxio",
+    "slug": "luxio",
+    "types": [
+      "Electric"
+    ],
+    "bst": 363,
+    "evolution_level": 36
+  },
+  "405": {
+    "name": "Luxray",
+    "slug": "luxray",
+    "types": [
+      "Electric"
+    ],
+    "bst": 523,
+    "evolution_level": 52
+  },
+  "406": {
+    "name": "Budew",
+    "slug": "budew",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "bst": 280,
+    "evolution_level": 28
+  },
+  "407": {
+    "name": "Roserade",
+    "slug": "roserade",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "bst": 515,
+    "evolution_level": 51
+  },
+  "408": {
+    "name": "Cranidos",
+    "slug": "cranidos",
+    "types": [
+      "Rock"
+    ],
+    "bst": 350,
+    "evolution_level": 35
+  },
+  "409": {
+    "name": "Rampardos",
+    "slug": "rampardos",
+    "types": [
+      "Rock"
+    ],
+    "bst": 495,
+    "evolution_level": 49
+  },
+  "410": {
+    "name": "Shieldon",
+    "slug": "shieldon",
+    "types": [
+      "Rock",
+      "Steel"
+    ],
+    "bst": 350,
+    "evolution_level": 35
+  },
+  "411": {
+    "name": "Bastiodon",
+    "slug": "bastiodon",
+    "types": [
+      "Rock",
+      "Steel"
+    ],
+    "bst": 495,
+    "evolution_level": 49
+  },
+  "412": {
+    "name": "Burmy",
+    "slug": "burmy",
+    "types": [
+      "Bug"
+    ],
+    "bst": 224,
+    "evolution_level": 22
+  },
+  "413": {
+    "name": "Wormadam",
+    "slug": "wormadam",
+    "types": [
+      "Bug",
+      "Grass"
+    ],
+    "bst": 424,
+    "evolution_level": 42
+  },
+  "414": {
+    "name": "Mothim",
+    "slug": "mothim",
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "bst": 424,
+    "evolution_level": 42
+  },
+  "415": {
+    "name": "Combee",
+    "slug": "combee",
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "bst": 244,
+    "evolution_level": 24
+  },
+  "416": {
+    "name": "Vespiquen",
+    "slug": "vespiquen",
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "bst": 474,
+    "evolution_level": 47
+  },
+  "417": {
+    "name": "Pachirisu",
+    "slug": "pachirisu",
+    "types": [
+      "Electric"
+    ],
+    "bst": 405,
+    "evolution_level": 40
+  },
+  "418": {
+    "name": "Buizel",
+    "slug": "buizel",
+    "types": [
+      "Water"
+    ],
+    "bst": 330,
+    "evolution_level": 33
+  },
+  "419": {
+    "name": "Floatzel",
+    "slug": "floatzel",
+    "types": [
+      "Water"
+    ],
+    "bst": 495,
+    "evolution_level": 49
+  },
+  "420": {
+    "name": "Cherubi",
+    "slug": "cherubi",
+    "types": [
+      "Grass"
+    ],
+    "bst": 275,
+    "evolution_level": 27
+  },
+  "421": {
+    "name": "Cherrim",
+    "slug": "cherrim",
+    "types": [
+      "Grass"
+    ],
+    "bst": 450,
+    "evolution_level": 45
+  },
+  "422": {
+    "name": "Shellos",
+    "slug": "shellos",
+    "types": [
+      "Water"
+    ],
+    "bst": 325,
+    "evolution_level": 32
+  },
+  "423": {
+    "name": "Gastrodon",
+    "slug": "gastrodon",
+    "types": [
+      "Water",
+      "Ground"
+    ],
+    "bst": 475,
+    "evolution_level": 47
+  },
+  "424": {
+    "name": "Ambipom",
+    "slug": "ambipom",
+    "types": [
+      "Normal"
+    ],
+    "bst": 482,
+    "evolution_level": 48
+  },
+  "425": {
+    "name": "Drifloon",
+    "slug": "drifloon",
+    "types": [
+      "Ghost",
+      "Flying"
+    ],
+    "bst": 348,
+    "evolution_level": 34
+  },
+  "426": {
+    "name": "Drifblim",
+    "slug": "drifblim",
+    "types": [
+      "Ghost",
+      "Flying"
+    ],
+    "bst": 498,
+    "evolution_level": 49
+  },
+  "427": {
+    "name": "Buneary",
+    "slug": "buneary",
+    "types": [
+      "Normal"
+    ],
+    "bst": 350,
+    "evolution_level": 35
+  },
+  "428": {
+    "name": "Lopunny",
+    "slug": "lopunny",
+    "types": [
+      "Normal"
+    ],
+    "bst": 480,
+    "evolution_level": 48
+  },
+  "429": {
+    "name": "Mismagius",
+    "slug": "mismagius",
+    "types": [
+      "Ghost"
+    ],
+    "bst": 495,
+    "evolution_level": 49
+  },
+  "430": {
+    "name": "Honchkrow",
+    "slug": "honchkrow",
+    "types": [
+      "Dark",
+      "Flying"
+    ],
+    "bst": 505,
+    "evolution_level": 50
+  },
+  "431": {
+    "name": "Glameow",
+    "slug": "glameow",
+    "types": [
+      "Normal"
+    ],
+    "bst": 310,
+    "evolution_level": 31
+  },
+  "432": {
+    "name": "Purugly",
+    "slug": "purugly",
+    "types": [
+      "Normal"
+    ],
+    "bst": 452,
+    "evolution_level": 45
+  },
+  "433": {
+    "name": "Chingling",
+    "slug": "chingling",
+    "types": [
+      "Psychic"
+    ],
+    "bst": 285,
+    "evolution_level": 28
+  },
+  "434": {
+    "name": "Stunky",
+    "slug": "stunky",
+    "types": [
+      "Poison",
+      "Dark"
+    ],
+    "bst": 329,
+    "evolution_level": 32
+  },
+  "435": {
+    "name": "Skuntank",
+    "slug": "skuntank",
+    "types": [
+      "Poison",
+      "Dark"
+    ],
+    "bst": 479,
+    "evolution_level": 47
+  },
+  "436": {
+    "name": "Bronzor",
+    "slug": "bronzor",
+    "types": [
+      "Steel",
+      "Psychic"
+    ],
+    "bst": 300,
+    "evolution_level": 30
+  },
+  "437": {
+    "name": "Bronzong",
+    "slug": "bronzong",
+    "types": [
+      "Steel",
+      "Psychic"
+    ],
+    "bst": 500,
+    "evolution_level": 50
+  },
+  "438": {
+    "name": "Bonsly",
+    "slug": "bonsly",
+    "types": [
+      "Rock"
+    ],
+    "bst": 290,
+    "evolution_level": 29
+  },
+  "439": {
+    "name": "Mime Jr.",
+    "slug": "mimejr",
+    "types": [
+      "Psychic",
+      "Fairy"
+    ],
+    "bst": 310,
+    "evolution_level": 31
+  },
+  "440": {
+    "name": "Happiny",
+    "slug": "happiny",
+    "types": [
+      "Normal"
+    ],
+    "bst": 220,
+    "evolution_level": 22
+  },
+  "441": {
+    "name": "Chatot",
+    "slug": "chatot",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "bst": 411,
+    "evolution_level": 41
+  },
+  "442": {
+    "name": "Spiritomb",
+    "slug": "spiritomb",
+    "types": [
+      "Ghost",
+      "Dark"
+    ],
+    "bst": 485,
+    "evolution_level": 48
+  },
+  "443": {
+    "name": "Gible",
+    "slug": "gible",
+    "types": [
+      "Dragon",
+      "Ground"
+    ],
+    "bst": 300,
+    "evolution_level": 30
+  },
+  "444": {
+    "name": "Gabite",
+    "slug": "gabite",
+    "types": [
+      "Dragon",
+      "Ground"
+    ],
+    "bst": 410,
+    "evolution_level": 41
+  },
+  "445": {
+    "name": "Garchomp",
+    "slug": "garchomp",
+    "types": [
+      "Dragon",
+      "Ground"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "446": {
+    "name": "Munchlax",
+    "slug": "munchlax",
+    "types": [
+      "Normal"
+    ],
+    "bst": 390,
+    "evolution_level": 39
+  },
+  "447": {
+    "name": "Riolu",
+    "slug": "riolu",
+    "types": [
+      "Fighting"
+    ],
+    "bst": 285,
+    "evolution_level": 28
+  },
+  "448": {
+    "name": "Lucario",
+    "slug": "lucario",
+    "types": [
+      "Fighting",
+      "Steel"
+    ],
+    "bst": 525,
+    "evolution_level": 52
+  },
+  "449": {
+    "name": "Hippopotas",
+    "slug": "hippopotas",
+    "types": [
+      "Ground"
+    ],
+    "bst": 330,
+    "evolution_level": 33
+  },
+  "450": {
+    "name": "Hippowdon",
+    "slug": "hippowdon",
+    "types": [
+      "Ground"
+    ],
+    "bst": 525,
+    "evolution_level": 52
+  },
+  "451": {
+    "name": "Skorupi",
+    "slug": "skorupi",
+    "types": [
+      "Poison",
+      "Bug"
+    ],
+    "bst": 330,
+    "evolution_level": 33
+  },
+  "452": {
+    "name": "Drapion",
+    "slug": "drapion",
+    "types": [
+      "Poison",
+      "Dark"
+    ],
+    "bst": 500,
+    "evolution_level": 50
+  },
+  "453": {
+    "name": "Croagunk",
+    "slug": "croagunk",
+    "types": [
+      "Poison",
+      "Fighting"
+    ],
+    "bst": 300,
+    "evolution_level": 30
+  },
+  "454": {
+    "name": "Toxicroak",
+    "slug": "toxicroak",
+    "types": [
+      "Poison",
+      "Fighting"
+    ],
+    "bst": 490,
+    "evolution_level": 49
+  },
+  "455": {
+    "name": "Carnivine",
+    "slug": "carnivine",
+    "types": [
+      "Grass"
+    ],
+    "bst": 454,
+    "evolution_level": 45
+  },
+  "456": {
+    "name": "Finneon",
+    "slug": "finneon",
+    "types": [
+      "Water"
+    ],
+    "bst": 330,
+    "evolution_level": 33
+  },
+  "457": {
+    "name": "Lumineon",
+    "slug": "lumineon",
+    "types": [
+      "Water"
+    ],
+    "bst": 460,
+    "evolution_level": 46
+  },
+  "458": {
+    "name": "Mantyke",
+    "slug": "mantyke",
+    "types": [
+      "Water",
+      "Flying"
+    ],
+    "bst": 345,
+    "evolution_level": 34
+  },
+  "459": {
+    "name": "Snover",
+    "slug": "snover",
+    "types": [
+      "Grass",
+      "Ice"
+    ],
+    "bst": 334,
+    "evolution_level": 33
+  },
+  "460": {
+    "name": "Abomasnow",
+    "slug": "abomasnow",
+    "types": [
+      "Grass",
+      "Ice"
+    ],
+    "bst": 494,
+    "evolution_level": 49
+  },
+  "461": {
+    "name": "Weavile",
+    "slug": "weavile",
+    "types": [
+      "Dark",
+      "Ice"
+    ],
+    "bst": 510,
+    "evolution_level": 51
+  },
+  "462": {
+    "name": "Magnezone",
+    "slug": "magnezone",
+    "types": [
+      "Electric",
+      "Steel"
+    ],
+    "bst": 535,
+    "evolution_level": 53
+  },
+  "463": {
+    "name": "Lickilicky",
+    "slug": "lickilicky",
+    "types": [
+      "Normal"
+    ],
+    "bst": 515,
+    "evolution_level": 51
+  },
+  "464": {
+    "name": "Rhyperior",
+    "slug": "rhyperior",
+    "types": [
+      "Ground",
+      "Rock"
+    ],
+    "bst": 535,
+    "evolution_level": 53
+  },
+  "465": {
+    "name": "Tangrowth",
+    "slug": "tangrowth",
+    "types": [
+      "Grass"
+    ],
+    "bst": 535,
+    "evolution_level": 53
+  },
+  "466": {
+    "name": "Electivire",
+    "slug": "electivire",
+    "types": [
+      "Electric"
+    ],
+    "bst": 540,
+    "evolution_level": 54
+  },
+  "467": {
+    "name": "Magmortar",
+    "slug": "magmortar",
+    "types": [
+      "Fire"
+    ],
+    "bst": 540,
+    "evolution_level": 54
+  },
+  "468": {
+    "name": "Togekiss",
+    "slug": "togekiss",
+    "types": [
+      "Fairy",
+      "Flying"
+    ],
+    "bst": 545,
+    "evolution_level": 54
+  },
+  "469": {
+    "name": "Yanmega",
+    "slug": "yanmega",
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "bst": 515,
+    "evolution_level": 51
+  },
+  "470": {
+    "name": "Leafeon",
+    "slug": "leafeon",
+    "types": [
+      "Grass"
+    ],
+    "bst": 525,
+    "evolution_level": 52
+  },
+  "471": {
+    "name": "Glaceon",
+    "slug": "glaceon",
+    "types": [
+      "Ice"
+    ],
+    "bst": 525,
+    "evolution_level": 52
+  },
+  "472": {
+    "name": "Gliscor",
+    "slug": "gliscor",
+    "types": [
+      "Ground",
+      "Flying"
+    ],
+    "bst": 510,
+    "evolution_level": 51
+  },
+  "473": {
+    "name": "Mamoswine",
+    "slug": "mamoswine",
+    "types": [
+      "Ice",
+      "Ground"
+    ],
+    "bst": 530,
+    "evolution_level": 53
+  },
+  "474": {
+    "name": "Porygon-Z",
+    "slug": "porygonz",
+    "types": [
+      "Normal"
+    ],
+    "bst": 535,
+    "evolution_level": 53
+  },
+  "475": {
+    "name": "Gallade",
+    "slug": "gallade",
+    "types": [
+      "Psychic",
+      "Fighting"
+    ],
+    "bst": 518,
+    "evolution_level": 51
+  },
+  "476": {
+    "name": "Probopass",
+    "slug": "probopass",
+    "types": [
+      "Rock",
+      "Steel"
+    ],
+    "bst": 525,
+    "evolution_level": 52
+  },
+  "477": {
+    "name": "Dusknoir",
+    "slug": "dusknoir",
+    "types": [
+      "Ghost"
+    ],
+    "bst": 525,
+    "evolution_level": 52
+  },
+  "478": {
+    "name": "Froslass",
+    "slug": "froslass",
+    "types": [
+      "Ice",
+      "Ghost"
+    ],
+    "bst": 480,
+    "evolution_level": 48
+  },
+  "479": {
+    "name": "Rotom",
+    "slug": "rotom",
+    "types": [
+      "Electric",
+      "Ghost"
+    ],
+    "bst": 440,
+    "evolution_level": 44
+  },
+  "480": {
+    "name": "Uxie",
+    "slug": "uxie",
+    "types": [
+      "Psychic"
+    ],
+    "bst": 580,
+    "evolution_level": 58
+  },
+  "481": {
+    "name": "Mesprit",
+    "slug": "mesprit",
+    "types": [
+      "Psychic"
+    ],
+    "bst": 580,
+    "evolution_level": 58
+  },
+  "482": {
+    "name": "Azelf",
+    "slug": "azelf",
+    "types": [
+      "Psychic"
+    ],
+    "bst": 580,
+    "evolution_level": 58
+  },
+  "485": {
+    "name": "Heatran",
+    "slug": "heatran",
+    "types": [
+      "Fire",
+      "Steel"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "488": {
+    "name": "Cresselia",
+    "slug": "cresselia",
+    "types": [
+      "Psychic"
+    ],
+    "bst": 580,
+    "evolution_level": 58
+  },
+  "489": {
+    "name": "Phione",
+    "slug": "phione",
+    "types": [
+      "Water"
+    ],
+    "bst": 480,
+    "evolution_level": 48
+  },
+  "490": {
+    "name": "Manaphy",
+    "slug": "manaphy",
+    "types": [
+      "Water"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "491": {
+    "name": "Darkrai",
+    "slug": "darkrai",
+    "types": [
+      "Dark"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "492": {
+    "name": "Shaymin",
+    "slug": "shaymin",
+    "types": [
+      "Grass"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "494": {
+    "name": "Victini",
+    "slug": "victini",
+    "types": [
+      "Psychic",
+      "Fire"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "495": {
+    "name": "Snivy",
+    "slug": "snivy",
+    "types": [
+      "Grass"
+    ],
+    "bst": 308,
+    "evolution_level": 30
+  },
+  "496": {
+    "name": "Servine",
+    "slug": "servine",
+    "types": [
+      "Grass"
+    ],
+    "bst": 413,
+    "evolution_level": 41
+  },
+  "497": {
+    "name": "Serperior",
+    "slug": "serperior",
+    "types": [
+      "Grass"
+    ],
+    "bst": 528,
+    "evolution_level": 52
+  },
+  "498": {
+    "name": "Tepig",
+    "slug": "tepig",
+    "types": [
+      "Fire"
+    ],
+    "bst": 308,
+    "evolution_level": 30
+  },
+  "499": {
+    "name": "Pignite",
+    "slug": "pignite",
+    "types": [
+      "Fire",
+      "Fighting"
+    ],
+    "bst": 418,
+    "evolution_level": 41
+  },
+  "500": {
+    "name": "Emboar",
+    "slug": "emboar",
+    "types": [
+      "Fire",
+      "Fighting"
+    ],
+    "bst": 528,
+    "evolution_level": 52
+  },
+  "501": {
+    "name": "Oshawott",
+    "slug": "oshawott",
+    "types": [
+      "Water"
+    ],
+    "bst": 308,
+    "evolution_level": 30
+  },
+  "502": {
+    "name": "Dewott",
+    "slug": "dewott",
+    "types": [
+      "Water"
+    ],
+    "bst": 413,
+    "evolution_level": 41
+  },
+  "503": {
+    "name": "Samurott",
+    "slug": "samurott",
+    "types": [
+      "Water"
+    ],
+    "bst": 528,
+    "evolution_level": 52
+  },
+  "504": {
+    "name": "Patrat",
+    "slug": "patrat",
+    "types": [
+      "Normal"
+    ],
+    "bst": 255,
+    "evolution_level": 25
+  },
+  "505": {
+    "name": "Watchog",
+    "slug": "watchog",
+    "types": [
+      "Normal"
+    ],
+    "bst": 420,
+    "evolution_level": 42
+  },
+  "506": {
+    "name": "Lillipup",
+    "slug": "lillipup",
+    "types": [
+      "Normal"
+    ],
+    "bst": 275,
+    "evolution_level": 27
+  },
+  "507": {
+    "name": "Herdier",
+    "slug": "herdier",
+    "types": [
+      "Normal"
+    ],
+    "bst": 370,
+    "evolution_level": 37
+  },
+  "508": {
+    "name": "Stoutland",
+    "slug": "stoutland",
+    "types": [
+      "Normal"
+    ],
+    "bst": 500,
+    "evolution_level": 50
+  },
+  "509": {
+    "name": "Purrloin",
+    "slug": "purrloin",
+    "types": [
+      "Dark"
+    ],
+    "bst": 281,
+    "evolution_level": 28
+  },
+  "510": {
+    "name": "Liepard",
+    "slug": "liepard",
+    "types": [
+      "Dark"
+    ],
+    "bst": 446,
+    "evolution_level": 44
+  },
+  "511": {
+    "name": "Pansage",
+    "slug": "pansage",
+    "types": [
+      "Grass"
+    ],
+    "bst": 316,
+    "evolution_level": 31
+  },
+  "512": {
+    "name": "Simisage",
+    "slug": "simisage",
+    "types": [
+      "Grass"
+    ],
+    "bst": 498,
+    "evolution_level": 49
+  },
+  "513": {
+    "name": "Pansear",
+    "slug": "pansear",
+    "types": [
+      "Fire"
+    ],
+    "bst": 316,
+    "evolution_level": 31
+  },
+  "514": {
+    "name": "Simisear",
+    "slug": "simisear",
+    "types": [
+      "Fire"
+    ],
+    "bst": 498,
+    "evolution_level": 49
+  },
+  "515": {
+    "name": "Panpour",
+    "slug": "panpour",
+    "types": [
+      "Water"
+    ],
+    "bst": 316,
+    "evolution_level": 31
+  },
+  "516": {
+    "name": "Simipour",
+    "slug": "simipour",
+    "types": [
+      "Water"
+    ],
+    "bst": 498,
+    "evolution_level": 49
+  },
+  "517": {
+    "name": "Munna",
+    "slug": "munna",
+    "types": [
+      "Psychic"
+    ],
+    "bst": 292,
+    "evolution_level": 29
+  },
+  "518": {
+    "name": "Musharna",
+    "slug": "musharna",
+    "types": [
+      "Psychic"
+    ],
+    "bst": 487,
+    "evolution_level": 48
+  },
+  "519": {
+    "name": "Pidove",
+    "slug": "pidove",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "bst": 264,
+    "evolution_level": 26
+  },
+  "520": {
+    "name": "Tranquill",
+    "slug": "tranquill",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "bst": 358,
+    "evolution_level": 35
+  },
+  "521": {
+    "name": "Unfezant",
+    "slug": "unfezant",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "bst": 488,
+    "evolution_level": 48
+  },
+  "522": {
+    "name": "Blitzle",
+    "slug": "blitzle",
+    "types": [
+      "Electric"
+    ],
+    "bst": 295,
+    "evolution_level": 29
+  },
+  "523": {
+    "name": "Zebstrika",
+    "slug": "zebstrika",
+    "types": [
+      "Electric"
+    ],
+    "bst": 497,
+    "evolution_level": 49
+  },
+  "524": {
+    "name": "Roggenrola",
+    "slug": "roggenrola",
+    "types": [
+      "Rock"
+    ],
+    "bst": 280,
+    "evolution_level": 28
+  },
+  "525": {
+    "name": "Boldore",
+    "slug": "boldore",
+    "types": [
+      "Rock"
+    ],
+    "bst": 390,
+    "evolution_level": 39
+  },
+  "526": {
+    "name": "Gigalith",
+    "slug": "gigalith",
+    "types": [
+      "Rock"
+    ],
+    "bst": 515,
+    "evolution_level": 51
+  },
+  "527": {
+    "name": "Woobat",
+    "slug": "woobat",
+    "types": [
+      "Psychic",
+      "Flying"
+    ],
+    "bst": 323,
+    "evolution_level": 32
+  },
+  "528": {
+    "name": "Swoobat",
+    "slug": "swoobat",
+    "types": [
+      "Psychic",
+      "Flying"
+    ],
+    "bst": 425,
+    "evolution_level": 42
+  },
+  "529": {
+    "name": "Drilbur",
+    "slug": "drilbur",
+    "types": [
+      "Ground"
+    ],
+    "bst": 328,
+    "evolution_level": 32
+  },
+  "530": {
+    "name": "Excadrill",
+    "slug": "excadrill",
+    "types": [
+      "Ground",
+      "Steel"
+    ],
+    "bst": 508,
+    "evolution_level": 50
+  },
+  "531": {
+    "name": "Audino",
+    "slug": "audino",
+    "types": [
+      "Normal"
+    ],
+    "bst": 445,
+    "evolution_level": 44
+  },
+  "532": {
+    "name": "Timburr",
+    "slug": "timburr",
+    "types": [
+      "Fighting"
+    ],
+    "bst": 305,
+    "evolution_level": 30
+  },
+  "533": {
+    "name": "Gurdurr",
+    "slug": "gurdurr",
+    "types": [
+      "Fighting"
+    ],
+    "bst": 405,
+    "evolution_level": 40
+  },
+  "534": {
+    "name": "Conkeldurr",
+    "slug": "conkeldurr",
+    "types": [
+      "Fighting"
+    ],
+    "bst": 505,
+    "evolution_level": 50
+  },
+  "535": {
+    "name": "Tympole",
+    "slug": "tympole",
+    "types": [
+      "Water"
+    ],
+    "bst": 294,
+    "evolution_level": 29
+  },
+  "536": {
+    "name": "Palpitoad",
+    "slug": "palpitoad",
+    "types": [
+      "Water",
+      "Ground"
+    ],
+    "bst": 384,
+    "evolution_level": 38
+  },
+  "537": {
+    "name": "Seismitoad",
+    "slug": "seismitoad",
+    "types": [
+      "Water",
+      "Ground"
+    ],
+    "bst": 509,
+    "evolution_level": 50
+  },
+  "538": {
+    "name": "Throh",
+    "slug": "throh",
+    "types": [
+      "Fighting"
+    ],
+    "bst": 465,
+    "evolution_level": 46
+  },
+  "539": {
+    "name": "Sawk",
+    "slug": "sawk",
+    "types": [
+      "Fighting"
+    ],
+    "bst": 465,
+    "evolution_level": 46
+  },
+  "540": {
+    "name": "Sewaddle",
+    "slug": "sewaddle",
+    "types": [
+      "Bug",
+      "Grass"
+    ],
+    "bst": 310,
+    "evolution_level": 31
+  },
+  "541": {
+    "name": "Swadloon",
+    "slug": "swadloon",
+    "types": [
+      "Bug",
+      "Grass"
+    ],
+    "bst": 380,
+    "evolution_level": 38
+  },
+  "542": {
+    "name": "Leavanny",
+    "slug": "leavanny",
+    "types": [
+      "Bug",
+      "Grass"
+    ],
+    "bst": 500,
+    "evolution_level": 50
+  },
+  "543": {
+    "name": "Venipede",
+    "slug": "venipede",
+    "types": [
+      "Bug",
+      "Poison"
+    ],
+    "bst": 260,
+    "evolution_level": 26
+  },
+  "544": {
+    "name": "Whirlipede",
+    "slug": "whirlipede",
+    "types": [
+      "Bug",
+      "Poison"
+    ],
+    "bst": 360,
+    "evolution_level": 36
+  },
+  "545": {
+    "name": "Scolipede",
+    "slug": "scolipede",
+    "types": [
+      "Bug",
+      "Poison"
+    ],
+    "bst": 485,
+    "evolution_level": 48
+  },
+  "546": {
+    "name": "Cottonee",
+    "slug": "cottonee",
+    "types": [
+      "Grass",
+      "Fairy"
+    ],
+    "bst": 280,
+    "evolution_level": 28
+  },
+  "547": {
+    "name": "Whimsicott",
+    "slug": "whimsicott",
+    "types": [
+      "Grass",
+      "Fairy"
+    ],
+    "bst": 480,
+    "evolution_level": 48
+  },
+  "548": {
+    "name": "Petilil",
+    "slug": "petilil",
+    "types": [
+      "Grass"
+    ],
+    "bst": 280,
+    "evolution_level": 28
+  },
+  "549": {
+    "name": "Lilligant",
+    "slug": "lilligant",
+    "types": [
+      "Grass"
+    ],
+    "bst": 480,
+    "evolution_level": 48
+  },
+  "550": {
+    "name": "Basculin",
+    "slug": "basculin",
+    "types": [
+      "Water"
+    ],
+    "bst": 460,
+    "evolution_level": 46
+  },
+  "551": {
+    "name": "Sandile",
+    "slug": "sandile",
+    "types": [
+      "Ground",
+      "Dark"
+    ],
+    "bst": 292,
+    "evolution_level": 29
+  },
+  "552": {
+    "name": "Krokorok",
+    "slug": "krokorok",
+    "types": [
+      "Ground",
+      "Dark"
+    ],
+    "bst": 351,
+    "evolution_level": 35
+  },
+  "553": {
+    "name": "Krookodile",
+    "slug": "krookodile",
+    "types": [
+      "Ground",
+      "Dark"
+    ],
+    "bst": 519,
+    "evolution_level": 51
+  },
+  "554": {
+    "name": "Darumaka",
+    "slug": "darumaka",
+    "types": [
+      "Fire"
+    ],
+    "bst": 315,
+    "evolution_level": 31
+  },
+  "555": {
+    "name": "Darmanitan",
+    "slug": "darmanitan",
+    "types": [
+      "Fire"
+    ],
+    "bst": 480,
+    "evolution_level": 48
+  },
+  "556": {
+    "name": "Maractus",
+    "slug": "maractus",
+    "types": [
+      "Grass"
+    ],
+    "bst": 461,
+    "evolution_level": 46
+  },
+  "557": {
+    "name": "Dwebble",
+    "slug": "dwebble",
+    "types": [
+      "Bug",
+      "Rock"
+    ],
+    "bst": 325,
+    "evolution_level": 32
+  },
+  "558": {
+    "name": "Crustle",
+    "slug": "crustle",
+    "types": [
+      "Bug",
+      "Rock"
+    ],
+    "bst": 485,
+    "evolution_level": 48
+  },
+  "559": {
+    "name": "Scraggy",
+    "slug": "scraggy",
+    "types": [
+      "Dark",
+      "Fighting"
+    ],
+    "bst": 348,
+    "evolution_level": 34
+  },
+  "560": {
+    "name": "Scrafty",
+    "slug": "scrafty",
+    "types": [
+      "Dark",
+      "Fighting"
+    ],
+    "bst": 488,
+    "evolution_level": 48
+  },
+  "561": {
+    "name": "Sigilyph",
+    "slug": "sigilyph",
+    "types": [
+      "Psychic",
+      "Flying"
+    ],
+    "bst": 490,
+    "evolution_level": 49
+  },
+  "562": {
+    "name": "Yamask",
+    "slug": "yamask",
+    "types": [
+      "Ghost"
+    ],
+    "bst": 303,
+    "evolution_level": 30
+  },
+  "563": {
+    "name": "Cofagrigus",
+    "slug": "cofagrigus",
+    "types": [
+      "Ghost"
+    ],
+    "bst": 483,
+    "evolution_level": 48
+  },
+  "564": {
+    "name": "Tirtouga",
+    "slug": "tirtouga",
+    "types": [
+      "Water",
+      "Rock"
+    ],
+    "bst": 355,
+    "evolution_level": 35
+  },
+  "565": {
+    "name": "Carracosta",
+    "slug": "carracosta",
+    "types": [
+      "Water",
+      "Rock"
+    ],
+    "bst": 495,
+    "evolution_level": 49
+  },
+  "566": {
+    "name": "Archen",
+    "slug": "archen",
+    "types": [
+      "Rock",
+      "Flying"
+    ],
+    "bst": 401,
+    "evolution_level": 40
+  },
+  "567": {
+    "name": "Archeops",
+    "slug": "archeops",
+    "types": [
+      "Rock",
+      "Flying"
+    ],
+    "bst": 567,
+    "evolution_level": 56
+  },
+  "568": {
+    "name": "Trubbish",
+    "slug": "trubbish",
+    "types": [
+      "Poison"
+    ],
+    "bst": 329,
+    "evolution_level": 32
+  },
+  "569": {
+    "name": "Garbodor",
+    "slug": "garbodor",
+    "types": [
+      "Poison"
+    ],
+    "bst": 474,
+    "evolution_level": 47
+  },
+  "570": {
+    "name": "Zorua",
+    "slug": "zorua",
+    "types": [
+      "Dark"
+    ],
+    "bst": 330,
+    "evolution_level": 33
+  },
+  "571": {
+    "name": "Zoroark",
+    "slug": "zoroark",
+    "types": [
+      "Dark"
+    ],
+    "bst": 510,
+    "evolution_level": 51
+  },
+  "572": {
+    "name": "Minccino",
+    "slug": "minccino",
+    "types": [
+      "Normal"
+    ],
+    "bst": 300,
+    "evolution_level": 30
+  },
+  "573": {
+    "name": "Cinccino",
+    "slug": "cinccino",
+    "types": [
+      "Normal"
+    ],
+    "bst": 470,
+    "evolution_level": 47
+  },
+  "574": {
+    "name": "Gothita",
+    "slug": "gothita",
+    "types": [
+      "Psychic"
+    ],
+    "bst": 290,
+    "evolution_level": 29
+  },
+  "575": {
+    "name": "Gothorita",
+    "slug": "gothorita",
+    "types": [
+      "Psychic"
+    ],
+    "bst": 390,
+    "evolution_level": 39
+  },
+  "576": {
+    "name": "Gothitelle",
+    "slug": "gothitelle",
+    "types": [
+      "Psychic"
+    ],
+    "bst": 490,
+    "evolution_level": 49
+  },
+  "577": {
+    "name": "Solosis",
+    "slug": "solosis",
+    "types": [
+      "Psychic"
+    ],
+    "bst": 290,
+    "evolution_level": 29
+  },
+  "578": {
+    "name": "Duosion",
+    "slug": "duosion",
+    "types": [
+      "Psychic"
+    ],
+    "bst": 370,
+    "evolution_level": 37
+  },
+  "579": {
+    "name": "Reuniclus",
+    "slug": "reuniclus",
+    "types": [
+      "Psychic"
+    ],
+    "bst": 490,
+    "evolution_level": 49
+  },
+  "580": {
+    "name": "Ducklett",
+    "slug": "ducklett",
+    "types": [
+      "Water",
+      "Flying"
+    ],
+    "bst": 305,
+    "evolution_level": 30
+  },
+  "581": {
+    "name": "Swanna",
+    "slug": "swanna",
+    "types": [
+      "Water",
+      "Flying"
+    ],
+    "bst": 473,
+    "evolution_level": 47
+  },
+  "582": {
+    "name": "Vanillite",
+    "slug": "vanillite",
+    "types": [
+      "Ice"
+    ],
+    "bst": 305,
+    "evolution_level": 30
+  },
+  "583": {
+    "name": "Vanillish",
+    "slug": "vanillish",
+    "types": [
+      "Ice"
+    ],
+    "bst": 395,
+    "evolution_level": 39
+  },
+  "584": {
+    "name": "Vanilluxe",
+    "slug": "vanilluxe",
+    "types": [
+      "Ice"
+    ],
+    "bst": 535,
+    "evolution_level": 53
+  },
+  "585": {
+    "name": "Deerling",
+    "slug": "deerling",
+    "types": [
+      "Normal",
+      "Grass"
+    ],
+    "bst": 335,
+    "evolution_level": 33
+  },
+  "586": {
+    "name": "Sawsbuck",
+    "slug": "sawsbuck",
+    "types": [
+      "Normal",
+      "Grass"
+    ],
+    "bst": 475,
+    "evolution_level": 47
+  },
+  "587": {
+    "name": "Emolga",
+    "slug": "emolga",
+    "types": [
+      "Electric",
+      "Flying"
+    ],
+    "bst": 428,
+    "evolution_level": 42
+  },
+  "588": {
+    "name": "Karrablast",
+    "slug": "karrablast",
+    "types": [
+      "Bug"
+    ],
+    "bst": 315,
+    "evolution_level": 31
+  },
+  "589": {
+    "name": "Escavalier",
+    "slug": "escavalier",
+    "types": [
+      "Bug",
+      "Steel"
+    ],
+    "bst": 495,
+    "evolution_level": 49
+  },
+  "590": {
+    "name": "Foongus",
+    "slug": "foongus",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "bst": 294,
+    "evolution_level": 29
+  },
+  "591": {
+    "name": "Amoonguss",
+    "slug": "amoonguss",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "bst": 464,
+    "evolution_level": 46
+  },
+  "592": {
+    "name": "Frillish",
+    "slug": "frillish",
+    "types": [
+      "Water",
+      "Ghost"
+    ],
+    "bst": 335,
+    "evolution_level": 33
+  },
+  "593": {
+    "name": "Jellicent",
+    "slug": "jellicent",
+    "types": [
+      "Water",
+      "Ghost"
+    ],
+    "bst": 480,
+    "evolution_level": 48
+  },
+  "594": {
+    "name": "Alomomola",
+    "slug": "alomomola",
+    "types": [
+      "Water"
+    ],
+    "bst": 470,
+    "evolution_level": 47
+  },
+  "595": {
+    "name": "Joltik",
+    "slug": "joltik",
+    "types": [
+      "Bug",
+      "Electric"
+    ],
+    "bst": 319,
+    "evolution_level": 31
+  },
+  "596": {
+    "name": "Galvantula",
+    "slug": "galvantula",
+    "types": [
+      "Bug",
+      "Electric"
+    ],
+    "bst": 472,
+    "evolution_level": 47
+  },
+  "597": {
+    "name": "Ferroseed",
+    "slug": "ferroseed",
+    "types": [
+      "Grass",
+      "Steel"
+    ],
+    "bst": 305,
+    "evolution_level": 30
+  },
+  "598": {
+    "name": "Ferrothorn",
+    "slug": "ferrothorn",
+    "types": [
+      "Grass",
+      "Steel"
+    ],
+    "bst": 489,
+    "evolution_level": 48
+  },
+  "599": {
+    "name": "Klink",
+    "slug": "klink",
+    "types": [
+      "Steel"
+    ],
+    "bst": 300,
+    "evolution_level": 30
+  },
+  "600": {
+    "name": "Klang",
+    "slug": "klang",
+    "types": [
+      "Steel"
+    ],
+    "bst": 440,
+    "evolution_level": 44
+  },
+  "601": {
+    "name": "Klinklang",
+    "slug": "klinklang",
+    "types": [
+      "Steel"
+    ],
+    "bst": 520,
+    "evolution_level": 52
+  },
+  "602": {
+    "name": "Tynamo",
+    "slug": "tynamo",
+    "types": [
+      "Electric"
+    ],
+    "bst": 275,
+    "evolution_level": 27
+  },
+  "603": {
+    "name": "Eelektrik",
+    "slug": "eelektrik",
+    "types": [
+      "Electric"
+    ],
+    "bst": 405,
+    "evolution_level": 40
+  },
+  "604": {
+    "name": "Eelektross",
+    "slug": "eelektross",
+    "types": [
+      "Electric"
+    ],
+    "bst": 515,
+    "evolution_level": 51
+  },
+  "605": {
+    "name": "Elgyem",
+    "slug": "elgyem",
+    "types": [
+      "Psychic"
+    ],
+    "bst": 335,
+    "evolution_level": 33
+  },
+  "606": {
+    "name": "Beheeyem",
+    "slug": "beheeyem",
+    "types": [
+      "Psychic"
+    ],
+    "bst": 485,
+    "evolution_level": 48
+  },
+  "607": {
+    "name": "Litwick",
+    "slug": "litwick",
+    "types": [
+      "Ghost",
+      "Fire"
+    ],
+    "bst": 275,
+    "evolution_level": 27
+  },
+  "608": {
+    "name": "Lampent",
+    "slug": "lampent",
+    "types": [
+      "Ghost",
+      "Fire"
+    ],
+    "bst": 370,
+    "evolution_level": 37
+  },
+  "609": {
+    "name": "Chandelure",
+    "slug": "chandelure",
+    "types": [
+      "Ghost",
+      "Fire"
+    ],
+    "bst": 520,
+    "evolution_level": 52
+  },
+  "610": {
+    "name": "Axew",
+    "slug": "axew",
+    "types": [
+      "Dragon"
+    ],
+    "bst": 320,
+    "evolution_level": 32
+  },
+  "611": {
+    "name": "Fraxure",
+    "slug": "fraxure",
+    "types": [
+      "Dragon"
+    ],
+    "bst": 410,
+    "evolution_level": 41
+  },
+  "612": {
+    "name": "Haxorus",
+    "slug": "haxorus",
+    "types": [
+      "Dragon"
+    ],
+    "bst": 540,
+    "evolution_level": 54
+  },
+  "613": {
+    "name": "Cubchoo",
+    "slug": "cubchoo",
+    "types": [
+      "Ice"
+    ],
+    "bst": 305,
+    "evolution_level": 30
+  },
+  "614": {
+    "name": "Beartic",
+    "slug": "beartic",
+    "types": [
+      "Ice"
+    ],
+    "bst": 505,
+    "evolution_level": 50
+  },
+  "615": {
+    "name": "Cryogonal",
+    "slug": "cryogonal",
+    "types": [
+      "Ice"
+    ],
+    "bst": 515,
+    "evolution_level": 51
+  },
+  "616": {
+    "name": "Shelmet",
+    "slug": "shelmet",
+    "types": [
+      "Bug"
+    ],
+    "bst": 305,
+    "evolution_level": 30
+  },
+  "617": {
+    "name": "Accelgor",
+    "slug": "accelgor",
+    "types": [
+      "Bug"
+    ],
+    "bst": 495,
+    "evolution_level": 49
+  },
+  "618": {
+    "name": "Stunfisk",
+    "slug": "stunfisk",
+    "types": [
+      "Ground",
+      "Electric"
+    ],
+    "bst": 471,
+    "evolution_level": 47
+  },
+  "619": {
+    "name": "Mienfoo",
+    "slug": "mienfoo",
+    "types": [
+      "Fighting"
+    ],
+    "bst": 350,
+    "evolution_level": 35
+  },
+  "620": {
+    "name": "Mienshao",
+    "slug": "mienshao",
+    "types": [
+      "Fighting"
+    ],
+    "bst": 510,
+    "evolution_level": 51
+  },
+  "621": {
+    "name": "Druddigon",
+    "slug": "druddigon",
+    "types": [
+      "Dragon"
+    ],
+    "bst": 485,
+    "evolution_level": 48
+  },
+  "622": {
+    "name": "Golett",
+    "slug": "golett",
+    "types": [
+      "Ground",
+      "Ghost"
+    ],
+    "bst": 303,
+    "evolution_level": 30
+  },
+  "623": {
+    "name": "Golurk",
+    "slug": "golurk",
+    "types": [
+      "Ground",
+      "Ghost"
+    ],
+    "bst": 483,
+    "evolution_level": 48
+  },
+  "624": {
+    "name": "Pawniard",
+    "slug": "pawniard",
+    "types": [
+      "Dark",
+      "Steel"
+    ],
+    "bst": 340,
+    "evolution_level": 34
+  },
+  "625": {
+    "name": "Bisharp",
+    "slug": "bisharp",
+    "types": [
+      "Dark",
+      "Steel"
+    ],
+    "bst": 490,
+    "evolution_level": 49
+  },
+  "626": {
+    "name": "Bouffalant",
+    "slug": "bouffalant",
+    "types": [
+      "Normal"
+    ],
+    "bst": 490,
+    "evolution_level": 49
+  },
+  "627": {
+    "name": "Rufflet",
+    "slug": "rufflet",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "bst": 350,
+    "evolution_level": 35
+  },
+  "628": {
+    "name": "Braviary",
+    "slug": "braviary",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "bst": 510,
+    "evolution_level": 51
+  },
+  "629": {
+    "name": "Vullaby",
+    "slug": "vullaby",
+    "types": [
+      "Dark",
+      "Flying"
+    ],
+    "bst": 370,
+    "evolution_level": 37
+  },
+  "630": {
+    "name": "Mandibuzz",
+    "slug": "mandibuzz",
+    "types": [
+      "Dark",
+      "Flying"
+    ],
+    "bst": 510,
+    "evolution_level": 51
+  },
+  "631": {
+    "name": "Heatmor",
+    "slug": "heatmor",
+    "types": [
+      "Fire"
+    ],
+    "bst": 484,
+    "evolution_level": 48
+  },
+  "632": {
+    "name": "Durant",
+    "slug": "durant",
+    "types": [
+      "Bug",
+      "Steel"
+    ],
+    "bst": 484,
+    "evolution_level": 48
+  },
+  "633": {
+    "name": "Deino",
+    "slug": "deino",
+    "types": [
+      "Dark",
+      "Dragon"
+    ],
+    "bst": 300,
+    "evolution_level": 30
+  },
+  "634": {
+    "name": "Zweilous",
+    "slug": "zweilous",
+    "types": [
+      "Dark",
+      "Dragon"
+    ],
+    "bst": 420,
+    "evolution_level": 42
+  },
+  "635": {
+    "name": "Hydreigon",
+    "slug": "hydreigon",
+    "types": [
+      "Dark",
+      "Dragon"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "636": {
+    "name": "Larvesta",
+    "slug": "larvesta",
+    "types": [
+      "Bug",
+      "Fire"
+    ],
+    "bst": 360,
+    "evolution_level": 36
+  },
+  "637": {
+    "name": "Volcarona",
+    "slug": "volcarona",
+    "types": [
+      "Bug",
+      "Fire"
+    ],
+    "bst": 550,
+    "evolution_level": 55
+  },
+  "638": {
+    "name": "Cobalion",
+    "slug": "cobalion",
+    "types": [
+      "Steel",
+      "Fighting"
+    ],
+    "bst": 580,
+    "evolution_level": 58
+  },
+  "639": {
+    "name": "Terrakion",
+    "slug": "terrakion",
+    "types": [
+      "Rock",
+      "Fighting"
+    ],
+    "bst": 580,
+    "evolution_level": 58
+  },
+  "640": {
+    "name": "Virizion",
+    "slug": "virizion",
+    "types": [
+      "Grass",
+      "Fighting"
+    ],
+    "bst": 580,
+    "evolution_level": 58
+  },
+  "641": {
+    "name": "Tornadus",
+    "slug": "tornadus",
+    "types": [
+      "Flying"
+    ],
+    "bst": 580,
+    "evolution_level": 58
+  },
+  "642": {
+    "name": "Thundurus",
+    "slug": "thundurus",
+    "types": [
+      "Electric",
+      "Flying"
+    ],
+    "bst": 580,
+    "evolution_level": 58
+  },
+  "645": {
+    "name": "Landorus",
+    "slug": "landorus",
+    "types": [
+      "Ground",
+      "Flying"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "647": {
+    "name": "Keldeo",
+    "slug": "keldeo",
+    "types": [
+      "Water",
+      "Fighting"
+    ],
+    "bst": 580,
+    "evolution_level": 58
+  },
+  "648": {
+    "name": "Meloetta",
+    "slug": "meloetta",
+    "types": [
+      "Normal",
+      "Psychic"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "649": {
+    "name": "Genesect",
+    "slug": "genesect",
+    "types": [
+      "Bug",
+      "Steel"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "650": {
+    "name": "Chespin",
+    "slug": "chespin",
+    "types": [
+      "Grass"
+    ],
+    "bst": 313,
+    "evolution_level": 31
+  },
+  "651": {
+    "name": "Quilladin",
+    "slug": "quilladin",
+    "types": [
+      "Grass"
+    ],
+    "bst": 405,
+    "evolution_level": 40
+  },
+  "652": {
+    "name": "Chesnaught",
+    "slug": "chesnaught",
+    "types": [
+      "Grass",
+      "Fighting"
+    ],
+    "bst": 530,
+    "evolution_level": 53
+  },
+  "653": {
+    "name": "Fennekin",
+    "slug": "fennekin",
+    "types": [
+      "Fire"
+    ],
+    "bst": 307,
+    "evolution_level": 30
+  },
+  "654": {
+    "name": "Braixen",
+    "slug": "braixen",
+    "types": [
+      "Fire"
+    ],
+    "bst": 409,
+    "evolution_level": 40
+  },
+  "655": {
+    "name": "Delphox",
+    "slug": "delphox",
+    "types": [
+      "Fire",
+      "Psychic"
+    ],
+    "bst": 534,
+    "evolution_level": 53
+  },
+  "656": {
+    "name": "Froakie",
+    "slug": "froakie",
+    "types": [
+      "Water"
+    ],
+    "bst": 314,
+    "evolution_level": 31
+  },
+  "657": {
+    "name": "Frogadier",
+    "slug": "frogadier",
+    "types": [
+      "Water"
+    ],
+    "bst": 405,
+    "evolution_level": 40
+  },
+  "658": {
+    "name": "Greninja",
+    "slug": "greninja",
+    "types": [
+      "Water",
+      "Dark"
+    ],
+    "bst": 530,
+    "evolution_level": 53
+  },
+  "659": {
+    "name": "Bunnelby",
+    "slug": "bunnelby",
+    "types": [
+      "Normal"
+    ],
+    "bst": 237,
+    "evolution_level": 23
+  },
+  "660": {
+    "name": "Diggersby",
+    "slug": "diggersby",
+    "types": [
+      "Normal",
+      "Ground"
+    ],
+    "bst": 423,
+    "evolution_level": 42
+  },
+  "661": {
+    "name": "Fletchling",
+    "slug": "fletchling",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "bst": 278,
+    "evolution_level": 27
+  },
+  "662": {
+    "name": "Fletchinder",
+    "slug": "fletchinder",
+    "types": [
+      "Fire",
+      "Flying"
+    ],
+    "bst": 382,
+    "evolution_level": 38
+  },
+  "663": {
+    "name": "Talonflame",
+    "slug": "talonflame",
+    "types": [
+      "Fire",
+      "Flying"
+    ],
+    "bst": 499,
+    "evolution_level": 49
+  },
+  "664": {
+    "name": "Scatterbug",
+    "slug": "scatterbug",
+    "types": [
+      "Bug"
+    ],
+    "bst": 200,
+    "evolution_level": 20
+  },
+  "665": {
+    "name": "Spewpa",
+    "slug": "spewpa",
+    "types": [
+      "Bug"
+    ],
+    "bst": 213,
+    "evolution_level": 21
+  },
+  "666": {
+    "name": "Vivillon",
+    "slug": "vivillon",
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "bst": 411,
+    "evolution_level": 41
+  },
+  "667": {
+    "name": "Litleo",
+    "slug": "litleo",
+    "types": [
+      "Fire",
+      "Normal"
+    ],
+    "bst": 369,
+    "evolution_level": 36
+  },
+  "668": {
+    "name": "Pyroar",
+    "slug": "pyroar",
+    "types": [
+      "Fire",
+      "Normal"
+    ],
+    "bst": 507,
+    "evolution_level": 50
+  },
+  "669": {
+    "name": "Flab\u00e9b\u00e9",
+    "slug": "flabebe",
+    "types": [
+      "Fairy"
+    ],
+    "bst": 303,
+    "evolution_level": 30
+  },
+  "670": {
+    "name": "Floette",
+    "slug": "floette",
+    "types": [
+      "Fairy"
+    ],
+    "bst": 371,
+    "evolution_level": 37
+  },
+  "671": {
+    "name": "Florges",
+    "slug": "florges",
+    "types": [
+      "Fairy"
+    ],
+    "bst": 552,
+    "evolution_level": 55
+  },
+  "672": {
+    "name": "Skiddo",
+    "slug": "skiddo",
+    "types": [
+      "Grass"
+    ],
+    "bst": 350,
+    "evolution_level": 35
+  },
+  "673": {
+    "name": "Gogoat",
+    "slug": "gogoat",
+    "types": [
+      "Grass"
+    ],
+    "bst": 531,
+    "evolution_level": 53
+  },
+  "674": {
+    "name": "Pancham",
+    "slug": "pancham",
+    "types": [
+      "Fighting"
+    ],
+    "bst": 348,
+    "evolution_level": 34
+  },
+  "675": {
+    "name": "Pangoro",
+    "slug": "pangoro",
+    "types": [
+      "Fighting",
+      "Dark"
+    ],
+    "bst": 495,
+    "evolution_level": 49
+  },
+  "676": {
+    "name": "Furfrou",
+    "slug": "furfrou",
+    "types": [
+      "Normal"
+    ],
+    "bst": 472,
+    "evolution_level": 47
+  },
+  "677": {
+    "name": "Espurr",
+    "slug": "espurr",
+    "types": [
+      "Psychic"
+    ],
+    "bst": 355,
+    "evolution_level": 35
+  },
+  "678": {
+    "name": "Meowstic",
+    "slug": "meowstic",
+    "types": [
+      "Psychic"
+    ],
+    "bst": 466,
+    "evolution_level": 46
+  },
+  "679": {
+    "name": "Honedge",
+    "slug": "honedge",
+    "types": [
+      "Steel",
+      "Ghost"
+    ],
+    "bst": 325,
+    "evolution_level": 32
+  },
+  "680": {
+    "name": "Doublade",
+    "slug": "doublade",
+    "types": [
+      "Steel",
+      "Ghost"
+    ],
+    "bst": 448,
+    "evolution_level": 44
+  },
+  "681": {
+    "name": "Aegislash",
+    "slug": "aegislash",
+    "types": [
+      "Steel",
+      "Ghost"
+    ],
+    "bst": 500,
+    "evolution_level": 50
+  },
+  "682": {
+    "name": "Spritzee",
+    "slug": "spritzee",
+    "types": [
+      "Fairy"
+    ],
+    "bst": 341,
+    "evolution_level": 34
+  },
+  "683": {
+    "name": "Aromatisse",
+    "slug": "aromatisse",
+    "types": [
+      "Fairy"
+    ],
+    "bst": 462,
+    "evolution_level": 46
+  },
+  "684": {
+    "name": "Swirlix",
+    "slug": "swirlix",
+    "types": [
+      "Fairy"
+    ],
+    "bst": 341,
+    "evolution_level": 34
+  },
+  "685": {
+    "name": "Slurpuff",
+    "slug": "slurpuff",
+    "types": [
+      "Fairy"
+    ],
+    "bst": 480,
+    "evolution_level": 48
+  },
+  "686": {
+    "name": "Inkay",
+    "slug": "inkay",
+    "types": [
+      "Dark",
+      "Psychic"
+    ],
+    "bst": 288,
+    "evolution_level": 28
+  },
+  "687": {
+    "name": "Malamar",
+    "slug": "malamar",
+    "types": [
+      "Dark",
+      "Psychic"
+    ],
+    "bst": 482,
+    "evolution_level": 48
+  },
+  "688": {
+    "name": "Binacle",
+    "slug": "binacle",
+    "types": [
+      "Rock",
+      "Water"
+    ],
+    "bst": 306,
+    "evolution_level": 30
+  },
+  "689": {
+    "name": "Barbaracle",
+    "slug": "barbaracle",
+    "types": [
+      "Rock",
+      "Water"
+    ],
+    "bst": 500,
+    "evolution_level": 50
+  },
+  "690": {
+    "name": "Skrelp",
+    "slug": "skrelp",
+    "types": [
+      "Poison",
+      "Water"
+    ],
+    "bst": 320,
+    "evolution_level": 32
+  },
+  "691": {
+    "name": "Dragalge",
+    "slug": "dragalge",
+    "types": [
+      "Poison",
+      "Dragon"
+    ],
+    "bst": 494,
+    "evolution_level": 49
+  },
+  "692": {
+    "name": "Clauncher",
+    "slug": "clauncher",
+    "types": [
+      "Water"
+    ],
+    "bst": 330,
+    "evolution_level": 33
+  },
+  "693": {
+    "name": "Clawitzer",
+    "slug": "clawitzer",
+    "types": [
+      "Water"
+    ],
+    "bst": 500,
+    "evolution_level": 50
+  },
+  "694": {
+    "name": "Helioptile",
+    "slug": "helioptile",
+    "types": [
+      "Electric",
+      "Normal"
+    ],
+    "bst": 289,
+    "evolution_level": 28
+  },
+  "695": {
+    "name": "Heliolisk",
+    "slug": "heliolisk",
+    "types": [
+      "Electric",
+      "Normal"
+    ],
+    "bst": 481,
+    "evolution_level": 48
+  },
+  "696": {
+    "name": "Tyrunt",
+    "slug": "tyrunt",
+    "types": [
+      "Rock",
+      "Dragon"
+    ],
+    "bst": 362,
+    "evolution_level": 36
+  },
+  "697": {
+    "name": "Tyrantrum",
+    "slug": "tyrantrum",
+    "types": [
+      "Rock",
+      "Dragon"
+    ],
+    "bst": 521,
+    "evolution_level": 52
+  },
+  "698": {
+    "name": "Amaura",
+    "slug": "amaura",
+    "types": [
+      "Rock",
+      "Ice"
+    ],
+    "bst": 362,
+    "evolution_level": 36
+  },
+  "699": {
+    "name": "Aurorus",
+    "slug": "aurorus",
+    "types": [
+      "Rock",
+      "Ice"
+    ],
+    "bst": 521,
+    "evolution_level": 52
+  },
+  "700": {
+    "name": "Sylveon",
+    "slug": "sylveon",
+    "types": [
+      "Fairy"
+    ],
+    "bst": 525,
+    "evolution_level": 52
+  },
+  "701": {
+    "name": "Hawlucha",
+    "slug": "hawlucha",
+    "types": [
+      "Fighting",
+      "Flying"
+    ],
+    "bst": 500,
+    "evolution_level": 50
+  },
+  "702": {
+    "name": "Dedenne",
+    "slug": "dedenne",
+    "types": [
+      "Electric",
+      "Fairy"
+    ],
+    "bst": 431,
+    "evolution_level": 43
+  },
+  "703": {
+    "name": "Carbink",
+    "slug": "carbink",
+    "types": [
+      "Rock",
+      "Fairy"
+    ],
+    "bst": 500,
+    "evolution_level": 50
+  },
+  "704": {
+    "name": "Goomy",
+    "slug": "goomy",
+    "types": [
+      "Dragon"
+    ],
+    "bst": 300,
+    "evolution_level": 30
+  },
+  "705": {
+    "name": "Sliggoo",
+    "slug": "sliggoo",
+    "types": [
+      "Dragon"
+    ],
+    "bst": 452,
+    "evolution_level": 45
+  },
+  "706": {
+    "name": "Goodra",
+    "slug": "goodra",
+    "types": [
+      "Dragon"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "707": {
+    "name": "Klefki",
+    "slug": "klefki",
+    "types": [
+      "Steel",
+      "Fairy"
+    ],
+    "bst": 470,
+    "evolution_level": 47
+  },
+  "708": {
+    "name": "Phantump",
+    "slug": "phantump",
+    "types": [
+      "Ghost",
+      "Grass"
+    ],
+    "bst": 309,
+    "evolution_level": 30
+  },
+  "709": {
+    "name": "Trevenant",
+    "slug": "trevenant",
+    "types": [
+      "Ghost",
+      "Grass"
+    ],
+    "bst": 474,
+    "evolution_level": 47
+  },
+  "710": {
+    "name": "Pumpkaboo",
+    "slug": "pumpkaboo",
+    "types": [
+      "Ghost",
+      "Grass"
+    ],
+    "bst": 335,
+    "evolution_level": 33
+  },
+  "711": {
+    "name": "Gourgeist",
+    "slug": "gourgeist",
+    "types": [
+      "Ghost",
+      "Grass"
+    ],
+    "bst": 494,
+    "evolution_level": 49
+  },
+  "712": {
+    "name": "Bergmite",
+    "slug": "bergmite",
+    "types": [
+      "Ice"
+    ],
+    "bst": 304,
+    "evolution_level": 30
+  },
+  "713": {
+    "name": "Avalugg",
+    "slug": "avalugg",
+    "types": [
+      "Ice"
+    ],
+    "bst": 514,
+    "evolution_level": 51
+  },
+  "714": {
+    "name": "Noibat",
+    "slug": "noibat",
+    "types": [
+      "Flying",
+      "Dragon"
+    ],
+    "bst": 245,
+    "evolution_level": 24
+  },
+  "715": {
+    "name": "Noivern",
+    "slug": "noivern",
+    "types": [
+      "Flying",
+      "Dragon"
+    ],
+    "bst": 535,
+    "evolution_level": 53
+  },
+  "719": {
+    "name": "Diancie",
+    "slug": "diancie",
+    "types": [
+      "Rock",
+      "Fairy"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "720": {
+    "name": "Hoopa",
+    "slug": "hoopa",
+    "types": [
+      "Psychic",
+      "Ghost"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "721": {
+    "name": "Volcanion",
+    "slug": "volcanion",
+    "types": [
+      "Fire",
+      "Water"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "722": {
+    "name": "Rowlet",
+    "slug": "rowlet",
+    "types": [
+      "Grass",
+      "Flying"
+    ],
+    "bst": 320,
+    "evolution_level": 32
+  },
+  "723": {
+    "name": "Dartrix",
+    "slug": "dartrix",
+    "types": [
+      "Grass",
+      "Flying"
+    ],
+    "bst": 420,
+    "evolution_level": 42
+  },
+  "724": {
+    "name": "Decidueye",
+    "slug": "decidueye",
+    "types": [
+      "Grass",
+      "Ghost"
+    ],
+    "bst": 530,
+    "evolution_level": 53
+  },
+  "725": {
+    "name": "Litten",
+    "slug": "litten",
+    "types": [
+      "Fire"
+    ],
+    "bst": 320,
+    "evolution_level": 32
+  },
+  "726": {
+    "name": "Torracat",
+    "slug": "torracat",
+    "types": [
+      "Fire"
+    ],
+    "bst": 420,
+    "evolution_level": 42
+  },
+  "727": {
+    "name": "Incineroar",
+    "slug": "incineroar",
+    "types": [
+      "Fire",
+      "Dark"
+    ],
+    "bst": 530,
+    "evolution_level": 53
+  },
+  "728": {
+    "name": "Popplio",
+    "slug": "popplio",
+    "types": [
+      "Water"
+    ],
+    "bst": 320,
+    "evolution_level": 32
+  },
+  "729": {
+    "name": "Brionne",
+    "slug": "brionne",
+    "types": [
+      "Water"
+    ],
+    "bst": 420,
+    "evolution_level": 42
+  },
+  "730": {
+    "name": "Primarina",
+    "slug": "primarina",
+    "types": [
+      "Water",
+      "Fairy"
+    ],
+    "bst": 530,
+    "evolution_level": 53
+  },
+  "731": {
+    "name": "Pikipek",
+    "slug": "pikipek",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "bst": 265,
+    "evolution_level": 26
+  },
+  "732": {
+    "name": "Trumbeak",
+    "slug": "trumbeak",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "bst": 355,
+    "evolution_level": 35
+  },
+  "733": {
+    "name": "Toucannon",
+    "slug": "toucannon",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "bst": 485,
+    "evolution_level": 48
+  },
+  "734": {
+    "name": "Yungoos",
+    "slug": "yungoos",
+    "types": [
+      "Normal"
+    ],
+    "bst": 253,
+    "evolution_level": 25
+  },
+  "735": {
+    "name": "Gumshoos",
+    "slug": "gumshoos",
+    "types": [
+      "Normal"
+    ],
+    "bst": 418,
+    "evolution_level": 41
+  },
+  "736": {
+    "name": "Grubbin",
+    "slug": "grubbin",
+    "types": [
+      "Bug"
+    ],
+    "bst": 300,
+    "evolution_level": 30
+  },
+  "737": {
+    "name": "Charjabug",
+    "slug": "charjabug",
+    "types": [
+      "Bug",
+      "Electric"
+    ],
+    "bst": 400,
+    "evolution_level": 40
+  },
+  "738": {
+    "name": "Vikavolt",
+    "slug": "vikavolt",
+    "types": [
+      "Bug",
+      "Electric"
+    ],
+    "bst": 500,
+    "evolution_level": 50
+  },
+  "739": {
+    "name": "Crabrawler",
+    "slug": "crabrawler",
+    "types": [
+      "Fighting"
+    ],
+    "bst": 338,
+    "evolution_level": 33
+  },
+  "740": {
+    "name": "Crabominable",
+    "slug": "crabominable",
+    "types": [
+      "Fighting",
+      "Ice"
+    ],
+    "bst": 478,
+    "evolution_level": 47
+  },
+  "741": {
+    "name": "Oricorio",
+    "slug": "oricorio",
+    "types": [
+      "Fire",
+      "Flying"
+    ],
+    "bst": 476,
+    "evolution_level": 47
+  },
+  "742": {
+    "name": "Cutiefly",
+    "slug": "cutiefly",
+    "types": [
+      "Bug",
+      "Fairy"
+    ],
+    "bst": 304,
+    "evolution_level": 30
+  },
+  "743": {
+    "name": "Ribombee",
+    "slug": "ribombee",
+    "types": [
+      "Bug",
+      "Fairy"
+    ],
+    "bst": 464,
+    "evolution_level": 46
+  },
+  "744": {
+    "name": "Rockruff",
+    "slug": "rockruff",
+    "types": [
+      "Rock"
+    ],
+    "bst": 280,
+    "evolution_level": 28
+  },
+  "745": {
+    "name": "Lycanroc",
+    "slug": "lycanroc",
+    "types": [
+      "Rock"
+    ],
+    "bst": 487,
+    "evolution_level": 48
+  },
+  "746": {
+    "name": "Wishiwashi",
+    "slug": "wishiwashi",
+    "types": [
+      "Water"
+    ],
+    "bst": 175,
+    "evolution_level": 17
+  },
+  "747": {
+    "name": "Mareanie",
+    "slug": "mareanie",
+    "types": [
+      "Poison",
+      "Water"
+    ],
+    "bst": 305,
+    "evolution_level": 30
+  },
+  "748": {
+    "name": "Toxapex",
+    "slug": "toxapex",
+    "types": [
+      "Poison",
+      "Water"
+    ],
+    "bst": 495,
+    "evolution_level": 49
+  },
+  "749": {
+    "name": "Mudbray",
+    "slug": "mudbray",
+    "types": [
+      "Ground"
+    ],
+    "bst": 385,
+    "evolution_level": 38
+  },
+  "750": {
+    "name": "Mudsdale",
+    "slug": "mudsdale",
+    "types": [
+      "Ground"
+    ],
+    "bst": 500,
+    "evolution_level": 50
+  },
+  "751": {
+    "name": "Dewpider",
+    "slug": "dewpider",
+    "types": [
+      "Water",
+      "Bug"
+    ],
+    "bst": 269,
+    "evolution_level": 26
+  },
+  "752": {
+    "name": "Araquanid",
+    "slug": "araquanid",
+    "types": [
+      "Water",
+      "Bug"
+    ],
+    "bst": 454,
+    "evolution_level": 45
+  },
+  "753": {
+    "name": "Fomantis",
+    "slug": "fomantis",
+    "types": [
+      "Grass"
+    ],
+    "bst": 250,
+    "evolution_level": 25
+  },
+  "754": {
+    "name": "Lurantis",
+    "slug": "lurantis",
+    "types": [
+      "Grass"
+    ],
+    "bst": 480,
+    "evolution_level": 48
+  },
+  "755": {
+    "name": "Morelull",
+    "slug": "morelull",
+    "types": [
+      "Grass",
+      "Fairy"
+    ],
+    "bst": 285,
+    "evolution_level": 28
+  },
+  "756": {
+    "name": "Shiinotic",
+    "slug": "shiinotic",
+    "types": [
+      "Grass",
+      "Fairy"
+    ],
+    "bst": 405,
+    "evolution_level": 40
+  },
+  "757": {
+    "name": "Salandit",
+    "slug": "salandit",
+    "types": [
+      "Poison",
+      "Fire"
+    ],
+    "bst": 320,
+    "evolution_level": 32
+  },
+  "758": {
+    "name": "Salazzle",
+    "slug": "salazzle",
+    "types": [
+      "Poison",
+      "Fire"
+    ],
+    "bst": 480,
+    "evolution_level": 48
+  },
+  "759": {
+    "name": "Stufful",
+    "slug": "stufful",
+    "types": [
+      "Normal",
+      "Fighting"
+    ],
+    "bst": 340,
+    "evolution_level": 34
+  },
+  "760": {
+    "name": "Bewear",
+    "slug": "bewear",
+    "types": [
+      "Normal",
+      "Fighting"
+    ],
+    "bst": 500,
+    "evolution_level": 50
+  },
+  "761": {
+    "name": "Bounsweet",
+    "slug": "bounsweet",
+    "types": [
+      "Grass"
+    ],
+    "bst": 210,
+    "evolution_level": 21
+  },
+  "762": {
+    "name": "Steenee",
+    "slug": "steenee",
+    "types": [
+      "Grass"
+    ],
+    "bst": 290,
+    "evolution_level": 29
+  },
+  "763": {
+    "name": "Tsareena",
+    "slug": "tsareena",
+    "types": [
+      "Grass"
+    ],
+    "bst": 510,
+    "evolution_level": 51
+  },
+  "764": {
+    "name": "Comfey",
+    "slug": "comfey",
+    "types": [
+      "Fairy"
+    ],
+    "bst": 485,
+    "evolution_level": 48
+  },
+  "765": {
+    "name": "Oranguru",
+    "slug": "oranguru",
+    "types": [
+      "Normal",
+      "Psychic"
+    ],
+    "bst": 490,
+    "evolution_level": 49
+  },
+  "766": {
+    "name": "Passimian",
+    "slug": "passimian",
+    "types": [
+      "Fighting"
+    ],
+    "bst": 490,
+    "evolution_level": 49
+  },
+  "767": {
+    "name": "Wimpod",
+    "slug": "wimpod",
+    "types": [
+      "Bug",
+      "Water"
+    ],
+    "bst": 230,
+    "evolution_level": 23
+  },
+  "768": {
+    "name": "Golisopod",
+    "slug": "golisopod",
+    "types": [
+      "Bug",
+      "Water"
+    ],
+    "bst": 530,
+    "evolution_level": 53
+  },
+  "769": {
+    "name": "Sandygast",
+    "slug": "sandygast",
+    "types": [
+      "Ghost",
+      "Ground"
+    ],
+    "bst": 320,
+    "evolution_level": 32
+  },
+  "770": {
+    "name": "Palossand",
+    "slug": "palossand",
+    "types": [
+      "Ghost",
+      "Ground"
+    ],
+    "bst": 480,
+    "evolution_level": 48
+  },
+  "771": {
+    "name": "Pyukumuku",
+    "slug": "pyukumuku",
+    "types": [
+      "Water"
+    ],
+    "bst": 410,
+    "evolution_level": 41
+  },
+  "772": {
+    "name": "Type: Null",
+    "slug": "typenull",
+    "types": [
+      "Normal"
+    ],
+    "bst": 534,
+    "evolution_level": 53
+  },
+  "773": {
+    "name": "Silvally",
+    "slug": "silvally",
+    "types": [
+      "Normal"
+    ],
+    "bst": 570,
+    "evolution_level": 57
+  },
+  "774": {
+    "name": "Minior",
+    "slug": "miniormeteor",
+    "types": [
+      "Rock",
+      "Flying"
+    ],
+    "bst": 440,
+    "evolution_level": 44
+  },
+  "775": {
+    "name": "Komala",
+    "slug": "komala",
+    "types": [
+      "Normal"
+    ],
+    "bst": 480,
+    "evolution_level": 48
+  },
+  "776": {
+    "name": "Turtonator",
+    "slug": "turtonator",
+    "types": [
+      "Fire",
+      "Dragon"
+    ],
+    "bst": 485,
+    "evolution_level": 48
+  },
+  "777": {
+    "name": "Togedemaru",
+    "slug": "togedemaru",
+    "types": [
+      "Electric",
+      "Steel"
+    ],
+    "bst": 435,
+    "evolution_level": 43
+  },
+  "778": {
+    "name": "Mimikyu",
+    "slug": "mimikyu",
+    "types": [
+      "Ghost",
+      "Fairy"
+    ],
+    "bst": 476,
+    "evolution_level": 47
+  },
+  "779": {
+    "name": "Bruxish",
+    "slug": "bruxish",
+    "types": [
+      "Water",
+      "Psychic"
+    ],
+    "bst": 475,
+    "evolution_level": 47
+  },
+  "780": {
+    "name": "Drampa",
+    "slug": "drampa",
+    "types": [
+      "Normal",
+      "Dragon"
+    ],
+    "bst": 485,
+    "evolution_level": 48
+  },
+  "781": {
+    "name": "Dhelmise",
+    "slug": "dhelmise",
+    "types": [
+      "Ghost",
+      "Grass"
+    ],
+    "bst": 517,
+    "evolution_level": 51
+  },
+  "782": {
+    "name": "Jangmo-o",
+    "slug": "jangmoo",
+    "types": [
+      "Dragon"
+    ],
+    "bst": 300,
+    "evolution_level": 30
+  },
+  "783": {
+    "name": "Hakamo-o",
+    "slug": "hakamoo",
+    "types": [
+      "Dragon",
+      "Fighting"
+    ],
+    "bst": 420,
+    "evolution_level": 42
+  },
+  "784": {
+    "name": "Kommo-o",
+    "slug": "kommoo",
+    "types": [
+      "Dragon",
+      "Fighting"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "785": {
+    "name": "Tapu Koko",
+    "slug": "tapukoko",
+    "types": [
+      "Electric",
+      "Fairy"
+    ],
+    "bst": 570,
+    "evolution_level": 57
+  },
+  "786": {
+    "name": "Tapu Lele",
+    "slug": "tapulele",
+    "types": [
+      "Psychic",
+      "Fairy"
+    ],
+    "bst": 570,
+    "evolution_level": 57
+  },
+  "787": {
+    "name": "Tapu Bulu",
+    "slug": "tapubulu",
+    "types": [
+      "Grass",
+      "Fairy"
+    ],
+    "bst": 570,
+    "evolution_level": 57
+  },
+  "788": {
+    "name": "Tapu Fini",
+    "slug": "tapufini",
+    "types": [
+      "Water",
+      "Fairy"
+    ],
+    "bst": 570,
+    "evolution_level": 57
+  },
+  "789": {
+    "name": "Cosmog",
+    "slug": "cosmog",
+    "types": [
+      "Psychic"
+    ],
+    "bst": 200,
+    "evolution_level": 20
+  },
+  "790": {
+    "name": "Cosmoem",
+    "slug": "cosmoem",
+    "types": [
+      "Psychic"
+    ],
+    "bst": 400,
+    "evolution_level": 40
+  },
+  "793": {
+    "name": "Nihilego",
+    "slug": "nihilego",
+    "types": [
+      "Rock",
+      "Poison"
+    ],
+    "bst": 570,
+    "evolution_level": 57
+  },
+  "794": {
+    "name": "Buzzwole",
+    "slug": "buzzwole",
+    "types": [
+      "Bug",
+      "Fighting"
+    ],
+    "bst": 570,
+    "evolution_level": 57
+  },
+  "795": {
+    "name": "Pheromosa",
+    "slug": "pheromosa",
+    "types": [
+      "Bug",
+      "Fighting"
+    ],
+    "bst": 570,
+    "evolution_level": 57
+  },
+  "796": {
+    "name": "Xurkitree",
+    "slug": "xurkitree",
+    "types": [
+      "Electric"
+    ],
+    "bst": 570,
+    "evolution_level": 57
+  },
+  "797": {
+    "name": "Celesteela",
+    "slug": "celesteela",
+    "types": [
+      "Steel",
+      "Flying"
+    ],
+    "bst": 570,
+    "evolution_level": 57
+  },
+  "798": {
+    "name": "Kartana",
+    "slug": "kartana",
+    "types": [
+      "Grass",
+      "Steel"
+    ],
+    "bst": 570,
+    "evolution_level": 57
+  },
+  "799": {
+    "name": "Guzzlord",
+    "slug": "guzzlord",
+    "types": [
+      "Dark",
+      "Dragon"
+    ],
+    "bst": 570,
+    "evolution_level": 57
+  },
+  "800": {
+    "name": "Necrozma",
+    "slug": "necrozma",
+    "types": [
+      "Psychic"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "801": {
+    "name": "Magearna",
+    "slug": "magearna",
+    "types": [
+      "Steel",
+      "Fairy"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "802": {
+    "name": "Marshadow",
+    "slug": "marshadow",
+    "types": [
+      "Fighting",
+      "Ghost"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "803": {
+    "name": "Poipole",
+    "slug": "poipole",
+    "types": [
+      "Poison"
+    ],
+    "bst": 420,
+    "evolution_level": 42
+  },
+  "804": {
+    "name": "Naganadel",
+    "slug": "naganadel",
+    "types": [
+      "Poison",
+      "Dragon"
+    ],
+    "bst": 540,
+    "evolution_level": 54
+  },
+  "805": {
+    "name": "Stakataka",
+    "slug": "stakataka",
+    "types": [
+      "Rock",
+      "Steel"
+    ],
+    "bst": 570,
+    "evolution_level": 57
+  },
+  "806": {
+    "name": "Blacephalon",
+    "slug": "blacephalon",
+    "types": [
+      "Fire",
+      "Ghost"
+    ],
+    "bst": 570,
+    "evolution_level": 57
+  },
+  "808": {
+    "name": "Meltan",
+    "slug": "meltan",
+    "types": [
+      "Steel"
+    ],
+    "bst": 300,
+    "evolution_level": 30
+  },
+  "809": {
+    "name": "Melmetal",
+    "slug": "melmetal",
+    "types": [
+      "Steel"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "810": {
+    "name": "Grookey",
+    "slug": "grookey",
+    "types": [
+      "Grass"
+    ],
+    "bst": 310,
+    "evolution_level": 31
+  },
+  "811": {
+    "name": "Thwackey",
+    "slug": "thwackey",
+    "types": [
+      "Grass"
+    ],
+    "bst": 420,
+    "evolution_level": 42
+  },
+  "812": {
+    "name": "Rillaboom",
+    "slug": "rillaboom",
+    "types": [
+      "Grass"
+    ],
+    "bst": 530,
+    "evolution_level": 53
+  },
+  "813": {
+    "name": "Scorbunny",
+    "slug": "scorbunny",
+    "types": [
+      "Fire"
+    ],
+    "bst": 310,
+    "evolution_level": 31
+  },
+  "814": {
+    "name": "Raboot",
+    "slug": "raboot",
+    "types": [
+      "Fire"
+    ],
+    "bst": 420,
+    "evolution_level": 42
+  },
+  "815": {
+    "name": "Cinderace",
+    "slug": "cinderace",
+    "types": [
+      "Fire"
+    ],
+    "bst": 530,
+    "evolution_level": 53
+  },
+  "816": {
+    "name": "Sobble",
+    "slug": "sobble",
+    "types": [
+      "Water"
+    ],
+    "bst": 310,
+    "evolution_level": 31
+  },
+  "817": {
+    "name": "Drizzile",
+    "slug": "drizzile",
+    "types": [
+      "Water"
+    ],
+    "bst": 420,
+    "evolution_level": 42
+  },
+  "818": {
+    "name": "Inteleon",
+    "slug": "inteleon",
+    "types": [
+      "Water"
+    ],
+    "bst": 530,
+    "evolution_level": 53
+  },
+  "819": {
+    "name": "Skwovet",
+    "slug": "skwovet",
+    "types": [
+      "Normal"
+    ],
+    "bst": 275,
+    "evolution_level": 27
+  },
+  "820": {
+    "name": "Greedent",
+    "slug": "greedent",
+    "types": [
+      "Normal"
+    ],
+    "bst": 460,
+    "evolution_level": 46
+  },
+  "821": {
+    "name": "Rookidee",
+    "slug": "rookidee",
+    "types": [
+      "Flying"
+    ],
+    "bst": 245,
+    "evolution_level": 24
+  },
+  "822": {
+    "name": "Corvisquire",
+    "slug": "corvisquire",
+    "types": [
+      "Flying"
+    ],
+    "bst": 365,
+    "evolution_level": 36
+  },
+  "823": {
+    "name": "Corviknight",
+    "slug": "corviknight",
+    "types": [
+      "Flying",
+      "Steel"
+    ],
+    "bst": 495,
+    "evolution_level": 49
+  },
+  "824": {
+    "name": "Blipbug",
+    "slug": "blipbug",
+    "types": [
+      "Bug"
+    ],
+    "bst": 180,
+    "evolution_level": 18
+  },
+  "825": {
+    "name": "Dottler",
+    "slug": "dottler",
+    "types": [
+      "Bug",
+      "Psychic"
+    ],
+    "bst": 335,
+    "evolution_level": 33
+  },
+  "826": {
+    "name": "Orbeetle",
+    "slug": "orbeetle",
+    "types": [
+      "Bug",
+      "Psychic"
+    ],
+    "bst": 505,
+    "evolution_level": 50
+  },
+  "827": {
+    "name": "Nickit",
+    "slug": "nickit",
+    "types": [
+      "Dark"
+    ],
+    "bst": 245,
+    "evolution_level": 24
+  },
+  "828": {
+    "name": "Thievul",
+    "slug": "thievul",
+    "types": [
+      "Dark"
+    ],
+    "bst": 455,
+    "evolution_level": 45
+  },
+  "829": {
+    "name": "Gossifleur",
+    "slug": "gossifleur",
+    "types": [
+      "Grass"
+    ],
+    "bst": 250,
+    "evolution_level": 25
+  },
+  "830": {
+    "name": "Eldegoss",
+    "slug": "eldegoss",
+    "types": [
+      "Grass"
+    ],
+    "bst": 460,
+    "evolution_level": 46
+  },
+  "831": {
+    "name": "Wooloo",
+    "slug": "wooloo",
+    "types": [
+      "Normal"
+    ],
+    "bst": 270,
+    "evolution_level": 27
+  },
+  "832": {
+    "name": "Dubwool",
+    "slug": "dubwool",
+    "types": [
+      "Normal"
+    ],
+    "bst": 490,
+    "evolution_level": 49
+  },
+  "833": {
+    "name": "Chewtle",
+    "slug": "chewtle",
+    "types": [
+      "Water"
+    ],
+    "bst": 284,
+    "evolution_level": 28
+  },
+  "834": {
+    "name": "Drednaw",
+    "slug": "drednaw",
+    "types": [
+      "Water",
+      "Rock"
+    ],
+    "bst": 485,
+    "evolution_level": 48
+  },
+  "835": {
+    "name": "Yamper",
+    "slug": "yamper",
+    "types": [
+      "Electric"
+    ],
+    "bst": 270,
+    "evolution_level": 27
+  },
+  "836": {
+    "name": "Boltund",
+    "slug": "boltund",
+    "types": [
+      "Electric"
+    ],
+    "bst": 490,
+    "evolution_level": 49
+  },
+  "837": {
+    "name": "Rolycoly",
+    "slug": "rolycoly",
+    "types": [
+      "Rock"
+    ],
+    "bst": 240,
+    "evolution_level": 24
+  },
+  "838": {
+    "name": "Carkol",
+    "slug": "carkol",
+    "types": [
+      "Rock",
+      "Fire"
+    ],
+    "bst": 410,
+    "evolution_level": 41
+  },
+  "839": {
+    "name": "Coalossal",
+    "slug": "coalossal",
+    "types": [
+      "Rock",
+      "Fire"
+    ],
+    "bst": 510,
+    "evolution_level": 51
+  },
+  "840": {
+    "name": "Applin",
+    "slug": "applin",
+    "types": [
+      "Grass",
+      "Dragon"
+    ],
+    "bst": 260,
+    "evolution_level": 26
+  },
+  "841": {
+    "name": "Flapple",
+    "slug": "flapple",
+    "types": [
+      "Grass",
+      "Dragon"
+    ],
+    "bst": 485,
+    "evolution_level": 48
+  },
+  "842": {
+    "name": "Appletun",
+    "slug": "appletun",
+    "types": [
+      "Grass",
+      "Dragon"
+    ],
+    "bst": 485,
+    "evolution_level": 48
+  },
+  "843": {
+    "name": "Silicobra",
+    "slug": "silicobra",
+    "types": [
+      "Ground"
+    ],
+    "bst": 315,
+    "evolution_level": 31
+  },
+  "844": {
+    "name": "Sandaconda",
+    "slug": "sandaconda",
+    "types": [
+      "Ground"
+    ],
+    "bst": 510,
+    "evolution_level": 51
+  },
+  "845": {
+    "name": "Cramorant",
+    "slug": "cramorant",
+    "types": [
+      "Flying",
+      "Water"
+    ],
+    "bst": 475,
+    "evolution_level": 47
+  },
+  "846": {
+    "name": "Arrokuda",
+    "slug": "arrokuda",
+    "types": [
+      "Water"
+    ],
+    "bst": 280,
+    "evolution_level": 28
+  },
+  "847": {
+    "name": "Barraskewda",
+    "slug": "barraskewda",
+    "types": [
+      "Water"
+    ],
+    "bst": 490,
+    "evolution_level": 49
+  },
+  "848": {
+    "name": "Toxel",
+    "slug": "toxel",
+    "types": [
+      "Electric",
+      "Poison"
+    ],
+    "bst": 242,
+    "evolution_level": 24
+  },
+  "849": {
+    "name": "Toxtricity",
+    "slug": "toxtricity",
+    "types": [
+      "Electric",
+      "Poison"
+    ],
+    "bst": 502,
+    "evolution_level": 50
+  },
+  "850": {
+    "name": "Sizzlipede",
+    "slug": "sizzlipede",
+    "types": [
+      "Fire",
+      "Bug"
+    ],
+    "bst": 305,
+    "evolution_level": 30
+  },
+  "851": {
+    "name": "Centiskorch",
+    "slug": "centiskorch",
+    "types": [
+      "Fire",
+      "Bug"
+    ],
+    "bst": 525,
+    "evolution_level": 52
+  },
+  "852": {
+    "name": "Clobbopus",
+    "slug": "clobbopus",
+    "types": [
+      "Fighting"
+    ],
+    "bst": 310,
+    "evolution_level": 31
+  },
+  "853": {
+    "name": "Grapploct",
+    "slug": "grapploct",
+    "types": [
+      "Fighting"
+    ],
+    "bst": 480,
+    "evolution_level": 48
+  },
+  "854": {
+    "name": "Sinistea",
+    "slug": "sinistea",
+    "types": [
+      "Ghost"
+    ],
+    "bst": 308,
+    "evolution_level": 30
+  },
+  "855": {
+    "name": "Polteageist",
+    "slug": "polteageist",
+    "types": [
+      "Ghost"
+    ],
+    "bst": 508,
+    "evolution_level": 50
+  },
+  "856": {
+    "name": "Hatenna",
+    "slug": "hatenna",
+    "types": [
+      "Psychic"
+    ],
+    "bst": 265,
+    "evolution_level": 26
+  },
+  "857": {
+    "name": "Hattrem",
+    "slug": "hattrem",
+    "types": [
+      "Psychic"
+    ],
+    "bst": 370,
+    "evolution_level": 37
+  },
+  "858": {
+    "name": "Hatterene",
+    "slug": "hatterene",
+    "types": [
+      "Psychic",
+      "Fairy"
+    ],
+    "bst": 510,
+    "evolution_level": 51
+  },
+  "859": {
+    "name": "Impidimp",
+    "slug": "impidimp",
+    "types": [
+      "Dark",
+      "Fairy"
+    ],
+    "bst": 265,
+    "evolution_level": 26
+  },
+  "860": {
+    "name": "Morgrem",
+    "slug": "morgrem",
+    "types": [
+      "Dark",
+      "Fairy"
+    ],
+    "bst": 370,
+    "evolution_level": 37
+  },
+  "861": {
+    "name": "Grimmsnarl",
+    "slug": "grimmsnarl",
+    "types": [
+      "Dark",
+      "Fairy"
+    ],
+    "bst": 510,
+    "evolution_level": 51
+  },
+  "862": {
+    "name": "Obstagoon",
+    "slug": "obstagoon",
+    "types": [
+      "Dark",
+      "Normal"
+    ],
+    "bst": 520,
+    "evolution_level": 52
+  },
+  "863": {
+    "name": "Perrserker",
+    "slug": "perrserker",
+    "types": [
+      "Steel"
+    ],
+    "bst": 440,
+    "evolution_level": 44
+  },
+  "864": {
+    "name": "Cursola",
+    "slug": "cursola",
+    "types": [
+      "Ghost"
+    ],
+    "bst": 510,
+    "evolution_level": 51
+  },
+  "865": {
+    "name": "Sirfetch'd",
+    "slug": "sirfetchd",
+    "types": [
+      "Fighting"
+    ],
+    "bst": 507,
+    "evolution_level": 50
+  },
+  "866": {
+    "name": "Mr. Rime",
+    "slug": "mrrime",
+    "types": [
+      "Ice",
+      "Psychic"
+    ],
+    "bst": 520,
+    "evolution_level": 52
+  },
+  "867": {
+    "name": "Runerigus",
+    "slug": "runerigus",
+    "types": [
+      "Ground",
+      "Ghost"
+    ],
+    "bst": 483,
+    "evolution_level": 48
+  },
+  "868": {
+    "name": "Milcery",
+    "slug": "milcery",
+    "types": [
+      "Fairy"
+    ],
+    "bst": 270,
+    "evolution_level": 27
+  },
+  "869": {
+    "name": "Alcremie",
+    "slug": "alcremie",
+    "types": [
+      "Fairy"
+    ],
+    "bst": 495,
+    "evolution_level": 49
+  },
+  "870": {
+    "name": "Falinks",
+    "slug": "falinks",
+    "types": [
+      "Fighting"
+    ],
+    "bst": 470,
+    "evolution_level": 47
+  },
+  "871": {
+    "name": "Pincurchin",
+    "slug": "pincurchin",
+    "types": [
+      "Electric"
+    ],
+    "bst": 435,
+    "evolution_level": 43
+  },
+  "872": {
+    "name": "Snom",
+    "slug": "snom",
+    "types": [
+      "Ice",
+      "Bug"
+    ],
+    "bst": 185,
+    "evolution_level": 18
+  },
+  "873": {
+    "name": "Frosmoth",
+    "slug": "frosmoth",
+    "types": [
+      "Ice",
+      "Bug"
+    ],
+    "bst": 475,
+    "evolution_level": 47
+  },
+  "874": {
+    "name": "Stonjourner",
+    "slug": "stonjourner",
+    "types": [
+      "Rock"
+    ],
+    "bst": 470,
+    "evolution_level": 47
+  },
+  "875": {
+    "name": "Eiscue",
+    "slug": "eiscue",
+    "types": [
+      "Ice"
+    ],
+    "bst": 470,
+    "evolution_level": 47
+  },
+  "876": {
+    "name": "Indeedee",
+    "slug": "indeedee",
+    "types": [
+      "Psychic",
+      "Normal"
+    ],
+    "bst": 475,
+    "evolution_level": 47
+  },
+  "877": {
+    "name": "Morpeko",
+    "slug": "morpeko",
+    "types": [
+      "Electric",
+      "Dark"
+    ],
+    "bst": 436,
+    "evolution_level": 43
+  },
+  "878": {
+    "name": "Cufant",
+    "slug": "cufant",
+    "types": [
+      "Steel"
+    ],
+    "bst": 330,
+    "evolution_level": 33
+  },
+  "879": {
+    "name": "Copperajah",
+    "slug": "copperajah",
+    "types": [
+      "Steel"
+    ],
+    "bst": 500,
+    "evolution_level": 50
+  },
+  "880": {
+    "name": "Dracozolt",
+    "slug": "dracozolt",
+    "types": [
+      "Electric",
+      "Dragon"
+    ],
+    "bst": 505,
+    "evolution_level": 50
+  },
+  "881": {
+    "name": "Arctozolt",
+    "slug": "arctozolt",
+    "types": [
+      "Electric",
+      "Ice"
+    ],
+    "bst": 505,
+    "evolution_level": 50
+  },
+  "882": {
+    "name": "Dracovish",
+    "slug": "dracovish",
+    "types": [
+      "Water",
+      "Dragon"
+    ],
+    "bst": 505,
+    "evolution_level": 50
+  },
+  "883": {
+    "name": "Arctovish",
+    "slug": "arctovish",
+    "types": [
+      "Water",
+      "Ice"
+    ],
+    "bst": 505,
+    "evolution_level": 50
+  },
+  "884": {
+    "name": "Duraludon",
+    "slug": "duraludon",
+    "types": [
+      "Steel",
+      "Dragon"
+    ],
+    "bst": 535,
+    "evolution_level": 53
+  },
+  "885": {
+    "name": "Dreepy",
+    "slug": "dreepy",
+    "types": [
+      "Dragon",
+      "Ghost"
+    ],
+    "bst": 270,
+    "evolution_level": 27
+  },
+  "886": {
+    "name": "Drakloak",
+    "slug": "drakloak",
+    "types": [
+      "Dragon",
+      "Ghost"
+    ],
+    "bst": 410,
+    "evolution_level": 41
+  },
+  "887": {
+    "name": "Dragapult",
+    "slug": "dragapult",
+    "types": [
+      "Dragon",
+      "Ghost"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "891": {
+    "name": "Kubfu",
+    "slug": "kubfu",
+    "types": [
+      "Fighting"
+    ],
+    "bst": 385,
+    "evolution_level": 38
+  },
+  "892": {
+    "name": "Urshifu",
+    "slug": "urshifu",
+    "types": [
+      "Fighting",
+      "Dark"
+    ],
+    "bst": 550,
+    "evolution_level": 55
+  },
+  "893": {
+    "name": "Zarude",
+    "slug": "zarude",
+    "types": [
+      "Dark",
+      "Grass"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "894": {
+    "name": "Regieleki",
+    "slug": "regieleki",
+    "types": [
+      "Electric"
+    ],
+    "bst": 580,
+    "evolution_level": 58
+  },
+  "895": {
+    "name": "Regidrago",
+    "slug": "regidrago",
+    "types": [
+      "Dragon"
+    ],
+    "bst": 580,
+    "evolution_level": 58
+  },
+  "896": {
+    "name": "Glastrier",
+    "slug": "glastrier",
+    "types": [
+      "Ice"
+    ],
+    "bst": 580,
+    "evolution_level": 58
+  },
+  "897": {
+    "name": "Spectrier",
+    "slug": "spectrier",
+    "types": [
+      "Ghost"
+    ],
+    "bst": 580,
+    "evolution_level": 58
+  },
+  "898": {
+    "name": "Calyrex",
+    "slug": "calyrex",
+    "types": [
+      "Psychic",
+      "Grass"
+    ],
+    "bst": 500,
+    "evolution_level": 50
+  },
+  "899": {
+    "name": "Wyrdeer",
+    "slug": "wyrdeer",
+    "types": [
+      "Normal",
+      "Psychic"
+    ],
+    "bst": 525,
+    "evolution_level": 52
+  },
+  "900": {
+    "name": "Kleavor",
+    "slug": "kleavor",
+    "types": [
+      "Bug",
+      "Rock"
+    ],
+    "bst": 500,
+    "evolution_level": 50
+  },
+  "901": {
+    "name": "Ursaluna",
+    "slug": "ursaluna",
+    "types": [
+      "Ground",
+      "Normal"
+    ],
+    "bst": 550,
+    "evolution_level": 55
+  },
+  "902": {
+    "name": "Basculegion",
+    "slug": "basculegion",
+    "types": [
+      "Water",
+      "Ghost"
+    ],
+    "bst": 530,
+    "evolution_level": 53
+  },
+  "903": {
+    "name": "Sneasler",
+    "slug": "sneasler",
+    "types": [
+      "Fighting",
+      "Poison"
+    ],
+    "bst": 510,
+    "evolution_level": 51
+  },
+  "904": {
+    "name": "Overqwil",
+    "slug": "overqwil",
+    "types": [
+      "Dark",
+      "Poison"
+    ],
+    "bst": 510,
+    "evolution_level": 51
+  },
+  "905": {
+    "name": "Enamorus",
+    "slug": "enamorus",
+    "types": [
+      "Fairy",
+      "Flying"
+    ],
+    "bst": 580,
+    "evolution_level": 58
+  },
+  "910": {
+    "name": "Beedrill-Mega",
+    "slug": "beedrillmega",
+    "types": [
+      "Bug",
+      "Poison"
+    ],
+    "bst": 495,
+    "evolution_level": 49
+  },
+  "911": {
+    "name": "Pidgeot-Mega",
+    "slug": "pidgeotmega",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "bst": 579,
+    "evolution_level": 57
+  },
+  "912": {
+    "name": "Alakazam-Mega",
+    "slug": "alakazammega",
+    "types": [
+      "Psychic"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "913": {
+    "name": "Slowbro-Mega",
+    "slug": "slowbromega",
+    "types": [
+      "Water",
+      "Psychic"
+    ],
+    "bst": 590,
+    "evolution_level": 59
+  },
+  "914": {
+    "name": "Gengar-Mega",
+    "slug": "gengarmega",
+    "types": [
+      "Ghost",
+      "Poison"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "915": {
+    "name": "Kangaskhan-Mega",
+    "slug": "kangaskhanmega",
+    "types": [
+      "Normal"
+    ],
+    "bst": 590,
+    "evolution_level": 59
+  },
+  "916": {
+    "name": "Pinsir-Mega",
+    "slug": "pinsirmega",
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "923": {
+    "name": "Scizor-Mega",
+    "slug": "scizormega",
+    "types": [
+      "Bug",
+      "Steel"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "924": {
+    "name": "Heracross-Mega",
+    "slug": "heracrossmega",
+    "types": [
+      "Bug",
+      "Fighting"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "925": {
+    "name": "Houndoom-Mega",
+    "slug": "houndoommega",
+    "types": [
+      "Dark",
+      "Fire"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "931": {
+    "name": "Sableye-Mega",
+    "slug": "sableyemega",
+    "types": [
+      "Dark",
+      "Ghost"
+    ],
+    "bst": 480,
+    "evolution_level": 48
+  },
+  "932": {
+    "name": "Mawile-Mega",
+    "slug": "mawilemega",
+    "types": [
+      "Steel",
+      "Fairy"
+    ],
+    "bst": 480,
+    "evolution_level": 48
+  },
+  "934": {
+    "name": "Medicham-Mega",
+    "slug": "medichammega",
+    "types": [
+      "Fighting",
+      "Psychic"
+    ],
+    "bst": 510,
+    "evolution_level": 51
+  },
+  "935": {
+    "name": "Manectric-Mega",
+    "slug": "manectricmega",
+    "types": [
+      "Electric"
+    ],
+    "bst": 575,
+    "evolution_level": 57
+  },
+  "936": {
+    "name": "Sharpedo-Mega",
+    "slug": "sharpedomega",
+    "types": [
+      "Water",
+      "Dark"
+    ],
+    "bst": 560,
+    "evolution_level": 56
+  },
+  "937": {
+    "name": "Camerupt-Mega",
+    "slug": "cameruptmega",
+    "types": [
+      "Fire",
+      "Ground"
+    ],
+    "bst": 560,
+    "evolution_level": 56
+  },
+  "938": {
+    "name": "Altaria-Mega",
+    "slug": "altariamega",
+    "types": [
+      "Dragon",
+      "Fairy"
+    ],
+    "bst": 590,
+    "evolution_level": 59
+  },
+  "939": {
+    "name": "Banette-Mega",
+    "slug": "banettemega",
+    "types": [
+      "Ghost"
+    ],
+    "bst": 555,
+    "evolution_level": 55
+  },
+  "940": {
+    "name": "Absol-Mega",
+    "slug": "absolmega",
+    "types": [
+      "Dark"
+    ],
+    "bst": 565,
+    "evolution_level": 56
+  },
+  "941": {
+    "name": "Glalie-Mega",
+    "slug": "glaliemega",
+    "types": [
+      "Ice"
+    ],
+    "bst": 580,
+    "evolution_level": 58
+  },
+  "946": {
+    "name": "Lopunny-Mega",
+    "slug": "lopunnymega",
+    "types": [
+      "Normal",
+      "Fighting"
+    ],
+    "bst": 580,
+    "evolution_level": 58
+  },
+  "949": {
+    "name": "Abomasnow-Mega",
+    "slug": "abomasnowmega",
+    "types": [
+      "Grass",
+      "Ice"
+    ],
+    "bst": 594,
+    "evolution_level": 59
+  },
+  "951": {
+    "name": "Audino-Mega",
+    "slug": "audinomega",
+    "types": [
+      "Normal",
+      "Fairy"
+    ],
+    "bst": 545,
+    "evolution_level": 54
+  },
+  "956": {
+    "name": "Rattata-A",
+    "slug": "rattataalola",
+    "types": [
+      "Dark",
+      "Normal"
+    ],
+    "bst": 253,
+    "evolution_level": 25
+  },
+  "957": {
+    "name": "Raticate-A",
+    "slug": "raticatealola",
+    "types": [
+      "Dark",
+      "Normal"
+    ],
+    "bst": 413,
+    "evolution_level": 41
+  },
+  "958": {
+    "name": "Raichu-Alola",
+    "slug": "raichualola",
+    "types": [
+      "Electric",
+      "Psychic"
+    ],
+    "bst": 485,
+    "evolution_level": 48
+  },
+  "959": {
+    "name": "Sandshrew-A",
+    "slug": "sandshrewalola",
+    "types": [
+      "Ice",
+      "Steel"
+    ],
+    "bst": 300,
+    "evolution_level": 30
+  },
+  "960": {
+    "name": "Sandslash-A",
+    "slug": "sandslashalola",
+    "types": [
+      "Ice",
+      "Steel"
+    ],
+    "bst": 450,
+    "evolution_level": 45
+  },
+  "961": {
+    "name": "Vulpix-A",
+    "slug": "vulpixalola",
+    "types": [
+      "Ice"
+    ],
+    "bst": 299,
+    "evolution_level": 29
+  },
+  "962": {
+    "name": "Ninetales-Alola",
+    "slug": "ninetalesalola",
+    "types": [
+      "Ice",
+      "Fairy"
+    ],
+    "bst": 505,
+    "evolution_level": 50
+  },
+  "963": {
+    "name": "Diglett-A",
+    "slug": "diglettalola",
+    "types": [
+      "Ground",
+      "Steel"
+    ],
+    "bst": 265,
+    "evolution_level": 26
+  },
+  "964": {
+    "name": "Dugtrio-A",
+    "slug": "dugtrioalola",
+    "types": [
+      "Ground",
+      "Steel"
+    ],
+    "bst": 425,
+    "evolution_level": 42
+  },
+  "965": {
+    "name": "Meowth-A",
+    "slug": "meowthalola",
+    "types": [
+      "Dark"
+    ],
+    "bst": 290,
+    "evolution_level": 29
+  },
+  "966": {
+    "name": "Persian-A",
+    "slug": "persianalola",
+    "types": [
+      "Dark"
+    ],
+    "bst": 440,
+    "evolution_level": 44
+  },
+  "967": {
+    "name": "Geodude-A",
+    "slug": "geodudealola",
+    "types": [
+      "Rock",
+      "Electric"
+    ],
+    "bst": 300,
+    "evolution_level": 30
+  },
+  "968": {
+    "name": "Graveler-A",
+    "slug": "graveleralola",
+    "types": [
+      "Rock",
+      "Electric"
+    ],
+    "bst": 390,
+    "evolution_level": 39
+  },
+  "969": {
+    "name": "Golem-Alola",
+    "slug": "golemalola",
+    "types": [
+      "Rock",
+      "Electric"
+    ],
+    "bst": 495,
+    "evolution_level": 49
+  },
+  "970": {
+    "name": "Grimer-A",
+    "slug": "grimeralola",
+    "types": [
+      "Poison",
+      "Dark"
+    ],
+    "bst": 325,
+    "evolution_level": 32
+  },
+  "971": {
+    "name": "Muk-Alola",
+    "slug": "mukalola",
+    "types": [
+      "Poison",
+      "Dark"
+    ],
+    "bst": 500,
+    "evolution_level": 50
+  },
+  "972": {
+    "name": "Exeggutor-Alola",
+    "slug": "exeggutoralola",
+    "types": [
+      "Grass",
+      "Dragon"
+    ],
+    "bst": 530,
+    "evolution_level": 53
+  },
+  "973": {
+    "name": "Marowak-A",
+    "slug": "marowakalola",
+    "types": [
+      "Fire",
+      "Ghost"
+    ],
+    "bst": 425,
+    "evolution_level": 42
+  },
+  "974": {
+    "name": "Meowth-G",
+    "slug": "meowthgalar",
+    "types": [
+      "Steel"
+    ],
+    "bst": 290,
+    "evolution_level": 29
+  },
+  "975": {
+    "name": "Ponyta-G",
+    "slug": "ponytagalar",
+    "types": [
+      "Psychic"
+    ],
+    "bst": 410,
+    "evolution_level": 41
+  },
+  "976": {
+    "name": "Rapidash-Galar",
+    "slug": "rapidashgalar",
+    "types": [
+      "Psychic",
+      "Fairy"
+    ],
+    "bst": 500,
+    "evolution_level": 50
+  },
+  "977": {
+    "name": "Slowpoke-G",
+    "slug": "slowpokegalar",
+    "types": [
+      "Psychic"
+    ],
+    "bst": 315,
+    "evolution_level": 31
+  },
+  "978": {
+    "name": "Slowbro-Galar",
+    "slug": "slowbrogalar",
+    "types": [
+      "Poison",
+      "Psychic"
+    ],
+    "bst": 490,
+    "evolution_level": 49
+  },
+  "979": {
+    "name": "Farfetch'd-G",
+    "slug": "farfetchdgalar",
+    "types": [
+      "Fighting"
+    ],
+    "bst": 377,
+    "evolution_level": 37
+  },
+  "980": {
+    "name": "Weezing-Galar",
+    "slug": "weezinggalar",
+    "types": [
+      "Poison",
+      "Fairy"
+    ],
+    "bst": 490,
+    "evolution_level": 49
+  },
+  "981": {
+    "name": "Mr. Mime-G",
+    "slug": "mrmimegalar",
+    "types": [
+      "Ice",
+      "Psychic"
+    ],
+    "bst": 460,
+    "evolution_level": 46
+  },
+  "982": {
+    "name": "Articuno-Galar",
+    "slug": "articunogalar",
+    "types": [
+      "Psychic",
+      "Flying"
+    ],
+    "bst": 580,
+    "evolution_level": 58
+  },
+  "983": {
+    "name": "Zapdos-Galar",
+    "slug": "zapdosgalar",
+    "types": [
+      "Fighting",
+      "Flying"
+    ],
+    "bst": 580,
+    "evolution_level": 58
+  },
+  "984": {
+    "name": "Moltres-Galar",
+    "slug": "moltresgalar",
+    "types": [
+      "Dark",
+      "Flying"
+    ],
+    "bst": 580,
+    "evolution_level": 58
+  },
+  "985": {
+    "name": "Slowking-Galar",
+    "slug": "slowkinggalar",
+    "types": [
+      "Poison",
+      "Psychic"
+    ],
+    "bst": 490,
+    "evolution_level": 49
+  },
+  "986": {
+    "name": "Corsola-G",
+    "slug": "corsolagalar",
+    "types": [
+      "Ghost"
+    ],
+    "bst": 410,
+    "evolution_level": 41
+  },
+  "987": {
+    "name": "Zigzagoon-G",
+    "slug": "zigzagoongalar",
+    "types": [
+      "Dark",
+      "Normal"
+    ],
+    "bst": 240,
+    "evolution_level": 24
+  },
+  "988": {
+    "name": "Linoone-G",
+    "slug": "linoonegalar",
+    "types": [
+      "Dark",
+      "Normal"
+    ],
+    "bst": 420,
+    "evolution_level": 42
+  },
+  "989": {
+    "name": "Darumaka-G",
+    "slug": "darumakagalar",
+    "types": [
+      "Ice"
+    ],
+    "bst": 315,
+    "evolution_level": 31
+  },
+  "990": {
+    "name": "Darmanitan-Galar",
+    "slug": "darmanitangalar",
+    "types": [
+      "Ice"
+    ],
+    "bst": 480,
+    "evolution_level": 48
+  },
+  "991": {
+    "name": "Yamask-G",
+    "slug": "yamaskgalar",
+    "types": [
+      "Ground",
+      "Ghost"
+    ],
+    "bst": 303,
+    "evolution_level": 30
+  },
+  "992": {
+    "name": "Stunfisk-Galar",
+    "slug": "stunfiskgalar",
+    "types": [
+      "Ground",
+      "Steel"
+    ],
+    "bst": 471,
+    "evolution_level": 47
+  },
+  "993": {
+    "name": "Growlithe-H",
+    "slug": "growlithehisui",
+    "types": [
+      "Fire",
+      "Rock"
+    ],
+    "bst": 350,
+    "evolution_level": 35
+  },
+  "994": {
+    "name": "Arcanine-Hisui",
+    "slug": "arcaninehisui",
+    "types": [
+      "Fire",
+      "Rock"
+    ],
+    "bst": 555,
+    "evolution_level": 55
+  },
+  "995": {
+    "name": "Voltorb-H",
+    "slug": "voltorbhisui",
+    "types": [
+      "Electric",
+      "Grass"
+    ],
+    "bst": 330,
+    "evolution_level": 33
+  },
+  "996": {
+    "name": "Electrode-Hisui",
+    "slug": "electrodehisui",
+    "types": [
+      "Electric",
+      "Grass"
+    ],
+    "bst": 490,
+    "evolution_level": 49
+  },
+  "997": {
+    "name": "Typhlosion-Hisui",
+    "slug": "typhlosionhisui",
+    "types": [
+      "Fire",
+      "Ghost"
+    ],
+    "bst": 534,
+    "evolution_level": 53
+  },
+  "998": {
+    "name": "Qwilfish-H",
+    "slug": "qwilfishhisui",
+    "types": [
+      "Dark",
+      "Poison"
+    ],
+    "bst": 440,
+    "evolution_level": 44
+  },
+  "999": {
+    "name": "Sneasel-H",
+    "slug": "sneaselhisui",
+    "types": [
+      "Fighting",
+      "Poison"
+    ],
+    "bst": 430,
+    "evolution_level": 43
+  },
+  "1000": {
+    "name": "Samurott-Hisui",
+    "slug": "samurotthisui",
+    "types": [
+      "Water",
+      "Dark"
+    ],
+    "bst": 528,
+    "evolution_level": 52
+  },
+  "1001": {
+    "name": "Lilligant-Hisui",
+    "slug": "lilliganthisui",
+    "types": [
+      "Grass",
+      "Fighting"
+    ],
+    "bst": 480,
+    "evolution_level": 48
+  },
+  "1002": {
+    "name": "Zorua-H",
+    "slug": "zoruahisui",
+    "types": [
+      "Normal",
+      "Ghost"
+    ],
+    "bst": 330,
+    "evolution_level": 33
+  },
+  "1003": {
+    "name": "Zoroark-Hisui",
+    "slug": "zoroarkhisui",
+    "types": [
+      "Normal",
+      "Ghost"
+    ],
+    "bst": 510,
+    "evolution_level": 51
+  },
+  "1004": {
+    "name": "Braviary-Hisui",
+    "slug": "braviaryhisui",
+    "types": [
+      "Psychic",
+      "Flying"
+    ],
+    "bst": 510,
+    "evolution_level": 51
+  },
+  "1005": {
+    "name": "Sliggoo-H",
+    "slug": "sliggoohisui",
+    "types": [
+      "Steel",
+      "Dragon"
+    ],
+    "bst": 452,
+    "evolution_level": 45
+  },
+  "1006": {
+    "name": "Goodra-Hisui",
+    "slug": "goodrahisui",
+    "types": [
+      "Steel",
+      "Dragon"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "1007": {
+    "name": "Avalugg-Hisui",
+    "slug": "avalugghisui",
+    "types": [
+      "Ice",
+      "Rock"
+    ],
+    "bst": 514,
+    "evolution_level": 51
+  },
+  "1008": {
+    "name": "Decidueye-Hisui",
+    "slug": "decidueyehisui",
+    "types": [
+      "Grass",
+      "Fighting"
+    ],
+    "bst": 530,
+    "evolution_level": 53
+  },
+  "1054": {
+    "name": "Deoxys-Attack",
+    "slug": "deoxysattack",
+    "types": [
+      "Psychic"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "1055": {
+    "name": "Deoxys-Defense",
+    "slug": "deoxysdefense",
+    "types": [
+      "Psychic"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "1056": {
+    "name": "Deoxys-Speed",
+    "slug": "deoxysspeed",
+    "types": [
+      "Psychic"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "1059": {
+    "name": "Wormadam-S",
+    "slug": "wormadamsandy",
+    "types": [
+      "Bug",
+      "Ground"
+    ],
+    "bst": 424,
+    "evolution_level": 42
+  },
+  "1060": {
+    "name": "Wormadam-T",
+    "slug": "wormadamtrash",
+    "types": [
+      "Bug",
+      "Steel"
+    ],
+    "bst": 424,
+    "evolution_level": 42
+  },
+  "1064": {
+    "name": "Rotom-Heat",
+    "slug": "rotomheat",
+    "types": [
+      "Electric",
+      "Fire"
+    ],
+    "bst": 520,
+    "evolution_level": 52
+  },
+  "1065": {
+    "name": "Rotom-Wash",
+    "slug": "rotomwash",
+    "types": [
+      "Electric",
+      "Water"
+    ],
+    "bst": 520,
+    "evolution_level": 52
+  },
+  "1066": {
+    "name": "Rotom-Frost",
+    "slug": "rotomfrost",
+    "types": [
+      "Electric",
+      "Ice"
+    ],
+    "bst": 520,
+    "evolution_level": 52
+  },
+  "1067": {
+    "name": "Rotom-Fan",
+    "slug": "rotomfan",
+    "types": [
+      "Electric",
+      "Flying"
+    ],
+    "bst": 520,
+    "evolution_level": 52
+  },
+  "1068": {
+    "name": "Rotom-Mow",
+    "slug": "rotommow",
+    "types": [
+      "Electric",
+      "Grass"
+    ],
+    "bst": 520,
+    "evolution_level": 52
+  },
+  "1072": {
+    "name": "Shaymin-Sky",
+    "slug": "shayminsky",
+    "types": [
+      "Grass",
+      "Flying"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "1090": {
+    "name": "Basculin-Blue-Striped",
+    "slug": "basculinbluestriped",
+    "types": [
+      "Water"
+    ],
+    "bst": 460,
+    "evolution_level": 46
+  },
+  "1091": {
+    "name": "Basculin-W",
+    "slug": "basculinwhitestriped",
+    "types": [
+      "Water"
+    ],
+    "bst": 460,
+    "evolution_level": 46
+  },
+  "1100": {
+    "name": "Tornadus-Therian",
+    "slug": "tornadustherian",
+    "types": [
+      "Flying"
+    ],
+    "bst": 580,
+    "evolution_level": 58
+  },
+  "1101": {
+    "name": "Thundurus-Therian",
+    "slug": "thundurustherian",
+    "types": [
+      "Electric",
+      "Flying"
+    ],
+    "bst": 580,
+    "evolution_level": 58
+  },
+  "1102": {
+    "name": "Landorus-Therian",
+    "slug": "landorustherian",
+    "types": [
+      "Ground",
+      "Flying"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "1103": {
+    "name": "Enamorus-Therian",
+    "slug": "enamorustherian",
+    "types": [
+      "Fairy",
+      "Flying"
+    ],
+    "bst": 580,
+    "evolution_level": 58
+  },
+  "1106": {
+    "name": "Keldeo-Resolute",
+    "slug": "keldeoresolute",
+    "types": [
+      "Water",
+      "Fighting"
+    ],
+    "bst": 580,
+    "evolution_level": 58
+  },
+  "1107": {
+    "name": "Meloetta-Pirouette",
+    "slug": "meloettapirouette",
+    "types": [
+      "Normal",
+      "Fighting"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "1112": {
+    "name": "Greninja-Bond",
+    "slug": "greninjabond",
+    "types": [
+      "Water",
+      "Dark"
+    ],
+    "bst": 530,
+    "evolution_level": 53
+  },
+  "1141": {
+    "name": "Floette-Eternal",
+    "slug": "floetteeternal",
+    "types": [
+      "Fairy"
+    ],
+    "bst": 551,
+    "evolution_level": 55
+  },
+  "1155": {
+    "name": "Meowstic-F",
+    "slug": "meowsticf",
+    "types": [
+      "Psychic"
+    ],
+    "bst": 466,
+    "evolution_level": 46
+  },
+  "1165": {
+    "name": "Zygarde-10%",
+    "slug": "zygarde10",
+    "types": [
+      "Dragon",
+      "Ground"
+    ],
+    "bst": 486,
+    "evolution_level": 48
+  },
+  "1166": {
+    "name": "Zygarde-50%",
+    "slug": "zygarde",
+    "types": [
+      "Dragon",
+      "Ground"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "1169": {
+    "name": "Oricorio-Pom-Pom",
+    "slug": "oricoriopompom",
+    "types": [
+      "Electric",
+      "Flying"
+    ],
+    "bst": 476,
+    "evolution_level": 47
+  },
+  "1170": {
+    "name": "Oricorio-Pa'u",
+    "slug": "oricoriopau",
+    "types": [
+      "Psychic",
+      "Flying"
+    ],
+    "bst": 476,
+    "evolution_level": 47
+  },
+  "1171": {
+    "name": "Oricorio-Sensu",
+    "slug": "oricoriosensu",
+    "types": [
+      "Ghost",
+      "Flying"
+    ],
+    "bst": 476,
+    "evolution_level": 47
+  },
+  "1172": {
+    "name": "Rockruff-OT",
+    "slug": "rockruff",
+    "types": [
+      "Rock"
+    ],
+    "bst": 280,
+    "evolution_level": 28
+  },
+  "1173": {
+    "name": "Lycanroc-Midnight",
+    "slug": "lycanrocmidnight",
+    "types": [
+      "Rock"
+    ],
+    "bst": 487,
+    "evolution_level": 48
+  },
+  "1174": {
+    "name": "Lycanroc-Dusk",
+    "slug": "lycanrocdusk",
+    "types": [
+      "Rock"
+    ],
+    "bst": 487,
+    "evolution_level": 48
+  },
+  "1210": {
+    "name": "Magearna-Original",
+    "slug": "magearnaoriginal",
+    "types": [
+      "Steel",
+      "Fairy"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "1213": {
+    "name": "Toxtricity-Low-Key",
+    "slug": "toxtricitylowkey",
+    "types": [
+      "Electric",
+      "Poison"
+    ],
+    "bst": 502,
+    "evolution_level": 50
+  },
+  "1225": {
+    "name": "Indeedee-F",
+    "slug": "indeedeef",
+    "types": [
+      "Psychic",
+      "Normal"
+    ],
+    "bst": 475,
+    "evolution_level": 47
+  },
+  "1230": {
+    "name": "Urshifu-Rapid-Strike",
+    "slug": "urshifurapidstrike",
+    "types": [
+      "Fighting",
+      "Water"
+    ],
+    "bst": 550,
+    "evolution_level": 55
+  },
+  "1231": {
+    "name": "Zarude-Dada",
+    "slug": "zarudedada",
+    "types": [
+      "Dark",
+      "Grass"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "1234": {
+    "name": "Basculegion-F",
+    "slug": "basculegionf",
+    "types": [
+      "Water",
+      "Ghost"
+    ],
+    "bst": 530,
+    "evolution_level": 53
+  },
+  "1289": {
+    "name": "Sprigatito",
+    "slug": "sprigatito",
+    "types": [
+      "Grass"
+    ],
+    "bst": 310,
+    "evolution_level": 31
+  },
+  "1290": {
+    "name": "Floragato",
+    "slug": "floragato",
+    "types": [
+      "Grass"
+    ],
+    "bst": 410,
+    "evolution_level": 41
+  },
+  "1291": {
+    "name": "Meowscarada",
+    "slug": "meowscarada",
+    "types": [
+      "Grass",
+      "Dark"
+    ],
+    "bst": 530,
+    "evolution_level": 53
+  },
+  "1292": {
+    "name": "Fuecoco",
+    "slug": "fuecoco",
+    "types": [
+      "Fire"
+    ],
+    "bst": 310,
+    "evolution_level": 31
+  },
+  "1293": {
+    "name": "Crocalor",
+    "slug": "crocalor",
+    "types": [
+      "Fire"
+    ],
+    "bst": 411,
+    "evolution_level": 41
+  },
+  "1294": {
+    "name": "Skeledirge",
+    "slug": "skeledirge",
+    "types": [
+      "Fire",
+      "Ghost"
+    ],
+    "bst": 530,
+    "evolution_level": 53
+  },
+  "1295": {
+    "name": "Quaxly",
+    "slug": "quaxly",
+    "types": [
+      "Water"
+    ],
+    "bst": 310,
+    "evolution_level": 31
+  },
+  "1296": {
+    "name": "Quaxwell",
+    "slug": "quaxwell",
+    "types": [
+      "Water"
+    ],
+    "bst": 410,
+    "evolution_level": 41
+  },
+  "1297": {
+    "name": "Quaquaval",
+    "slug": "quaquaval",
+    "types": [
+      "Water",
+      "Fighting"
+    ],
+    "bst": 530,
+    "evolution_level": 53
+  },
+  "1298": {
+    "name": "Lechonk",
+    "slug": "lechonk",
+    "types": [
+      "Normal"
+    ],
+    "bst": 254,
+    "evolution_level": 25
+  },
+  "1299": {
+    "name": "Oinkologne",
+    "slug": "oinkologne",
+    "types": [
+      "Normal"
+    ],
+    "bst": 489,
+    "evolution_level": 48
+  },
+  "1300": {
+    "name": "Oinkologne-F",
+    "slug": "oinkolognef",
+    "types": [
+      "Normal"
+    ],
+    "bst": 489,
+    "evolution_level": 48
+  },
+  "1301": {
+    "name": "Tarountula",
+    "slug": "tarountula",
+    "types": [
+      "Bug"
+    ],
+    "bst": 210,
+    "evolution_level": 21
+  },
+  "1302": {
+    "name": "Spidops",
+    "slug": "spidops",
+    "types": [
+      "Bug"
+    ],
+    "bst": 404,
+    "evolution_level": 40
+  },
+  "1303": {
+    "name": "Nymble",
+    "slug": "nymble",
+    "types": [
+      "Bug"
+    ],
+    "bst": 210,
+    "evolution_level": 21
+  },
+  "1304": {
+    "name": "Lokix",
+    "slug": "lokix",
+    "types": [
+      "Bug",
+      "Dark"
+    ],
+    "bst": 450,
+    "evolution_level": 45
+  },
+  "1305": {
+    "name": "Pawmi",
+    "slug": "pawmi",
+    "types": [
+      "Electric"
+    ],
+    "bst": 240,
+    "evolution_level": 24
+  },
+  "1306": {
+    "name": "Pawmo",
+    "slug": "pawmo",
+    "types": [
+      "Electric",
+      "Fighting"
+    ],
+    "bst": 350,
+    "evolution_level": 35
+  },
+  "1307": {
+    "name": "Pawmot",
+    "slug": "pawmot",
+    "types": [
+      "Electric",
+      "Fighting"
+    ],
+    "bst": 490,
+    "evolution_level": 49
+  },
+  "1308": {
+    "name": "Tandemaus",
+    "slug": "tandemaus",
+    "types": [
+      "Normal"
+    ],
+    "bst": 305,
+    "evolution_level": 30
+  },
+  "1309": {
+    "name": "Maushold",
+    "slug": "maushold",
+    "types": [
+      "Normal"
+    ],
+    "bst": 470,
+    "evolution_level": 47
+  },
+  "1311": {
+    "name": "Fidough",
+    "slug": "fidough",
+    "types": [
+      "Fairy"
+    ],
+    "bst": 312,
+    "evolution_level": 31
+  },
+  "1312": {
+    "name": "Dachsbun",
+    "slug": "dachsbun",
+    "types": [
+      "Fairy"
+    ],
+    "bst": 477,
+    "evolution_level": 47
+  },
+  "1313": {
+    "name": "Smoliv",
+    "slug": "smoliv",
+    "types": [
+      "Grass",
+      "Normal"
+    ],
+    "bst": 260,
+    "evolution_level": 26
+  },
+  "1314": {
+    "name": "Dolliv",
+    "slug": "dolliv",
+    "types": [
+      "Grass",
+      "Normal"
+    ],
+    "bst": 354,
+    "evolution_level": 35
+  },
+  "1315": {
+    "name": "Arboliva",
+    "slug": "arboliva",
+    "types": [
+      "Grass",
+      "Normal"
+    ],
+    "bst": 510,
+    "evolution_level": 51
+  },
+  "1316": {
+    "name": "Squawkabilly",
+    "slug": "squawkabilly",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "bst": 417,
+    "evolution_level": 41
+  },
+  "1320": {
+    "name": "Nacli",
+    "slug": "nacli",
+    "types": [
+      "Rock"
+    ],
+    "bst": 280,
+    "evolution_level": 28
+  },
+  "1321": {
+    "name": "Naclstack",
+    "slug": "naclstack",
+    "types": [
+      "Rock"
+    ],
+    "bst": 355,
+    "evolution_level": 35
+  },
+  "1322": {
+    "name": "Garganacl",
+    "slug": "garganacl",
+    "types": [
+      "Rock"
+    ],
+    "bst": 500,
+    "evolution_level": 50
+  },
+  "1323": {
+    "name": "Charcadet",
+    "slug": "charcadet",
+    "types": [
+      "Fire"
+    ],
+    "bst": 255,
+    "evolution_level": 25
+  },
+  "1324": {
+    "name": "Armarouge",
+    "slug": "armarouge",
+    "types": [
+      "Fire",
+      "Psychic"
+    ],
+    "bst": 525,
+    "evolution_level": 52
+  },
+  "1325": {
+    "name": "Ceruledge",
+    "slug": "ceruledge",
+    "types": [
+      "Fire",
+      "Ghost"
+    ],
+    "bst": 525,
+    "evolution_level": 52
+  },
+  "1326": {
+    "name": "Tadbulb",
+    "slug": "tadbulb",
+    "types": [
+      "Electric"
+    ],
+    "bst": 272,
+    "evolution_level": 27
+  },
+  "1327": {
+    "name": "Bellibolt",
+    "slug": "bellibolt",
+    "types": [
+      "Electric"
+    ],
+    "bst": 495,
+    "evolution_level": 49
+  },
+  "1328": {
+    "name": "Wattrel",
+    "slug": "wattrel",
+    "types": [
+      "Electric",
+      "Flying"
+    ],
+    "bst": 280,
+    "evolution_level": 28
+  },
+  "1329": {
+    "name": "Kilowattrel",
+    "slug": "kilowattrel",
+    "types": [
+      "Electric",
+      "Flying"
+    ],
+    "bst": 490,
+    "evolution_level": 49
+  },
+  "1330": {
+    "name": "Maschiff",
+    "slug": "maschiff",
+    "types": [
+      "Dark"
+    ],
+    "bst": 340,
+    "evolution_level": 34
+  },
+  "1331": {
+    "name": "Mabosstiff",
+    "slug": "mabosstiff",
+    "types": [
+      "Dark"
+    ],
+    "bst": 505,
+    "evolution_level": 50
+  },
+  "1332": {
+    "name": "Shroodle",
+    "slug": "shroodle",
+    "types": [
+      "Poison",
+      "Normal"
+    ],
+    "bst": 290,
+    "evolution_level": 29
+  },
+  "1333": {
+    "name": "Grafaiai",
+    "slug": "grafaiai",
+    "types": [
+      "Poison",
+      "Normal"
+    ],
+    "bst": 485,
+    "evolution_level": 48
+  },
+  "1334": {
+    "name": "Bramblin",
+    "slug": "bramblin",
+    "types": [
+      "Grass",
+      "Ghost"
+    ],
+    "bst": 275,
+    "evolution_level": 27
+  },
+  "1335": {
+    "name": "Brambleghast",
+    "slug": "brambleghast",
+    "types": [
+      "Grass",
+      "Ghost"
+    ],
+    "bst": 480,
+    "evolution_level": 48
+  },
+  "1336": {
+    "name": "Toedscool",
+    "slug": "toedscool",
+    "types": [
+      "Ground",
+      "Grass"
+    ],
+    "bst": 335,
+    "evolution_level": 33
+  },
+  "1337": {
+    "name": "Toedscruel",
+    "slug": "toedscruel",
+    "types": [
+      "Ground",
+      "Grass"
+    ],
+    "bst": 515,
+    "evolution_level": 51
+  },
+  "1338": {
+    "name": "Klawf",
+    "slug": "klawf",
+    "types": [
+      "Rock"
+    ],
+    "bst": 450,
+    "evolution_level": 45
+  },
+  "1339": {
+    "name": "Capsakid",
+    "slug": "capsakid",
+    "types": [
+      "Grass"
+    ],
+    "bst": 304,
+    "evolution_level": 30
+  },
+  "1340": {
+    "name": "Scovillain",
+    "slug": "scovillain",
+    "types": [
+      "Grass",
+      "Fire"
+    ],
+    "bst": 486,
+    "evolution_level": 48
+  },
+  "1341": {
+    "name": "Rellor",
+    "slug": "rellor",
+    "types": [
+      "Bug"
+    ],
+    "bst": 270,
+    "evolution_level": 27
+  },
+  "1342": {
+    "name": "Rabsca",
+    "slug": "rabsca",
+    "types": [
+      "Bug",
+      "Psychic"
+    ],
+    "bst": 470,
+    "evolution_level": 47
+  },
+  "1343": {
+    "name": "Flittle",
+    "slug": "flittle",
+    "types": [
+      "Psychic"
+    ],
+    "bst": 255,
+    "evolution_level": 25
+  },
+  "1344": {
+    "name": "Espathra",
+    "slug": "espathra",
+    "types": [
+      "Psychic"
+    ],
+    "bst": 481,
+    "evolution_level": 48
+  },
+  "1345": {
+    "name": "Tinkatink",
+    "slug": "tinkatink",
+    "types": [
+      "Fairy",
+      "Steel"
+    ],
+    "bst": 297,
+    "evolution_level": 29
+  },
+  "1346": {
+    "name": "Tinkatuff",
+    "slug": "tinkatuff",
+    "types": [
+      "Fairy",
+      "Steel"
+    ],
+    "bst": 380,
+    "evolution_level": 38
+  },
+  "1347": {
+    "name": "Tinkaton",
+    "slug": "tinkaton",
+    "types": [
+      "Fairy",
+      "Steel"
+    ],
+    "bst": 506,
+    "evolution_level": 50
+  },
+  "1348": {
+    "name": "Wiglett",
+    "slug": "wiglett",
+    "types": [
+      "Water"
+    ],
+    "bst": 245,
+    "evolution_level": 24
+  },
+  "1349": {
+    "name": "Wugtrio",
+    "slug": "wugtrio",
+    "types": [
+      "Water"
+    ],
+    "bst": 425,
+    "evolution_level": 42
+  },
+  "1350": {
+    "name": "Bombirdier",
+    "slug": "bombirdier",
+    "types": [
+      "Flying",
+      "Dark"
+    ],
+    "bst": 485,
+    "evolution_level": 48
+  },
+  "1351": {
+    "name": "Finizen",
+    "slug": "finizen",
+    "types": [
+      "Water"
+    ],
+    "bst": 315,
+    "evolution_level": 31
+  },
+  "1352": {
+    "name": "Palafin",
+    "slug": "palafin",
+    "types": [
+      "Water"
+    ],
+    "bst": 457,
+    "evolution_level": 45
+  },
+  "1354": {
+    "name": "Varoom",
+    "slug": "varoom",
+    "types": [
+      "Steel",
+      "Poison"
+    ],
+    "bst": 300,
+    "evolution_level": 30
+  },
+  "1355": {
+    "name": "Revavroom",
+    "slug": "revavroom",
+    "types": [
+      "Steel",
+      "Poison"
+    ],
+    "bst": 500,
+    "evolution_level": 50
+  },
+  "1356": {
+    "name": "Cyclizar",
+    "slug": "cyclizar",
+    "types": [
+      "Dragon",
+      "Normal"
+    ],
+    "bst": 501,
+    "evolution_level": 50
+  },
+  "1357": {
+    "name": "Orthworm",
+    "slug": "orthworm",
+    "types": [
+      "Steel"
+    ],
+    "bst": 480,
+    "evolution_level": 48
+  },
+  "1358": {
+    "name": "Glimmet",
+    "slug": "glimmet",
+    "types": [
+      "Rock",
+      "Poison"
+    ],
+    "bst": 350,
+    "evolution_level": 35
+  },
+  "1359": {
+    "name": "Glimmora",
+    "slug": "glimmora",
+    "types": [
+      "Rock",
+      "Poison"
+    ],
+    "bst": 525,
+    "evolution_level": 52
+  },
+  "1360": {
+    "name": "Greavard",
+    "slug": "greavard",
+    "types": [
+      "Ghost"
+    ],
+    "bst": 290,
+    "evolution_level": 29
+  },
+  "1361": {
+    "name": "Houndstone",
+    "slug": "houndstone",
+    "types": [
+      "Ghost"
+    ],
+    "bst": 488,
+    "evolution_level": 48
+  },
+  "1362": {
+    "name": "Flamigo",
+    "slug": "flamigo",
+    "types": [
+      "Flying",
+      "Fighting"
+    ],
+    "bst": 500,
+    "evolution_level": 50
+  },
+  "1363": {
+    "name": "Cetoddle",
+    "slug": "cetoddle",
+    "types": [
+      "Ice"
+    ],
+    "bst": 334,
+    "evolution_level": 33
+  },
+  "1364": {
+    "name": "Cetitan",
+    "slug": "cetitan",
+    "types": [
+      "Ice"
+    ],
+    "bst": 521,
+    "evolution_level": 52
+  },
+  "1365": {
+    "name": "Veluza",
+    "slug": "veluza",
+    "types": [
+      "Water",
+      "Psychic"
+    ],
+    "bst": 478,
+    "evolution_level": 47
+  },
+  "1366": {
+    "name": "Dondozo",
+    "slug": "dondozo",
+    "types": [
+      "Water"
+    ],
+    "bst": 530,
+    "evolution_level": 53
+  },
+  "1367": {
+    "name": "Tatsugiri",
+    "slug": "tatsugiri",
+    "types": [
+      "Dragon",
+      "Water"
+    ],
+    "bst": 475,
+    "evolution_level": 47
+  },
+  "1370": {
+    "name": "Annihilape",
+    "slug": "annihilape",
+    "types": [
+      "Fighting",
+      "Ghost"
+    ],
+    "bst": 535,
+    "evolution_level": 53
+  },
+  "1371": {
+    "name": "Clodsire",
+    "slug": "clodsire",
+    "types": [
+      "Poison",
+      "Ground"
+    ],
+    "bst": 430,
+    "evolution_level": 43
+  },
+  "1372": {
+    "name": "Farigiraf",
+    "slug": "farigiraf",
+    "types": [
+      "Normal",
+      "Psychic"
+    ],
+    "bst": 520,
+    "evolution_level": 52
+  },
+  "1373": {
+    "name": "Dudunsparce",
+    "slug": "dudunsparce",
+    "types": [
+      "Normal"
+    ],
+    "bst": 520,
+    "evolution_level": 52
+  },
+  "1375": {
+    "name": "Kingambit",
+    "slug": "kingambit",
+    "types": [
+      "Dark",
+      "Steel"
+    ],
+    "bst": 550,
+    "evolution_level": 55
+  },
+  "1376": {
+    "name": "Great Tusk",
+    "slug": "greattusk",
+    "types": [
+      "Ground",
+      "Fighting"
+    ],
+    "bst": 570,
+    "evolution_level": 57
+  },
+  "1377": {
+    "name": "Scream Tail",
+    "slug": "screamtail",
+    "types": [
+      "Fairy",
+      "Psychic"
+    ],
+    "bst": 570,
+    "evolution_level": 57
+  },
+  "1378": {
+    "name": "Brute Bonnet",
+    "slug": "brutebonnet",
+    "types": [
+      "Grass",
+      "Dark"
+    ],
+    "bst": 570,
+    "evolution_level": 57
+  },
+  "1379": {
+    "name": "Flutter Mane",
+    "slug": "fluttermane",
+    "types": [
+      "Ghost",
+      "Fairy"
+    ],
+    "bst": 570,
+    "evolution_level": 57
+  },
+  "1380": {
+    "name": "Slither Wing",
+    "slug": "slitherwing",
+    "types": [
+      "Bug",
+      "Fighting"
+    ],
+    "bst": 570,
+    "evolution_level": 57
+  },
+  "1381": {
+    "name": "Sandy Shocks",
+    "slug": "sandyshocks",
+    "types": [
+      "Electric",
+      "Ground"
+    ],
+    "bst": 570,
+    "evolution_level": 57
+  },
+  "1382": {
+    "name": "Iron Treads",
+    "slug": "irontreads",
+    "types": [
+      "Ground",
+      "Steel"
+    ],
+    "bst": 570,
+    "evolution_level": 57
+  },
+  "1383": {
+    "name": "Iron Bundle",
+    "slug": "ironbundle",
+    "types": [
+      "Ice",
+      "Water"
+    ],
+    "bst": 570,
+    "evolution_level": 57
+  },
+  "1384": {
+    "name": "Iron Hands",
+    "slug": "ironhands",
+    "types": [
+      "Fighting",
+      "Electric"
+    ],
+    "bst": 570,
+    "evolution_level": 57
+  },
+  "1385": {
+    "name": "Iron Jugulis",
+    "slug": "ironjugulis",
+    "types": [
+      "Dark",
+      "Flying"
+    ],
+    "bst": 570,
+    "evolution_level": 57
+  },
+  "1386": {
+    "name": "Iron Moth",
+    "slug": "ironmoth",
+    "types": [
+      "Fire",
+      "Poison"
+    ],
+    "bst": 570,
+    "evolution_level": 57
+  },
+  "1387": {
+    "name": "Iron Thorns",
+    "slug": "ironthorns",
+    "types": [
+      "Rock",
+      "Electric"
+    ],
+    "bst": 570,
+    "evolution_level": 57
+  },
+  "1388": {
+    "name": "Frigibax",
+    "slug": "frigibax",
+    "types": [
+      "Dragon",
+      "Ice"
+    ],
+    "bst": 320,
+    "evolution_level": 32
+  },
+  "1389": {
+    "name": "Arctibax",
+    "slug": "arctibax",
+    "types": [
+      "Dragon",
+      "Ice"
+    ],
+    "bst": 423,
+    "evolution_level": 42
+  },
+  "1390": {
+    "name": "Baxcalibur",
+    "slug": "baxcalibur",
+    "types": [
+      "Dragon",
+      "Ice"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "1391": {
+    "name": "Gimmighoul",
+    "slug": "gimmighoul",
+    "types": [
+      "Ghost"
+    ],
+    "bst": 300,
+    "evolution_level": 30
+  },
+  "1392": {
+    "name": "Gimmighoul-R",
+    "slug": "gimmighoulroaming",
+    "types": [
+      "Ghost"
+    ],
+    "bst": 300,
+    "evolution_level": 30
+  },
+  "1393": {
+    "name": "Gholdengo",
+    "slug": "gholdengo",
+    "types": [
+      "Steel",
+      "Ghost"
+    ],
+    "bst": 550,
+    "evolution_level": 55
+  },
+  "1394": {
+    "name": "Wo-Chien",
+    "slug": "wochien",
+    "types": [
+      "Dark",
+      "Grass"
+    ],
+    "bst": 570,
+    "evolution_level": 57
+  },
+  "1395": {
+    "name": "Chien-Pao",
+    "slug": "chienpao",
+    "types": [
+      "Dark",
+      "Ice"
+    ],
+    "bst": 570,
+    "evolution_level": 57
+  },
+  "1396": {
+    "name": "Ting-Lu",
+    "slug": "tinglu",
+    "types": [
+      "Dark",
+      "Ground"
+    ],
+    "bst": 570,
+    "evolution_level": 57
+  },
+  "1397": {
+    "name": "Chi-Yu",
+    "slug": "chiyu",
+    "types": [
+      "Dark",
+      "Fire"
+    ],
+    "bst": 570,
+    "evolution_level": 57
+  },
+  "1398": {
+    "name": "Roaring Moon",
+    "slug": "roaringmoon",
+    "types": [
+      "Dragon",
+      "Dark"
+    ],
+    "bst": 590,
+    "evolution_level": 59
+  },
+  "1399": {
+    "name": "Iron Valiant",
+    "slug": "ironvaliant",
+    "types": [
+      "Fairy",
+      "Fighting"
+    ],
+    "bst": 590,
+    "evolution_level": 59
+  },
+  "1402": {
+    "name": "Tauros-Paldea-Combat",
+    "slug": "taurospaldeacombat",
+    "types": [
+      "Fighting"
+    ],
+    "bst": 490,
+    "evolution_level": 49
+  },
+  "1403": {
+    "name": "Tauros-Paldea-Blaze",
+    "slug": "taurospaldeablaze",
+    "types": [
+      "Fighting",
+      "Fire"
+    ],
+    "bst": 490,
+    "evolution_level": 49
+  },
+  "1404": {
+    "name": "Tauros-Paldea-Aqua",
+    "slug": "taurospaldeaaqua",
+    "types": [
+      "Fighting",
+      "Water"
+    ],
+    "bst": 490,
+    "evolution_level": 49
+  },
+  "1405": {
+    "name": "Wooper-P",
+    "slug": "wooperpaldea",
+    "types": [
+      "Poison",
+      "Ground"
+    ],
+    "bst": 210,
+    "evolution_level": 21
+  },
+  "1406": {
+    "name": "Walking Wake",
+    "slug": "walkingwake",
+    "types": [
+      "Water",
+      "Dragon"
+    ],
+    "bst": 590,
+    "evolution_level": 59
+  },
+  "1407": {
+    "name": "Iron Leaves",
+    "slug": "ironleaves",
+    "types": [
+      "Grass",
+      "Psychic"
+    ],
+    "bst": 590,
+    "evolution_level": 59
+  },
+  "1408": {
+    "name": "Dipplin",
+    "slug": "dipplin",
+    "types": [
+      "Grass",
+      "Dragon"
+    ],
+    "bst": 485,
+    "evolution_level": 48
+  },
+  "1409": {
+    "name": "Poltchageist",
+    "slug": "poltchageist",
+    "types": [
+      "Grass",
+      "Ghost"
+    ],
+    "bst": 308,
+    "evolution_level": 30
+  },
+  "1411": {
+    "name": "Sinistcha",
+    "slug": "sinistcha",
+    "types": [
+      "Grass",
+      "Ghost"
+    ],
+    "bst": 508,
+    "evolution_level": 50
+  },
+  "1413": {
+    "name": "Okidogi",
+    "slug": "okidogi",
+    "types": [
+      "Poison",
+      "Fighting"
+    ],
+    "bst": 555,
+    "evolution_level": 55
+  },
+  "1414": {
+    "name": "Munkidori",
+    "slug": "munkidori",
+    "types": [
+      "Poison",
+      "Psychic"
+    ],
+    "bst": 555,
+    "evolution_level": 55
+  },
+  "1415": {
+    "name": "Fezandipiti",
+    "slug": "fezandipiti",
+    "types": [
+      "Poison",
+      "Fairy"
+    ],
+    "bst": 555,
+    "evolution_level": 55
+  },
+  "1416": {
+    "name": "Ogerpon",
+    "slug": "ogerpon",
+    "types": [
+      "Grass"
+    ],
+    "bst": 550,
+    "evolution_level": 55
+  },
+  "1417": {
+    "name": "Ogerpon-Wellspring",
+    "slug": "ogerponwellspring",
+    "types": [
+      "Grass",
+      "Water"
+    ],
+    "bst": 550,
+    "evolution_level": 55
+  },
+  "1418": {
+    "name": "Ogerpon-Hearthflame",
+    "slug": "ogerponhearthflame",
+    "types": [
+      "Grass",
+      "Fire"
+    ],
+    "bst": 550,
+    "evolution_level": 55
+  },
+  "1419": {
+    "name": "Ogerpon-Cornerstone",
+    "slug": "ogerponcornerstone",
+    "types": [
+      "Grass",
+      "Rock"
+    ],
+    "bst": 550,
+    "evolution_level": 55
+  },
+  "1420": {
+    "name": "Ogerpon-Teal-Tera",
+    "slug": "ogerpontealtera",
+    "types": [
+      "Grass"
+    ],
+    "bst": 550,
+    "evolution_level": 55
+  },
+  "1421": {
+    "name": "Ogerpon-Wellspring-Tera",
+    "slug": "ogerponwellspringtera",
+    "types": [
+      "Grass",
+      "Water"
+    ],
+    "bst": 550,
+    "evolution_level": 55
+  },
+  "1422": {
+    "name": "Ogerpon-Hearthflame-Tera",
+    "slug": "ogerponhearthflametera",
+    "types": [
+      "Grass",
+      "Fire"
+    ],
+    "bst": 550,
+    "evolution_level": 55
+  },
+  "1423": {
+    "name": "Ogerpon-Cornerstone-Tera",
+    "slug": "ogerponcornerstonetera",
+    "types": [
+      "Grass",
+      "Rock"
+    ],
+    "bst": 550,
+    "evolution_level": 55
+  },
+  "1424": {
+    "name": "Ursaluna-Bloodmoon",
+    "slug": "ursalunabloodmoon",
+    "types": [
+      "Ground",
+      "Normal"
+    ],
+    "bst": 555,
+    "evolution_level": 55
+  },
+  "1425": {
+    "name": "Archaludon",
+    "slug": "archaludon",
+    "types": [
+      "Steel",
+      "Dragon"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "1426": {
+    "name": "Hydrapple",
+    "slug": "hydrapple",
+    "types": [
+      "Grass",
+      "Dragon"
+    ],
+    "bst": 540,
+    "evolution_level": 54
+  },
+  "1427": {
+    "name": "Gouging Fire",
+    "slug": "gougingfire",
+    "types": [
+      "Fire",
+      "Dragon"
+    ],
+    "bst": 590,
+    "evolution_level": 59
+  },
+  "1428": {
+    "name": "Raging Bolt",
+    "slug": "ragingbolt",
+    "types": [
+      "Electric",
+      "Dragon"
+    ],
+    "bst": 590,
+    "evolution_level": 59
+  },
+  "1429": {
+    "name": "Iron Boulder",
+    "slug": "ironboulder",
+    "types": [
+      "Rock",
+      "Psychic"
+    ],
+    "bst": 590,
+    "evolution_level": 59
+  },
+  "1430": {
+    "name": "Iron Crown",
+    "slug": "ironcrown",
+    "types": [
+      "Steel",
+      "Psychic"
+    ],
+    "bst": 590,
+    "evolution_level": 59
+  },
+  "1431": {
+    "name": "Terapagos",
+    "slug": "terapagos",
+    "types": [
+      "Normal"
+    ],
+    "bst": 450,
+    "evolution_level": 45
+  },
+  "1434": {
+    "name": "Pecharunt",
+    "slug": "pecharunt",
+    "types": [
+      "Poison",
+      "Ghost"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "1487": {
+    "name": "Pikachu-P",
+    "slug": "pikachustarter",
+    "types": [
+      "Electric"
+    ],
+    "bst": 430,
+    "evolution_level": 43
+  },
+  "1488": {
+    "name": "Eevee-P",
+    "slug": "eeveestarter",
+    "types": [
+      "Normal"
+    ],
+    "bst": 430,
+    "evolution_level": 43
+  },
+  "1524": {
+    "name": "Clefable-Mega",
+    "slug": "clefablemega",
+    "types": [
+      "Fairy",
+      "Flying"
+    ],
+    "bst": 583,
+    "evolution_level": 58
+  },
+  "1525": {
+    "name": "Victreebel-Mega",
+    "slug": "victreebelmega",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "bst": 590,
+    "evolution_level": 59
+  },
+  "1530": {
+    "name": "Skarmory-Mega",
+    "slug": "skarmorymega",
+    "types": [
+      "Steel",
+      "Flying"
+    ],
+    "bst": 565,
+    "evolution_level": 56
+  },
+  "1531": {
+    "name": "Froslass-Mega",
+    "slug": "froslassmega",
+    "types": [
+      "Ice",
+      "Ghost"
+    ],
+    "bst": 580,
+    "evolution_level": 58
+  },
+  "1534": {
+    "name": "Scolipede-Mega",
+    "slug": "scolipedemega",
+    "types": [
+      "Bug",
+      "Poison"
+    ],
+    "bst": 585,
+    "evolution_level": 58
+  },
+  "1535": {
+    "name": "Scrafty-Mega",
+    "slug": "scraftymega",
+    "types": [
+      "Dark",
+      "Fighting"
+    ],
+    "bst": 588,
+    "evolution_level": 58
+  },
+  "1542": {
+    "name": "Malamar-Mega",
+    "slug": "malamarmega",
+    "types": [
+      "Dark",
+      "Psychic"
+    ],
+    "bst": 582,
+    "evolution_level": 58
+  },
+  "1543": {
+    "name": "Dragalge-Mega",
+    "slug": "dragalgemega",
+    "types": [
+      "Poison",
+      "Dragon"
+    ],
+    "bst": 594,
+    "evolution_level": 59
+  },
+  "1544": {
+    "name": "Hawlucha-Mega",
+    "slug": "hawluchamega",
+    "types": [
+      "Fighting",
+      "Flying"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "1546": {
+    "name": "Barbaracle-Mega",
+    "slug": "barbaraclemega",
+    "types": [
+      "Rock",
+      "Fighting"
+    ],
+    "bst": 600,
+    "evolution_level": 60
+  },
+  "1548": {
+    "name": "Drampa-Mega",
+    "slug": "drampamega",
+    "types": [
+      "Normal",
+      "Dragon"
+    ],
+    "bst": 585,
+    "evolution_level": 58
+  },
+  "1549": {
+    "name": "Falinks-Mega",
+    "slug": "falinksmega",
+    "types": [
+      "Fighting"
+    ],
+    "bst": 570,
+    "evolution_level": 57
+  },
+  "1553": {
+    "name": "Raichu-Mega-X",
+    "slug": "raichumegax",
+    "types": [
+      "Electric"
+    ],
+    "bst": 585,
+    "evolution_level": 58
+  },
+  "1554": {
+    "name": "Raichu-Mega-Y",
+    "slug": "raichumegay",
+    "types": [
+      "Electric"
+    ],
+    "bst": 585,
+    "evolution_level": 58
+  },
+  "1555": {
+    "name": "Chimecho-Mega",
+    "slug": "chimechomega",
+    "types": [
+      "Psychic",
+      "Steel"
+    ],
+    "bst": 555,
+    "evolution_level": 55
+  },
+  "1556": {
+    "name": "Absol-Mega-Z",
+    "slug": "absolmegaz",
+    "types": [
+      "Dark",
+      "Ghost"
+    ],
+    "bst": 565,
+    "evolution_level": 56
+  },
+  "1557": {
+    "name": "Staraptor-Mega",
+    "slug": "staraptormega",
+    "types": [
+      "Fighting",
+      "Flying"
+    ],
+    "bst": 585,
+    "evolution_level": 58
+  },
+  "1560": {
+    "name": "Golurk-Mega",
+    "slug": "golurkmega",
+    "types": [
+      "Ground",
+      "Ghost"
+    ],
+    "bst": 583,
+    "evolution_level": 58
+  },
+  "1561": {
+    "name": "Meowstic-M-Mega",
+    "slug": "meowsticmmega",
+    "types": [
+      "Psychic"
+    ],
+    "bst": 566,
+    "evolution_level": 56
+  },
+  "1562": {
+    "name": "Meowstic-F-Mega",
+    "slug": "meowsticfmega",
+    "types": [
+      "Psychic"
+    ],
+    "bst": 566,
+    "evolution_level": 56
+  },
+  "1563": {
+    "name": "Crabominable-Mega",
+    "slug": "crabominablemega",
+    "types": [
+      "Fighting",
+      "Ice"
+    ],
+    "bst": 578,
+    "evolution_level": 57
+  },
+  "1567": {
+    "name": "Scovillain-Mega",
+    "slug": "scovillainmega",
+    "types": [
+      "Grass",
+      "Fire"
+    ],
+    "bst": 586,
+    "evolution_level": 58
+  },
+  "1569": {
+    "name": "Tatsugiri-Curly-Mega",
+    "slug": "tatsugiricurlymega",
+    "types": [
+      "Dragon",
+      "Water"
+    ],
+    "bst": 575,
+    "evolution_level": 57
+  },
+  "1570": {
+    "name": "Tatsugiri-Droopy-Mega",
+    "slug": "tatsugiridroopymega",
+    "types": [
+      "Dragon",
+      "Water"
+    ],
+    "bst": 575,
+    "evolution_level": 57
+  },
+  "1571": {
+    "name": "Tatsugiri-Stretchy-Mega",
+    "slug": "tatsugiristretchymega",
+    "types": [
+      "Dragon",
+      "Water"
+    ],
+    "bst": 575,
+    "evolution_level": 57
+  }
+}
