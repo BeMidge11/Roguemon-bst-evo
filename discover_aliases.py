@@ -11,7 +11,7 @@ from functools import lru_cache
 # CONFIG
 # =========================
 
-EVO_FILE = "revo12000.txt"
+EVO_FILE = "RoguemonRevoData.lua" if os.path.exists("RoguemonRevoData.lua") else "revo12000.txt"
 OUTPUT_ALIASES = "discovered_aliases.json"
 OUTPUT_UNRESOLVED = "unresolved_names.txt"
 

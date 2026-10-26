@@ -1017,7 +1017,7 @@ NAME_ALIASES = {
   "Zygarde": "zygarde-mega"
 }
 
-REVO_FILE = "revo12000.txt"
+REVO_FILE = "RoguemonRevoData.lua" if os.path.exists("RoguemonRevoData.lua") else "revo12000.txt"
 DATA_FILE = "random_bst_evolutions.json"
 
 BASE_BST_OVERRIDES = {
