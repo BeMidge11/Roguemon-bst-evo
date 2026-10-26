@@ -61,35 +61,57 @@ function getBstColor(bst) {
 
 function toSpriteSlug(name) {
   const SPRITE_ALIASES = {
-    "farfetch\u2019d": "farfetchd", "sirfetch\u2019d": "sirfetchd", "mr. mime": "mr-mime",
-    "mr. rime": "mr-rime", "mime jr.": "mime-jr", "type: null": "type-null",
-    "nidoran\u2642": "nidoran-m", "nidoran\u2640": "nidoran-f", "porygon-z": "porygon-z",
-    "ursalunab": "ursaluna-bloodmoon", "maushold": "maushold", "dudunsprce": "dudunsparce",
-    "pecharunt": "pecharunt"
+    "farfetch’d": "farfetchd", "farfetch'd": "farfetchd", "sirfetch’d": "sirfetchd", "sirfetch'd": "sirfetchd",
+    "mr. mime": "mr-mime", "mr. rime": "mr-rime", "mime jr.": "mime-jr", "type: null": "type-null",
+    "nidoran♀": "nidoran-f", "nidoran♂": "nidoran-m", "nidoran-f": "nidoran-f", "nidoran-m": "nidoran-m",
+    "porygon-z": "porygon-z", "ursalunab": "ursaluna-bloodmoon", "maushold": "maushold",
+    "dudunsprce": "dudunsparce", "dudunsparce": "dudunsparce", "pecharunt": "pecharunt",
+    "basculin-w": "basculin-whitestriped", "wormadam-s": "wormadam-sandy", "wormadam-t": "wormadam-trash",
+    "rockruff-ot": "rockruff", "eevee-p": "eevee-starter", "pikachu-p": "pikachu-starter",
+    "flabébé": "flabebe", "flabebe": "flabebe"
   };
 
-  let slug = name.toLowerCase().trim().replace(/\s+/g, "").replace(/[.''\u2019:]/g, "").replace(/\d+$/, "");
+  const raw = name.toLowerCase().trim();
+  if (SPRITE_ALIASES[raw]) return SPRITE_ALIASES[raw];
 
-  if (SPRITE_ALIASES[name.toLowerCase()]) return SPRITE_ALIASES[name.toLowerCase()];
+  let slug = raw.replace(/\s+/g, "").replace(/[.'’:]/g, "").replace(/\d+$/, "");
   if (SPRITE_ALIASES[slug]) return SPRITE_ALIASES[slug];
 
-  // Robust Suffix Engine for ROM names
-  if (slug.startsWith("taurosp")) {
-    if (slug.endsWith("w")) return "tauros-paldea-water";
-    if (slug.endsWith("f")) return "tauros-paldea-fire";
-    if (slug.endsWith("c")) return "tauros-paldea-combat";
+  // Paldean Tauros
+  if (slug.startsWith("taurosp") || slug.startsWith("tauros-p") || slug.startsWith("tauros-paldea")) {
+    if (slug.endsWith("w") || slug.includes("water")) return "tauros-paldea-water";
+    if (slug.endsWith("f") || slug.includes("fire")) return "tauros-paldea-fire";
+    if (slug.endsWith("c") || slug.includes("combat")) return "tauros-paldea-combat";
+    return "tauros-paldea";
   }
-  if (slug.startsWith("rotom") && slug.length > 5) {
-    const s = slug.charAt(5);
-    const m = { 'w': 'wash', 'h': 'heat', 'f': 'frost', 'm': 'mow', 's': 'fan' };
-    if (m[s]) return "rotom-" + m[s];
-  }
-  if (slug.endsWith("f") && ["basclegio", "basculegio", "pyroar", "meowstic", "indeedee"].some(b => slug.startsWith(b))) return slug.replace(/f$/, "") + "-female";
-  if (slug.endsWith("t") && ["enamorus", "landorus", "thundurus", "tornadus"].some(b => slug.startsWith(b))) return slug.replace(/t$/, "") + "-therian";
-  if (slug.endsWith("i") && ["enamorus", "landorus", "thundurus", "tornadus"].some(b => slug.startsWith(b))) return slug.replace(/i$/, "") + "-incarnate";
 
-  if (slug.endsWith('m') && slug.length > 5) {
-    const base = slug.slice(0, -1);
+  // Rotom forms
+  if (slug.startsWith("rotom") && slug.length > 5) {
+    const sub = slug.replace("rotom-", "").replace("rotom", "");
+    const m = { 'w': 'wash', 'h': 'heat', 'f': 'frost', 'm': 'mow', 's': 'fan' };
+    if (sub && m[sub[0]]) return "rotom-" + m[sub[0]];
+  }
+
+  // Gender & Form variants
+  if (/-?f$/.test(slug) && ["basclegio", "basculegio", "pyroar", "meowstic", "indeedee", "oinkologne"].some(b => slug.startsWith(b))) {
+    return slug.replace(/-?f$/, "-female");
+  }
+  if (/-?m$/.test(slug) && ["basclegio", "basculegio", "meowstic", "indeedee"].some(b => slug.startsWith(b))) {
+    return slug.replace(/-?m$/, "");
+  }
+  if (/-?t$/.test(slug) && ["enamorus", "landorus", "thundurus", "tornadus"].some(b => slug.startsWith(b))) {
+    return slug.replace(/-?t$/, "-therian");
+  }
+  if (/-?i$/.test(slug) && ["enamorus", "landorus", "thundurus", "tornadus"].some(b => slug.startsWith(b))) {
+    return slug.replace(/-?i$/, "-incarnate");
+  }
+
+  // Mega evolutions
+  if (slug.endsWith("-mega") || slug.endsWith("mega")) {
+    return slug.includes("-") ? slug : slug.replace(/mega$/, "-mega");
+  }
+  if ((slug.endsWith('m') || slug.endsWith('-m')) && slug.length > 5) {
+    const base = slug.replace(/-?m$/, "");
     const megas = ["altaria", "mawile", "audino", "lucario", "garchomp", "salamence", "metagross", "tyranitar", "gyarados", "alakazam", "gengar", "gardevoir", "gallade", "lopunny", "medicham", "beedrill", "pidgeot", "sharpedo", "camerupt", "glalie", "heracross", "pinsir", "scizor", "houndoom", "manectric", "aerodactyl", "aggron", "steelix", "banette", "absol", "sableye", "ampharos", "slowbro"];
     const match = megas.find(m => base.startsWith(m));
     if (match) return match + "-mega";
@@ -102,21 +124,23 @@ function toSpriteSlug(name) {
   };
   for (const [short, full] of Object.entries(fixes)) if (slug.startsWith(short)) return full;
 
-  // Regional Handlers
-  if (slug.endsWith('a')) {
-    const b = slug.slice(0, -1);
+  // Regional Handlers: -a, -g, -h, -p (with or without hyphen)
+  if (/-?a$/.test(slug)) {
+    const b = slug.replace(/-?a$/, "");
     if (["raticate", "rattata", "raichu", "sandshrew", "sandslash", "vulpix", "ninetales", "diglett", "dugtrio", "meowth", "persian", "geodude", "graveler", "golem", "grimer", "muk", "exeggutor", "marowak"].includes(b)) return b + "-alola";
   }
-  if (slug.endsWith('g')) {
-    const b = slug.slice(0, -1);
-    if (["meowth", "ponyta", "rapidash", "farfetchd", "weezing", "mrmime", "corsola", "zigzagoon", "linoone", "darumaka", "darmanitan", "yamask", "stunfisk", "slowpoke", "slowbro", "slowking", "articuno", "zapdos", "moltres"].includes(b)) return b + "-galar";
+  if (/-?g$/.test(slug)) {
+    const b = slug.replace(/-?g$/, "");
+    if (["meowth", "ponyta", "rapidash", "farfetchd", "weezing", "mrmime", "corsola", "zigzagoon", "linoone", "darumaka", "darmanitan", "yamask", "stunfisk", "slowpoke", "slowbro", "slowking", "articuno", "zapdos", "moltres"].includes(b)) {
+      return (b === "mrmime" ? "mr-mime" : b) + "-galar";
+    }
   }
-  if (slug.endsWith('h')) {
-    const b = slug.slice(0, -1);
+  if (/-?h$/.test(slug)) {
+    const b = slug.replace(/-?h$/, "");
     if (["growlithe", "arcanine", "voltorb", "electrode", "typhlosion", "qwilfish", "sneasel", "samurott", "lilligant", "basculin", "zorua", "zoroark", "braviary", "sliggoo", "goodra", "avalugg", "decidueye", "overqwil", "sneasler", "kleavor"].includes(b)) return b + "-hisui";
   }
-  if (slug.endsWith('p')) {
-    const b = slug.slice(0, -1);
+  if (/-?p$/.test(slug)) {
+    const b = slug.replace(/-?p$/, "");
     if (["wooper", "tauros"].includes(b)) return b + "-paldea";
   }
 
@@ -166,14 +190,23 @@ input.addEventListener("input", () => {
   suggestionsBox.innerHTML = "";
   if (!q) { suggestionsBox.hidden = true; return; }
 
-  const blacklist = ["frillish", "sneasel", "pumpkaboo"];
   const matches = Object.keys(DATA)
     .filter(name => {
       const entry = DATA[name];
-      const isBlacklisted = blacklist.some(b => name.toLowerCase().includes(b));
-      return name.toLowerCase().startsWith(q) && entry.base_bst <= 450 && !entry.forced && !isBlacklisted;
+      if (!entry) return false;
+      const n = name.toLowerCase();
+      return n.startsWith(q) || n.includes(q);
     })
-    .slice(0, 20);
+    .sort((a, b) => {
+      const aLower = a.toLowerCase();
+      const bLower = b.toLowerCase();
+      const aStarts = aLower.startsWith(q);
+      const bStarts = bLower.startsWith(q);
+      if (aStarts && !bStarts) return -1;
+      if (!aStarts && bStarts) return 1;
+      return a.localeCompare(b);
+    })
+    .slice(0, 25);
 
   if (matches.length > 0) {
     suggestionsBox.innerHTML = matches.map(name => `
