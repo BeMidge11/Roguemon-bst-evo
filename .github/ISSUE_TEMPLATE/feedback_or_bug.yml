@@ -1,0 +1,46 @@
+name: "Feedback & Bug Report"
+description: "Submit a bug report, data correction, or feedback for the Roguemon Evolution Data Visualizer"
+title: "[Feedback/Bug]: "
+labels: ["feedback", "bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping improve the **Roguemon Evolution Data Visualizer**!
+        Please fill out this quick form and submit the issue.
+  - type: dropdown
+    id: category
+    attributes:
+      label: Report Category
+      description: What kind of report are you submitting?
+      options:
+        - "Bug (Something is broken or not working as expected)"
+        - "Data Issue (Incorrect BST, type, evolution probability, or missing sprite)"
+        - "Feature Request / Suggestion"
+        - "General Feedback"
+    validations:
+      required: true
+  - type: input
+    id: pokemon
+    attributes:
+      label: Relevant Pokémon (if applicable)
+      description: Which Pokémon or evolution does this report concern?
+      placeholder: "e.g. Abra, Ponyta-G, Basculin-W"
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe what happened, what data seems incorrect, or what suggestion you have.
+      placeholder: "Provide as much detail as possible..."
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected vs. Actual Behavior (Optional)
+      description: What did you expect to see versus what actually appeared?
+  - type: input
+    id: browser
+    attributes:
+      label: Device / Browser (Optional)
+      placeholder: "e.g. Chrome on Windows, Safari on iPhone, Firefox"
