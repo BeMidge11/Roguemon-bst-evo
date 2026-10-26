@@ -1,6 +1,155 @@
 {
-  "failed_starters": [],
+  "failed_starters": [
+    {
+      "name": "Basculin-W",
+      "reason": "BST lookup failed for Basculin-W (normalized: basculin-w)"
+    },
+    {
+      "name": "Corsola-G",
+      "reason": "BST lookup failed for Corsola-G (normalized: corsola-g)"
+    },
+    {
+      "name": "Darumaka-G",
+      "reason": "BST lookup failed for Darumaka-G (normalized: darumaka-g)"
+    },
+    {
+      "name": "Diglett-A",
+      "reason": "BST lookup failed for Diglett-A (normalized: diglett-a)"
+    },
+    {
+      "name": "Dugtrio-A",
+      "reason": "BST lookup failed for Dugtrio-A (normalized: dugtrio-a)"
+    },
+    {
+      "name": "Eevee-P",
+      "reason": "BST lookup failed for Eevee-P (normalized: eevee-p)"
+    },
+    {
+      "name": "Farfetch\u2019d-G",
+      "reason": "BST lookup failed for Farfetch\u2019d-G (normalized: farfetchd-g)"
+    },
+    {
+      "name": "Geodude-A",
+      "reason": "BST lookup failed for Geodude-A (normalized: geodude-a)"
+    },
+    {
+      "name": "Gimmighoul-R",
+      "reason": "BST lookup failed for Gimmighoul-R (normalized: gimmighoul-r)"
+    },
+    {
+      "name": "Graveler-A",
+      "reason": "BST lookup failed for Graveler-A (normalized: graveler-a)"
+    },
+    {
+      "name": "Grimer-A",
+      "reason": "BST lookup failed for Grimer-A (normalized: grimer-a)"
+    },
+    {
+      "name": "Growlithe-H",
+      "reason": "BST lookup failed for Growlithe-H (normalized: growlithe-h)"
+    },
+    {
+      "name": "Linoone-G",
+      "reason": "BST lookup failed for Linoone-G (normalized: linoone-g)"
+    },
+    {
+      "name": "Marowak-A",
+      "reason": "BST lookup failed for Marowak-A (normalized: marowak-a)"
+    },
+    {
+      "name": "Meowth-A",
+      "reason": "BST lookup failed for Meowth-A (normalized: meowth-a)"
+    },
+    {
+      "name": "Meowth-G",
+      "reason": "BST lookup failed for Meowth-G (normalized: meowth-g)"
+    },
+    {
+      "name": "Mr. Mime-G",
+      "reason": "BST lookup failed for Mr. Mime-G (normalized: mr-mime-g)"
+    },
+    {
+      "name": "Persian-A",
+      "reason": "BST lookup failed for Persian-A (normalized: persian-a)"
+    },
+    {
+      "name": "Pikachu-P",
+      "reason": "BST lookup failed for Pikachu-P (normalized: pikachu-p)"
+    },
+    {
+      "name": "Ponyta-G",
+      "reason": "BST lookup failed for Ponyta-G (normalized: ponyta-g)"
+    },
+    {
+      "name": "Qwilfish-H",
+      "reason": "BST lookup failed for Qwilfish-H (normalized: qwilfish-h)"
+    },
+    {
+      "name": "Raticate-A",
+      "reason": "BST lookup failed for Raticate-A (normalized: raticate-a)"
+    },
+    {
+      "name": "Rattata-A",
+      "reason": "BST lookup failed for Rattata-A (normalized: rattata-a)"
+    },
+    {
+      "name": "Rockruff-OT",
+      "reason": "BST lookup failed for Rockruff-OT (normalized: rockruff-ot)"
+    },
+    {
+      "name": "Sandshrew-A",
+      "reason": "BST lookup failed for Sandshrew-A (normalized: sandshrew-a)"
+    },
+    {
+      "name": "Sandslash-A",
+      "reason": "BST lookup failed for Sandslash-A (normalized: sandslash-a)"
+    },
+    {
+      "name": "Sliggoo-H",
+      "reason": "BST lookup failed for Sliggoo-H (normalized: sliggoo-h)"
+    },
+    {
+      "name": "Slowpoke-G",
+      "reason": "BST lookup failed for Slowpoke-G (normalized: slowpoke-g)"
+    },
+    {
+      "name": "Sneasel-H",
+      "reason": "BST lookup failed for Sneasel-H (normalized: sneasel-h)"
+    },
+    {
+      "name": "Voltorb-H",
+      "reason": "BST lookup failed for Voltorb-H (normalized: voltorb-h)"
+    },
+    {
+      "name": "Vulpix-A",
+      "reason": "BST lookup failed for Vulpix-A (normalized: vulpix-a)"
+    },
+    {
+      "name": "Wooper-P",
+      "reason": "BST lookup failed for Wooper-P (normalized: wooper-p)"
+    },
+    {
+      "name": "Wormadam-S",
+      "reason": "BST lookup failed for Wormadam-S (normalized: wormadam-s)"
+    },
+    {
+      "name": "Wormadam-T",
+      "reason": "BST lookup failed for Wormadam-T (normalized: wormadam-t)"
+    },
+    {
+      "name": "Yamask-G",
+      "reason": "BST lookup failed for Yamask-G (normalized: yamask-g)"
+    },
+    {
+      "name": "Zigzagoon-G",
+      "reason": "BST lookup failed for Zigzagoon-G (normalized: zigzagoon-g)"
+    },
+    {
+      "name": "Zorua-H",
+      "reason": "BST lookup failed for Zorua-H (normalized: zorua-h)"
+    }
+  ],
   "failed_evolutions_by_starter": {},
-  "total_failed_starters": 0,
+  "total_failed_starters": 37,
   "total_failed_evolution_forms": 0
 }
